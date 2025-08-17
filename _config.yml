@@ -1,0 +1,21 @@
+title: Penguin Class
+description: International Penguin Class Dinghy Association
+url: https://penguinclass.org
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+collections:
+  events:
+    output: true
+    permalink: /events/:year/:month/:day/:title/
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: events }
+    values: { layout: event }
+markdown: kramdown
+permalink: /news/:year/:month/:day/:title/

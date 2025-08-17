@@ -1,0 +1,48 @@
+---
+layout: none
+permalink: /404.html
+---
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Not Found</title>
+<link rel="stylesheet" href="/assets/css/404.css">
+<body>
+<main>
+  <h1>Page not found</h1>
+  <p>Checking our archive…</p>
+</main>
+<script>
+(async () => {
+  const path = decodeURI(window.location.pathname);
+  const candidates = [
+    `/archive${path}`,
+    `/archive${path}`.replace(/\/$/, "/index.html"),
+    `/archive${path}`.replace(/\/?$/, ".html"),
+    `/archive${path}`.replace(/\.html$/, "/index.html"),
+  ];
+  const headOk = async (u) => {
+    try { const r = await fetch(u, {method: 'HEAD', cache: 'no-cache'}); return r.ok; }
+    catch { return false; }
+  };
+  for (const u of candidates) { if (await headOk(u)) { location.replace(u); return; } }
+  const LS_KEY = 'archive_manifest_v1', LS_TTL = 24*60*60*1000; let manifest=null, now=Date.now();
+  try { const cached = JSON.parse(localStorage.getItem(LS_KEY)||'null'); if (cached && (now-cached.ts)<LS_TTL) manifest=cached.data; } catch {}
+  if (!manifest) {
+    try { const r = await fetch('/archive/manifest.json', {cache:'no-cache'});
+      if (r.ok) { manifest = await r.json(); localStorage.setItem(LS_KEY, JSON.stringify({ts:now, data:manifest})); } } catch {}
+  }
+  const norm = (p) => p.toLowerCase().replace(/\/+$/,'').replace(/^\/+/,'');
+  if (manifest) {
+    const variants = new Set([
+      norm(path),
+      norm(path).replace(/\/$/, ''),
+      norm(path).replace(/\/?$/, 'index.html'),
+      norm(path).replace(/^\//,''),
+      norm(path).replace(/\.html$/,''),
+    ]);
+    for (const v of variants) { if (manifest[v]) { location.replace(manifest[v]); return; } }
+  }
+  document.querySelector('p').innerHTML = `We couldn’t find <code>${path}</code>.<br>Try the <a href="/">home page</a> or the <a href="/archive/">archive</a>.`;
+})();
+</script>
+</body>

@@ -1,0 +1,16 @@
+:root { --wrap: 980px; --bg:#0c1b2a; --ink:#0b1f2b; --link:#0a74da; }
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:#222; }
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 16px; }
+.site-header { background:#fff; border-bottom:1px solid #eee; position:sticky; top:0; z-index:10; }
+.site-header .brand { font-weight:700; text-decoration:none; color:#111; }
+.site-header nav ul { list-style:none; display:flex; gap:16px; padding:12px 0; margin:0; }
+details > summary { cursor:pointer; }
+details ul.dropdown { list-style:none; margin:8px 0 0 0; padding:8px 12px; border:1px solid #eee; border-radius:8px; background:#fafafa; position:absolute; }
+.content img { max-width:100%; height:auto; }
+.site-footer { border-top:1px solid #eee; padding:24px 0; margin-top:48px; background:#fafafa; }
+.post .meta, .event .meta { color:#666; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ddd; padding: 8px; }
+th { background:#f3f3f3; text-align:left; }
+@media (max-width:720px){ .site-header nav ul { flex-wrap:wrap; } }
