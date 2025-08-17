@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<article class="event">
+  <h1>{{ page.title }}</h1>
+  <p class="meta">
+    <strong>Date:</strong> {{ page.date | date_to_long_string }}
+    {%- if page.venue %} • <strong>Venue:</strong> {{ page.venue }}{% endif -%}
+    {%- if page.city %} • {{ page.city }}{% endif -%}
+  </p>
+  {%- if page.links %}
+  <ul class="event-links">
+    {%- for k in page.links %}
+    <li><a href="{{ k[1] }}">{{ k[0] | capitalize }}</a></li>
+    {%- endfor -%}
+  </ul>
+  {%- endif %}
+  {{ content }}
+</article>

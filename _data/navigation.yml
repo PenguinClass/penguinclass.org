@@ -1,0 +1,22 @@
+- title: News
+  url: /news/
+- title: Events
+  url: /events/
+- title: Class
+  children:
+    - title: About
+      url: /class/about/
+    - title: Specs & Rules
+      url: /class/specs/
+    - title: Plans
+      url: /class/plans/
+    - title: Tuning & Rigging
+      url: /class/tuning/
+- title: Docs
+  url: /docs/
+- title: Hall
+  url: /hall/
+- title: Contact
+  url: /contact/
+- title: Archive
+  url: /archive/
