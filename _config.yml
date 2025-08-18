@@ -25,3 +25,4 @@ defaults:
   - scope: { path: "", type: classifieds }
     values: { layout: classified }
 markdown: kramdown
+future: true
