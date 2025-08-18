@@ -2,7 +2,7 @@
 layout: post
 title: "Life Celebration for Ellee Moorhouse Bruhn"
 name: ellee-moorhouse-bruhn-memorial
-date: 2025-09-12
+date: 2025-08-16
 ---
 
 It is with great sadness that we announce the passing of Ellee Moorhouse Bruhn on May 5th, 2025 in Tucson, AZ.
