@@ -18,3 +18,9 @@ permalink: /events/
 {% for e in past %}
 - [{{ e.title }}]({{ e.url }}) — {{ e.date | date_to_string }}
 {% endfor %}
+
+<!-- Debug Info -->
+<!-- Total events: {{ site.events.size }} -->
+<!-- Current time: {{ site.time }} -->
+<!-- Upcoming events: {{ upcoming.size }} -->
+<!-- Past events: {{ past.size }} -->
