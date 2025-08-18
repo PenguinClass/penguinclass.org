@@ -11,15 +11,15 @@ plugins:
 collections:
   events:
     output: true
-    permalink: /events/:year/:month/:day/:basename/
+    permalink: /events/:year/:month/:day/:name/
   classifieds:
     output: true
-    permalink: /classifieds/:year/:month/:day/:basename/
+    permalink: /classifieds/:year/:month/:day/:name/
 defaults:
   - scope: { path: "", type: posts }
     values: 
       layout: post
-      permalink: /news/:year/:month/:day/:basename/
+      permalink: /news/:year/:month/:day/:name/
   - scope: { path: "", type: events }
     values: { layout: event }
   - scope: { path: "", type: classifieds }

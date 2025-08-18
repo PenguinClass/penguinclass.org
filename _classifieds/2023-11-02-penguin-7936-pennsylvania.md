@@ -1,6 +1,7 @@
 ---
 layout: classified
 title: "Penguin 7936 - Mechanicsburg, PA"
+name: penguin-7936-pennsylvania
 date: 2023-11-02
 contact: "Bill Parkes"
 email: "parkes1@comcast.net"

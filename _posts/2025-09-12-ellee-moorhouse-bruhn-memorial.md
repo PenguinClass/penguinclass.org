@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Life Celebration for Ellee Moorhouse Bruhn"
+name: ellee-moorhouse-bruhn-memorial
 date: 2025-09-12
 ---
 

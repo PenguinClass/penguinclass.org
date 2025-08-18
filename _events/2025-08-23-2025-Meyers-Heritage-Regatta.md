@@ -1,6 +1,7 @@
 ---
 layout: event
 title: 2025 Myers Heritage Regatta
+name: 2025-Meyers-Heritage-Regatta
 date: 2025-08-23
 venue: Tred Avon Yacht Club
 city: Oxford, Maryland, U.S.A.
