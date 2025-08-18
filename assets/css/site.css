@@ -1,21 +1,21 @@
 :root { 
   --wrap: 980px; 
   --bg: #ffffff; 
-  --ink: #222222; 
-  --link: #0a74da;
+  --ink: #333333; 
+  --link: #2c5aa0;
   --header-bg: #ffffff;
-  --header-border: #eeeeee;
-  --footer-bg: #fafafa;
-  --footer-border: #eeeeee;
-  --text-color: #222222;
-  --nav-color: #111111;
+  --header-border: #e5e5e5;
+  --footer-bg: #f8f9fa;
+  --footer-border: #e5e5e5;
+  --text-color: #333333;
+  --nav-color: #333333;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #1a1a1a;
     --ink: #e0e0e0;
-    --link: #4a9eff;
+    --link: #6ba4e8;
     --header-bg: #2a2a2a;
     --header-border: #404040;
     --footer-bg: #2a2a2a;
@@ -45,8 +45,8 @@ details ul.dropdown { list-style:none; margin:8px 0 0 0; padding:8px 12px; borde
 .footer-main { flex: 1; }
 .footer-social h4 { margin: 0 0 0.5rem 0; color: var(--text-color); font-size: 1rem; }
 .social-links { display: flex; gap: 1rem; }
-.social-links a { color: var(--text-color); opacity: 0.8; transition: opacity 0.2s; }
-.social-links a:hover { opacity: 1; }
+.social-links a { color: var(--text-color); opacity: 0.7; transition: opacity 0.2s; }
+.social-links a:hover { opacity: 0.9; }
 .post .meta, .event .meta, .classified .meta { color: var(--text-color); opacity: 0.7; }
 table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid var(--header-border); padding: 8px; }
@@ -114,7 +114,7 @@ th { background: var(--footer-bg); text-align:left; }
 .form-group textarea:focus {
   outline: none;
   border-color: var(--link);
-  box-shadow: 0 0 0 2px rgba(10, 116, 218, 0.2);
+  box-shadow: 0 0 0 2px rgba(44, 90, 160, 0.2);
 }
 
 .form-group small {
@@ -148,7 +148,7 @@ th { background: var(--footer-bg); text-align:left; }
 }
 
 .btn-primary:hover {
-  background: #0856b3;
+  background: #1e4a8a;
 }
 
 @media (max-width: 768px) {

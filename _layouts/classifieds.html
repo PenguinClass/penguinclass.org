@@ -1,0 +1,46 @@
+---
+layout: default
+---
+<h2>Classifieds</h2>
+
+<p>Buy, sell, or trade Penguin boats, parts, and equipment within the class community.</p>
+
+<h3>Recent Listings</h3>
+
+{%- for classified in site.classifieds reversed -%}
+<article class="classified-preview">
+  <h3><a href="{{ classified.url }}">{{ classified.title }}</a></h3>
+  <p class="meta">
+    <strong>Posted:</strong> {{ classified.date | date_to_long_string }}
+    {%- if classified.contact %}
+    • <strong>Contact:</strong> {{ classified.contact }}
+    {%- endif %}
+  </p>
+  <p class="excerpt">{{ classified.content | strip_html | truncatewords: 30 }}</p>
+</article>
+{%- endfor -%}
+
+<h3>Submit a Classified Ad</h3>
+
+<p>To submit a classified ad, please contact the Class Secretary with the following information:</p>
+
+<ul>
+  <li><strong>Title:</strong> Brief description of the item</li>
+  <li><strong>Description:</strong> Detailed description with photos (if available)</li>
+  <li><strong>Contact Information:</strong> Name, email, and/or phone number</li>
+  <li><strong>Price:</strong> If applicable</li>
+</ul>
+
+<p>Classified ads are free for class members and help keep Penguins sailing in the community.</p>
+
+<h3>Guidelines</h3>
+
+<ul>
+  <li>Classified ads are for Penguin-related items only</li>
+  <li>Ads are reviewed before posting</li>
+  <li>Contact information is required</li>
+  <li>Photos are encouraged but not required</li>
+  <li>Ads are typically removed after 6 months or when item is sold</li>
+</ul>
+
+<p><em>For questions about classified ads, please contact the <a href="/class/officers/">Class Secretary</a>.</em></p> 
