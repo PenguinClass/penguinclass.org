@@ -25,15 +25,39 @@ The Penguin International Championship is the premier event of the class, held a
 
 Major annual regattas and their results:
 
-#### Myers Heritage Regatta
-- **Venue:** Tred Avon Yacht Club, Oxford, MD
-- **Timing:** August
-- **Status:** Annual event
+#### 2025 Results
+- [TAYC Annual Results](/results/2025-tayc-annual/) - Tred Avon Yacht Club
+- [Cambridge Admiral Byrd Results](/results/2025-cambridge-admiral-byrd/) - Cambridge Yacht Club
+- [Beachwood Revival Results](/results/2025-beachwood-revival/) - Beachwood Yacht Club
 
-#### Beachwood Penguin Revival Regatta
-- **Venue:** Beachwood Yacht Club, Toms River, NJ
-- **Timing:** June
-- **Status:** Annual event
+#### 2024 Results
+- [TAYC Heritage Results](/results/2024-tayc-heritage/) - Tred Avon Yacht Club
+- [TAYC Annual Results](/results/2024-tayc-annual/) - Tred Avon Yacht Club
+- [Penguin Internationals Results](/results/2024-penguin-internationals/) - International Championship
+
+#### 2023 Results
+- [TAYC Frostbite and Region III Championship](/results/2023-tayc-frostbite-region-iii/) - Tred Avon Yacht Club
+- [GIYS Comet and Penguin Invitational](/results/2023-giys-comet-penguin-invitational/) - Gibson Island Yacht Squadron
+- [Corsica Annual Results](/results/2023-corsica-annual/) - Corsica River Yacht Club
+- [Penguin Internationals Results](/results/2023-penguin-internationals/) - International Championship
+- [TAYC Annual Results](/results/2023-tayc-annual/) - Tred Avon Yacht Club
+- [Beachwood Revival Results](/results/2023-beachwood-revival/) - Beachwood Yacht Club
+
+#### 2022 Results
+- [TAYC Frostbite Results](/results/2022-tayc-frostbite/) - Tred Avon Yacht Club
+- [Penguin Internationals Results](/results/2022-penguin-internationals/) - International Championship
+- [TAYC Heritage Results](/results/2022-tayc-heritage/) - Tred Avon Yacht Club
+- [TAYC Annual Results](/results/2022-tayc-annual/) - Tred Avon Yacht Club
+- [Corsica Annual Results](/results/2022-corsica-annual/) - Corsica River Yacht Club
+- [TAYC Spring Results](/results/2022-tayc-spring/) - Tred Avon Yacht Club
+
+#### 2021 Results
+- [Penguin Internationals Results](/results/2021-penguin-internationals/) - International Championship
+
+#### Major Annual Events
+- **Myers Heritage Regatta** - Tred Avon Yacht Club, Oxford, MD (August)
+- **Beachwood Penguin Revival Regatta** - Beachwood Yacht Club, Toms River, NJ (June)
+- **Corsica Annual Regatta** - Corsica River Yacht Club, Centreville, MD (October)
 
 #### Regional Championships
 - **Region 3 Championship** - Various venues
