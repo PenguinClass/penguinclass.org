@@ -1,25 +1,51 @@
 - title: News
   url: /news/
+- title: Classifieds
+  url: /classifieds/
 - title: Events
   url: /events/
 - title: Class
   children:
     - title: About
       url: /class/about/
-    - title: Specs & Rules
-      url: /class/specs/
-    - title: Plans
-      url: /class/plans/
-    - title: Tuning & Rigging
-      url: /class/tuning/
     - title: Bylaws
       url: /class/bylaws/
+    - title: Officers
+      url: /class/officers/
+    - title: Yearbooks
+      url: /class/yearbooks/
     - title: Join
       url: /class/join/
+- title: Penguin
+  children:
+    - title: Specs & Rules
+      url: /penguin/specs/
+    - title: Plans
+      url: /penguin/plans/
+    - title: Tuning & Rigging
+      url: /penguin/tuning/
+    - title: Modern v Classic
+      url: /penguin/modern-v-classic/
+- title: Fleets
+  children:
+    - title: U.S. East Coast
+      url: /fleets/east-coast/
+    - title: U.S. Midwest
+      url: /fleets/midwest/
+    - title: Argentina
+      url: /fleets/argentina/
+    - title: Brazil
+      url: /fleets/brazil/
 - title: Docs
-  url: /docs/
-- title: Hall
-  url: /hall/
+  children:
+    - title: Documents
+      url: /docs/
+    - title: Minutes
+      url: /docs/minutes/
+- title: Results and Champions
+  url: /results-champions/
+- title: Gallery
+  url: /gallery/
 - title: Contact
   url: /contact/
 - title: Archive

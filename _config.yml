@@ -12,6 +12,9 @@ collections:
   events:
     output: true
     permalink: /events/:year/:month/:day/:title/
+  classifieds:
+    output: true
+    permalink: /classifieds/:year/:month/:day/:title/
 defaults:
   - scope: { path: "", type: posts }
     values: 
@@ -19,4 +22,6 @@ defaults:
       permalink: /news/:year/:month/:day/:title/
   - scope: { path: "", type: events }
     values: { layout: event }
+  - scope: { path: "", type: classifieds }
+    values: { layout: classified }
 markdown: kramdown

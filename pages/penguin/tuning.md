@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tuning & Rigging
-permalink: /class/tuning/
+permalink: /penguin/tuning/
 ---
 ## Tuning & Rigging
 [Tips and links to rigging/tuning resources](/archive/rig.html) are currently available in the Archive.
