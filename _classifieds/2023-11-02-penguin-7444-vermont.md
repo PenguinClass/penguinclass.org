@@ -1,6 +1,7 @@
 ---
 layout: classified
 title: "Penguin 7444 - West Dover, VT"
+name: penguin-7444-vermont
 date: 2023-11-02
 contact: "Allan Goldberg"
 email: "allanrgoldberg@gmail.com"

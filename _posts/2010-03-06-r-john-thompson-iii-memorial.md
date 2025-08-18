@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "In Memory of R. John Thompson III"
+name: r-john-thompson-iii-memorial
 date: 2010-03-06
 ---
 

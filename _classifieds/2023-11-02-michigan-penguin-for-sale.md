@@ -1,6 +1,7 @@
 ---
 layout: classified
 title: "Customflex Fiberglass Penguin - Michigan"
+name: michigan-penguin-for-sale
 date: 2023-11-02
 contact: "Doug Roberts"
 email: "mindemova@gmail.com"

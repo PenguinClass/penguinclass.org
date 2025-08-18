@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "In Memory of Wayne (Sandy) Rapp"
+name: wayne-sandy-rapp-memorial
 date: 2024-09-18
 ---
 

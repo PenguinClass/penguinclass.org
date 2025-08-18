@@ -1,6 +1,7 @@
 ---
 layout: classified
 title: "Wanted: Penguin 1947"
+name: seeking-penguin-1947
 date: 2023-11-02
 contact: "Thomas W Anderson, Jr."
 phone: "540-888-3173"
