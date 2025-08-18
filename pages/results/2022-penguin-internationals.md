@@ -13,7 +13,7 @@ permalink: /results/2022-penguin-internationals/
 
 ## Results
 
-Results for the 2022 Penguin Internationals are available in the [Class Archive](/archive/2022%20Penguin%20Internationals.htm).
+Results for the 2022 Penguin Internationals are available in the [Class Archive](/archive/legacy-website/2022%20Penguin%20Internationals.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The 2022 Penguin Internationals brought together sailors from across the country
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2022%20Penguin%20Internationals.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2022%20Penguin%20Internationals.htm).
 
 ---
 

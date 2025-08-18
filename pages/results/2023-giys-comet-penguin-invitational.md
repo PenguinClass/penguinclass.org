@@ -13,7 +13,7 @@ permalink: /results/2023-giys-comet-penguin-invitational/
 
 ## Results
 
-Results for the 2023 GIYS Comet and Penguin Invitational are available in the [Class Archive](/archive/2023%20GIYS%20Comet%20and%20Penguin%20Invitational.pdf).
+Results for the 2023 GIYS Comet and Penguin Invitational are available in the [Class Archive](/archive/legacy-website/2023%20GIYS%20Comet%20and%20Penguin%20Invitational.pdf).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The GIYS Comet and Penguin Invitational features the Lawson Rum Bucket trophy, w
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2023%20GIYS%20Comet%20and%20Penguin%20Invitational.pdf).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2023%20GIYS%20Comet%20and%20Penguin%20Invitational.pdf).
 
 ---
 

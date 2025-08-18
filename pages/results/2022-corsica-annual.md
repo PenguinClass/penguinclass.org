@@ -13,7 +13,7 @@ permalink: /results/2022-corsica-annual/
 
 ## Results
 
-Results for the 2022 Corsica Annual Regatta are available in the [Class Archive](/archive/2022_Corsica%20River%20Annual.htm).
+Results for the 2022 Corsica Annual Regatta are available in the [Class Archive](/archive/legacy-website/2022_Corsica%20River%20Annual.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The Corsica Annual Regatta is a favorite among local and regional Penguin sailor
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2022_Corsica%20River%20Annual.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2022_Corsica%20River%20Annual.htm).
 
 ---
 

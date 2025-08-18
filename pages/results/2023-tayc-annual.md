@@ -13,7 +13,7 @@ permalink: /results/2023-tayc-annual/
 
 ## Results
 
-Results for the 2023 TAYC Annual Regatta with photos are available in the [Class Archive](/archive/2023_TAYC_Annual_photo.htm).
+Results for the 2023 TAYC Annual Regatta with photos are available in the [Class Archive](/archive/legacy-website/2023_TAYC_Annual_photo.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The TAYC Annual Regatta is one of the premier events on the Chesapeake Bay, brin
 
 ## Archive Link
 
-For detailed results with photos, please visit the [Class Archive](/archive/2023_TAYC_Annual_photo.htm).
+For detailed results with photos, please visit the [Class Archive](/archive/legacy-website/2023_TAYC_Annual_photo.htm).
 
 ---
 

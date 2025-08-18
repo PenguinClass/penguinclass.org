@@ -13,7 +13,7 @@ permalink: /results/2024-tayc-annual/
 
 ## Results
 
-Results for the 2024 TAYC Annual Regatta are available in the [Class Archive](/archive/2024%20TAYC%20Annual.htm).
+Results for the 2024 TAYC Annual Regatta are available in the [Class Archive](/archive/legacy-website/2024%20TAYC%20Annual.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The TAYC Annual Regatta is one of the premier events on the Chesapeake Bay, brin
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2024%20TAYC%20Annual.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2024%20TAYC%20Annual.htm).
 
 ---
 

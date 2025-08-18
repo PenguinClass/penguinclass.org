@@ -13,7 +13,7 @@ permalink: /results/2023-corsica-annual/
 
 ## Results
 
-Results for the 2023 Corsica Annual Regatta are available in the [Class Archive](/archive/2023_CorsicaAnnualResults.htm).
+Results for the 2023 Corsica Annual Regatta are available in the [Class Archive](/archive/legacy-website/2023_CorsicaAnnualResults.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The Corsica Annual Regatta is a favorite among local and regional Penguin sailor
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2023_CorsicaAnnualResults.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2023_CorsicaAnnualResults.htm).
 
 ---
 

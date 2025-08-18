@@ -12,12 +12,8 @@
       url: /class/bylaws/
     - title: Officers
       url: /class/officers/
-    - title: Yearbooks
-      url: /class/yearbooks/
     - title: Join
       url: /class/join/
-    - title: Archive
-      url: /archive/
 - title: Penguin
   children:
     - title: Specs & Rules
@@ -38,14 +34,18 @@
       url: /fleets/argentina/
     - title: Brazil
       url: /fleets/brazil/
-- title: Docs
+- title: Archive
   children:
-    - title: Documents
-      url: /docs/
+    - title: Results
+      url: /results-champions/
+    - title: Gallery
+      url: /gallery/
     - title: Minutes
       url: /docs/minutes/
-- title: Results and Champions
-  url: /results-champions/
-- title: Gallery
-  url: /gallery/
+    - title: Documents
+      url: /docs/
+    - title: Yearbooks
+      url: /class/yearbooks/
+    - title: Legacy Website
+      url: /archive/legacy-website/
 

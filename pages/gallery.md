@@ -24,7 +24,7 @@ Photos from Penguin Class events, regattas, and activities organized by year and
 
 ### Historical Photos
 
-Historical photos and archives are available in the [Archive](/archive/).
+Historical photos and archives are available in the [Archive](/archive/legacy-website/).
 
 ### Submit Photos
 

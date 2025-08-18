@@ -13,7 +13,7 @@ permalink: /results/2023-penguin-internationals/
 
 ## Results
 
-Results for the 2023 Penguin Internationals with photos are available in the [Class Archive](/archive/2023%20Penguin%20Internationals%20_summary.htm).
+Results for the 2023 Penguin Internationals with photos are available in the [Class Archive](/archive/legacy-website/2023%20Penguin%20Internationals%20_summary.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The 2023 Penguin Internationals brought together sailors from across the country
 
 ## Archive Link
 
-For detailed results with photos, please visit the [Class Archive](/archive/2023%20Penguin%20Internationals%20_summary.htm).
+For detailed results with photos, please visit the [Class Archive](/archive/legacy-website/2023%20Penguin%20Internationals%20_summary.htm).
 
 ---
 

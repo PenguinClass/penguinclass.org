@@ -13,7 +13,7 @@ permalink: /results/2023-tayc-frostbite-region-iii/
 
 ## Results
 
-Results for the 2023 TAYC Frostbite and Region III Championship are available in the [Class Archive](/archive/2023%20TAYC%20Frostbite%20and%20Region%20III%20Championship.htm).
+Results for the 2023 TAYC Frostbite and Region III Championship are available in the [Class Archive](/archive/legacy-website/2023%20TAYC%20Frostbite%20and%20Region%20III%20Championship.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The TAYC Frostbite and Region III Championship combines competitive racing with 
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2023%20TAYC%20Frostbite%20and%20Region%20III%20Championship.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2023%20TAYC%20Frostbite%20and%20Region%20III%20Championship.htm).
 
 ---
 

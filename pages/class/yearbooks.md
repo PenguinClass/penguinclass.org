@@ -11,11 +11,11 @@ The International Penguin Class Dinghy Association has published yearbooks throu
 ### Available Yearbooks
 
 #### 1941 Penguin Yearbook
-- **[1941 Penguin Yearbook (PDF)](/archive/41_Penguin%20yrbook.pdf)** - Complete yearbook from 1941
+- **[1941 Penguin Yearbook (PDF)](/archive/legacy-website/41_Penguin%20yrbook.pdf)** - Complete yearbook from 1941
 - **Content:** Early class history, championship results, and class activities
 
 #### 1960 Yearbook
-- **[1960 Yearbook Excerpts (PDF)](/archive/1960_Yrbook.pdf)** - Excerpts from the 1960 yearbook
+- **[1960 Yearbook Excerpts (PDF)](/archive/legacy-website/1960_Yrbook.pdf)** - Excerpts from the 1960 yearbook
 - **Content:** Championship results and class information from 1960
 
 #### 1970 IPCDA Yearbook
@@ -37,7 +37,7 @@ Historical yearbooks typically include:
 
 - **Digital Copies:** Available yearbooks are linked above as PDF files
 - **Physical Copies:** Some yearbooks may be available through the Class Secretary
-- **Archive:** Additional yearbook content may be found in the [Archive](/archive/)
+- **Archive:** Additional yearbook content may be found in the [Archive](/archive/legacy-website/)
 
 ### Contributing to Yearbooks
 
