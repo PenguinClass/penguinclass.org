@@ -1,0 +1,23 @@
+---
+layout: event
+title: 2017 TAYC Spring Invitational
+name: 2017-tayc-spring-invitational
+date: 2017-05-06 00:00:00
+venue: Tred Avon Yacht Club
+city: Oxford, Maryland, U.S.A.
+links:
+  Notice of Race: 
+  Results: /archive/legacy-website/2017%5FTAYC%5FSpring.htm
+---
+The 2017 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/6, 2017.
+
+## Event Details
+- **Date:** 5/6, 2017
+- **Venue:** Tred Avon Yacht Club
+- **Location:** Oxford, Maryland, U.S.A.
+
+## Results
+Results for the 2017 TAYC Spring Invitational are available in the [Class Archive](/archive/legacy-website/2017%5FTAYC%5FSpring.htm).
+
+## Event Summary
+The TAYC Spring Invitational kicks off the racing season on the Chesapeake Bay with competitive racing and fellowship.

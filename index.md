@@ -3,8 +3,9 @@ layout: default
 title: Home
 permalink: /
 ---
-# Penguin Class
-Welcome to the International Penguin Class Dinghy Association.
+# Welcome to the International Penguin Class Dinghy Association.
+
+{% include image-slideshow.html %}
 
 - [Join the class](/class/join)
 - [Upcoming regattas](/events/)
@@ -22,4 +23,4 @@ Welcome to the International Penguin Class Dinghy Association.
 
 <p><a href="{{ '/news/' | relative_url }}">More news →</a></p>
 
-Explore the full legacy site in our [Archive](/archive/).
+Explore the full legacy site in our [Archive](/archive/legacy-website/).

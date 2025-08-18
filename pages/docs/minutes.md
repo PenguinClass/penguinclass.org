@@ -14,7 +14,7 @@ Official minutes from International Penguin Class Dinghy Association meetings an
 
 ### Archive
 
-Historical minutes and meeting records are available in the [Archive](/archive/).
+Historical minutes and meeting records are available in the [Archive](/archive/legacy-website/).
 
 ### Meeting Schedule
 

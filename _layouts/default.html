@@ -23,20 +23,32 @@
       <img src="{{ '/assets/images/PenguinClass-logo.svg' | relative_url }}" alt="Penguin Class Logo" class="logo">
       <span class="brand-text">Penguin Class (IPCDA)</span>
     </a>
-    <nav>
-      <ul>
+    
+    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    
+    <nav class="main-nav">
+      <ul class="nav-list">
       {%- assign items = site.data.navigation -%}
       {%- for item in items -%}
-        <li>
+        <li class="nav-item">
           {%- if item.children -%}
-            <details>
-              <summary>{{ item.title }}</summary>
-              <ul class="dropdown">
+            <div class="dropdown-container">
+              <button class="dropdown-toggle" aria-expanded="false" aria-haspopup="true">
+                {{ item.title }}
+                <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                  <path d="M6 8.825L1.175 4 2.238 2.938 6 6.7l3.763-3.762L10.825 4z"/>
+                </svg>
+              </button>
+              <ul class="dropdown-menu">
                 {%- for c in item.children -%}
                 <li><a href="{{ c.url | relative_url }}">{{ c.title }}</a></li>
                 {%- endfor -%}
               </ul>
-            </details>
+            </div>
           {%- else -%}
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {%- endif -%}
@@ -55,6 +67,7 @@
       <div class="footer-main">
         <p>&copy; {{ "now" | date: "%Y" }} International Penguin Class Dinghy Association</p>
       </div>
+      {% include footer-join.html %}
       {% include footer-contact.html %}
       {% include footer-social.html %}
     </div>

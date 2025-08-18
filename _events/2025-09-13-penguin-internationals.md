@@ -6,7 +6,7 @@ date: 2025-09-13
 venue: Corsica River Yacht Club
 city: Centreville, Maryland, U.S.A.
 links:
-  Notice of Race: /archive/2025_Intls_NOR.htm
+  Notice of Race: /archive/legacy-website/2025_Intls_NOR.htm
   Registration: https://www.regattanetwork.com/event/30156
   Results: 
 ---
@@ -24,7 +24,7 @@ This is the premier event of the Penguin Class, bringing together sailors from a
 Register online through Regatta Network. Early registration is encouraged.
 
 ## Notice of Race
-The Notice of Race is available in the [Class Archive](/archive/2025_Intls_NOR.htm).
+The Notice of Race is available in the [Class Archive](/archive/legacy-website/2025_Intls_NOR.htm).
 
 ## Accommodations
 Local accommodations and camping options will be available. Contact the organizing authority for recommendations.

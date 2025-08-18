@@ -13,7 +13,7 @@ permalink: /results/2025-cambridge-admiral-byrd/
 
 ## Results
 
-Results for the 2025 Cambridge Admiral Byrd Regatta are available in the [Class Archive](/archive/2025_Cambridge.htm).
+Results for the 2025 Cambridge Admiral Byrd Regatta are available in the [Class Archive](/archive/legacy-website/2025_Cambridge.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The Cambridge Admiral Byrd Regatta is a popular event on the Eastern Shore, offe
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2025_Cambridge.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2025_Cambridge.htm).
 
 ---
 

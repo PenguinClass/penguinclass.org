@@ -13,7 +13,7 @@ permalink: /results/2022-tayc-frostbite/
 
 ## Results
 
-Results for the 2022 TAYC Frostbite Regatta are available in the [Class Archive](/archive/2022_TAYC%20Frostbite.docx).
+Results for the 2022 TAYC Frostbite Regatta are available in the [Class Archive](/archive/legacy-website/2022_TAYC%20Frostbite.docx).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The TAYC Frostbite Regatta tests sailors' skills in cooler weather conditions, p
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2022_TAYC%20Frostbite.docx).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2022_TAYC%20Frostbite.docx).
 
 ---
 

@@ -13,7 +13,7 @@ permalink: /results/2025-beachwood-revival/
 
 ## Results
 
-Results for the 2025 Beachwood Penguin Revival Regatta are available in the [Class Archive](/archive/2025_Beachwood%20Revival;.htm).
+Results for the 2025 Beachwood Penguin Revival Regatta are available in the [Class Archive](/archive/legacy-website/2025_Beachwood%20Revival;.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The Beachwood Penguin Revival Regatta is a beloved event that brings together Pe
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2025_Beachwood%20Revival;.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2025_Beachwood%20Revival;.htm).
 
 ---
 

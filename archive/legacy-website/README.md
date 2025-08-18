@@ -6,7 +6,7 @@ Place the full mirrored legacy content of penguinclass.com here, preserving fold
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent   https://www.penguinclass.com/ -P legacy_mirror
 
 # Move into repo:
-rsync -av legacy_mirror/www.penguinclass.com/ ./archive/
+rsync -av legacy_mirror/www.penguinclass.com/ ./archive/legacy-website/
 
 # Build manifest:
 python3 scripts/build_archive_manifest.py archive

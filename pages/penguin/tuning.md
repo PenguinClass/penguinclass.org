@@ -4,4 +4,4 @@ title: Tuning & Rigging
 permalink: /penguin/tuning/
 ---
 ## Tuning & Rigging
-[Tips and links to rigging/tuning resources](/archive/rig.html) are currently available in the Archive.
+[Tips and links to rigging/tuning resources](/archive/legacy-website/rig.html) are currently available in the Archive.

@@ -12,6 +12,7 @@ Brazil has a growing Penguin fleet community with active sailors and events.
 
 - **São Paulo Fleet** - Main fleet in São Paulo region
 - **Rio de Janeiro Fleet** - Fleet in the Rio area
+    - [Federação de Vela do Estado do Rio de Janeiro - Penguin](http://www.feverj.org.br/classes_Penguin.html)
 - **Regional Fleets** - Various locations throughout Brazil
 
 ### Major Events

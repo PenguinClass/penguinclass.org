@@ -13,7 +13,7 @@ permalink: /results/2022-tayc-heritage/
 
 ## Results
 
-Results for the 2022 TAYC Heritage Regatta are available in the [Class Archive](/archive/2022%20TAYC%20Heritage.htm).
+Results for the 2022 TAYC Heritage Regatta are available in the [Class Archive](/archive/legacy-website/2022%20TAYC%20Heritage.htm).
 
 ## Event Summary
 
@@ -21,7 +21,7 @@ The TAYC Heritage Regatta celebrates the rich history of sailing at Tred Avon Ya
 
 ## Archive Link
 
-For detailed results, please visit the [Class Archive](/archive/2022%20TAYC%20Heritage.htm).
+For detailed results, please visit the [Class Archive](/archive/legacy-website/2022%20TAYC%20Heritage.htm).
 
 ---
 
