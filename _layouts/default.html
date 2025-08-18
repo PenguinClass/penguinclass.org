@@ -6,11 +6,23 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   {%- seo -%}
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/favicon-16x16.png' | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon/favicon.ico' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#0a74da" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
 </head>
 <body>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="{{ '/' | relative_url }}">🐧 {{ site.title }}</a>
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <img src="{{ '/assets/images/PenguinClass-logo.svg' | relative_url }}" alt="Penguin Class Logo" class="logo">
+      <span class="brand-text">International Penguin Class Dinghy Association</span>
+    </a>
     <nav>
       <ul>
       {%- assign items = site.data.navigation -%}

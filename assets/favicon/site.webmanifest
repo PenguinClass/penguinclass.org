@@ -1,0 +1,21 @@
+{
+  "name": "International Penguin Class Dinghy Association",
+  "short_name": "Penguin Class",
+  "description": "Official website of the International Penguin Class Dinghy Association",
+  "icons": [
+    {
+      "src": "/assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0a74da",
+  "background_color": "#ffffff",
+  "display_override": ["window-controls-overlay"],
+  "display": "standalone"
+} 
