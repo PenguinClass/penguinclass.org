@@ -1,0 +1,34 @@
+---
+layout: classified
+title: "Penguin 7936 - Mechanicsburg, PA"
+date: 2023-11-02
+contact: "Bill Parkes"
+email: "parkes1@comcast.net"
+phone: "717-731-1039"
+---
+
+## Penguin 7936 for Sale
+
+**Location:** Mechanicsburg, Pennsylvania  
+**Price:** $1,000  
+**Condition:** Completely overhauled
+
+Austin hull completely overhauled. New Aluminum mast and older wooden mast. Two sails. Rerigged with Harken blacks and new bailers. Finished bright inside and painted with Interlux Perfection outside. No trailer.
+
+### Specifications
+- **Hull:** Austin hull completely overhauled
+- **Masts:** New Aluminum mast and older wooden mast
+- **Sails:** Two sails included
+- **Rigging:** Rerigged with Harken blacks
+- **Bailers:** New bailers installed
+- **Finish:** Finished bright inside and painted with Interlux Perfection outside
+- **Trailer:** No trailer included
+
+### Contact Information
+- **Name:** Bill Parkes
+- **Email:** [parkes1@comcast.net](mailto:parkes1@comcast.net)
+- **Phone:** [717-731-1039](tel:717-731-1039)
+
+*Posted: November 2, 2023*
+
+*Source: [Penguin Class Wanted Ads](http://penguinclass.com/wanted.html)* 
