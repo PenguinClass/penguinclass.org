@@ -16,6 +16,8 @@
       url: /class/yearbooks/
     - title: Join
       url: /class/join/
+    - title: Archive
+      url: /archive/
 - title: Penguin
   children:
     - title: Specs & Rules
@@ -46,7 +48,4 @@
   url: /results-champions/
 - title: Gallery
   url: /gallery/
-- title: Contact
-  url: /contact/
-- title: Archive
-  url: /archive/
+
