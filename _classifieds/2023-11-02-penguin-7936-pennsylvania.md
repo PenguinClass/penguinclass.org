@@ -32,4 +32,4 @@ Austin hull completely overhauled. New Aluminum mast and older wooden mast. Two 
 
 *Posted: November 2, 2023*
 
-*Source: [Penguin Class Wanted Ads](http://penguinclass.com/wanted.html)* 
+*Source: [Penguin Class Wanted Ads](/archive/legacy-website/wanted.html)* 

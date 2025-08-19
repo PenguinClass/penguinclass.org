@@ -21,4 +21,4 @@ Please let us know if you plan to attend so we can get a head count for lunch an
 
 Our thoughts are with Skip and the family during this difficult time.
 
-*Source: [Ellee Moorhouse Bruhn Life Celebration](http://penguinclass.com/Life%20Celebration%20for%20Ellee%20Moorhouse%20Bruhn%20%20January%204th.htm)* 
+*Source: [Ellee Moorhouse Bruhn Life Celebration](/archive/legacy-website/Life%20Celebration%20for%20Ellee%20Moorhouse%20Bruhn%20%20January%204th.htm)* 

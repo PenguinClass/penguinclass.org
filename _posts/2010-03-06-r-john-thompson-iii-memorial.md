@@ -33,4 +33,4 @@ John's contributions to sailing and his work with North Sails touched the lives 
 
 Our thoughts are with his family and friends during this difficult time.
 
-*Source: [John Thompson Memorial](http://penguinclass.com/John_Thompson.htm)* 
+*Source: [John Thompson Memorial](/archive/legacy-website/John_Thompson.htm)* 

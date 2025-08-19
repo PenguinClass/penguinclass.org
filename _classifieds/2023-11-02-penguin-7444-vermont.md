@@ -27,4 +27,4 @@ Penguin 7444 located in West Dover, VT. The boat needs a fresh coat of exterior 
 
 *Posted: November 2, 2023*
 
-*Source: [Penguin Class Wanted Ads](http://penguinclass.com/wanted.html)* 
+*Source: [Penguin Class Wanted Ads](/archive/legacy-website/wanted.html)* 
