@@ -3,7 +3,7 @@ layout: default
 title: Home
 permalink: /
 ---
-# Welcome to the International Penguin Class Dinghy Association.
+# Welcome to the International Penguin Class Dinghy Association
 
 {% include image-slideshow.html %}
 
