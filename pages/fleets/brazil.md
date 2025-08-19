@@ -25,7 +25,7 @@ Brazil has a growing Penguin fleet community with active sailors and events.
 
 Stay connected with the Brazil Penguin community:
 
-- **[Facebook Group](https://www.facebook.com/groups/250354204782037)** - Join the Brazil Penguin Class community
+- **[Facebook Group Classe Pinguim Brasil](https://www.facebook.com/groups/250354204782037)** - Join the Brazil Penguin Class community
 
 ### Fleet Contacts
 

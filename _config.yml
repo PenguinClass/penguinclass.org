@@ -20,6 +20,7 @@ defaults:
     values: 
       layout: post
       permalink: /news/:year/:month/:day/:name/
+      future: false
   - scope: { path: "", type: events }
     values: { layout: event }
   - scope: { path: "", type: classifieds }
