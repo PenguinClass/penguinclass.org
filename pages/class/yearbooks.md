@@ -37,7 +37,7 @@ Historical yearbooks typically include:
 
 - **Digital Copies:** Available yearbooks are linked above as PDF files
 - **Physical Copies:** Some yearbooks may be available through the Class Secretary
-- **Archive:** Additional yearbook content may be found in the [Archive](/archive/legacy-website/)
+- **Legacy Website:** Additional yearbook content may be found on the [legacy website](/archive/legacy-website/)
 
 ### Contributing to Yearbooks
 

@@ -1,24 +1,23 @@
 ---
-layout: events
-title: Events
-permalink: /events/
+layout: default
 ---
+<h1>Events</h1>
 
 {% assign upcoming = site.events | where_exp:"e","e.date >= site.time" | sort: "date" %}
 {% assign past = site.events | where_exp:"e","e.date < site.time" | sort: "date" | reverse %}
 
 {% if upcoming.size > 0 %}
-## Upcoming Events
+<h2>Upcoming Events</h2>
 {% for event in upcoming %}
   {% include event-preview.html event=event %}
 {% endfor %}
 {% else %}
-## Upcoming Events
+<h2>Upcoming Events</h2>
 <p>No upcoming events yet.</p>
 {% endif %}
 
 {% if past.size > 0 %}
-## Past Events
+<h2>Past Events</h2>
 {% assign current_year = nil %}
 {% for event in past %}
   {% assign event_year = event.date | date: "%Y" %}
@@ -36,7 +35,7 @@ permalink: /events/
   </div>
 {% endif %}
 {% else %}
-## Past Events
+<h2>Past Events</h2>
 <p>No past events yet.</p>
 {% endif %}
 
@@ -44,4 +43,4 @@ permalink: /events/
 <!-- Total events: {{ site.events.size }} -->
 <!-- Current time: {{ site.time }} -->
 <!-- Upcoming events: {{ upcoming.size }} -->
-<!-- Past events: {{ past.size }} -->
+<!-- Past events: {{ past.size }} --> 
