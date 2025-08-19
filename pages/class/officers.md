@@ -28,11 +28,7 @@ permalink: /class/officers/
 
 ### Contact Information
 
-For general inquiries about the International Penguin Class Dinghy Association, please contact:
-
-- **Email:** [Info@PenguinClass.com](mailto:Info@PenguinClass.com)
-- **President:** Charles Krafft - [chaskrafft@comcast.net](mailto:chaskrafft@comcast.net)
-- **Secretary/Treasurer:** Chris Conway - [cconway@idsinc.com](mailto:cconway@idsinc.com)
+For general inquiries about the International Penguin Class Dinghy Association, please see our [contact page](/contact) or email [Info@PenguinClass.com](mailto:Info@PenguinClass.com).
 
 ### Officer Responsibilities
 
@@ -44,4 +40,4 @@ For general inquiries about the International Penguin Class Dinghy Association, 
 - **Members at Large:** Represent general membership interests
 - **Regional Representatives:** Coordinate activities within their geographic regions
 
-*Note: This information is from the [Class Officers page](http://penguinclass.com/Class%20Officers.htm) on the legacy website. For the most current officer information, please contact the class secretary.* 
+*Note: This information is from the [Class Officers page](/archive/legacy-website/Class%20Officers.htm) on the legacy website. For the most current officer information, please contact the class secretary.* 

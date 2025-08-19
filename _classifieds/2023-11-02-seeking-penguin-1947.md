@@ -30,4 +30,4 @@ My mother gave it away after my dad died and I would like to find it and see if 
 
 *Posted: November 2, 2023*
 
-*Source: [Penguin Class Wanted Ads](http://penguinclass.com/wanted.html)* 
+*Source: [Penguin Class Wanted Ads](/archive/legacy-website/wanted.html)* 

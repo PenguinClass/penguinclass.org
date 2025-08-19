@@ -17,4 +17,4 @@ He also was active in the Thistle class, placing 4th at the Nationals in 1979 an
 
 Sandy's contributions to the Penguin Class and his mentorship of sailors will be deeply missed. Our thoughts are with his family and friends during this difficult time.
 
-*Source: [Sandy Rapp Memorial](http://penguinclass.com/Rapp_obit.htm)* 
+*Source: [Sandy Rapp Memorial](/archive/legacy-website/Rapp_obit.htm)* 
