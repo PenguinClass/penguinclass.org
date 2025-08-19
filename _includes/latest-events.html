@@ -1,0 +1,11 @@
+{% assign upcoming = site.events | where_exp:"e","e.date >= site.time" | sort: "date" | limit: 3 %}
+
+{% if upcoming.size > 0 %}
+<section class="latest-events">
+  <h2>Upcoming Events</h2>
+  {% for event in upcoming %}
+    {% include event-preview.html event=event %}
+  {% endfor %}
+  <p class="more-link"><a href="/events/">View all events →</a></p>
+</section>
+{% endif %} 

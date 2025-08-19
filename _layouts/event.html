@@ -1,19 +1,44 @@
 ---
 layout: default
 ---
-<article class="event">
-  <h1>{{ page.title }}</h1>
-  <p class="meta">
-    <strong>Date:</strong> {{ page.date | date_to_long_string }}
-    {%- if page.venue %} • <strong>Venue:</strong> {{ page.venue }}{% endif -%}
-    {%- if page.city %} • {{ page.city }}{% endif -%}
-  </p>
-  {%- if page.links %}
-  <ul class="event-links">
-    {%- for k in page.links %}
-    <li><a href="{{ k[1] }}">{{ k[0] | capitalize }}</a></li>
-    {%- endfor -%}
-  </ul>
-  {%- endif %}
-  {{ content }}
+<article class="event-detail">
+  <header class="event-header">
+    <h1>{{ page.title }}</h1>
+    <div class="event-meta">
+      <div class="event-date">
+        <strong>Date:</strong> {{ page.date | date_to_long_string }}
+      </div>
+      {% if page.venue %}
+      <div class="event-venue">
+        <strong>Venue:</strong> {{ page.venue }}
+      </div>
+      {% endif %}
+      {% if page.city %}
+      <div class="event-location">
+        <strong>Location:</strong> {{ page.city }}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="event-content">
+    {{ content }}
+  </div>
+
+  {% if page.links %}
+  <div class="event-links">
+    <h3>Event Links</h3>
+    <ul>
+      {% for link in page.links %}
+        {% if link[1] != blank %}
+        <li><a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="event-navigation">
+    <p><a href="/events/">← Back to Events</a></p>
+  </div>
 </article>

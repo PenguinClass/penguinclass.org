@@ -1,0 +1,24 @@
+<article class="event-preview">
+  <h3><a href="{{ event.url }}">{{ event.title }}</a></h3>
+  <div class="event-meta">
+    <span class="event-date">{{ event.date | date_to_long_string }}</span>
+    {% if event.venue %}
+    <span class="event-venue">{{ event.venue }}</span>
+    {% endif %}
+    {% if event.city %}
+    <span class="event-location">{{ event.city }}</span>
+    {% endif %}
+  </div>
+  {% if event.content %}
+  <p class="event-excerpt">{{ event.content | strip_html | truncatewords: 25 }}</p>
+  {% endif %}
+  <div class="event-links">
+    {% if event.links %}
+      {% for link in event.links %}
+        {% if link[1] != blank %}
+        <a href="{{ link[1] }}" target="_blank" rel="noopener" class="event-link">{{ link[0] }}</a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </div>
+</article> 

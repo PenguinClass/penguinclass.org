@@ -7,17 +7,38 @@ permalink: /events/
 {% assign upcoming = site.events | where_exp:"e","e.date >= site.time" | sort: "date" %}
 {% assign past = site.events | where_exp:"e","e.date < site.time" | sort: "date" | reverse %}
 
-## Upcoming
-{% if upcoming.size == 0 %}No upcoming events yet.{% endif %}
-{% for e in upcoming %}
-- [{{ e.title }}]({{ e.url }}) — {{ e.date | date_to_string }}{% if e.venue %}, {{ e.venue }}{% endif %}
+{% if upcoming.size > 0 %}
+## Upcoming Events
+{% for event in upcoming %}
+  {% include event-preview.html event=event %}
 {% endfor %}
+{% else %}
+## Upcoming Events
+<p>No upcoming events yet.</p>
+{% endif %}
 
-## Past
-{% if past.size == 0 %}No past events yet.{% endif %}
-{% for e in past %}
-- [{{ e.title }}]({{ e.url }}) — {{ e.date | date_to_string }}
+{% if past.size > 0 %}
+## Past Events
+{% assign current_year = nil %}
+{% for event in past %}
+  {% assign event_year = event.date | date: "%Y" %}
+  {% if event_year != current_year %}
+    {% if current_year != nil %}
+      </div>
+    {% endif %}
+    <h2>{{ event_year }}</h2>
+    <div class="year-events">
+    {% assign current_year = event_year %}
+  {% endif %}
+  {% include event-preview.html event=event %}
 {% endfor %}
+{% if current_year != nil %}
+  </div>
+{% endif %}
+{% else %}
+## Past Events
+<p>No past events yet.</p>
+{% endif %}
 
 <!-- Debug Info -->
 <!-- Total events: {{ site.events.size }} -->
