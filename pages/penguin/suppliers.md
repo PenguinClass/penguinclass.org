@@ -24,7 +24,7 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
 ## Penguin Boat Suppliers
 
 **Status:** No mass-production builders are currently active; plans/home-builds continue. (Per class histories and Wikipedia.) :contentReference[oaicite:4]{index=4}
-**Note:** As of May 2025, production may be restarting in Brazil according to some Facebook posts]().
+**Note:** As of April 2025, production may be restarting in Brazil.  According to a [Facebook post](https://www.facebook.com/groups/250354204782037/posts/526237283860393/) by Rogerio Miranda de Carvalho, these would be produced by MC Boats in Rio de Janeiro, and lists Andre Ricardo Mendonça Pinheiro as a contact.  A [comment](https://www.facebook.com/groups/335010659935494/posts/8683566705079806/?comment_id=8683901075046369&reply_comment_id=8688177024618774) says the sails for this first new boat (BRA 9692) are made by Vasco Puglia.
 
 
 ### Verified production builders (historical)
