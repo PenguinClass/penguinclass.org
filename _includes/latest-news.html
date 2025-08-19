@@ -1,0 +1,16 @@
+{% assign recent_posts = site.posts | limit: 5 %}
+
+{% if recent_posts.size > 0 %}
+<section class="latest-news">
+  <h2>Latest News</h2>
+  {% for post in recent_posts %}
+  <article class="news-preview">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="meta">{{ post.date | date_to_long_string }}</p>
+    {{ post.excerpt }}
+    <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+  </article>
+  {% endfor %}
+  <p class="more-link"><a href="/news/">More news →</a></p>
+</section>
+{% endif %} 
