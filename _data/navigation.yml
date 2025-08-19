@@ -24,6 +24,8 @@
       url: /penguin/tuning/
     - title: Modern v Classic
       url: /penguin/modern-v-classic/
+    - title: Suppliers
+      url: /penguin/suppliers/
 - title: Fleets
   children:
     - title: U.S. East Coast
