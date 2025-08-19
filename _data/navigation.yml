@@ -1,11 +1,11 @@
-- title: News
-  url: /news/
 - title: Classifieds
   url: /classifieds/
 - title: Events
   url: /events/
 - title: Class
   children:
+    - title: News
+      url: /news/
     - title: About
       url: /class/about/
     - title: Bylaws

@@ -7,10 +7,6 @@ permalink: /
 
 {% include image-slideshow.html %}
 
-- [Join the class](/class/join)
-- [Upcoming regattas](/events/)
-- [Documents & rules](/docs/)
-
 {% include latest-events.html %}
 
 {% include latest-news.html %}
