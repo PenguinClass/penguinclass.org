@@ -1,10 +1,7 @@
 ---
-layout: news
-title: News
-permalink: /news/
-redirect_from:
-  - /posts/
+layout: default
 ---
+<h1>News</h1>
 
 {% assign posts = site.posts %}
 {% if posts.size == 0 %}
@@ -26,4 +23,4 @@ redirect_from:
   {% if current_year != nil %}
     </ul>
   {% endif %}
-{% endif %}
+{% endif %} 
