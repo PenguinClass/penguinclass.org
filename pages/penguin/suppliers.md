@@ -8,6 +8,8 @@ permalink: /penguin/suppliers/
 
 This page lists current and historical suppliers for Penguin Class dinghies, parts, and equipment.
 
+**Note:** Listings here are unpaid and not an endorsement of quality or suitability.
+
 ## Current Suppliers by Category
 
 ### Foils
@@ -19,12 +21,18 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
   - **[AP Mainsail](https://www.northsails.com/en-nl/products/penguin-ap-mainsail)** (all-purpose)
   - **[Penguin Tuning Guide](https://www.northsails.com/en-us/blogs/north-sails-blog/penguin-tuning-guide)**
 
+### Covers
+- **[Kinder Industries]() - Penguin cover
+  - **[Penguin Hull Cover](https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/)**
+
 ---
 
 ## Penguin Boat Suppliers
 
 **Status:** No mass-production builders are currently active; plans/home-builds continue. (Per class histories and [Wikipedia](https://en.wikipedia.org/wiki/Penguin_(dinghy)).)
 **Note:** As of April 2025, production may be restarting in Brazil. According to a [Facebook post](https://www.facebook.com/groups/250354204782037/posts/526237283860393/) by Rogerio Miranda de Carvalho, these would be produced by MC Boats in Rio de Janeiro, and lists Andre Ricardo Mendonça Pinheiro as a contact. A [comment](https://www.facebook.com/groups/335010659935494/posts/8683566705079806/?comment_id=8683901075046369&reply_comment_id=8688177024618774) says the sails for this first new boat (BRA 9692) are made by Vasco Puglia.
+
+**Note:** Bristol Seacraft in Rhode Island appears to have briefly attempted production starting in 2008.
 
 ### Verified production builders (historical)
 Manufacturers documented by independent references ([Wikipedia](https://en.wikipedia.org/wiki/Penguin_(dinghy)) / [SailboatData](https://sailboatdata.com/sailboat/penguin)):
@@ -43,7 +51,7 @@ Builders and hull molds named in class bylaws, newsletters, and tuning guides:
 - **Innovator** — "modern" hull shape listed by class bylaws
 
 ### Traditional wooden builders (earlier boats)
-Named by North Sails as representative older wood boats:
+Named by North Sails in their tuning guide as representative older wooden Penguins:
 
 - **Horner**, **Wright**, **Beaton**, **Salentine**
 
@@ -51,6 +59,6 @@ Named by North Sails as representative older wood boats:
 
 ## Notes & Sources
 - General class/production overview: **[Wikipedia — Penguin (dinghy)](https://en.wikipedia.org/wiki/Penguin_(dinghy))** and **[SailboatData](https://sailboatdata.com/sailboat/penguin)**
-- Additional historical context: **[Small Boats Monthly](https://smallboatsmonthly.com/article/penguin/)** profile of the Penguin
+- Additional historical context: **[Small Boats Monthly](https://smallboatsmonthly.com/article/the-penguin-class/)** profile of the Penguin
 
 *If you know of additional suppliers that should be listed here, please contact [info@penguinclass.org](mailto:info@penguinclass.org).*
