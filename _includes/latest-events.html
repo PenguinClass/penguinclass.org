@@ -3,8 +3,8 @@
   Shows up to 3 upcoming events
 {% endcomment %}
 
-{% assign now = 'now' | date: '%s' %}
-{% assign upcoming = site.events | where_exp:"e","e.date >= 'now' | date: '%Y-%m-%d'" | sort: "date" | limit: 3 %}
+{% assign current_date = 'now' | date: '%Y-%m-%d' %}
+{% assign upcoming = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' >= current_date" | sort: "date" | limit: 3 %}
 
 {% if upcoming.size > 0 %}
 <section class="latest-events">
