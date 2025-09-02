@@ -4,8 +4,9 @@ title: Events
 permalink: /events/
 ---
 
-{% assign upcoming = site.events | where_exp:"e","e.date >= site.time" | sort: "date" %}
-{% assign past = site.events | where_exp:"e","e.date < site.time" | sort: "date" | reverse %}
+{% assign current_date = 'now' | date: '%Y-%m-%d' %}
+{% assign upcoming = site.events | where_exp:"e","e.date >= current_date" | sort: "date" %}
+{% assign past = site.events | where_exp:"e","e.date < current_date" | sort: "date" | reverse %}
 
 {% if upcoming.size > 0 %}
 ## Upcoming Events
@@ -42,6 +43,6 @@ permalink: /events/
 
 <!-- Debug Info -->
 <!-- Total events: {{ site.events.size }} -->
-<!-- Current time: {{ site.time }} -->
+<!-- Current date: {{ current_date }} -->
 <!-- Upcoming events: {{ upcoming.size }} -->
 <!-- Past events: {{ past.size }} -->
