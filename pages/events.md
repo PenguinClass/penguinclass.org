@@ -5,8 +5,8 @@ permalink: /events/
 ---
 
 {% assign current_date = 'now' | date: '%Y-%m-%d' %}
-{% assign upcoming = site.events | where_exp:"e","e.date >= current_date" | sort: "date" %}
-{% assign past = site.events | where_exp:"e","e.date < current_date" | sort: "date" | reverse %}
+{% assign upcoming = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' >= current_date" | sort: "date" %}
+{% assign past = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' < current_date" | sort: "date" | reverse %}
 
 {% if upcoming.size > 0 %}
 ## Upcoming Events
