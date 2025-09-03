@@ -22,8 +22,12 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
   - **[Penguin Tuning Guide](https://www.northsails.com/en-us/blogs/north-sails-blog/penguin-tuning-guide)**
 
 ### Covers
-- **[Kinder Industries]() - Penguin cover
+- **[Kinder Industries](https://www.kinderindustries.com)** - Penguin cover
   - **[Penguin Hull Cover](https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/)**
+
+### Photographers
+- **[Will Keyworth Photography](https://spinsheet.smugmug.com/SpinSheet)** — Professional sailing photography and regatta coverage
+- **[Frank Parisi Photography](https://www.frankparisiphotography.com/)** — Sailing event photography and regatta coverage
 
 ---
 
