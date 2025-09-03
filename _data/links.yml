@@ -1,0 +1,109 @@
+# External Links for Penguin Class Website
+# Organized by category and relevance
+
+class_association:
+  title: "Class Association"
+  description: "Official class information and resources"
+  links:
+    - name: "US Sailing One-Design Profile"
+      url: "https://www.ussailing.org/one-design-profile/international-penguin-class-dinghy-association/"
+      description: "Official US Sailing class profile with specifications and contact information"
+      category: "official"
+
+technical_reference:
+  title: "Technical Reference"
+  description: "Technical specifications, design information, and sailing data"
+  links:
+    - name: "Wikipedia — Penguin (dinghy)"
+      url: "https://en.wikipedia.org/wiki/Penguin_(dinghy)"
+      description: "Comprehensive Wikipedia article with design history and specifications"
+      category: "reference"
+    - name: "SailboatData — Penguin"
+      url: "https://sailboatdata.com/sailboat/penguin"
+      description: "Technical specifications and design data"
+      category: "specifications"
+    - name: "Small Boats Monthly — Penguin Profile"
+      url: "https://smallboatsmonthly.com/article/the-penguin-class/"
+      description: "Historical profile and class overview"
+      category: "history"
+
+suppliers:
+  title: "Suppliers & Equipment"
+  description: "Current suppliers for parts, sails, and equipment"
+  links:
+    - name: "Competition Composites Inc. (CCI)"
+      url: "https://cci.one/marine/foils-a-z/penguin/"
+      description: "Composite Penguin centerboards and custom work"
+      category: "foils"
+    - name: "North Sails — Penguin Sails"
+      url: "https://www.northsails.com/"
+      description: "Official Penguin mainsails and tuning guides"
+      category: "sails"
+    - name: "Kinder Industries — Penguin Covers"
+      url: "https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/"
+      description: "Custom Penguin hull covers"
+      category: "covers"
+    - name: "Will Keyworth Photography"
+      url: "https://spinsheet.smugmug.com/SpinSheet"
+      description: "Professional sailing photography and regatta coverage"
+      category: "photographers"
+    - name: "Frank Parisi Photography"
+      url: "https://www.frankparisiphotography.com/"
+      description: "Sailing event photography and regatta coverage"
+      category: "photographers"
+
+regattas_events:
+  title: "Regattas & Events"
+  description: "Major regattas and event organizers"
+  links:
+    - name: "TAYC Heritage Regatta"
+      url: "https://tayc.com/register/regatta/IQ4FOyNDOb/class?guest=true"
+      description: "Annual heritage regatta registration"
+      category: "registration"
+    - name: "Regatta Network — Penguin Internationals"
+      url: "https://www.regattanetwork.com/event/30156"
+      description: "International Championship registration"
+      category: "registration"
+
+social_media:
+  title: "Social Media & Community"
+  description: "Facebook groups and community resources"
+  links:
+    - name: "Penguin Class Facebook Group"
+      url: "https://www.facebook.com/groups/335010659935494/"
+      description: "Main class Facebook group for announcements and discussion"
+      category: "main_group"
+    - name: "Argentina Penguin Fleet"
+      url: "https://www.facebook.com/groups/771132206404560/"
+      description: "Argentina fleet Facebook group"
+      category: "regional"
+    - name: "Brazil Penguin Fleet"
+      url: "https://www.facebook.com/groups/250354204782037/"
+      description: "Brazil fleet Facebook group"
+      category: "regional"
+    - name: "Penguin Class YouTube"
+      url: "https://www.youtube.com/results?search_query=penguin+class+dinghy"
+      description: "YouTube videos featuring Penguin Class racing and events"
+      category: "videos"
+
+sailing_resources:
+  title: "Sailing Resources"
+  description: "General sailing resources and organizations"
+  links:
+    - name: "US Sailing"
+      url: "https://www.ussailing.org/"
+      description: "National governing body for sailing in the United States"
+      category: "governing_body"
+    - name: "World Sailing"
+      url: "https://www.sailing.org/"
+      description: "International governing body for sailing"
+      category: "international"
+
+historical_archive:
+  title: "Historical Archive"
+  description: "Historical documents and legacy resources"
+  links:
+    - name: "Legacy Penguin Class Website"
+      url: "http://penguinclass.com/"
+      description: "Original class website (archived)"
+      category: "legacy"
