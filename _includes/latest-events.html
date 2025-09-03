@@ -4,7 +4,14 @@
 {% endcomment %}
 
 {% assign current_date = 'now' | date: '%Y-%m-%d' %}
-{% assign upcoming = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' >= current_date" | sort: "date" | limit: 3 %}
+{% assign upcoming = '' | split: '' %}
+{% for event in site.events %}
+  {% assign event_date = event.date | date: '%Y-%m-%d' %}
+  {% if event_date >= current_date %}
+    {% assign upcoming = upcoming | push: event %}
+  {% endif %}
+{% endfor %}
+{% assign upcoming = upcoming | sort: "date" | limit: 3 %}
 
 {% if upcoming.size > 0 %}
 <section class="latest-events">

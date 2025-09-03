@@ -5,8 +5,20 @@ permalink: /events/
 ---
 
 {% assign current_date = 'now' | date: '%Y-%m-%d' %}
-{% assign upcoming = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' >= current_date" | sort: "date" %}
-{% assign past = site.events | where_exp:"e","e.date | date: '%Y-%m-%d' < current_date" | sort: "date" | reverse %}
+{% assign upcoming = '' | split: '' %}
+{% assign past = '' | split: '' %}
+
+{% for event in site.events %}
+  {% assign event_date = event.date | date: '%Y-%m-%d' %}
+  {% if event_date >= current_date %}
+    {% assign upcoming = upcoming | push: event %}
+  {% else %}
+    {% assign past = past | push: event %}
+  {% endif %}
+{% endfor %}
+
+{% assign upcoming = upcoming | sort: "date" %}
+{% assign past = past | sort: "date" | reverse %}
 
 {% if upcoming.size > 0 %}
 ## Upcoming Events
