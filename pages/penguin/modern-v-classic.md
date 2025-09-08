@@ -57,4 +57,4 @@ The Penguin Class was founded on the principle of accessible, competitive sailin
 
 *For detailed specifications and building information, see the [Specs & Rules](/penguin/specs/) and [Plans](/penguin/plans/) pages.*
 
-*Source: [What is a modern Penguin and a bit of Class history](http://penguinclass.com/2023_What%20is%20a%20modern%20Penguin%20and%20a%20bit%20of%20Class%20history.docx)* 
+*Source: [What is a modern Penguin and a bit of Class history](archive/legacy-website/2023_What%20is%20a%20modern%20Penguin%20and%20a%20bit%20of%20Class%20history.docx)* 

@@ -13,7 +13,7 @@ Welcome to the Penguin Class Archive. This section contains historical content a
 ### [Legacy Website](/archive/legacy-website/)
 The complete legacy website from penguinclass.com, including all historical pages, results, and documents.
 
-### [Results](/results-champions/)
+### [Results](/results/)
 Historical race results and championship records from 2007 to present.
 
 ### [Gallery](/gallery/)
