@@ -40,6 +40,8 @@
   children:
     - title: Champions
       url: /champions/
+    - title: Results
+      url: /results/
     - title: Gallery
       url: /gallery/
     - title: Minutes
