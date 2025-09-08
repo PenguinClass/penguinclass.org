@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1964
-title: International Championship 1964
-date: '1964-01-01'
+title: 1964 International Championship
 year: 1964
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1964-international-championship.md
-permalink: /results/1964-international-championship/
+result_id: international-1964
+series: International
 ---
-Short event summary goes here.
+
+# 1964 International Championship
+
+## Champion
+
+**Skipper:** Gardner Cox
+**Crew:** Barbara Cox
+**Club:** Southern Yacht Club
+**Location:** New Orleans, LA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1964.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

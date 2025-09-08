@@ -1,22 +1,25 @@
 ---
 layout: result
-id: north-american-1979
-title: North American Penguin Championship 1979
-date: '1979-01-01'
+title: 1979 North-American Championship
 year: 1979
-series: North American Championship
-is_championship: true
-venue: ''
-location: Brazil
-results_url: 1979_Intls.pdf
-redirect_from:
-- /_results/1979-north-american-championship.md
-permalink: /results/1979-north-american-championship/
+result_id: north-american-1979
+series: North-American
 ---
-North American Penguin Championship 1979
 
-**Champion:** Gilberto Sasse with LucioMacado
+# 1979 North-American Championship
 
-**Location:** Brazil
+## Champion
 
-[View Results](1979_Intls.pdf)
+**Skipper:** Doug Wefer
+**Crew:** Ellen Wefer
+**Club:** Bay Head Yacht Club
+**Location:** Bay Head, NJ, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1979_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

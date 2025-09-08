@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2022
-title: International Penguin Championship 2022
-date: '2022-01-01'
-end_date: ''
+title: 2022 International Championship
 year: 2022
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2022 Penguin Internationals.htm
+result_id: international-2022
+series: International
 ---
 
-# International Penguin Championship 2022
+# 2022 International Championship
 
-Results for the International Championship held in 2022.
+## Champion
+
+**Skipper:** William Lawson
+**Crew:** Colette Preis
+**Club:** West River Sailing Club
+**Location:** Galesville, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2022 Penguin Internationals.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

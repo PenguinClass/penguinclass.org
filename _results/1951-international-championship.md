@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1951
-title: International Championship 1951
-date: '1951-01-01'
+title: 1951 International Championship
 year: 1951
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1951-international-championship.md
-permalink: /results/1951-international-championship/
+result_id: international-1951
+series: International
 ---
-Short event summary goes here.
+
+# 1951 International Championship
+
+## Champion
+
+**Skipper:** George Ruby
+**Crew:** Leah Ruby
+**Club:** San Diego Yacht Club
+**Location:** San Diego, CA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1951.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

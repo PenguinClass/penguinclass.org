@@ -1,22 +1,25 @@
 ---
 layout: result
-id: north-american-1988
-title: North American Penguin Championship 1988
-date: '1988-01-01'
+title: 1988 North-American Championship
 year: 1988
-series: North American Championship
-is_championship: true
-venue: ''
-location: Niteroi, Brazil
-results_url: 1988_Intls.pdf
-redirect_from:
-- /_results/1988-north-american-championship.md
-permalink: /results/1988-north-american-championship/
+result_id: north-american-1988
+series: North-American
 ---
-North American Penguin Championship 1988
 
-**Champion:** Pepe D'elia with Marcello Conto
+# 1988 North-American Championship
 
-**Location:** Niteroi, Brazil
+## Champion
 
-[View Results](1988_Intls.pdf)
+**Skipper:** Doug Wefer
+**Crew:** Mary Ellen Sheelen
+**Club:** Cambridge Yacht Club
+**Location:** Cambridge, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1988_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

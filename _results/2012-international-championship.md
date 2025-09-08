@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2012
-title: International Penguin Championship 2012
-date: '2012-01-01'
-end_date: ''
+title: 2012 International Championship
 year: 2012
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2012 Penguin Internationals Summary_1.htm
+result_id: international-2012
+series: International
 ---
 
-# International Penguin Championship 2012
+# 2012 International Championship
 
-Results for the International Championship held in 2012.
+## Champion
+
+**Skipper:** Bob Findlay
+**Crew:** Jenna Findlay
+**Club:** Sheridan Shores Yacht Club
+**Location:** Wilmette, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2012 Penguin Internationals Summary_1.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2001
-title: International Championship 2001
-date: '2001-01-01'
+title: 2001 International Championship
 year: 2001
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2001-international-championship.md
-permalink: /results/2001-international-championship/
+result_id: international-2001
+series: International
 ---
-Short event summary goes here.
+
+# 2001 International Championship
+
+## Champion
+
+**Skipper:** John MacCausland
+**Crew:** Erin MacCausland
+**Club:** Tred Avon Yacht Club
+**Location:** Oxford MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2001_Intls_SS.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

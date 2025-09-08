@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2005
-title: International Championship 2005
-date: '2005-01-01'
+title: 2005 International Championship
 year: 2005
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2005-international-championship.md
-permalink: /results/2005-international-championship/
+result_id: international-2005
+series: International
 ---
-Short event summary goes here.
+
+# 2005 International Championship
+
+## Champion
+
+**Skipper:** Steve Lavender
+**Crew:** Sue Fornara
+**Club:** West River Sailing Club
+**Location:** Galesville, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/internationals05.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

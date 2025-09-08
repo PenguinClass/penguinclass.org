@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1981
-title: International Championship 1981
-date: '1981-01-01'
+title: 1981 International Championship
 year: 1981
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1981-international-championship.md
-permalink: /results/1981-international-championship/
+result_id: international-1981
+series: International
 ---
-Short event summary goes here.
+
+# 1981 International Championship
+
+## Champion
+
+**Skipper:** Doug Wefer
+**Crew:** Ellen Wefer
+**Location:** Shelter Island, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1981_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

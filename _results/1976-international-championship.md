@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1976
-title: International Championship 1976
-date: '1976-01-01'
+title: 1976 International Championship
 year: 1976
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1976-international-championship.md
-permalink: /results/1976-international-championship/
+result_id: international-1976
+series: International
 ---
-Short event summary goes here.
+
+# 1976 International Championship
+
+## Champion
+
+**Skipper:** Renato Reckziegel
+**Crew:** Jose L. D. Ribeiro
+**Club:** Yacht Club Olivos
+**Location:** Buenos Aires, Argentina
+
+## Results
+
+[View Results](archive/legacy-website/1976_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

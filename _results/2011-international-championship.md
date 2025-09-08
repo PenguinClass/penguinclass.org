@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2011
-title: International Penguin Championship 2011
-date: '2011-01-01'
-end_date: ''
+title: 2011 International Championship
 year: 2011
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2011 Internationals_results.htm
+result_id: international-2011
+series: International
 ---
 
-# International Penguin Championship 2011
+# 2011 International Championship
 
-Results for the International Championship held in 2011.
+## Champion
+
+**Skipper:** Charles Krafft
+**Crew:** Donna Mc Kenzie
+**Club:** Severn Sailing Association
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2011 Internationals_results.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

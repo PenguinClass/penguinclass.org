@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1999
-title: International Championship 1999
-date: '1999-01-01'
+title: 1999 International Championship
 year: 1999
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1999-international-championship.md
-permalink: /results/1999-international-championship/
+result_id: international-1999
+series: International
 ---
-Short event summary goes here.
+
+# 1999 International Championship
+
+## Champion
+
+**Skipper:** Bud Dailey
+**Crew:** Sue Dailey
+**Club:** Centerport Yacht Club
+**Location:** Centerport, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1999_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

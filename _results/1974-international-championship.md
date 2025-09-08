@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1974
-title: International Championship 1974
-date: '1974-01-01'
+title: 1974 International Championship
 year: 1974
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1974-international-championship.md
-permalink: /results/1974-international-championship/
+result_id: international-1974
+series: International
 ---
-Short event summary goes here.
+
+# 1974 International Championship
+
+## Champion
+
+**Skipper:** Pedro Paulo Petersen
+**Crew:** Jorge Barcellos
+**Club:** Mattituck Yacht Club
+**Location:** Mattituck, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1974_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

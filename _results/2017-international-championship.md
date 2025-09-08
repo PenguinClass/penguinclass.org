@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2017
-title: International Penguin Championship 2017
-date: '2017-01-01'
-end_date: ''
+title: 2017 International Championship
 year: 2017
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2017 Internationals results.htm
+result_id: international-2017
+series: International
 ---
 
-# International Penguin Championship 2017
+# 2017 International Championship
 
-Results for the International Championship held in 2017.
+## Champion
+
+**Skipper:** Jonathan Bartlett
+**Crew:** Annie Bartlett
+**Club:** Severn Sailing Association
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2017 Internationals results.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

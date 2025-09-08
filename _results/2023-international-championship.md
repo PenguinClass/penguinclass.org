@@ -1,35 +1,25 @@
 ---
-layout: default
-title: 2023 Penguin Internationals Results
-permalink: /results/2023-international-championship/
+layout: result
+title: 2023 International Championship
 year: 2023
-id: international-2023
-is_championship: true
-series: International Championship
-redirect_from:
-- /pages/results/2023-penguin-internationals.md
-- /_results/2023-2023-penguin-internationals-results.md
-- /results/2023-penguin-internationals/
+result_id: international-2023
+series: International
 ---
-# 2023 Penguin Internationals Results
 
-**Event:** Penguin Internationals  
-**Date:** 2023  
-**Venue:** TBD  
-**Location:** TBD
+# 2023 International Championship
+
+## Champion
+
+**Skipper:** Jonathan Bartlett
+**Crew:** Annie Bartlett
+**Club:** Tred Avon Yacht Club
+**Location:** Oxford MD, U.S.A.
 
 ## Results
 
-Results for the 2023 Penguin Internationals with photos are available in the [Class Archive](/archive/legacy-website/2023%20Penguin%20Internationals%20_summary.htm).
+[View Results](archive/legacy-website/2023 Penguin Internationals.htm)
 
-## Event Summary
+## Navigation
 
-The 2023 Penguin Internationals brought together sailors from across the country and around the world to compete for the International Championship title. The event included comprehensive photo coverage.
-
-## Archive Link
-
-For detailed results with photos, please visit the [Class Archive](/archive/legacy-website/2023%20Penguin%20Internationals%20_summary.htm).
-
----
-
-*[Back to Results and Champions](/results/)* 
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

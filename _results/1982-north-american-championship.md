@@ -1,22 +1,25 @@
 ---
 layout: result
-id: north-american-1982
-title: North American Penguin Championship 1982
-date: '1982-01-01'
+title: 1982 North-American Championship
 year: 1982
-series: North American Championship
-is_championship: true
-venue: ''
-location: Yacht ClubPaulista, Sao Paulo, Brazil
-results_url: 1982_intls.pdf
-redirect_from:
-- /_results/1982-north-american-championship.md
-permalink: /results/1982-north-american-championship/
+result_id: north-american-1982
+series: North-American
 ---
-North American Penguin Championship 1982
 
-**Champion:** Carlos H. Wanderley with Thomas Scheidt
+# 1982 North-American Championship
 
-**Location:** Yacht ClubPaulista, Sao Paulo, Brazil
+## Champion
 
-[View Results](1982_intls.pdf)
+**Skipper:** Doug Wefer
+**Crew:** Ellen Wefer
+**Club:** Centerport Yacht Club
+**Location:** Centerport, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1982_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

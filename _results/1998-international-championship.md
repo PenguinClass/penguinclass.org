@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1998
-title: International Championship 1998
-date: '1998-01-01'
+title: 1998 International Championship
 year: 1998
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1998-international-championship.md
-permalink: /results/1998-international-championship/
+result_id: international-1998
+series: International
 ---
-Short event summary goes here.
+
+# 1998 International Championship
+
+## Champion
+
+**Skipper:** Sandy Rapp
+**Crew:** Marilyn Rapp
+**Club:** Miles River Yacht Club
+**Location:** St. Michaels, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1998.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

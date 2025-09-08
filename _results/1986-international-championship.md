@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1986
-title: International Championship 1986
-date: '1986-01-01'
+title: 1986 International Championship
 year: 1986
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1986-international-championship.md
-permalink: /results/1986-international-championship/
+result_id: international-1986
+series: International
 ---
-Short event summary goes here.
+
+# 1986 International Championship
+
+## Champion
+
+**Skipper:** Doug Wefer
+**Crew:** Kris Meyer
+**Location:** Sayville, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1986_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

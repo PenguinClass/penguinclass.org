@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1995
-title: International Championship 1995
-date: '1995-01-01'
+title: 1995 International Championship
 year: 1995
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1995-international-championship.md
-permalink: /results/1995-international-championship/
+result_id: international-1995
+series: International
 ---
-Short event summary goes here.
+
+# 1995 International Championship
+
+## Champion
+
+**Skipper:** Neal Litman
+**Crew:** Kathy Litman
+**Club:** Centerport Yacht Club
+**Location:** Centerport, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1995_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

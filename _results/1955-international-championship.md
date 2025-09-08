@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1955
-title: International Championship 1955
-date: '1955-01-01'
+title: 1955 International Championship
 year: 1955
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1955-international-championship.md
-permalink: /results/1955-international-championship/
+result_id: international-1955
+series: International
 ---
-Short event summary goes here.
+
+# 1955 International Championship
+
+## Champion
+
+**Skipper:** Bill Seemann
+**Crew:** James Pinac Jr.
+**Club:** Alamitos Bay Yacht Club
+**Location:** Long Beach, CA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1955.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

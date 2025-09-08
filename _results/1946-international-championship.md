@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1946
-title: International Championship 1946
-date: '1946-01-01'
+title: 1946 International Championship
 year: 1946
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1946-international-championship.md
-permalink: /results/1946-international-championship/
+result_id: international-1946
+series: International
 ---
-Short event summary goes here.
+
+# 1946 International Championship
+
+## Champion
+
+**Skipper:** Walter Lawson
+**Crew:** Dorothy Lawson
+**Club:** Port Washington Yacht Club
+**Location:** Port Washington, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1946.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

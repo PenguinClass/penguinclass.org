@@ -1,18 +1,25 @@
 ---
 layout: result
-id: international-2009
-title: International Penguin Championship 2009
-date: '2009-01-01'
-end_date: ''
+title: 2009 International Championship
 year: 2009
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2009 Penguin International Championship-Series
-  Standing - 6 races scored.htm
+result_id: international-2009
+series: International
 ---
 
-# International Penguin Championship 2009
+# 2009 International Championship
 
-Results for the International Championship held in 2009.
+## Champion
+
+**Skipper:** Charles Krafft
+**Crew:** Donna Mc Kenzie
+**Club:** West River Sailing Club
+**Location:** Galesville, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2009 Penguin International Championship-Series Standing - 6 races scored.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

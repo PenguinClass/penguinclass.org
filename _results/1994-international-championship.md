@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1994
-title: International Championship 1994
-date: '1994-01-01'
+title: 1994 International Championship
 year: 1994
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1994-international-championship.md
-permalink: /results/1994-international-championship/
+result_id: international-1994
+series: International
 ---
-Short event summary goes here.
+
+# 1994 International Championship
+
+## Champion
+
+**Skipper:** Christian Franzen
+**Crew:** Luciano Pedro Correa
+**Location:** Florianopolis, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1994_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

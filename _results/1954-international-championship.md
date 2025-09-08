@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1954
-title: International Championship 1954
-date: '1954-01-01'
+title: 1954 International Championship
 year: 1954
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1954-international-championship.md
-permalink: /results/1954-international-championship/
+result_id: international-1954
+series: International
 ---
-Short event summary goes here.
+
+# 1954 International Championship
+
+## Champion
+
+**Skipper:** Runyon Colie
+**Crew:** Mrs. Lois Colie
+**Club:** Baltimore Yacht Club
+**Location:** Baltimore, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1954.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1983
-title: International Championship 1983
-date: '1983-01-01'
+title: 1983 International Championship
 year: 1983
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1983-international-championship.md
-permalink: /results/1983-international-championship/
+result_id: international-1983
+series: International
 ---
-Short event summary goes here.
+
+# 1983 International Championship
+
+## Champion
+
+**Skipper:** Doug Wefer
+**Crew:** Amy Wefer
+**Location:** Seaside Park, NJ, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1983_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

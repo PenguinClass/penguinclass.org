@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1970
-title: International Championship 1970
-date: '1970-01-01'
+title: 1970 International Championship
 year: 1970
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1970-international-championship.md
-permalink: /results/1970-international-championship/
+result_id: international-1970
+series: International
 ---
-Short event summary goes here.
+
+# 1970 International Championship
+
+## Champion
+
+**Skipper:** Claudio Biekarck
+**Crew:** J.Ehrensper Biekarck
+**Club:** Yacht Club Olivos
+**Location:** Buenos Aires, Argentina
+
+## Results
+
+[View Results](archive/legacy-website/1970_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

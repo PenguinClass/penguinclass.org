@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2003
-title: International Championship 2003
-date: '2003-01-01'
+title: 2003 International Championship
 year: 2003
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2003-international-championship.md
-permalink: /results/2003-international-championship/
+result_id: international-2003
+series: International
 ---
-Short event summary goes here.
+
+# 2003 International Championship
+
+## Champion
+
+**Skipper:** John MacCausland
+**Crew:** Erin MacCausland
+**Club:** Sheridan Shores Yacht Club
+**Location:** Wilmette, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/Internationals03.html)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

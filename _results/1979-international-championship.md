@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1979
-title: International Championship 1979
-date: '1979-01-01'
+title: 1979 International Championship
 year: 1979
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1979-international-championship.md
-permalink: /results/1979-international-championship/
+result_id: international-1979
+series: International
 ---
-Short event summary goes here.
+
+# 1979 International Championship
+
+## Champion
+
+**Skipper:** Gilberto Sasse
+**Crew:** Lucio Macado
+**Location:** Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1979_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

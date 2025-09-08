@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2000
-title: International Championship 2000
-date: '2000-01-01'
+title: 2000 International Championship
 year: 2000
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2000-international-championship.md
-permalink: /results/2000-international-championship/
+result_id: international-2000
+series: International
 ---
-Short event summary goes here.
+
+# 2000 International Championship
+
+## Champion
+
+**Skipper:** John MacCausland
+**Crew:** Erin MacCausland
+**Club:** Sheridan Shores Yacht Club
+**Location:** Wilmette, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2000_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

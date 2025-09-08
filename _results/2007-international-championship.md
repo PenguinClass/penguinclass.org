@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2007
-title: International Penguin Championship 2007
-date: '2007-01-01'
-end_date: ''
+title: 2007 International Championship
 year: 2007
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2007_intls.pdf
+result_id: international-2007
+series: International
 ---
 
-# International Penguin Championship 2007
+# 2007 International Championship
 
-Results for the International Championship held in 2007.
+## Champion
+
+**Skipper:** Bud Dailey
+**Crew:** Christian Ostberg
+**Club:** Annapolis Yacht Club
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2007_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

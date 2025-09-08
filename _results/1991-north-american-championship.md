@@ -1,22 +1,25 @@
 ---
 layout: result
-id: north-american-1991
-title: North American Penguin Championship 1991
-date: '1991-01-01'
+title: 1991  Championship
 year: 1991
-series: North American Championship
-is_championship: true
-venue: ''
-location: Rio de Janeiro, Brazil
-results_url: 1991.pdf
-redirect_from:
-- /_results/1991-north-american-championship.md
-permalink: /results/1991-north-american-championship/
+result_id: north-american-1991
+series: 
 ---
-North American Penguin Championship 1991
 
-**Champion:** Thomas Burger with LaerteSobelewskiDe Jesus
+# 1991  Championship
 
-**Location:** Rio de Janeiro, Brazil
+## Champion
 
-[View Results](1991.pdf)
+**Skipper:** Neal Litman
+**Crew:** Kathy Litman
+**Club:** Seaside Park Yacht Club
+**Location:** Seaside, NJ, U.S.A.
+
+## Results
+
+[View Results](1991NA.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

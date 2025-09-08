@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1972
-title: International Championship 1972
-date: '1972-01-01'
+title: 1972 International Championship
 year: 1972
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1972-international-championship.md
-permalink: /results/1972-international-championship/
+result_id: international-1972
+series: International
 ---
-Short event summary goes here.
+
+# 1972 International Championship
+
+## Champion
+
+**Skipper:** Martin R. Costa
+**Crew:** Javier Ferrario
+**Location:** Dillon Lake, CO, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1972_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

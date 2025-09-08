@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1967
-title: International Championship 1967
-date: '1967-01-01'
+title: 1967 International Championship
 year: 1967
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1967-international-championship.md
-permalink: /results/1967-international-championship/
+result_id: international-1967
+series: International
 ---
-Short event summary goes here.
+
+# 1967 International Championship
+
+## Champion
+
+**Skipper:** Bob Smith
+**Crew:** Beverly Smith
+**Club:** Alamitos Bay Yacht Club
+**Location:** Long Beach, CA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1967.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

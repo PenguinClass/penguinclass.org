@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1991
-title: International Championship 1991
-date: '1991-01-01'
+title: 1991 International Championship
 year: 1991
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1991-international-championship.md
-permalink: /results/1991-international-championship/
+result_id: international-1991
+series: International
 ---
-Short event summary goes here.
+
+# 1991 International Championship
+
+## Champion
+
+**Skipper:** Thomas Burger
+**Crew:** Laerte Sobelewski De Jesus
+**Club:** Rio de Janeiro Yacht Club
+**Location:** Rio de Janeiro, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1991.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

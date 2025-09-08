@@ -1,22 +1,25 @@
 ---
 layout: result
-id: north-american-1976
-title: North American Penguin Championship 1976
-date: '1976-01-01'
+title: 1976 North-American Championship
 year: 1976
-series: North American Championship
-is_championship: true
-venue: ''
-location: Olivios, Argentina
-results_url: 1976_Intl.pdf
-redirect_from:
-- /_results/1976-north-american-championship.md
-permalink: /results/1976-north-american-championship/
+result_id: north-american-1976
+series: North-American
 ---
-North American Penguin Championship 1976
 
-**Champion:** RenatoReckziegel with Jose L. D. Ribeiro
+# 1976 North-American Championship
 
-**Location:** Olivios, Argentina
+## Champion
 
-[View Results](1976_Intl.pdf)
+**Skipper:** Shawn Kempton
+**Crew:** Dianne Harms
+**Club:** Toms River Yacht Club
+**Location:** Toms River, NJ, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1976_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

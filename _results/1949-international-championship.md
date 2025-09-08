@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1949
-title: International Championship 1949
-date: '1949-01-01'
+title: 1949 International Championship
 year: 1949
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1949-international-championship.md
-permalink: /results/1949-international-championship/
+result_id: international-1949
+series: International
 ---
-Short event summary goes here.
+
+# 1949 International Championship
+
+## Champion
+
+**Skipper:** Runyon Colie
+**Crew:** Mary Elizabeth Pilling
+**Club:** Annapolis Yacht Club
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+*Results not available*
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

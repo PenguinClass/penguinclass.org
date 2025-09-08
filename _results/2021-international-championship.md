@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2021
-title: International Penguin Championship 2021
-date: '2021-01-01'
-end_date: ''
+title: 2021 International Championship
 year: 2021
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2021 Internationals.htm
+result_id: international-2021
+series: International
 ---
 
-# International Penguin Championship 2021
+# 2021 International Championship
 
-Results for the International Championship held in 2021.
+## Champion
+
+**Skipper:** William Lawson
+**Crew:** Colette Preis
+**Club:** Corsica River Yacht Club
+**Location:** Centreville,MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2021 Internationals.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

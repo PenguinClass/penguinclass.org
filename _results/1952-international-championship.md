@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1952
-title: International Championship 1952
-date: '1952-01-01'
+title: 1952 International Championship
 year: 1952
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1952-international-championship.md
-permalink: /results/1952-international-championship/
+result_id: international-1952
+series: International
 ---
-Short event summary goes here.
+
+# 1952 International Championship
+
+## Champion
+
+**Skipper:** Runyon Colie
+**Club:** Biloxi Yacht Club
+**Location:** Biloxi, MS, U.S.A.
+
+## Results
+
+*Results not available*
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

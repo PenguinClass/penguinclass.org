@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1992
-title: International Championship 1992
-date: '1992-01-01'
+title: 1992 International Championship
 year: 1992
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1992-international-championship.md
-permalink: /results/1992-international-championship/
+result_id: international-1992
+series: International
 ---
-Short event summary goes here.
+
+# 1992 International Championship
+
+## Champion
+
+**Skipper:** Daniel Pontes
+**Crew:** Feline Manderbach
+**Club:** Cambridge Yacht Club
+**Location:** Cambridge, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1992_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

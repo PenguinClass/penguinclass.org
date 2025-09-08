@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2018
-title: International Penguin Championship 2018
-date: '2018-01-01'
-end_date: ''
+title: 2018 International Championship
 year: 2018
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2018_Intls_results.htm
+result_id: international-2018
+series: International
 ---
 
-# International Penguin Championship 2018
+# 2018 International Championship
 
-Results for the International Championship held in 2018.
+## Champion
+
+**Skipper:** Jonathan Bartlett
+**Crew:** Annie Bartlett
+**Club:** Cambridge Yacht Club
+**Location:** Cambridge, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2018_Intls_results.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

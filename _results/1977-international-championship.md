@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1977
-title: International Championship 1977
-date: '1977-01-01'
+title: 1977 International Championship
 year: 1977
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1977-international-championship.md
-permalink: /results/1977-international-championship/
+result_id: international-1977
+series: International
 ---
-Short event summary goes here.
+
+# 1977 International Championship
+
+## Champion
+
+**Skipper:** Gary Knapp
+**Crew:** Nick Risom
+**Club:** Richmond County Yacht Club
+**Location:** Staten Island, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1977_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1953
-title: International Championship 1953
-date: '1953-01-01'
+title: 1953 International Championship
 year: 1953
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1953-international-championship.md
-permalink: /results/1953-international-championship/
+result_id: international-1953
+series: International
 ---
-Short event summary goes here.
+
+# 1953 International Championship
+
+## Champion
+
+**Skipper:** Ralph Bradley
+**Crew:** Peg Bradley
+**Club:** Columbia Yacht Club
+**Location:** Chicago, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1953.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

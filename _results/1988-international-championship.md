@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1988
-title: International Championship 1988
-date: '1988-01-01'
+title: 1988 International Championship
 year: 1988
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1988-international-championship.md
-permalink: /results/1988-international-championship/
+result_id: international-1988
+series: International
 ---
-Short event summary goes here.
+
+# 1988 International Championship
+
+## Champion
+
+**Skipper:** Pepe D'elia
+**Crew:** Marcello Conto
+**Location:** Niteroi, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1988_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

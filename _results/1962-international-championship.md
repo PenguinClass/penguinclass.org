@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1962
-title: International Championship 1962
-date: '1962-01-01'
+title: 1962 International Championship
 year: 1962
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1962-international-championship.md
-permalink: /results/1962-international-championship/
+result_id: international-1962
+series: International
 ---
-Short event summary goes here.
+
+# 1962 International Championship
+
+## Champion
+
+**Skipper:** Runyon Colie
+**Crew:** Betsy Colie
+**Club:** Sayville Yacht Club
+**Location:** Blue Point, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1962.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

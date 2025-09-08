@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1945
-title: International Championship 1945
-date: '1945-01-01'
+title: 1945 International Championship
 year: 1945
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1945-international-championship.md
-permalink: /results/1945-international-championship/
+result_id: international-1945
+series: International
 ---
-Short event summary goes here.
+
+# 1945 International Championship
+
+## Champion
+
+**Skipper:** Walter Lawson
+**Crew:** Dorothy Lawson
+**Club:** Old Dominion Boat Club
+**Location:** Alexandria, VA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1945.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

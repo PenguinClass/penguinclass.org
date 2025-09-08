@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1993
-title: International Championship 1993
-date: '1993-01-01'
+title: 1993 International Championship
 year: 1993
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1993-international-championship.md
-permalink: /results/1993-international-championship/
+result_id: international-1993
+series: International
 ---
-Short event summary goes here.
+
+# 1993 International Championship
+
+## Champion
+
+**Skipper:** Sandy Rapp
+**Crew:** Marilyn Rapp
+**Club:** Columbia Yacht Club
+**Location:** Chicago, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1993_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

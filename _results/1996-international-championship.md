@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1996
-title: International Championship 1996
-date: '1996-01-01'
+title: 1996 International Championship
 year: 1996
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1996-international-championship.md
-permalink: /results/1996-international-championship/
+result_id: international-1996
+series: International
 ---
-Short event summary goes here.
+
+# 1996 International Championship
+
+## Champion
+
+**Skipper:** Bud Dailey
+**Crew:** Sue Dailey
+**Club:** Columbia Yacht Club
+**Location:** Chicago, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1996_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

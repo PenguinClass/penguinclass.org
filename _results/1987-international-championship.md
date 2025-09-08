@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1987
-title: International Championship 1987
-date: '1987-01-01'
+title: 1987 International Championship
 year: 1987
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1987-international-championship.md
-permalink: /results/1987-international-championship/
+result_id: international-1987
+series: International
 ---
-Short event summary goes here.
+
+# 1987 International Championship
+
+## Champion
+
+**Skipper:** Roberto Guaragna
+**Crew:** Mauricio Milano
+**Club:** Toms River Yacht Club
+**Location:** Toms River, NJ, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1987_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1961
-title: International Championship 1961
-date: '1961-01-01'
+title: 1961 International Championship
 year: 1961
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1961-international-championship.md
-permalink: /results/1961-international-championship/
+result_id: international-1961
+series: International
 ---
-Short event summary goes here.
+
+# 1961 International Championship
+
+## Champion
+
+**Skipper:** Otto Scherer
+**Crew:** Carol Kibiger
+**Club:** Crescent Sail Yacht Club
+**Location:** Grosse Pointe, Michigan, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1961.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2006
-title: International Championship 2006
-date: '2006-01-01'
+title: 2006 International Championship
 year: 2006
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2006-international-championship.md
-permalink: /results/2006-international-championship/
+result_id: international-2006
+series: International
 ---
-Short event summary goes here.
+
+# 2006 International Championship
+
+## Champion
+
+**Skipper:** Bud Dailey
+**Crew:** Sue Dailey
+**Club:** Cambridge Yacht Club
+**Location:** Cambridge, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2006internationals.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,22 +1,24 @@
 ---
 layout: result
-id: north-american-1994
-title: North American Penguin Championship 1994
-date: '1994-01-01'
+title: 1994 North-American Championship
 year: 1994
-series: North American Championship
-is_championship: true
-venue: ''
-location: Florianopolis, Brazil
-results_url: 1994_Intls.pdf
-redirect_from:
-- /_results/1994-north-american-championship.md
-permalink: /results/1994-north-american-championship/
+result_id: north-american-1994
+series: North-American
 ---
-North American Penguin Championship 1994
 
-**Champion:** Christian Franzen with Luciano Pedro Correa
+# 1994 North-American Championship
 
-**Location:** Florianopolis, Brazil
+## Champion
 
-[View Results](1994_Intls.pdf)
+**Skipper:** Neal Litman
+**Club:** Annapolis Yacht Club
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1994_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

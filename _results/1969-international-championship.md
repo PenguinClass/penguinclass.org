@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1969
-title: International Championship 1969
-date: '1969-01-01'
+title: 1969 International Championship
 year: 1969
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1969-international-championship.md
-permalink: /results/1969-international-championship/
+result_id: international-1969
+series: International
 ---
-Short event summary goes here.
+
+# 1969 International Championship
+
+## Champion
+
+**Skipper:** Robert Johnstone
+**Crew:** Stuart Johnstone
+**Club:** Sheridan Shores Yacht Club
+**Location:** Wilmette, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1969_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

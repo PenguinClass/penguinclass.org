@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2010
-title: International Penguin Championship 2010
-date: '2010-01-01'
-end_date: ''
+title: 2010 International Championship
 year: 2010
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2010_Internationals.htm
+result_id: international-2010
+series: International
 ---
 
-# International Penguin Championship 2010
+# 2010 International Championship
 
-Results for the International Championship held in 2010.
+## Champion
+
+**Skipper:** Charles Krafft
+**Crew:** Donna Mc Kenzie
+**Club:** Annapolis Yacht Club
+**Location:** Annapolis, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2010_Internationals.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

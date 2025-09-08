@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-2002
-title: International Championship 2002
-date: '2002-01-01'
+title: 2002 International Championship
 year: 2002
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/2002-international-championship.md
-permalink: /results/2002-international-championship/
+result_id: international-2002
+series: International
 ---
-Short event summary goes here.
+
+# 2002 International Championship
+
+## Champion
+
+**Skipper:** Steve Lavender
+**Crew:** Sue Fornara
+**Club:** Miles River Yacht Club
+**Location:** St. Michaels, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2002 Internationals.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

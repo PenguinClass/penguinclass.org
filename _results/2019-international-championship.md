@@ -1,35 +1,25 @@
 ---
-layout: default
-title: 2019 Penguin Internationals Results
-permalink: /results/2019-international-championship/
+layout: result
+title: 2019 International Championship
 year: 2019
-id: international-2019
-is_championship: true
-series: International Championship
-redirect_from:
-- /pages/results/2019-penguin-internationals.md
-- /_results/2019-2019-penguin-internationals-results.md
-- /results/2019-penguin-internationals/
+result_id: international-2019
+series: International
 ---
-# 2019 Penguin Internationals Results
 
-**Event:** Penguin Internationals  
-**Date:** September 14-15, 2019  
-**Venue:** Tred Avon Yacht Club  
-**Location:** Oxford, Maryland, U.S.A.
+# 2019 International Championship
+
+## Champion
+
+**Skipper:** William Lawson
+**Crew:** Colette Preis
+**Club:** Tred Avon Yacht Club
+**Location:** Oxford MD, U.S.A.
 
 ## Results
 
-Results for the 2019 Penguin Internationals are available in the [Class Archive](/archive/legacy-website/2019%5FInternationals.htm).
+[View Results](archive/legacy-website/2019_Internationals.htm)
 
-## Event Summary
+## Navigation
 
-The 2019 Penguin Internationals brought together sailors from across the country and around the world to compete for the International Championship title.
-
-## Archive Link
-
-For detailed results, please visit the [Class Archive](/archive/legacy-website/2019%5FInternationals.htm).
-
----
-
-*[Back to Results and Champions](/results/)*
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

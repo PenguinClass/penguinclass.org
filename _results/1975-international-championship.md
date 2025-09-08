@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1975
-title: International Championship 1975
-date: '1975-01-01'
+title: 1975 International Championship
 year: 1975
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1975-international-championship.md
-permalink: /results/1975-international-championship/
+result_id: international-1975
+series: International
 ---
-Short event summary goes here.
+
+# 1975 International Championship
+
+## Champion
+
+**Skipper:** Pedro Paulo Petersen
+**Crew:** Bernardo Jefferson de Oliviero
+**Club:** Columbia Yacht Club
+**Location:** Chicago, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1975_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1997
-title: International Championship 1997
-date: '1997-01-01'
+title: 1997 International Championship
 year: 1997
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1997-international-championship.md
-permalink: /results/1997-international-championship/
+result_id: international-1997
+series: International
 ---
-Short event summary goes here.
+
+# 1997 International Championship
+
+## Champion
+
+**Skipper:** Luis Lourenco
+**Crew:** Andre Ribeiro
+**Club:** Clube Naval
+**Location:** Rio de Janeiro, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1997_Intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

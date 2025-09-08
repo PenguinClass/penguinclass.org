@@ -1,22 +1,24 @@
 ---
 layout: result
-id: north-american-1970
-title: North American Penguin Championship 1970
-date: '1970-01-01'
+title: 1970 North-American Championship
 year: 1970
-series: North American Championship
-is_championship: true
-venue: ''
-location: Buenos Aires, Argentina
-results_url: 1970_Intl.pdf
-redirect_from:
-- /_results/1970-north-american-championship.md
-permalink: /results/1970-north-american-championship/
+result_id: north-american-1970
+series: North-American
 ---
-North American Penguin Championship 1970
 
-**Champion:** ClaudioBiekarck with J.Ehrensper
+# 1970 North-American Championship
 
-**Location:** Buenos Aires, Argentina
+## Champion
 
-[View Results](1970_Intl.pdf)
+**Skipper:** Larry Leonard
+**Club:** Cambridge Yacht Club
+**Location:** Cambridge, MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1970_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

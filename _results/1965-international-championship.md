@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1965
-title: International Championship 1965
-date: '1965-01-01'
+title: 1965 International Championship
 year: 1965
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1965-international-championship.md
-permalink: /results/1965-international-championship/
+result_id: international-1965
+series: International
 ---
-Short event summary goes here.
+
+# 1965 International Championship
+
+## Champion
+
+**Skipper:** Marco Aurelio Vieria Paradeda
+**Club:** Rio de Janeiro Yacht Club
+**Location:** Rio de Janeiro, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1965.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

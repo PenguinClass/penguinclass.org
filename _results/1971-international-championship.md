@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1971
-title: International Championship 1971
-date: '1971-01-01'
+title: 1971 International Championship
 year: 1971
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1971-international-championship.md
-permalink: /results/1971-international-championship/
+result_id: international-1971
+series: International
 ---
-Short event summary goes here.
+
+# 1971 International Championship
+
+## Champion
+
+**Skipper:** Mel Reid
+**Club:** Babylon Yacht Club
+**Location:** Babylon, NY, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1971_Intl.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

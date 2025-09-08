@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1989
-title: International Championship 1989
-date: '1989-01-01'
+title: 1989 International Championship
 year: 1989
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1989-international-championship.md
-permalink: /results/1989-international-championship/
+result_id: international-1989
+series: International
 ---
-Short event summary goes here.
+
+# 1989 International Championship
+
+## Champion
+
+**Skipper:** Neil Litman
+**Crew:** Kathy Litman
+**Club:** Columbia Yacht Club
+**Location:** Chicago, IL, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1983_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

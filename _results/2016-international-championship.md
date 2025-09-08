@@ -1,17 +1,25 @@
 ---
 layout: result
-id: international-2016
-title: International Penguin Championship 2016
-date: '2016-01-01'
-end_date: ''
+title: 2016 International Championship
 year: 2016
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: archive/legacy-website/2016_Internationals_results.htm
+result_id: international-2016
+series: International
 ---
 
-# International Penguin Championship 2016
+# 2016 International Championship
 
-Results for the International Championship held in 2016.
+## Champion
+
+**Skipper:** William Lawson
+**Crew:** Colette Preis
+**Club:** Tred Avon Yacht Club
+**Location:** Oxford MD, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/2016_Internationals_results.htm)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

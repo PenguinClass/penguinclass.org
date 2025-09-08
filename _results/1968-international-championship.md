@@ -1,16 +1,24 @@
 ---
 layout: result
-id: international-1968
-title: International Championship 1968
-date: '1968-01-01'
+title: 1968 International Championship
 year: 1968
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1968-international-championship.md
-permalink: /results/1968-international-championship/
+result_id: international-1968
+series: International
 ---
-Short event summary goes here.
+
+# 1968 International Championship
+
+## Champion
+
+**Skipper:** Sandy Rapp
+**Crew:** Mary Covell
+**Location:** Montreal, Canada
+
+## Results
+
+[View Results](archive/legacy-website/1968.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

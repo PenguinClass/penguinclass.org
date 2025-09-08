@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1950
-title: International Championship 1950
-date: '1950-01-01'
+title: 1950 International Championship
 year: 1950
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1950-international-championship.md
-permalink: /results/1950-international-championship/
+result_id: international-1950
+series: International
 ---
-Short event summary goes here.
+
+# 1950 International Championship
+
+## Champion
+
+**Skipper:** Runyon Colie
+**Crew:** Betsy Colie
+**Club:** Mantoloking Yacht Club
+**Location:** Mantoloking, NJ, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1950.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

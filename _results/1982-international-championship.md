@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1982
-title: International Championship 1982
-date: '1982-01-01'
+title: 1982 International Championship
 year: 1982
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1982-international-championship.md
-permalink: /results/1982-international-championship/
+result_id: international-1982
+series: International
 ---
-Short event summary goes here.
+
+# 1982 International Championship
+
+## Champion
+
+**Skipper:** Carlos H. Wanderley
+**Crew:** Thomas Scheidt
+**Club:** Yacht Club Paulista
+**Location:** Sao Paulo, Brazil
+
+## Results
+
+[View Results](archive/legacy-website/1982_intls.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)

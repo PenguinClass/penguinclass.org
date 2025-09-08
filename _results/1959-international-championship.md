@@ -1,16 +1,25 @@
 ---
 layout: result
-id: international-1959
-title: International Championship 1959
-date: '1959-01-01'
+title: 1959 International Championship
 year: 1959
-series: International Championship
-is_championship: true
-venue: ''
-location: ''
-results_url: ''
-redirect_from:
-- /_results/1959-international-championship.md
-permalink: /results/1959-international-championship/
+result_id: international-1959
+series: International
 ---
-Short event summary goes here.
+
+# 1959 International Championship
+
+## Champion
+
+**Skipper:** Jay Markham
+**Crew:** Marilyn Markham
+**Club:** Alamitos Bay Yacht Club
+**Location:** Long Beach, CA, U.S.A.
+
+## Results
+
+[View Results](archive/legacy-website/1959.pdf)
+
+## Navigation
+
+- [Back to Results](/results/)
+- [Back to Champions](/champions/)
