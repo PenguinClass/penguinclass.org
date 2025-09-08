@@ -4,7 +4,7 @@ title: 2020 TAYC Spring Invitational
 name: 2020-tayc-spring-invitational
 date: 2020-05-02 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: 

@@ -4,7 +4,7 @@ title: 2021 TAYC Frostbite
 name: 2021-tayc-frostbite
 date: 2021-11-06 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%5FTAYC%5FPenguin%20and%20Comet%20Frostbite.htm

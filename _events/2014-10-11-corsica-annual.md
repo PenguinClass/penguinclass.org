@@ -4,7 +4,7 @@ title: 2014 Corsica Annual Regatta
 name: 2014-corsica-annual
 date: 2014-10-11 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2014%5FCorsica%20Annual.htm

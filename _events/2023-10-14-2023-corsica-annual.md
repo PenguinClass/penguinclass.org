@@ -4,7 +4,7 @@ title: 2023 Corsica Annual Regatta
 name: 2023-corsica-annual
 date: 2023-10-14
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Results: /results/2023-corsica-annual/
 ---

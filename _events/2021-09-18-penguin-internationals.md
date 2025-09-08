@@ -4,7 +4,7 @@ title: 2021 Penguin Internationals
 name: 2021-penguin-internationals
 date: 2021-09-18 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%20Internationals.htm

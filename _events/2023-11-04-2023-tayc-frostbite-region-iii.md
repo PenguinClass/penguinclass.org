@@ -4,7 +4,7 @@ title: 2023 TAYC Frostbite and Region III Championship
 name: 2023-tayc-frostbite-region-iii
 date: 2023-11-04
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Results: /results/2023-tayc-frostbite-region-iii/
 ---

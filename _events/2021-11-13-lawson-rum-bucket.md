@@ -4,7 +4,7 @@ title: 2021 Lawson Rum Bucket
 name: 2021-lawson-rum-bucket
 date: 2021-11-13 00:00:00
 venue: Gibson Island Yacht Squadron
-city: Gibson Island, Maryland, U.S.A.
+location: Gibson Island, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%20Lawson%20Rum%20Bucket%5FSummary.htm

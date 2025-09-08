@@ -4,7 +4,7 @@ title: 2018 Corsica Annual Regatta
 name: 2018-corsica-annual
 date: 2018-10-13 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2018%5FCorsica%20Annual.htm

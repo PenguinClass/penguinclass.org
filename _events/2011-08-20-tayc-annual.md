@@ -4,7 +4,7 @@ title: 2011 TAYC Annual Regatta
 name: 2011-tayc-annual
 date: 2011-08-20 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2011%5FTAYC%5FAnnual.htm

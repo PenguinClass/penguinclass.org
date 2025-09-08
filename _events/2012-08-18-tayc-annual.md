@@ -4,7 +4,7 @@ title: 2012 TAYC Annual Regatta
 name: 2012-tayc-annual
 date: 2012-08-18 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2012%5FTAYC%5FAnnual.htm

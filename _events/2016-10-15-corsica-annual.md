@@ -4,7 +4,7 @@ title: 2016 Corsica Annual Regatta
 name: 2016-corsica-annual
 date: 2016-10-15 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2016%5FCorsica%20Annual.htm

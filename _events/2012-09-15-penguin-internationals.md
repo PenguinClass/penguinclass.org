@@ -4,7 +4,7 @@ title: 2012 Penguin Internationals
 name: 2012-penguin-internationals
 date: 2012-09-15 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2012%5FInternationals.htm

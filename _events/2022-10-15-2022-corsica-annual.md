@@ -4,7 +4,7 @@ title: 2022 Corsica Annual Regatta
 name: 2022-corsica-annual
 date: 2022-10-15
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Results: /results/2022-corsica-annual/
 ---

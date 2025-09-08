@@ -4,7 +4,7 @@ title: 2021 PPF #1 Penso Frostbite
 name: 2021-ppf-1-penso-frostbite
 date: 2021-06-26 00:00:00
 venue: Bay Ridge
-city: Annapolis, Maryland, U.S.A.
+location: Annapolis, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%5FBay%20Ridge%20Penguin%20Regatta.htm

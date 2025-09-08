@@ -4,7 +4,7 @@ title: 2021 Admiral Byrd Regatta
 name: 2021-admiral-byrd
 date: 2021-10-02 00:00:00
 venue: Cambridge Yacht Club
-city: Cambridge, Maryland, U.S.A.
+location: Cambridge, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%20Admiral%20Byrd%20Regatta.htm

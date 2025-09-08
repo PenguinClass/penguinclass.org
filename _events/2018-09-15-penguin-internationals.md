@@ -4,7 +4,7 @@ title: 2018 Penguin Internationals
 name: 2018-penguin-internationals
 date: 2018-09-15 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2018%5FInternationals.htm

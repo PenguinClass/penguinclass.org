@@ -4,7 +4,7 @@ title: 2012 Corsica Annual Regatta
 name: 2012-corsica-annual
 date: 2012-10-13 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2012%5FCorsica%20Annual.htm

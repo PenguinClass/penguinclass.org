@@ -4,7 +4,7 @@ title: 2023 Penguin Internationals
 name: 2023-penguin-internationals
 date: 2023-09-16
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Results: /results/2023-penguin-internationals/
 ---

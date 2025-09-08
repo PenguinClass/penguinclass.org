@@ -4,7 +4,7 @@ title: 2021 TAYC Heritage Regatta
 name: 2021-tayc-heritage
 date: 2021-08-28 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2021%5FHeritage.htm

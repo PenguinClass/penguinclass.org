@@ -4,7 +4,7 @@ title: 2020 TAYC Annual Regatta
 name: 2020-tayc-annual
 date: 2020-08-15 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2020%5FTAYC%5FAnnual.htm

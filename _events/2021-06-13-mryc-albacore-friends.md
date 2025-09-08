@@ -4,7 +4,7 @@ title: 2021 MRYC Albacore and Friends Regatta
 name: 2021-mryc-albacore-friends
 date: 2021-06-13 00:00:00
 venue: Miles River Yacht Club
-city: St. Michaels, Maryland, U.S.A.
+location: St. Michaels, Maryland, U.S.A.
 links:
   Notice of Race: /archive/legacy-website/2021AlbacoreandFriendsNORa.pdf
   Results: /archive/legacy-website/2021%5FMRYC.htm

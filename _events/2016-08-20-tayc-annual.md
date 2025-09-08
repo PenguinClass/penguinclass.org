@@ -4,7 +4,7 @@ title: 2016 TAYC Annual Regatta
 name: 2016-tayc-annual
 date: 2016-08-20 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2016%5FTAYC%5FAnnual.htm

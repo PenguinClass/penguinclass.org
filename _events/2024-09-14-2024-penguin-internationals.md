@@ -4,7 +4,7 @@ title: 2024 Penguin Internationals
 name: 2024-penguin-internationals
 date: 2024-09-14
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Results: /results/2024-penguin-internationals/
 ---

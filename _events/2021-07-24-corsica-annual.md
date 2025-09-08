@@ -4,7 +4,7 @@ title: 2021 Corsica Annual Regatta
 name: 2021-corsica-annual
 date: 2021-07-24 00:00:00
 venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
+location: Centreville, Maryland, U.S.A.
 links:
   Notice of Race: /archive/legacy-website/2021%5FCRYC%20Annual%20Regatta%20NOR.doc
   Results: /archive/legacy-website/2021%5FCorsica%20River%5FAnnual.htm

@@ -4,7 +4,7 @@ title: 2017 Penguin Internationals
 name: 2017-penguin-internationals
 date: 2017-09-16 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2017%5FInternationals.htm

@@ -4,7 +4,7 @@ title: 2022 Penguin Internationals
 name: 2022-penguin-internationals
 date: 2022-09-17
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Results: /results/2022-penguin-internationals/
 ---

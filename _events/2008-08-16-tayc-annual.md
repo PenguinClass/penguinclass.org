@@ -4,7 +4,7 @@ title: 2008 TAYC Annual Regatta
 name: 2008-tayc-annual
 date: 2008-08-16 00:00:00
 venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
+location: Oxford, Maryland, U.S.A.
 links:
   Notice of Race: 
   Results: /archive/legacy-website/2008%5FTAYC%5FAnnual.htm
