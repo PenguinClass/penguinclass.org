@@ -5,3 +5,4 @@ python3 scripts/import_champions_pipeline.py \
   --html archive/legacy-website/champions.html \
   --emit-results \
   "$@"
+

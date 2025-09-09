@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Build a comprehensive results database from both _results collection and archive files.
+This will include all championship results from _results/*.md AND all regatta results from archive HTML files.
 """
 
 import os
@@ -8,6 +9,7 @@ import json
 import re
 import yaml
 from pathlib import Path
+from bs4 import BeautifulSoup
 
 def extract_result_info_from_filename(filename):
     """Extract information from result filename."""
@@ -43,15 +45,79 @@ def extract_result_info_from_filename(filename):
         series = "TAYC Regatta"
     elif "corsica" in name.lower():
         series = "Corsica Regatta"
+    elif "president" in name.lower() or "pres cup" in name.lower():
+        series = "President's Cup"
+    elif "memorial" in name.lower():
+        series = "Memorial Regatta"
+    elif "turkey" in name.lower() or "trot" in name.lower():
+        series = "Turkey Trot Regatta"
+    elif "comet" in name.lower() and "penguin" in name.lower():
+        series = "Comet & Penguin Invitational"
+    elif "beachwood" in name.lower():
+        series = "Beachwood Revival"
+    elif "cambridge" in name.lower():
+        series = "Cambridge Regatta"
+    elif "gibson" in name.lower() or "giys" in name.lower():
+        series = "GIYS Regatta"
+    elif "miles" in name.lower() or "mryc" in name.lower():
+        series = "Miles River Regatta"
+    elif "potomac" in name.lower() or "prsa" in name.lower():
+        series = "Potomac Regatta"
+    elif "oxford" in name.lower():
+        series = "Oxford Regatta"
+    elif "bay ridge" in name.lower():
+        series = "Bay Ridge Regatta"
+    elif "admir" in name.lower() or "byrd" in name.lower():
+        series = "Admiral Byrd Regatta"
+    elif "lawson" in name.lower():
+        series = "Lawson Rum Bucket"
+    elif "trippe" in name.lower() or "tcpfr" in name.lower():
+        series = "Trippe Creek Regatta"
+    elif "island creek" in name.lower():
+        series = "Island Creek Regatta"
+    elif "west river" in name.lower() or "wrsc" in name.lower():
+        series = "West River Regatta"
+    elif "baltimore" in name.lower() or "byc" in name.lower():
+        series = "Baltimore Regatta"
+    elif "annapolis" in name.lower() or "ayc" in name.lower():
+        series = "Annapolis Regatta"
+    elif "severn" in name.lower() or "ssa" in name.lower():
+        series = "Severn Regatta"
+    elif "cbyra" in name.lower():
+        series = "CBYRA Regatta"
+    elif "highpoint" in name.lower():
+        series = "High Point Series"
+    elif "schedule" in name.lower():
+        series = "Schedule"
+    elif "nor" in name.lower() or "notice" in name.lower():
+        series = "Notice of Race"
+    elif "minutes" in name.lower() or "meeting" in name.lower():
+        series = "Meeting Minutes"
+    elif "dues" in name.lower():
+        series = "Dues Information"
+    elif "waiver" in name.lower():
+        series = "Waiver Form"
+    elif "specification" in name.lower() or "spec" in name.lower():
+        series = "Specification"
+    elif "plan" in name.lower():
+        series = "Plans"
+    elif "wanted" in name.lower():
+        series = "Wanted"
+    elif "sale" in name.lower():
+        series = "For Sale"
+    elif "officer" in name.lower():
+        series = "Officers"
+    elif "champion" in name.lower():
+        series = "Championship"
     
-    # Extract club/location info
+    # Extract club and location info
     club = ""
     location = ""
     
     if "tayc" in name.lower():
         club = "Tred Avon Yacht Club"
         location = "Oxford, MD, U.S.A."
-    elif "corsica" in name.lower():
+    elif "corsica" in name.lower() or "cryc" in name.lower():
         club = "Corsica River Yacht Club"
         location = "Centreville, MD, U.S.A."
     elif "cambridge" in name.lower():
@@ -63,6 +129,42 @@ def extract_result_info_from_filename(filename):
     elif "gibson" in name.lower() or "giys" in name.lower():
         club = "Gibson Island Yacht Squadron"
         location = "Gibson Island, MD, U.S.A."
+    elif "miles" in name.lower() or "mryc" in name.lower():
+        club = "Miles River Yacht Club"
+        location = "St. Michaels, MD, U.S.A."
+    elif "potomac" in name.lower() or "prsa" in name.lower():
+        club = "Potomac River Sailing Association"
+        location = "Washington, DC, U.S.A."
+    elif "oxford" in name.lower():
+        club = "Tred Avon Yacht Club"
+        location = "Oxford, MD, U.S.A."
+    elif "bay ridge" in name.lower():
+        club = "Bay Ridge Yacht Club"
+        location = "Annapolis, MD, U.S.A."
+    elif "baltimore" in name.lower() or "byc" in name.lower():
+        club = "Baltimore Yacht Club"
+        location = "Baltimore, MD, U.S.A."
+    elif "annapolis" in name.lower() or "ayc" in name.lower():
+        club = "Annapolis Yacht Club"
+        location = "Annapolis, MD, U.S.A."
+    elif "severn" in name.lower() or "ssa" in name.lower():
+        club = "Severn Sailing Association"
+        location = "Annapolis, MD, U.S.A."
+    elif "west river" in name.lower() or "wrsc" in name.lower():
+        club = "West River Sailing Club"
+        location = "Galesville, MD, U.S.A."
+    elif "island creek" in name.lower():
+        club = "Island Creek Yacht Club"
+        location = "Island Creek, MD, U.S.A."
+    elif "trippe" in name.lower() or "tcpfr" in name.lower():
+        club = "Trippe Creek Penguin Frostbite Regatta"
+        location = "Trippe Creek, MD, U.S.A."
+    elif "lawson" in name.lower():
+        club = "Gibson Island Yacht Squadron"
+        location = "Gibson Island, MD, U.S.A."
+    elif "admir" in name.lower() or "byrd" in name.lower():
+        club = "Admiral Byrd Yacht Club"
+        location = "Annapolis, MD, U.S.A."
     
     return {
         "year": int(year) if year else None,
@@ -118,23 +220,17 @@ def process_results_collection():
             club = ""
             location = ""
             
-            # Look for club and location in content
-            club_match = re.search(r'\*\*Club:\*\*\s*(.+)', content)
-            if club_match:
-                club = club_match.group(1).strip()
+            # Get club and location from front matter
+            club = front_matter.get('club', '').strip()
+            location = front_matter.get('location', '').strip()
             
-            location_match = re.search(r'\*\*Location:\*\*\s*(.+)', content)
-            if location_match:
-                location = location_match.group(1).strip()
-            
-            # Look for results URL
-            results_url = ""
-            url_match = re.search(r'\[View Results\]\(([^)]+)\)', content)
-            if url_match:
-                results_url = url_match.group(1)
+            # Get results URL from front matter
+            results_url = front_matter.get('results_url', '').strip()
             
             results.append({
+                "id": f"{int(year) if year else 0}-{re.sub(r'[^a-z0-9]', '', series.lower())}",
                 "year": int(year) if year else None,
+                "title": title,
                 "series": series,
                 "club": club,
                 "location": location,
@@ -161,25 +257,34 @@ def process_archive_files():
     
     # Find all result files
     result_files = []
-    for file_path in archive_dir.glob("*result*"):
-        if file_path.is_file() and file_path.suffix.lower() in ['.html', '.htm']:
-            result_files.append(file_path.name)
-    
-    # Also look for other regatta files
     for file_path in archive_dir.glob("*"):
         if file_path.is_file() and file_path.suffix.lower() in ['.html', '.htm']:
             name = file_path.name.lower()
-            if any(keyword in name for keyword in [
-                'annual', 'regatta', 'championship', 'series', 'frostbite', 
-                'heritage', 'spring', 'rum', 'bucket', 'revival', 'icpfr'
+            # Skip news items (these should be in _posts, not _results)
+            if any(news_keyword in name for news_keyword in [
+                'dues', 'waiver', 'schedule', 'minutes', 'meeting'
             ]):
-                if file_path.name not in result_files:
-                    result_files.append(file_path.name)
+                continue
+            
+            # Include files that look like results, regattas, or important content
+            if any(keyword in name for keyword in [
+                'result', 'regatta', 'championship', 'series', 'frostbite', 
+                'heritage', 'spring', 'rum', 'bucket', 'revival', 'icpfr',
+                'annual', 'international', 'intl', 'race',
+                'tayc', 'corsica', 'cambridge', 'gibson', 'miles', 'potomac',
+                'oxford', 'bay', 'baltimore', 'annapolis', 'severn', 'west',
+                'island', 'trippe', 'lawson', 'admir', 'byrd', 'president',
+                'memorial', 'turkey', 'trot', 'comet', 'beachwood',
+                'wanted', 'sale', 'officer', 'champion', 'highpoint', 'cbyra'
+            ]):
+                result_files.append(file_path.name)
     
     # Process each file
     for filename in sorted(result_files):
         result_info = extract_result_info_from_filename(filename)
         if result_info["year"]:
+            result_info["id"] = f"{result_info['year']}-{re.sub(r'[^a-z0-9]', '', result_info['series'].lower())}"
+            result_info["title"] = f"{result_info['year']} {result_info['series']}"
             result_info["source"] = "archive"
             results.append(result_info)
     
@@ -231,6 +336,11 @@ def main():
     print("\nSample results:")
     for result in all_results[:10]:
         print(f"  {result['year']} - {result['series']} - {result['club']} - {result['source']}")
+    
+    # Show year range
+    years = [r['year'] for r in all_results if r['year']]
+    if years:
+        print(f"\nYear range: {min(years)} - {max(years)}")
     
     print("Done!")
 
