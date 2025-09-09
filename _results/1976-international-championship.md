@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1976 International Championship
+title: "1976 International Championship"
 year: 1976
 result_id: international-1976
 series: International
+club: "Yacht Club Olivos"
+location: "Buenos Aires, Argentina"
 ---
 
 # 1976 International Championship

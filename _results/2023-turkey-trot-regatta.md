@@ -2,9 +2,10 @@
 year: 2023
 title: "2023 Turkey Trot Regatta"
 series: "Turkey Trot Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2023 Turkey Trotl NOR.htm"
+
 ---
 
 # 2023 Turkey Trot Regatta

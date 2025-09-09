@@ -5,6 +5,7 @@ series: "Heritage Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2022 TAYC Heritage.htm"
+
 ---
 
 # 2022 Heritage Regatta

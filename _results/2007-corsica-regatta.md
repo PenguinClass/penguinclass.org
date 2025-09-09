@@ -5,6 +5,7 @@ series: "Corsica Regatta"
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "archive/legacy-website/corsica_2007.htm"
+
 ---
 
 # Penguin Fleet

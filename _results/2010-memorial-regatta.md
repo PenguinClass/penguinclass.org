@@ -5,6 +5,7 @@ series: "Memorial Regatta"
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "archive/legacy-website/2010_prsa_memorial_day.htm"
+
 ---
 
 # Penguin Class Series Summary

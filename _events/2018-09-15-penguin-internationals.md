@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2018 Penguin Internationals
+title: "2018 Penguin Internationals"
 name: 2018-penguin-internationals
-date: 2018-09-15 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2018-09-15 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2018%5FInternationals.htm
+  Results: "/archive/legacy-website/2018%5FInternationals.htm"
 ---
 The 2018 Penguin Internationals was held at Tred Avon Yacht Club on 9/15-16, 2018.
 

@@ -1,9 +1,10 @@
 ---
 layout: result
-title: 1985 International Championship
+title: "1985 International Championship"
 year: 1985
 result_id: international-1985
 series: International
+location: "Porto Allegre, Brazil"
 ---
 
 # 1985 International Championship

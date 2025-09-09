@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2015 Penguin Internationals
+title: "2015 Penguin Internationals"
 name: 2015-penguin-internationals
-date: 2015-09-12 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2015-09-12 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2015%5FInternationals.htm
+  Results: "/archive/legacy-website/2015%5FInternationals.htm"
 ---
 The 2015 Penguin Internationals was held at Tred Avon Yacht Club on 9/12-13, 2015.
 

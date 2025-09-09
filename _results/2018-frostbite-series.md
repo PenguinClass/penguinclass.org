@@ -5,6 +5,7 @@ series: "Frostbite Series"
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "archive/legacy-website/2018 Gibson Island Penguin Frostbite_Summary.htm"
+
 ---
 
 # 2018 Frostbite Series

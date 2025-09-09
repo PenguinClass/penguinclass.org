@@ -1,9 +1,10 @@
 ---
 layout: result
-title: 1994 International Championship
+title: "1994 International Championship"
 year: 1994
 result_id: international-1994
 series: International
+location: "Florianopolis, Brazil"
 ---
 
 # 1994 International Championship

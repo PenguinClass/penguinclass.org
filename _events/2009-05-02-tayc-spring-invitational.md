@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2009 TAYC Spring Invitational
+title: "2009 TAYC Spring Invitational"
 name: 2009-tayc-spring-invitational
-date: 2009-05-02 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2009-05-02 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2009%5FTAYC%5FSpring.htm
+  Results: "/archive/legacy-website/2009%5FTAYC%5FSpring.htm"
 ---
 The 2009 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/2, 2009.
 

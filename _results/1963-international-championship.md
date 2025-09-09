@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1963 International Championship
+title: "1963 International Championship"
 year: 1963
 result_id: international-1963
 series: International
+club: "Mission Bay Yacht Club"
+location: "San Diego, CA, U.S.A."
 ---
 
 # 1963 International Championship

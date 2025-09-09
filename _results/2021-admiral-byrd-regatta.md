@@ -5,6 +5,7 @@ series: "Admiral Byrd Regatta"
 club: "Admiral Byrd Yacht Club"
 location: "Annapolis, MD, U.S.A."
 results_url: "archive/legacy-website/2021 Admiral Byrd Regatta.htm"
+
 ---
 
 # 2021 Admiral Byrd Regatta

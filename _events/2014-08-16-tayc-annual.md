@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2014 TAYC Annual Regatta
+title: "2014 TAYC Annual Regatta"
 name: 2014-tayc-annual
-date: 2014-08-16 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2014-08-16 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2014%5FTAYC%5FAnnual.htm
+  Results: "/archive/legacy-website/2014%5FTAYC%5FAnnual.htm"
 ---
 The 2014 TAYC Annual Regatta was held at Tred Avon Yacht Club on 8/16-17, 2014.
 

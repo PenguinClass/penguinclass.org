@@ -1,9 +1,10 @@
 ---
 layout: result
-title: 1988 International Championship
+title: "1988 International Championship"
 year: 1988
 result_id: international-1988
 series: International
+location: "Niteroi, Brazil"
 ---
 
 # 1988 International Championship

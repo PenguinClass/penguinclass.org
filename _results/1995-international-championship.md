@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1995 International Championship
+title: "1995 International Championship"
 year: 1995
 result_id: international-1995
 series: International
+club: "Centerport Yacht Club"
+location: "Centerport, NY, U.S.A."
 ---
 
 # 1995 International Championship

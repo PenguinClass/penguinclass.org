@@ -5,6 +5,7 @@ series: "Rum Bucket Regatta"
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "archive/legacy-website/2016 GIYS Lawson Rum Bucket.htm"
+
 ---
 
 # 2016 Rum Bucket Regatta

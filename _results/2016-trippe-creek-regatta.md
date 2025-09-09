@@ -5,6 +5,7 @@ series: "Trippe Creek Regatta"
 club: "Trippe Creek Penguin Frostbite Regatta"
 location: "Trippe Creek, MD, U.S.A."
 results_url: "archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm"
+
 ---
 
 # 2016 Trippe Creek Regatta

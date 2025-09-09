@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2016 Penguin Internationals
+title: "2016 Penguin Internationals"
 name: 2016-penguin-internationals
-date: 2016-09-17 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2016-09-17 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2016%5FInternationals.htm
+  Results: "/archive/legacy-website/2016%5FInternationals.htm"
 ---
 The 2016 Penguin Internationals was held at Tred Avon Yacht Club on 9/17-18, 2016.
 

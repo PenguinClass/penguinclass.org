@@ -1,10 +1,11 @@
 ---
 year: 2008
-title: "Presidents"
+title: Presidents
 series: "President's Cup"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2008_presidents.htm"
+
 ---
 
 # Presidents

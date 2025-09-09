@@ -1,13 +1,13 @@
 ---
 layout: event
-title: Life Celebration for Ellee Moorhouse Bruhn
+title: "Life Celebration for Ellee Moorhouse Bruhn"
 name: ellee-moorhouse-bruhn-life-celebration
 date: 2025-09-12
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
-  Memorial Post: /news/2025/08/16/2025-08-16-ellee-moorhouse-bruhn-memorial/
-  Legacy Website: /archive/legacy-website/Life%20Celebration%20for%20Ellee%20Moorhouse%20Bruhn%20%20January%204th.htm
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
+  Memorial Post: "/news/2025/08/16/2025-08-16-ellee-moorhouse-bruhn-memorial/"
+  Legacy Website: "/archive/legacy-website/Life%20Celebration%20for%20Ellee%20Moorhouse%20Bruhn%20%20January%204th.htm"
 ---
 A life celebration will be held in memory of Ellee Moorhouse Bruhn, who passed away on May 5th, 2025 in Tucson, AZ.
 

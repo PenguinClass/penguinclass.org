@@ -1,11 +1,11 @@
 ---
 layout: event
-title: 2021 PRSA Spring Regatta
+title: "2021 PRSA Spring Regatta"
 name: 2021-prsa-spring-regatta
-date: 2021-05-29 00:00:00
-venue: Potomac River Sailing Association
-location: Washington, D.C., U.S.A.
-links:
+date: "2021-05-29 00:00:00"
+venue: "Potomac River Sailing Association"
+location: "Washington, D.C., U.S.A."
+links: 
   Notice of Race: 
   Results: 
 ---

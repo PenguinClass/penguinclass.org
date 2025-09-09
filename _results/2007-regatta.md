@@ -1,10 +1,11 @@
 ---
 year: 2007
 title: "2007 Len Penso Regatta"
-series: "Regatta"
-club: ""
-location: ""
+series: Regatta
+club: 
+location: 
 results_url: "archive/legacy-website/2007_mem_day_regatta.htm"
+
 ---
 
 # 2007 Len Penso Regatta

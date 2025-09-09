@@ -5,6 +5,7 @@ series: "Oxford Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2013_Oxford Summer Regatta.htm"
+
 ---
 
 # 2013 Oxford Regatta

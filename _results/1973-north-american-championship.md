@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1973 North-American Championship
+title: "1973 North-American Championship"
 year: 1973
 result_id: north-american-1973
 series: North-American
+club: "Richmond County Yacht Club"
+location: "Staten Island, NY, U.S.A."
 ---
 
 # 1973 North-American Championship

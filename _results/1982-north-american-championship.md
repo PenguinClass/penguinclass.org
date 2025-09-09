@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1982 North-American Championship
+title: "1982 North-American Championship"
 year: 1982
 result_id: north-american-1982
 series: North-American
+club: "Centerport Yacht Club"
+location: "Centerport, NY, U.S.A."
 ---
 
 # 1982 North-American Championship

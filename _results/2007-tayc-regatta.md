@@ -5,6 +5,7 @@ series: "TAYC Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/tayc_summer2007.htm"
+
 ---
 
 # New Page 1

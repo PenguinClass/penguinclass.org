@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2011 Corsica Annual Regatta
+title: "2011 Corsica Annual Regatta"
 name: 2011-corsica-annual
-date: 2011-10-15 00:00:00
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
+date: "2011-10-15 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2011%5FCorsica%20Annual.htm
+  Results: "/archive/legacy-website/2011%5FCorsica%20Annual.htm"
 ---
 The 2011 Corsica Annual Regatta was held at Corsica River Yacht Club on 10/15-16, 2011.
 

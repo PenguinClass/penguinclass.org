@@ -2,9 +2,10 @@
 year: 2018
 title: "2018 Heritage Regatta"
 series: "Heritage Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2018_Heritage_summary.htm"
+
 ---
 
 # 2018 Heritage Regatta

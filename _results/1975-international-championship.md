@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1975 International Championship
+title: "1975 International Championship"
 year: 1975
 result_id: international-1975
 series: International
+club: "Columbia Yacht Club"
+location: "Chicago, IL, U.S.A."
 ---
 
 # 1975 International Championship

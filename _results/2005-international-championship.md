@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2005 International Championship
+title: "2005 International Championship"
 year: 2005
 result_id: international-2005
 series: International
+club: "West River Sailing Club"
+location: "Galesville, MD, U.S.A."
 ---
 
 # 2005 International Championship

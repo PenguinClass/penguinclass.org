@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1991  Championship
+title: "1991  Championship"
 year: 1991
 result_id: north-american-1991
 series: 
+club: "Seaside Park Yacht Club"
+location: "Seaside, NJ, U.S.A."
 ---
 
 # 1991  Championship

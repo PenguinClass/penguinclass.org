@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2012 International Championship
+title: "2012 International Championship"
 year: 2012
 result_id: international-2012
 series: International
+club: "Sheridan Shores Yacht Club"
+location: "Wilmette, IL, U.S.A."
 ---
 
 # 2012 International Championship

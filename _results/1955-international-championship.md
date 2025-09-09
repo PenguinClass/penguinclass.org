@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1955 International Championship
+title: "1955 International Championship"
 year: 1955
 result_id: international-1955
 series: International
+club: "Alamitos Bay Yacht Club"
+location: "Long Beach, CA, U.S.A."
 ---
 
 # 1955 International Championship

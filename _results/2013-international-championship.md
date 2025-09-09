@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2013 International Championship
+title: "2013 International Championship"
 year: 2013
 result_id: international-2013
 series: International
+club: "Miles River Yacht Club"
+location: "St. Michaels, MD, U.S.A."
 ---
 
 # 2013 International Championship
@@ -11,7 +13,7 @@ series: International
 ## Champion
 
 **Skipper:** Jonathan Bartlett
-**Crew:** Caroline Mc Neil
+**Crew:** Caroline McNeil
 **Club:** Miles River Yacht Club
 **Location:** St. Michaels, MD, U.S.A.
 

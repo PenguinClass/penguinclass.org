@@ -5,6 +5,7 @@ series: "Frostbite Series"
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "archive/legacy-website/2017 Potomac Frostbite.htm"
+
 ---
 
 # 2017 Frostbite Series

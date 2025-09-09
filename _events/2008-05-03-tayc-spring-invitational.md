@@ -1,13 +1,16 @@
 ---
 layout: event
-title: 2008 TAYC Spring Invitational
+title: "2008 TAYC Spring Invitational"
 name: 2008-tayc-spring-invitational
-date: 2008-05-03 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
-  Notice of Race: 
-  Results: /archive/legacy-website/2008%5FTAYC%5FSpring.htm
+date: "2008-05-03 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
+Notice of Race: 
+Results: "/archive/legacy-website/2008%5FTAYC%5FSpring.htm"
+
+
+
 ---
 The 2008 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/3, 2008.
 

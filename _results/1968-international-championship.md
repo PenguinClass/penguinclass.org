@@ -1,9 +1,10 @@
 ---
 layout: result
-title: 1968 International Championship
+title: "1968 International Championship"
 year: 1968
 result_id: international-1968
 series: International
+location: "Montreal, Canada"
 ---
 
 # 1968 International Championship

@@ -2,9 +2,10 @@
 year: 2005
 title: "PENGUIN FROSTBITE HIGH POINTS SCORING 2005-2006"
 series: "Frostbite Series"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm"
+
 ---
 
 # PENGUIN FROSTBITE HIGH POINTS SCORING 2005-2006

@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2002 International Championship
+title: "2002 International Championship"
 year: 2002
 result_id: international-2002
 series: International
+club: "Miles River Yacht Club"
+location: "St. Michaels, MD, U.S.A."
 ---
 
 # 2002 International Championship

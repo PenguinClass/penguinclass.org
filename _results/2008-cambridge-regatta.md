@@ -5,6 +5,7 @@ series: "Cambridge Regatta"
 club: "Cambridge Yacht Club"
 location: "Cambridge, MD, U.S.A."
 results_url: "archive/legacy-website/2008_cambridge.htm"
+
 ---
 
 # Cambridge 2008

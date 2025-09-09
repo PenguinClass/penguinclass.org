@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2008 Corsica Annual Regatta
+title: "2008 Corsica Annual Regatta"
 name: 2008-corsica-annual
-date: 2008-10-11 00:00:00
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
+date: "2008-10-11 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2008%5FCorsica%20Annual.htm
+  Results: "/archive/legacy-website/2008%5FCorsica%20Annual.htm"
 ---
 The 2008 Corsica Annual Regatta was held at Corsica River Yacht Club on 10/11-12, 2008.
 

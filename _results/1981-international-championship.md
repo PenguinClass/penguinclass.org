@@ -1,9 +1,12 @@
 ---
 layout: result
-title: 1981 International Championship
+title: "1981 International Championship"
 year: 1981
 result_id: international-1981
 series: International
+club: "Shelter Island Yacht Club"
+location: "Shelter Island, NY, U.S.A."
+
 ---
 
 # 1981 International Championship
@@ -12,6 +15,7 @@ series: International
 
 **Skipper:** Doug Wefer
 **Crew:** Ellen Wefer
+**Club:** Shelter Island Yacht Club
 **Location:** Shelter Island, NY, U.S.A.
 
 ## Results

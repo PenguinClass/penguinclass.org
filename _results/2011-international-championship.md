@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2011 International Championship
+title: "2011 International Championship"
 year: 2011
 result_id: international-2011
 series: International
+club: "Severn Sailing Association"
+location: "Annapolis, MD, U.S.A."
 ---
 
 # 2011 International Championship
@@ -11,7 +13,7 @@ series: International
 ## Champion
 
 **Skipper:** Charles Krafft
-**Crew:** Donna Mc Kenzie
+**Crew:** Donna McKenzie
 **Club:** Severn Sailing Association
 **Location:** Annapolis, MD, U.S.A.
 

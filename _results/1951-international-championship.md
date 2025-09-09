@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1951 International Championship
+title: "1951 International Championship"
 year: 1951
 result_id: international-1951
 series: International
+club: "San Diego Yacht Club"
+location: "San Diego, CA, U.S.A."
 ---
 
 # 1951 International Championship

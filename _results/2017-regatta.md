@@ -1,10 +1,11 @@
 ---
 year: 2017
 title: "2017 Regatta"
-series: "Regatta"
-club: ""
-location: ""
+series: Regatta
+club: 
+location: 
 results_url: "archive/legacy-website/2017_TCPRF_results.htm"
+
 ---
 
 # 2017 Regatta

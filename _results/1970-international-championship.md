@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1970 International Championship
+title: "1970 International Championship"
 year: 1970
 result_id: international-1970
 series: International
+club: "Yacht Club Olivos"
+location: "Buenos Aires, Argentina"
 ---
 
 # 1970 International Championship

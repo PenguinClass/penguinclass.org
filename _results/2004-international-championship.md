@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2004 International Championship
+title: "2004 International Championship"
 year: 2004
 result_id: international-2004
 series: International
+club: "Annapolis Yacht Club"
+location: "Annapolis, MD, U.S.A."
 ---
 
 # 2004 International Championship

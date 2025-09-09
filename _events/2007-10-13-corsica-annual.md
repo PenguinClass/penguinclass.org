@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2007 Corsica Annual Regatta
+title: "2007 Corsica Annual Regatta"
 name: 2007-corsica-annual
-date: 2007-10-13 00:00:00
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
+date: "2007-10-13 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2007%5FCorsica%20Annual.htm
+  Results: "/archive/legacy-website/2007%5FCorsica%20Annual.htm"
 ---
 The 2007 Corsica Annual Regatta was held at Corsica River Yacht Club on 10/13-14, 2007.
 

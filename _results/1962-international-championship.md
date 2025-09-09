@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1962 International Championship
+title: "1962 International Championship"
 year: 1962
 result_id: international-1962
 series: International
+club: "Sayville Yacht Club"
+location: "Blue Point, NY, U.S.A."
 ---
 
 # 1962 International Championship

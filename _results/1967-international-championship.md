@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1967 International Championship
+title: "1967 International Championship"
 year: 1967
 result_id: international-1967
 series: International
+club: "Alamitos Bay Yacht Club"
+location: "Long Beach, CA, U.S.A."
 ---
 
 # 1967 International Championship

@@ -5,6 +5,7 @@ series: "Revival Regatta"
 club: "Beachwood Yacht Club"
 location: "Toms River, NJ, U.S.A."
 results_url: "archive/legacy-website/2025_Beachwood Revival;.htm"
+
 ---
 
 # 2025 Revival Regatta

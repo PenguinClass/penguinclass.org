@@ -2,9 +2,10 @@
 year: 2011
 title: "2011 President's Cup"
 series: "President's Cup"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2011_President.htm"
+
 ---
 
 # 2011 President's Cup

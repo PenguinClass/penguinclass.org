@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1999 International Championship
+title: "1999 International Championship"
 year: 1999
 result_id: international-1999
 series: International
+club: "Centerport Yacht Club"
+location: "Centerport, NY, U.S.A."
 ---
 
 # 1999 International Championship

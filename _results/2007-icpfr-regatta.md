@@ -1,15 +1,14 @@
 ---
 year: 2007
-title: "Information is provisional and subject to modification Regatta results 
-saved"
+title: "ICPFR Regatta 2007 - Information is provisional and subject to modification Regatta results"
 series: "ICPFR Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/icpfr_2007.htm"
+
 ---
 
-# Information is provisional and subject to modification Regatta results 
-saved
+# Information is provisional and subject to modification Regatta results
 
 **Year:** 2007  
 **Series:** ICPFR Regatta  

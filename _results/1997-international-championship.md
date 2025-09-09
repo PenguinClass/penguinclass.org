@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1997 International Championship
+title: "1997 International Championship"
 year: 1997
 result_id: international-1997
 series: International
+club: "Clube Naval"
+location: "Rio de Janeiro, Brazil"
 ---
 
 # 1997 International Championship

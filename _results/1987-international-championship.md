@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1987 International Championship
+title: "1987 International Championship"
 year: 1987
 result_id: international-1987
 series: International
+club: "Toms River Yacht Club"
+location: "Toms River, NJ, U.S.A."
 ---
 
 # 1987 International Championship

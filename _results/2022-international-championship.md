@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2022 International Championship
+title: "2022 International Championship"
 year: 2022
 result_id: international-2022
 series: International
+club: "West River Sailing Club"
+location: "Galesville, MD, U.S.A."
 ---
 
 # 2022 International Championship

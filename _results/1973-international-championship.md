@@ -1,9 +1,10 @@
 ---
 layout: result
-title: 1973 International Championship
+title: "1973 International Championship"
 year: 1973
 result_id: international-1973
 series: International
+location: "Niteroi, Brazil"
 ---
 
 # 1973 International Championship

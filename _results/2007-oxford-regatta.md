@@ -1,15 +1,14 @@
 ---
 year: 2007
-title: "Information is provisional and subject to modification Regatta results 
-saved"
+title: "Oxford Regatta 2007 - Information is provisional and subject to modification Regatta results"
 series: "Oxford Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/oxford_summer2007.htm"
+
 ---
 
 # Information is provisional and subject to modification Regatta results 
-saved
 
 **Year:** 2007  
 **Series:** Oxford Regatta  

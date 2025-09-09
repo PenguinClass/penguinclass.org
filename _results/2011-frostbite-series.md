@@ -5,6 +5,7 @@ series: "Frostbite Series"
 club: "Island Creek Yacht Club"
 location: "Island Creek, MD, U.S.A."
 results_url: "archive/legacy-website/2011 Island Creek Penguin Frostbite Regatta_csk.htm"
+
 ---
 
 # 2011 Frostbite Series

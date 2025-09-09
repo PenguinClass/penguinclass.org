@@ -5,6 +5,7 @@ series: "GIYS Regatta"
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "archive/legacy-website/2015_GIYS_nor.htm"
+
 ---
 
 # 2015 GIYS Regatta

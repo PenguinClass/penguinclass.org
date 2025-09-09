@@ -2,9 +2,10 @@
 year: 2009
 title: "West River Annual"
 series: "Annual Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2009_west_river_annual.htm"
+
 ---
 
 # West River Annual

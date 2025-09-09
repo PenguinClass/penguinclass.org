@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1950 International Championship
+title: "1950 International Championship"
 year: 1950
 result_id: international-1950
 series: International
+club: "Mantoloking Yacht Club"
+location: "Mantoloking, NJ, U.S.A."
 ---
 
 # 1950 International Championship

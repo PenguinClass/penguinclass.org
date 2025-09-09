@@ -5,6 +5,7 @@ series: "Annual Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2015_TAYC_Annual Penguin.htm"
+
 ---
 
 # 2015 Annual Regatta

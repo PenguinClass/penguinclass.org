@@ -2,9 +2,10 @@
 year: 2025
 title: "Microsoft Word - NOR 2025 Internationals 2=roy"
 series: "International Championship"
-club: ""
-location: ""
+club: "**Location:**"
+location: "[View Results](archive/legacy-website/2025_Intls_NOR.pdf.htm)"
 results_url: "archive/legacy-website/2025_Intls_NOR.pdf.htm"
+
 ---
 
 # Microsoft Word - NOR 2025 Internationals 2=roy

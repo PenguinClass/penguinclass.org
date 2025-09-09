@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2021 TAYC Heritage Regatta
+title: "2021 TAYC Heritage Regatta"
 name: 2021-tayc-heritage
-date: 2021-08-28 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2021-08-28 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2021%5FHeritage.htm
+  Results: "/archive/legacy-website/2021%5FHeritage.htm"
 ---
 The 2021 TAYC Heritage Regatta was held at Tred Avon Yacht Club on August 28, 2021.
 

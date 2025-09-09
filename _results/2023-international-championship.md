@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2023 International Championship
+title: "2023 International Championship"
 year: 2023
 result_id: international-2023
 series: International
+club: "Tred Avon Yacht Club"
+location: "Oxford, MD, U.S.A."
 ---
 
 # 2023 International Championship
@@ -13,7 +15,7 @@ series: International
 **Skipper:** Jonathan Bartlett
 **Crew:** Annie Bartlett
 **Club:** Tred Avon Yacht Club
-**Location:** Oxford MD, U.S.A.
+**Location:** Oxford, MD, U.S.A.
 
 ## Results
 

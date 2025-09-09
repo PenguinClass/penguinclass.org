@@ -5,6 +5,7 @@ series: "Heritage Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2017_TAYC Heritage.htm"
+
 ---
 
 # 2017 Heritage Regatta

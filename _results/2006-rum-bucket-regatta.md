@@ -2,9 +2,10 @@
 year: 2006
 title: "2006 Rum Bucket"
 series: "Rum Bucket Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2006 Rum Bucket.html"
+
 ---
 
 # 2006 Rum Bucket

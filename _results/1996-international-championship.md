@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1996 International Championship
+title: "1996 International Championship"
 year: 1996
 result_id: international-1996
 series: International
+club: "Columbia Yacht Club"
+location: "Chicago, IL, U.S.A."
 ---
 
 # 1996 International Championship

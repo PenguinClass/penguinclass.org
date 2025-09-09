@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1941 International Championship
+title: "1941 International Championship"
 year: 1941
 result_id: international-1941
 series: International
+club: "Annapolis Yacht Club"
+location: "Annapolis, MD, U.S.A."
 ---
 
 # 1941 International Championship

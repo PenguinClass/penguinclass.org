@@ -5,6 +5,7 @@ series: "TAYC Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2011_TAYC_Penguin Invitational.htm"
+
 ---
 
 # 2011 TAYC Regatta

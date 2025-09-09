@@ -5,6 +5,7 @@ series: "Cambridge Regatta"
 club: "Cambridge Yacht Club"
 location: "Cambridge, MD, U.S.A."
 results_url: "archive/legacy-website/2025_Cambridge.htm"
+
 ---
 
 # 2025 Cambridge Regatta

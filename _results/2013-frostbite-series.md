@@ -5,6 +5,7 @@ series: "Frostbite Series"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2013_TAYC_frostbite.htm"
+
 ---
 
 # 2013 Frostbite Series

@@ -5,6 +5,7 @@ series: "Frostbite Series"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2021_TAYC_Penguin and Comet Frostbite.htm"
+
 ---
 
 # 2021 Frostbite Series

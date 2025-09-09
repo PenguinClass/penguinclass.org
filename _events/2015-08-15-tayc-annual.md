@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2015 TAYC Annual Regatta
+title: "2015 TAYC Annual Regatta"
 name: 2015-tayc-annual
-date: 2015-08-15 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2015-08-15 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2015%5FTAYC%5FAnnual.htm
+  Results: "/archive/legacy-website/2015%5FTAYC%5FAnnual.htm"
 ---
 The 2015 TAYC Annual Regatta was held at Tred Avon Yacht Club on 8/15-16, 2015.
 

@@ -5,6 +5,7 @@ series: "Beachwood Revival"
 club: "Beachwood Yacht Club"
 location: "Toms River, NJ, U.S.A."
 results_url: "archive/legacy-website/2023_Beachwood.htm"
+
 ---
 
 # 2023 Beachwood Revival

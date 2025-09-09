@@ -2,9 +2,10 @@
 year: 2006
 title: "2006 Penguin Internationals/Series Standing - 8 races scored"
 series: "ICPFR Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/ICPFR_11_11_2006.html"
+
 ---
 
 # 2006 Penguin Internationals/Series Standing - 8 races scored

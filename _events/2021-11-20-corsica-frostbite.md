@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2021 Corsica River Frostbite / Atlantic Coast Championship
+title: "2021 Corsica River Frostbite / Atlantic Coast Championship"
 name: 2021-corsica-frostbite
-date: 2021-11-20 00:00:00
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
+date: "2021-11-20 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2021%20Corsica%20River%20Yacht%20Club%20Turkey%20Trot%20Regatta.htm
+  Results: "/archive/legacy-website/2021%20Corsica%20River%20Yacht%20Club%20Turkey%20Trot%20Regatta.htm"
 ---
 The 2021 Corsica River Frostbite / Atlantic Coast Championship was held at Corsica River Yacht Club on November 20, 2021.
 

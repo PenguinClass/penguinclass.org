@@ -2,9 +2,10 @@
 year: 2013
 title: "2013 Heritage Regatta"
 series: "Heritage Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2013_Heritage Regatta.htm"
+
 ---
 
 # 2013 Heritage Regatta

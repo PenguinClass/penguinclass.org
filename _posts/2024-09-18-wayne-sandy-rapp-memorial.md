@@ -3,6 +3,7 @@ layout: post
 title: "In Memory of Wayne (Sandy) Rapp"
 name: wayne-sandy-rapp-memorial
 date: 2024-09-18
+
 ---
 
 It is with profound sadness that we report the passing of Sandy Rapp on September 18, 2024.

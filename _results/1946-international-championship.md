@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1946 International Championship
+title: "1946 International Championship"
 year: 1946
 result_id: international-1946
 series: International
+club: "Port Washington Yacht Club"
+location: "Port Washington, NY, U.S.A."
 ---
 
 # 1946 International Championship

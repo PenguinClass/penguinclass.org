@@ -1,9 +1,12 @@
 ---
 layout: result
-title: 1986 International Championship
+title: "1986 International Championship"
 year: 1986
 result_id: international-1986
 series: International
+club: "Sayville Yacht Club"
+location: "Blue Point, NY, U.S.A."
+
 ---
 
 # 1986 International Championship
@@ -12,7 +15,8 @@ series: International
 
 **Skipper:** Doug Wefer
 **Crew:** Kris Meyer
-**Location:** Sayville, NY, U.S.A.
+**Club:** Sayville Yacht Club
+**Location:** Blue Point, NY, U.S.A.
 
 ## Results
 

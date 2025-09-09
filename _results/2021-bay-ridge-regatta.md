@@ -5,6 +5,7 @@ series: "Bay Ridge Regatta"
 club: "Bay Ridge Yacht Club"
 location: "Annapolis, MD, U.S.A."
 results_url: "archive/legacy-website/2021_Bay Ridge Penguin Regatta.htm"
+
 ---
 
 # 2021 Bay Ridge Regatta

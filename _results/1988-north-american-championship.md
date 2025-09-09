@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1988 North-American Championship
+title: "1988 North-American Championship"
 year: 1988
 result_id: north-american-1988
 series: North-American
+club: "Cambridge Yacht Club"
+location: "Cambridge, MD, U.S.A."
 ---
 
 # 1988 North-American Championship

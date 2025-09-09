@@ -2,9 +2,10 @@
 year: 2010
 title: "2010 ICPFR Regatta"
 series: "ICPFR Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2010_ICPFR NOR.htm"
+
 ---
 
 # 2010 ICPFR Regatta

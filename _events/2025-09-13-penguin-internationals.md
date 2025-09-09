@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2025 Penguin Internationals
+title: "2025 Penguin Internationals"
 name: 2025-penguin-internationals
 date: 2025-09-13
-venue: Corsica River Yacht Club
-location: Centreville, Maryland, U.S.A.
-links:
-  Notice of Race: /archive/legacy-website/2025_Intls_NOR.htm
-  Registration: https://www.regattanetwork.com/event/30156
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
+  Notice of Race: "/archive/legacy-website/2025_Intls_NOR.htm"
+  Registration: "https://www.regattanetwork.com/event/30156"
   Results: 
 ---
 The 2025 Penguin Internationals will be held at Corsica River Yacht Club on September 13-14, 2025.

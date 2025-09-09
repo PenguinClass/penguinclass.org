@@ -1,24 +1,29 @@
 ---
 year: 2015
-title: "NOTICE OF RACE"
+title: "2015 International Championship"
 series: "International Championship"
-club: ""
-location: ""
+club: "Tred Avon Yacht Club"
+location: "Oxford, MD, U.S.A."
 results_url: "archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"
+
 ---
 
-# NOTICE OF RACE
+# 2015 International Championship
 
-**Year:** 2015  
-**Series:** International Championship  
-**Club:**   
-**Location:**   
+## Champion
+
+**Skipper:** Bob Lippincott
+**Crew:** Lizzie Dennison
+**Club:** Tred Avon Yacht Club
+**Location:** Oxford, MD, U.S.A.
+
+## Results
 
 [View Results](archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm)
 
 ## Event Details
 
-This event was held in 2015 at .
+This event was held in 2015 at Oxford, MD, U.S.A.
 
 ## Results
 

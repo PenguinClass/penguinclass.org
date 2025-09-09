@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1980 International Championship
+title: "1980 International Championship"
 year: 1980
 result_id: international-1980
 series: International
+club: "Chicago Yacht Club"
+location: "Belmont Harbor, U.S.A."
 ---
 
 # 1980 International Championship

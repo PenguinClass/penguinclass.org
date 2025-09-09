@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 1989 International Championship
+title: "1989 International Championship"
 year: 1989
 result_id: international-1989
 series: International
+club: "Columbia Yacht Club"
+location: "Chicago, IL, U.S.A."
 ---
 
 # 1989 International Championship

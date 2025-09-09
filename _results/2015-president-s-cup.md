@@ -2,9 +2,10 @@
 year: 2015
 title: "2015 President's Cup"
 series: "President's Cup"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2015_PresidentCup.htm"
+
 ---
 
 # 2015 President's Cup

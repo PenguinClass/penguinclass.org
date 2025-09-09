@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2010 International Championship
+title: "2010 International Championship"
 year: 2010
 result_id: international-2010
 series: International
+club: "Annapolis Yacht Club"
+location: "Annapolis, MD, U.S.A."
 ---
 
 # 2010 International Championship
@@ -11,7 +13,7 @@ series: International
 ## Champion
 
 **Skipper:** Charles Krafft
-**Crew:** Donna Mc Kenzie
+**Crew:** Donna McKenzie
 **Club:** Annapolis Yacht Club
 **Location:** Annapolis, MD, U.S.A.
 

@@ -1,9 +1,11 @@
 ---
 layout: result
-title: 2009 International Championship
+title: "2009 International Championship"
 year: 2009
 result_id: international-2009
 series: International
+club: "West River Sailing Club"
+location: "Galesville, MD, U.S.A."
 ---
 
 # 2009 International Championship
@@ -11,7 +13,7 @@ series: International
 ## Champion
 
 **Skipper:** Charles Krafft
-**Crew:** Donna Mc Kenzie
+**Crew:** Donna McKenzie
 **Club:** West River Sailing Club
 **Location:** Galesville, MD, U.S.A.
 

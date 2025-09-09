@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2019 TAYC Spring Invitational
+title: "2019 TAYC Spring Invitational"
 name: 2019-tayc-spring-invitational
-date: 2019-05-04 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2019-05-04 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2019%5FTAYC%5FSpring.htm
+  Results: "/archive/legacy-website/2019%5FTAYC%5FSpring.htm"
 ---
 The 2019 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/4, 2019.
 

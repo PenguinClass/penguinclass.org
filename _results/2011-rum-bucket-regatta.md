@@ -2,9 +2,10 @@
 year: 2011
 title: "Penguin Rum Bucket/Series Standing - 3 races scored"
 series: "Rum Bucket Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2011_PenguinRumBucket Results.html"
+
 ---
 
 # Penguin Rum Bucket/Series Standing - 3 races scored

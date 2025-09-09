@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2007 TAYC Annual Regatta
+title: "2007 TAYC Annual Regatta"
 name: 2007-tayc-annual
-date: 2007-08-18 00:00:00
-venue: Tred Avon Yacht Club
-location: Oxford, Maryland, U.S.A.
-links:
+date: "2007-08-18 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2007%5FTAYC%5FAnnual.htm
+  Results: "/archive/legacy-website/2007%5FTAYC%5FAnnual.htm"
 ---
 The 2007 TAYC Annual Regatta was held at Tred Avon Yacht Club on 8/18-19, 2007.
 

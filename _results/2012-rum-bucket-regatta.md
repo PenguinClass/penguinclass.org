@@ -2,9 +2,10 @@
 year: 2012
 title: "2012 Rum Bucket Regatta"
 series: "Rum Bucket Regatta"
-club: ""
-location: ""
+club: 
+location: 
 results_url: "archive/legacy-website/2012_rum bucket results.htm"
+
 ---
 
 # 2012 Rum Bucket Regatta
