@@ -8,7 +8,6 @@ permalink: /results/
 
 Search and browse regatta results and race outcomes from the Penguin Class archives.
 
-## Search Results
 
 <input id="search-input" type="search" placeholder="Search by year, event, club, or location..." class="search-input">
 
@@ -16,10 +15,13 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
   <div id="loading">Loading results...</div>
 </div>
 
+<input id="search-input-bottom" type="search" placeholder="Search by year, event, club, or location..." class="search-input">
+
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script>
 (async () => {
   const searchInput = document.getElementById('search-input');
+  const searchInputBottom = document.getElementById('search-input-bottom');
   const searchResults = document.getElementById('search-results');
   
   try {
@@ -37,7 +39,7 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
     
     // Create search index
     const index = lunr(function () {
-      this.ref('year');
+      this.ref('id');
       this.field('year');
       this.field('series');
       this.field('club');
@@ -46,6 +48,7 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
       
       results.forEach(item => {
         this.add({
+          id: item.id || `result-${item.year}-${item.series}`.replace(/[^a-z0-9]/g, '-'),
           year: String(item.year),
           series: item.series || '',
           club: item.club || '',
@@ -55,14 +58,14 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
       });
     });
     
-    function renderResults(results) {
-      if (results.length === 0) {
+    function renderResults(resultList) {
+      if (resultList.length === 0) {
         searchResults.innerHTML = '<p class="no-results">No results found.</p>';
         return;
       }
       
-      const html = results.map(result => {
-        const item = results.find(r => String(r.year) === result.ref);
+      const html = resultList.map(result => {
+        const item = results.find(r => r.id === result.ref);
         if (!item) return '';
         
         const resultsLink = item.results_url ? 
@@ -84,15 +87,15 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
         `;
       }).join('');
       
-      searchResults.innerHTML = html;
+      document.getElementById('search-results').innerHTML = html;
     }
     
     function performSearch(query) {
       if (!query.trim()) {
         // Show all results, sorted by year (most recent first)
         const allResults = results
-          .map(r => ({ ref: String(r.year) }))
-          .sort((a, b) => parseInt(b.ref) - parseInt(a.ref));
+          .sort((a, b) => (b.year || 0) - (a.year || 0))
+          .map(r => ({ ref: r.id }));
         renderResults(allResults);
         return;
       }
@@ -109,9 +112,25 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
     // Initial load - show all results
     performSearch('');
     
-    // Search on input
+    // Function to sync both search inputs
+    function syncSearchInputs(sourceInput, targetInput, value) {
+      if (targetInput.value !== value) {
+        targetInput.value = value;
+      }
+    }
+    
+    // Search on input for top search box
     searchInput.addEventListener('input', (e) => {
-      performSearch(e.target.value);
+      const value = e.target.value;
+      syncSearchInputs(searchInput, searchInputBottom, value);
+      performSearch(value);
+    });
+    
+    // Search on input for bottom search box
+    searchInputBottom.addEventListener('input', (e) => {
+      const value = e.target.value;
+      syncSearchInputs(searchInputBottom, searchInput, value);
+      performSearch(value);
     });
     
   } catch (error) {
@@ -138,6 +157,17 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
   outline: none;
   border-color: var(--link);
   box-shadow: 0 0 0 2px rgba(44, 90, 160, 0.2);
+}
+
+#search-input-bottom {
+  margin-top: 2rem;
+  border-style: dashed;
+  opacity: 0.8;
+}
+
+#search-input-bottom:focus {
+  opacity: 1;
+  border-style: solid;
 }
 
 .result-item {

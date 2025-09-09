@@ -1,5 +1,15 @@
 [
   {
+    "year": 2024,
+    "result_id": "international-2024",
+    "series": "International",
+    "skipper": "William Lawson",
+    "crew": "Colette Preis",
+    "club": "Beachwood Yacht Club",
+    "location": "Toms River, NJ, U.S.A.",
+    "results_url": "archive/legacy-website/2024 Penguin Internationals.htm"
+  },
+  {
     "year": 2023,
     "result_id": "international-2023",
     "series": "International",
@@ -81,11 +91,31 @@
     "results_url": "archive/legacy-website/2016_Internationals_results.htm"
   },
   {
+    "year": 2015,
+    "result_id": "international-2015",
+    "series": "International",
+    "skipper": "Bob Lippincott",
+    "crew": "Lizzie Dennison",
+    "club": "Tred Avon Yacht Club",
+    "location": "Oxford, MD, U.S.A.",
+    "results_url": "archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"
+  },
+  {
+    "year": 2014,
+    "result_id": "international-2014",
+    "series": "International",
+    "skipper": "Jonathan Bartlett",
+    "crew": "Ann Bartlett",
+    "club": "Corsica River Yacht Club",
+    "location": "Centreville, MD, U.S.A.",
+    "results_url": "archive/legacy-website/2014_CRYC Penguin Internationals.pdf"
+  },
+  {
     "year": 2013,
     "result_id": "international-2013",
     "series": "International",
     "skipper": "Jonathan Bartlett",
-    "crew": "Caroline Mc Neil",
+    "crew": "Caroline McNeil",
     "club": "Miles River Yacht Club",
     "location": "St. Michaels, MD, U.S.A.",
     "results_url": "archive/legacy-website/2013 International Penguin Championship.htm"
@@ -105,7 +135,7 @@
     "result_id": "international-2011",
     "series": "International",
     "skipper": "Charles Krafft",
-    "crew": "Donna Mc Kenzie",
+    "crew": "Donna McKenzie",
     "club": "Severn Sailing Association",
     "location": "Annapolis, MD, U.S.A.",
     "results_url": "archive/legacy-website/2011 Internationals_results.htm"
@@ -115,7 +145,7 @@
     "result_id": "international-2010",
     "series": "International",
     "skipper": "Charles Krafft",
-    "crew": "Donna Mc Kenzie",
+    "crew": "Donna McKenzie",
     "club": "Annapolis Yacht Club",
     "location": "Annapolis, MD, U.S.A.",
     "results_url": "archive/legacy-website/2010_Internationals.htm"
@@ -125,7 +155,7 @@
     "result_id": "international-2009",
     "series": "International",
     "skipper": "Charles Krafft",
-    "crew": "Donna Mc Kenzie",
+    "crew": "Donna McKenzie",
     "club": "West River Sailing Club",
     "location": "Galesville, MD, U.S.A.",
     "results_url": "archive/legacy-website/2009 Penguin International Championship-Series Standing - 6 races scored.htm"
@@ -396,8 +426,8 @@
     "series": "International",
     "skipper": "Doug Wefer",
     "crew": "Kris Meyer",
-    "club": "",
-    "location": "Sayville, NY, U.S.A.",
+    "club": "Sayville Yacht Club",
+    "location": "Blue Point, NY, U.S.A.",
     "results_url": "archive/legacy-website/1986_Intls.pdf"
   },
   {
@@ -436,7 +466,7 @@
     "series": "International",
     "skipper": "Doug Wefer",
     "crew": "Amy Wefer",
-    "club": "",
+    "club": "Seaside Park Yacht Club",
     "location": "Seaside Park, NJ, U.S.A.",
     "results_url": "archive/legacy-website/1983_intls.pdf"
   },
@@ -466,7 +496,7 @@
     "series": "International",
     "skipper": "Doug Wefer",
     "crew": "Ellen Wefer",
-    "club": "",
+    "club": "Shelter Island Yacht Club",
     "location": "Shelter Island, NY, U.S.A.",
     "results_url": "archive/legacy-website/1981_intls.pdf"
   },
@@ -586,7 +616,7 @@
     "series": "International",
     "skipper": "Martin R. Costa",
     "crew": "Javier Ferrario",
-    "club": "",
+    "club": "Dillon Yacht Club",
     "location": "Dillon Lake, CO, U.S.A.",
     "results_url": "archive/legacy-website/1972_Intl.pdf"
   },
