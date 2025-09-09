@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2017 TAYC Annual Regatta
+title: "2017 TAYC Annual Regatta"
 name: 2017-tayc-annual
-date: 2017-08-19 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2017-08-19 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2017%5FTAYC%5FAnnual.htm
+  Results: "/archive/legacy-website/2017%5FTAYC%5FAnnual.htm"
 ---
 The 2017 TAYC Annual Regatta was held at Tred Avon Yacht Club on 8/19-20, 2017.
 

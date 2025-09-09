@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2013 Penguin Internationals
+title: "2013 Penguin Internationals"
 name: 2013-penguin-internationals
-date: 2013-09-14 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2013-09-14 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2013%5FInternationals.htm
+  Results: "/archive/legacy-website/2013%5FInternationals.htm"
 ---
 The 2013 Penguin Internationals was held at Tred Avon Yacht Club on 9/14-15, 2013.
 

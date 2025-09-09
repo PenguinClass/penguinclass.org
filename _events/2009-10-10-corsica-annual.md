@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2009 Corsica Annual Regatta
+title: "2009 Corsica Annual Regatta"
 name: 2009-corsica-annual
-date: 2009-10-10 00:00:00
-venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
-links:
+date: "2009-10-10 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2009%5FCorsica%20Annual.htm
+  Results: "/archive/legacy-website/2009%5FCorsica%20Annual.htm"
 ---
 The 2009 Corsica Annual Regatta was held at Corsica River Yacht Club on 10/10-11, 2009.
 

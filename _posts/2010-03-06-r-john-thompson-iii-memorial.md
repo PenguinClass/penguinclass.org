@@ -3,6 +3,7 @@ layout: post
 title: "In Memory of R. John Thompson III"
 name: r-john-thompson-iii-memorial
 date: 2010-03-06
+
 ---
 
 It is with great sadness that we announce the passing of R. John Thompson III on March 6, 2010 in Easton, Maryland.

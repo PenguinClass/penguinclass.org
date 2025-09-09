@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<article class="result-detail">
+  <header class="result-header">
+    <h1>{{ page.title }}</h1>
+    <div class="result-meta">
+      {% if page.is_championship %}
+      <div class="result-championship">
+        <strong>Championship:</strong> {{ page.series }} · {{ page.date | date: "%Y" }}
+      </div>
+      {% endif %}
+      {% if page.venue %}
+      <div class="result-venue">
+        <strong>Venue:</strong> {{ page.venue }}
+      </div>
+      {% endif %}
+      {% if page.location %}
+      <div class="result-location">
+        <strong>Location:</strong> {{ page.location }}
+      </div>
+      {% endif %}
+      {% if page.date %}
+      <div class="result-date">
+        <strong>Date:</strong> {{ page.date | date_to_long_string }}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="result-content">
+    {% assign champ = site.data.champions | where: "result_id", page.id | first %}
+    {% if champ %}
+    <div class="result-champion">
+      <h3>Champion</h3>
+      <p><strong>{{ champ.skipper }}{% if champ.crew %} with {{ champ.crew }}{% endif %}</strong></p>
+    </div>
+    {% endif %}
+
+    {{ content }}
+  </div>
+
+  {% if page.links %}
+  <div class="result-links">
+    <h3>Result Links</h3>
+    <ul>
+      {% for link in page.links %}
+        {% if link[1] != blank %}
+        <li><a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  <div class="result-navigation">
+    <p><a href="/results/">← Back to Results</a></p>
+  </div>
+</article>

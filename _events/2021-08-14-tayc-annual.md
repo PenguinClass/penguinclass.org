@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2021 TAYC Annual Regatta
+title: "2021 TAYC Annual Regatta"
 name: 2021-tayc-annual
-date: 2021-08-14 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2021-08-14 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2021%5FTAYC%5FannualPenguin.htm
+  Results: "/archive/legacy-website/2021%5FTAYC%5FannualPenguin.htm"
 ---
 The 2021 TAYC Annual Regatta was held at Tred Avon Yacht Club on August 14-15, 2021.
 

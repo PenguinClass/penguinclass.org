@@ -13,15 +13,22 @@ layout: default
         <strong>Venue:</strong> {{ page.venue }}
       </div>
       {% endif %}
-      {% if page.city %}
+      {% if page.location %}
       <div class="event-location">
-        <strong>Location:</strong> {{ page.city }}
+        <strong>Location:</strong> {{ page.location }}
       </div>
       {% endif %}
     </div>
   </header>
 
   <div class="event-content">
+    {% assign r = site.results | where: "id", page.results_id | first %}
+    {% if r %}
+    <div class="event-results-link">
+      <p><a href="{{ r.url }}">Results page →</a></p>
+    </div>
+    {% endif %}
+    
     {{ content }}
   </div>
 

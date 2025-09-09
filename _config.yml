@@ -11,10 +11,13 @@ plugins:
 collections:
   events:
     output: true
-    permalink: /events/:year/:month/:day/:name/
+    permalink: /events/:year/:month/:day/:title/
   classifieds:
     output: true
     permalink: /classifieds/:year/:month/:day/:name/
+  results:
+    output: true
+    permalink: /results/:year-:title/
 defaults:
   - scope: { path: "", type: posts }
     values: 
@@ -25,5 +28,7 @@ defaults:
     values: { layout: event }
   - scope: { path: "", type: classifieds }
     values: { layout: classified }
+  - scope: { path: "", type: results }
+    values: { layout: result }
 markdown: kramdown
 future: true

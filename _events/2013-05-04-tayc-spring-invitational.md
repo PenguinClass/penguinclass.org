@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2013 TAYC Spring Invitational
+title: "2013 TAYC Spring Invitational"
 name: 2013-tayc-spring-invitational
-date: 2013-05-04 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2013-05-04 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2013%5FTAYC%5FSpring.htm
+  Results: "/archive/legacy-website/2013%5FTAYC%5FSpring.htm"
 ---
 The 2013 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/4, 2013.
 

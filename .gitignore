@@ -20,3 +20,6 @@ Gemfile.lock
 
 # Ignore working directory for penguinclass.com legacy site mirroring
 /legacy_mirror
+
+# Ignore temporary directory
+/tmp

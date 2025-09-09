@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2021 Penguin Internationals
+title: "2021 Penguin Internationals"
 name: 2021-penguin-internationals
-date: 2021-09-18 00:00:00
-venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
-links:
+date: "2021-09-18 00:00:00"
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2021%20Internationals.htm
+  Results: "/archive/legacy-website/2021%20Internationals.htm"
 ---
 The 2021 Penguin Internationals were held at Corsica River Yacht Club on September 18-19, 2021.
 

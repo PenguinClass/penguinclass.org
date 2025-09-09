@@ -38,8 +38,10 @@
       url: /fleets/brazil/
 - title: Archive
   children:
+    - title: Champions
+      url: /champions/
     - title: Results
-      url: /results-champions/
+      url: /results/
     - title: Gallery
       url: /gallery/
     - title: Minutes

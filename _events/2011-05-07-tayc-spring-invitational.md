@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2011 TAYC Spring Invitational
+title: "2011 TAYC Spring Invitational"
 name: 2011-tayc-spring-invitational
-date: 2011-05-07 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2011-05-07 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2011%5FTAYC%5FSpring.htm
+  Results: "/archive/legacy-website/2011%5FTAYC%5FSpring.htm"
 ---
 The 2011 TAYC Spring Invitational was held at Tred Avon Yacht Club on 5/7, 2011.
 

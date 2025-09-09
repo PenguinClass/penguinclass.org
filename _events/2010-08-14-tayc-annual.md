@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2010 TAYC Annual Regatta
+title: "2010 TAYC Annual Regatta"
 name: 2010-tayc-annual
-date: 2010-08-14 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2010-08-14 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2010%5FTAYC%5FAnnual.htm
+  Results: "/archive/legacy-website/2010%5FTAYC%5FAnnual.htm"
 ---
 The 2010 TAYC Annual Regatta was held at Tred Avon Yacht Club on 8/14-15, 2010.
 

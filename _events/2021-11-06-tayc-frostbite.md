@@ -1,13 +1,13 @@
 ---
 layout: event
-title: 2021 TAYC Frostbite
+title: "2021 TAYC Frostbite"
 name: 2021-tayc-frostbite
-date: 2021-11-06 00:00:00
-venue: Tred Avon Yacht Club
-city: Oxford, Maryland, U.S.A.
-links:
+date: "2021-11-06 00:00:00"
+venue: "Tred Avon Yacht Club"
+location: "Oxford, Maryland, U.S.A."
+links: 
   Notice of Race: 
-  Results: /archive/legacy-website/2021%5FTAYC%5FPenguin%20and%20Comet%20Frostbite.htm
+  Results: "/archive/legacy-website/2021%5FTAYC%5FPenguin%20and%20Comet%20Frostbite.htm"
 ---
 The 2021 TAYC Frostbite regatta was held at Tred Avon Yacht Club on November 6, 2021.
 

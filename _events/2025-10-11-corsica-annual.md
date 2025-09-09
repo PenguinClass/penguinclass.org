@@ -1,11 +1,11 @@
 ---
 layout: event
-title: 2025 Corsica Annual Regatta
+title: "2025 Corsica Annual Regatta"
 name: 2025-corsica-annual
 date: 2025-10-11
-venue: Corsica River Yacht Club
-city: Centreville, Maryland, U.S.A.
-links:
+venue: "Corsica River Yacht Club"
+location: "Centreville, Maryland, U.S.A."
+links: 
   Notice of Race: 
   Sailing Instructions: 
   Results: 
