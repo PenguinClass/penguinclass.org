@@ -19,7 +19,7 @@ location: "St. Michaels, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1998.pdf)
+[View Results](/archive/legacy-website/1998.pdf)
 
 ## Navigation
 

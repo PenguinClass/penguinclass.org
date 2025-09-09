@@ -19,7 +19,7 @@ location: "Mattituck, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1974_Intl.pdf)
+[View Results](/archive/legacy-website/1974_Intl.pdf)
 
 ## Navigation
 

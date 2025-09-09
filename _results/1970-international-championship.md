@@ -19,7 +19,7 @@ location: "Buenos Aires, Argentina"
 
 ## Results
 
-[View Results](archive/legacy-website/1970_Intl.pdf)
+[View Results](/archive/legacy-website/1970_Intl.pdf)
 
 ## Navigation
 

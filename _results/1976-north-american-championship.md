@@ -19,7 +19,7 @@ location: "Toms River, NJ, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1976_Intl.pdf)
+[View Results](/archive/legacy-website/1976_Intl.pdf)
 
 ## Navigation
 

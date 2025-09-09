@@ -19,7 +19,7 @@ location: "Long Beach, CA, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1959.pdf)
+[View Results](/archive/legacy-website/1959.pdf)
 
 ## Navigation
 

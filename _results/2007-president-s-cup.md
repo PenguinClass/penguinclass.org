@@ -4,7 +4,7 @@ title: "President's/Leukemia Cup"
 series: "President's Cup"
 club: 
 location: 
-results_url: "archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm"
+results_url: "/archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm)
+[View Results](/archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2007 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm)

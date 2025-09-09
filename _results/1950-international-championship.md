@@ -19,7 +19,7 @@ location: "Mantoloking, NJ, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1950.pdf)
+[View Results](/archive/legacy-website/1950.pdf)
 
 ## Navigation
 

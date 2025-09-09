@@ -4,7 +4,7 @@ title: "2015 President's Cup"
 series: "President's Cup"
 club: 
 location: 
-results_url: "archive/legacy-website/2015_PresidentCup.htm"
+results_url: "/archive/legacy-website/2015_PresidentCup.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2015_PresidentCup.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2015_PresidentCup.htm)
+[View Results](/archive/legacy-website/2015_PresidentCup.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2015 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2015_PresidentCup.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2015_PresidentCup.htm)

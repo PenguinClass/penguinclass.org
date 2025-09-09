@@ -19,7 +19,7 @@ location: "Annapolis, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/Internationals04.html)
+[View Results](/archive/legacy-website/Internationals04.html)
 
 ## Navigation
 

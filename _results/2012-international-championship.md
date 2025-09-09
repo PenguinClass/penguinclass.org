@@ -19,7 +19,7 @@ location: "Wilmette, IL, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2012 Penguin Internationals Summary_1.htm)
+[View Results](/archive/legacy-website/2012 Penguin Internationals Summary_1.htm)
 
 ## Navigation
 

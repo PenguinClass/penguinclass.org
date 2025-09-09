@@ -4,7 +4,7 @@ title: "2010 President's Cup"
 series: "President's Cup"
 club: 
 location: 
-results_url: "archive/legacy-website/2010_Presidents Cup.htm"
+results_url: "/archive/legacy-website/2010_Presidents Cup.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2010_Presidents Cup.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2010_Presidents Cup.htm)
+[View Results](/archive/legacy-website/2010_Presidents Cup.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2010 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2010_Presidents Cup.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2010_Presidents Cup.htm)

@@ -19,7 +19,7 @@ location: "Bay Head, NJ, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1979_Intls.pdf)
+[View Results](/archive/legacy-website/1979_Intls.pdf)
 
 ## Navigation
 

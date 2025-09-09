@@ -19,7 +19,7 @@ location: "Oxford, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2001_Intls_SS.pdf)
+[View Results](/archive/legacy-website/2001_Intls_SS.pdf)
 
 ## Navigation
 

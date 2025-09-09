@@ -19,7 +19,7 @@ location: "Oxford, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2023 Penguin Internationals.htm)
+[View Results](/archive/legacy-website/2023 Penguin Internationals.htm)
 
 ## Navigation
 

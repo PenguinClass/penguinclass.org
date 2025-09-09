@@ -19,7 +19,7 @@ location: "Alexandria, VA, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1945.pdf)
+[View Results](/archive/legacy-website/1945.pdf)
 
 ## Navigation
 

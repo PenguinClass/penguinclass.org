@@ -17,7 +17,7 @@ location: Brazil
 
 ## Results
 
-[View Results](archive/legacy-website/1979_Intls.pdf)
+[View Results](/archive/legacy-website/1979_Intls.pdf)
 
 ## Navigation
 

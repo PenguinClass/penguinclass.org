@@ -4,7 +4,7 @@ title: "2021 Heritage Regatta"
 series: "Heritage Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/2021_Heritage.htm"
+results_url: "/archive/legacy-website/2021_Heritage.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2021_Heritage.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2021_Heritage.htm)
+[View Results](/archive/legacy-website/2021_Heritage.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2021 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2021_Heritage.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2021_Heritage.htm)

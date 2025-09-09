@@ -18,7 +18,7 @@ location: "Rio de Janeiro, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1965.pdf)
+[View Results](/archive/legacy-website/1965.pdf)
 
 ## Navigation
 

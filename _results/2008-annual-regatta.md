@@ -4,7 +4,7 @@ title: "NOTICE OF RACE   (DRAFT 1- 6/9/05)"
 series: "Annual Regatta"
 club: "Miles River Yacht Club"
 location: "St. Michaels, MD, U.S.A."
-results_url: "archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm"
+results_url: "/archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm"
 **Club:** Miles River Yacht Club  
 **Location:** St. Michaels, MD, U.S.A.  
 
-[View Results](archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm)
+[View Results](/archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2008 at St. Michaels, MD, U.S.A..
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm)
+Results are available in the original format: [View Results](/archive/legacy-website/MRYC_2008_NOR,_Annual_One_Design_(2).htm)

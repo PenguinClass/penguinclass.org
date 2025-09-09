@@ -17,7 +17,7 @@ location: "Montreal, Canada"
 
 ## Results
 
-[View Results](archive/legacy-website/1968.pdf)
+[View Results](/archive/legacy-website/1968.pdf)
 
 ## Navigation
 

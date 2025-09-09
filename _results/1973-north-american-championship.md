@@ -19,7 +19,7 @@ location: "Staten Island, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1973_Intl.pdf)
+[View Results](/archive/legacy-website/1973_Intl.pdf)
 
 ## Navigation
 

@@ -19,7 +19,7 @@ location: "Blue Point, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1962.pdf)
+[View Results](/archive/legacy-website/1962.pdf)
 
 ## Navigation
 

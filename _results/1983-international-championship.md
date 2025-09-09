@@ -20,7 +20,7 @@ location: "Seaside Park, NJ, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1983_intls.pdf)
+[View Results](/archive/legacy-website/1983_intls.pdf)
 
 ## Navigation
 

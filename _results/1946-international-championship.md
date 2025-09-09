@@ -19,7 +19,7 @@ location: "Port Washington, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1946.pdf)
+[View Results](/archive/legacy-website/1946.pdf)
 
 ## Navigation
 

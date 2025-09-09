@@ -19,7 +19,7 @@ location: "New Orleans, LA, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1960.pdf)
+[View Results](/archive/legacy-website/1960.pdf)
 
 ## Navigation
 

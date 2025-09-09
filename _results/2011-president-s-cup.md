@@ -4,7 +4,7 @@ title: "2011 President's Cup"
 series: "President's Cup"
 club: 
 location: 
-results_url: "archive/legacy-website/2011_President.htm"
+results_url: "/archive/legacy-website/2011_President.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2011_President.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2011_President.htm)
+[View Results](/archive/legacy-website/2011_President.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2011 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2011_President.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2011_President.htm)

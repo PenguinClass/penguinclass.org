@@ -4,7 +4,7 @@ title: "2006 Rum Bucket"
 series: "Rum Bucket Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/2006 Rum Bucket.html"
+results_url: "/archive/legacy-website/2006 Rum Bucket.html"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2006 Rum Bucket.html"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2006 Rum Bucket.html)
+[View Results](/archive/legacy-website/2006 Rum Bucket.html)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2006 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2006 Rum Bucket.html)
+Results are available in the original format: [View Results](/archive/legacy-website/2006 Rum Bucket.html)

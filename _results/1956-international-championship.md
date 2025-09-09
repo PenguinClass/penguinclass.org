@@ -19,7 +19,7 @@ location: "Biloxi, MS, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1956.pdf)
+[View Results](/archive/legacy-website/1956.pdf)
 
 ## Navigation
 

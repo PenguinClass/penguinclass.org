@@ -17,7 +17,7 @@ location: "Niteroi, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1988_Intls.pdf)
+[View Results](/archive/legacy-website/1988_Intls.pdf)
 
 ## Navigation
 

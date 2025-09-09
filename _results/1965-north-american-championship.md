@@ -18,7 +18,7 @@ location: "Chicago, IL, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1965.pdf)
+[View Results](/archive/legacy-website/1965.pdf)
 
 ## Navigation
 

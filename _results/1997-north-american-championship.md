@@ -19,7 +19,7 @@ location: "Centreville, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1997_Intls.pdf)
+[View Results](/archive/legacy-website/1997_Intls.pdf)
 
 ## Navigation
 

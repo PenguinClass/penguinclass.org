@@ -17,7 +17,7 @@ location: "Porto Allegre, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1985_Intls.pdf)
+[View Results](/archive/legacy-website/1985_Intls.pdf)
 
 ## Navigation
 

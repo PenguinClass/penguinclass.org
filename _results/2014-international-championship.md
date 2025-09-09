@@ -20,7 +20,7 @@ location: "Centreville, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2014_CRYC Penguin Internationals.pdf)
+[View Results](/archive/legacy-website/2014_CRYC Penguin Internationals.pdf)
 
 ## Navigation
 

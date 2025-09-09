@@ -19,7 +19,7 @@ location: "Centreville, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2021 Internationals.htm)
+[View Results](/archive/legacy-website/2021 Internationals.htm)
 
 ## Navigation
 

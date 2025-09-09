@@ -17,7 +17,7 @@ location: "Niteroi, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1973_Intl.pdf)
+[View Results](/archive/legacy-website/1973_Intl.pdf)
 
 ## Navigation
 

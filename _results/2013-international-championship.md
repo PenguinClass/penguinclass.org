@@ -19,7 +19,7 @@ location: "St. Michaels, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2013 International Penguin Championship.htm)
+[View Results](/archive/legacy-website/2013 International Penguin Championship.htm)
 
 ## Navigation
 

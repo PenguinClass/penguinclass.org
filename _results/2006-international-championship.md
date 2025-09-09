@@ -19,7 +19,7 @@ location: "Cambridge, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2006internationals.htm)
+[View Results](/archive/legacy-website/2006internationals.htm)
 
 ## Navigation
 

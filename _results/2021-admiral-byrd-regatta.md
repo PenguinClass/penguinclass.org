@@ -4,7 +4,7 @@ title: "2021 Admiral Byrd Regatta"
 series: "Admiral Byrd Regatta"
 club: "Admiral Byrd Yacht Club"
 location: "Annapolis, MD, U.S.A."
-results_url: "archive/legacy-website/2021 Admiral Byrd Regatta.htm"
+results_url: "/archive/legacy-website/2021 Admiral Byrd Regatta.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2021 Admiral Byrd Regatta.htm"
 **Club:** Admiral Byrd Yacht Club  
 **Location:** Annapolis, MD, U.S.A.  
 
-[View Results](archive/legacy-website/2021 Admiral Byrd Regatta.htm)
+[View Results](/archive/legacy-website/2021 Admiral Byrd Regatta.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2021 at Annapolis, MD, U.S.A..
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2021 Admiral Byrd Regatta.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2021 Admiral Byrd Regatta.htm)

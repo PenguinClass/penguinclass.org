@@ -10,4 +10,4 @@ excerpt: "News item from the Penguin Class archives."
 
 # Schedule Fall 2008
 
-[View Archive Page](archive/legacy-website/slpf_fall_schedule_2008.htm)
+[View Archive Page](/archive/legacy-website/slpf_fall_schedule_2008.htm)

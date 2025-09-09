@@ -19,7 +19,7 @@ location: "Sao Paulo, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1982_intls.pdf)
+[View Results](/archive/legacy-website/1982_intls.pdf)
 
 ## Navigation
 

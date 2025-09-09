@@ -4,7 +4,7 @@ title: "2010 ICPFR Regatta"
 series: "ICPFR Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/2010_ICPFR NOR.htm"
+results_url: "/archive/legacy-website/2010_ICPFR NOR.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2010_ICPFR NOR.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2010_ICPFR NOR.htm)
+[View Results](/archive/legacy-website/2010_ICPFR NOR.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2010 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2010_ICPFR NOR.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2010_ICPFR NOR.htm)

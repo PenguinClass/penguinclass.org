@@ -4,7 +4,7 @@ title: "Attachment 1"
 series: "ICPFR Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/2008_icpfr.htm"
+results_url: "/archive/legacy-website/2008_icpfr.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2008_icpfr.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2008_icpfr.htm)
+[View Results](/archive/legacy-website/2008_icpfr.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2008 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2008_icpfr.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2008_icpfr.htm)

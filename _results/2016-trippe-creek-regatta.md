@@ -4,7 +4,7 @@ title: "2016 Trippe Creek Regatta"
 series: "Trippe Creek Regatta"
 club: "Trippe Creek Penguin Frostbite Regatta"
 location: "Trippe Creek, MD, U.S.A."
-results_url: "archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm"
+results_url: "/archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2016_Trippe Creek Regatta_summary_w picture
 **Club:** Trippe Creek Penguin Frostbite Regatta  
 **Location:** Trippe Creek, MD, U.S.A.  
 
-[View Results](archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm)
+[View Results](/archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2016 at Trippe Creek, MD, U.S.A..
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2016_Trippe Creek Regatta_summary_w pictures.htm)

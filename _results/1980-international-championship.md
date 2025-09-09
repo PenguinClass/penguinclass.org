@@ -19,7 +19,7 @@ location: "Belmont Harbor, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1980_intls.pdf)
+[View Results](/archive/legacy-website/1980_intls.pdf)
 
 ## Navigation
 

@@ -19,7 +19,7 @@ location: "Baltimore, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1954.pdf)
+[View Results](/archive/legacy-website/1954.pdf)
 
 ## Navigation
 

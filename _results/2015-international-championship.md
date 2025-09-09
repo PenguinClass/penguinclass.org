@@ -4,7 +4,7 @@ title: "2015 International Championship"
 series: "International Championship"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
-results_url: "archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"
+results_url: "/archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"
 
 ---
 
@@ -19,7 +19,7 @@ results_url: "archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"
 
 ## Results
 
-[View Results](archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm)
+[View Results](/archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm)
 
 ## Event Details
 
@@ -27,4 +27,4 @@ This event was held in 2015 at Oxford, MD, U.S.A.
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm)

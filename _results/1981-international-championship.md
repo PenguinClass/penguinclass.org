@@ -20,7 +20,7 @@ location: "Shelter Island, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1981_intls.pdf)
+[View Results](/archive/legacy-website/1981_intls.pdf)
 
 ## Navigation
 

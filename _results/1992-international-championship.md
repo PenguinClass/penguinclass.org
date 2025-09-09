@@ -19,7 +19,7 @@ location: "Cambridge, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1992_Intls.pdf)
+[View Results](/archive/legacy-website/1992_Intls.pdf)
 
 ## Navigation
 

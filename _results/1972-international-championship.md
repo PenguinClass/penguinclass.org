@@ -20,7 +20,7 @@ location: "Dillon Lake, CO, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1972_Intl.pdf)
+[View Results](/archive/legacy-website/1972_Intl.pdf)
 
 ## Navigation
 

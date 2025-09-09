@@ -4,7 +4,7 @@ title: "PENGUIN FROSTBITE HIGH POINTS SCORING 2005-2006"
 series: "Frostbite Series"
 club: 
 location: 
-results_url: "archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm"
+results_url: "/archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm)
+[View Results](/archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2005 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm)

@@ -19,7 +19,7 @@ location: "San Diego, CA, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1951.pdf)
+[View Results](/archive/legacy-website/1951.pdf)
 
 ## Navigation
 

@@ -18,7 +18,7 @@ location: "Babylon, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1971_Intl.pdf)
+[View Results](/archive/legacy-website/1971_Intl.pdf)
 
 ## Navigation
 

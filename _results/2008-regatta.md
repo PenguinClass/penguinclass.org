@@ -4,7 +4,7 @@ title: "Len Penso Regatta April 26"
 series: Regatta
 club: 
 location: 
-results_url: "archive/legacy-website/2008_len_penso_regatta_april_26.htm"
+results_url: "/archive/legacy-website/2008_len_penso_regatta_april_26.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2008_len_penso_regatta_april_26.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2008_len_penso_regatta_april_26.htm)
+[View Results](/archive/legacy-website/2008_len_penso_regatta_april_26.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2008 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2008_len_penso_regatta_april_26.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2008_len_penso_regatta_april_26.htm)

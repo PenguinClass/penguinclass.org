@@ -3,8 +3,8 @@ year: 2025
 title: "Microsoft Word - NOR 2025 Internationals 2=roy"
 series: "International Championship"
 club: "**Location:**"
-location: "[View Results](archive/legacy-website/2025_Intls_NOR.pdf.htm)"
-results_url: "archive/legacy-website/2025_Intls_NOR.pdf.htm"
+location: "[View Results](/archive/legacy-website/2025_Intls_NOR.pdf.htm)"
+results_url: "/archive/legacy-website/2025_Intls_NOR.pdf.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2025_Intls_NOR.pdf.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2025_Intls_NOR.pdf.htm)
+[View Results](/archive/legacy-website/2025_Intls_NOR.pdf.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2025 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2025_Intls_NOR.pdf.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2025_Intls_NOR.pdf.htm)

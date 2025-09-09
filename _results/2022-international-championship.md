@@ -19,7 +19,7 @@ location: "Galesville, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2022 Penguin Internationals.htm)
+[View Results](/archive/legacy-website/2022 Penguin Internationals.htm)
 
 ## Navigation
 

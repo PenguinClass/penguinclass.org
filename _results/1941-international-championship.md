@@ -18,7 +18,7 @@ location: "Annapolis, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1941.pdf)
+[View Results](/archive/legacy-website/1941.pdf)
 
 ## Navigation
 

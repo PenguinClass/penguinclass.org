@@ -19,7 +19,7 @@ location: "Wilmette, IL, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1969_Intl.pdf)
+[View Results](/archive/legacy-website/1969_Intl.pdf)
 
 ## Navigation
 

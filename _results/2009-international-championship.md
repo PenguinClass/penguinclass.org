@@ -19,7 +19,7 @@ location: "Galesville, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2009 Penguin International Championship-Series Standing - 6 races scored.htm)
+[View Results](/archive/legacy-website/2009 Penguin International Championship-Series Standing - 6 races scored.htm)
 
 ## Navigation
 

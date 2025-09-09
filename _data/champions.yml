@@ -5,7 +5,7 @@
   crew: Colette Preis
   club: Beachwood Yacht Club
   location: Toms River, NJ, U.S.A.
-  results_url: archive/legacy-website/2024 Penguin Internationals.htm
+  results_url: /archive/legacy-website/2024 Penguin Internationals.htm
 - year: 2023
   result_id: international-2023
   series: International
@@ -13,7 +13,7 @@
   crew: Annie Bartlett
   club: Tred Avon Yacht Club
   location: Oxford, MD, U.S.A.
-  results_url: archive/legacy-website/2023 Penguin Internationals.htm
+  results_url: /archive/legacy-website/2023 Penguin Internationals.htm
 - year: 2022
   result_id: international-2022
   series: International
@@ -21,7 +21,7 @@
   crew: Colette Preis
   club: West River Sailing Club
   location: Galesville, MD, U.S.A.
-  results_url: archive/legacy-website/2022 Penguin Internationals.htm
+  results_url: /archive/legacy-website/2022 Penguin Internationals.htm
 - year: 2021
   result_id: international-2021
   series: International
@@ -29,7 +29,7 @@
   crew: Colette Preis
   club: Corsica River Yacht Club
   location: Centreville, MD, U.S.A.
-  results_url: archive/legacy-website/2021 Internationals.htm
+  results_url: /archive/legacy-website/2021 Internationals.htm
 - year: 2020
   result_id: international-2020
   series: International
@@ -46,7 +46,7 @@
   crew: Colette Preis
   club: Tred Avon Yacht Club
   location: Oxford, MD, U.S.A.
-  results_url: archive/legacy-website/2019_Internationals.htm
+  results_url: /archive/legacy-website/2019_Internationals.htm
 - year: 2018
   result_id: international-2018
   series: International
@@ -54,7 +54,7 @@
   crew: Annie Bartlett
   club: Cambridge Yacht Club
   location: Cambridge, MD, U.S.A.
-  results_url: archive/legacy-website/2018_Intls_results.htm
+  results_url: /archive/legacy-website/2018_Intls_results.htm
 - year: 2017
   result_id: international-2017
   series: International
@@ -62,7 +62,7 @@
   crew: Annie Bartlett
   club: Severn Sailing Association
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/2017 Internationals results.htm
+  results_url: /archive/legacy-website/2017 Internationals results.htm
 - year: 2016
   result_id: international-2016
   series: International
@@ -70,7 +70,7 @@
   crew: Colette Preis
   club: Tred Avon Yacht Club
   location: Oxford, MD, U.S.A.
-  results_url: archive/legacy-website/2016_Internationals_results.htm
+  results_url: /archive/legacy-website/2016_Internationals_results.htm
 - year: 2015
   result_id: international-2015
   series: International
@@ -78,7 +78,7 @@
   crew: Lizzie Dennison
   club: Tred Avon Yacht Club
   location: Oxford, MD, U.S.A.
-  results_url: archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm
+  results_url: /archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm
 - year: 2014
   result_id: international-2014
   series: International
@@ -86,7 +86,7 @@
   crew: Ann Bartlett
   club: Corsica River Yacht Club
   location: Centreville, MD, U.S.A.
-  results_url: archive/legacy-website/2014_CRYC Penguin Internationals.pdf
+  results_url: /archive/legacy-website/2014_CRYC Penguin Internationals.pdf
 - year: 2013
   result_id: international-2013
   series: International
@@ -94,7 +94,7 @@
   crew: Caroline McNeil
   club: Miles River Yacht Club
   location: St. Michaels, MD, U.S.A.
-  results_url: archive/legacy-website/2013 International Penguin Championship.htm
+  results_url: /archive/legacy-website/2013 International Penguin Championship.htm
 - year: 2012
   result_id: international-2012
   series: International
@@ -102,7 +102,7 @@
   crew: Jenna Findlay
   club: Sheridan Shores Yacht Club
   location: Wilmette, IL, U.S.A.
-  results_url: archive/legacy-website/2012 Penguin Internationals Summary_1.htm
+  results_url: /archive/legacy-website/2012 Penguin Internationals Summary_1.htm
 - year: 2011
   result_id: international-2011
   series: International
@@ -110,7 +110,7 @@
   crew: Donna McKenzie
   club: Severn Sailing Association
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/2011 Internationals_results.htm
+  results_url: /archive/legacy-website/2011 Internationals_results.htm
 - year: 2010
   result_id: international-2010
   series: International
@@ -118,7 +118,7 @@
   crew: Donna McKenzie
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/2010_Internationals.htm
+  results_url: /archive/legacy-website/2010_Internationals.htm
 - year: 2009
   result_id: international-2009
   series: International
@@ -126,7 +126,7 @@
   crew: Donna McKenzie
   club: West River Sailing Club
   location: Galesville, MD, U.S.A.
-  results_url: archive/legacy-website/2009 Penguin International Championship-Series
+  results_url: /archive/legacy-website/2009 Penguin International Championship-Series
     Standing - 6 races scored.htm
 - year: 2008
   result_id: international-2008
@@ -135,7 +135,7 @@
   crew: Rachel Hecky
   club: Severn Sailing Association
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/2008_intls.htm
+  results_url: /archive/legacy-website/2008_intls.htm
 - year: 2007
   result_id: international-2007
   series: International
@@ -143,7 +143,7 @@
   crew: Christian Ostberg
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/2007_intls.pdf
+  results_url: /archive/legacy-website/2007_intls.pdf
 - year: 2006
   result_id: international-2006
   series: International
@@ -151,7 +151,7 @@
   crew: Sue Dailey
   club: Cambridge Yacht Club
   location: Cambridge, MD, U.S.A.
-  results_url: archive/legacy-website/2006internationals.htm
+  results_url: /archive/legacy-website/2006internationals.htm
 - year: 2005
   result_id: international-2005
   series: International
@@ -159,7 +159,7 @@
   crew: Sue Fornara
   club: West River Sailing Club
   location: Galesville, MD, U.S.A.
-  results_url: archive/legacy-website/internationals05.htm
+  results_url: /archive/legacy-website/internationals05.htm
 - year: 2004
   result_id: international-2004
   series: International
@@ -167,7 +167,7 @@
   crew: Harry Scott
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/Internationals04.html
+  results_url: /archive/legacy-website/Internationals04.html
 - year: 2003
   result_id: international-2003
   series: International
@@ -175,7 +175,7 @@
   crew: Erin MacCausland
   club: Sheridan Shores Yacht Club
   location: Wilmette, IL, U.S.A.
-  results_url: archive/legacy-website/Internationals03.html
+  results_url: /archive/legacy-website/Internationals03.html
 - year: 2002
   result_id: international-2002
   series: International
@@ -183,7 +183,7 @@
   crew: Sue Fornara
   club: Miles River Yacht Club
   location: St. Michaels, MD, U.S.A.
-  results_url: archive/legacy-website/2002 Internationals.pdf
+  results_url: /archive/legacy-website/2002 Internationals.pdf
 - year: 2001
   result_id: international-2001
   series: International
@@ -191,7 +191,7 @@
   crew: Erin MacCausland
   club: Tred Avon Yacht Club
   location: Oxford, MD, U.S.A.
-  results_url: archive/legacy-website/2001_Intls_SS.pdf
+  results_url: /archive/legacy-website/2001_Intls_SS.pdf
 - year: 2000
   result_id: international-2000
   series: International
@@ -199,7 +199,7 @@
   crew: Erin MacCausland
   club: Sheridan Shores Yacht Club
   location: Wilmette, IL, U.S.A.
-  results_url: archive/legacy-website/2000_Intls.pdf
+  results_url: /archive/legacy-website/2000_Intls.pdf
 - year: 1999
   result_id: international-1999
   series: International
@@ -207,7 +207,7 @@
   crew: Sue Dailey
   club: Centerport Yacht Club
   location: Centerport, NY, U.S.A.
-  results_url: archive/legacy-website/1999_Intls.pdf
+  results_url: /archive/legacy-website/1999_Intls.pdf
 - year: 1998
   result_id: international-1998
   series: International
@@ -215,7 +215,7 @@
   crew: Marilyn Rapp
   club: Miles River Yacht Club
   location: St. Michaels, MD, U.S.A.
-  results_url: archive/legacy-website/1998.pdf
+  results_url: /archive/legacy-website/1998.pdf
 - year: 1997
   result_id: international-1997
   series: International
@@ -223,7 +223,7 @@
   crew: Andre Ribeiro
   club: Clube Naval
   location: Rio de Janeiro, Brazil
-  results_url: archive/legacy-website/1997_Intls.pdf
+  results_url: /archive/legacy-website/1997_Intls.pdf
 - year: 1997
   result_id: north-american-1997
   series: North-American
@@ -231,7 +231,7 @@
   crew: Cairn Krafft
   club: Corsica River Yacht Club
   location: Centreville, MD, U.S.A.
-  results_url: archive/legacy-website/1997_Intls.pdf
+  results_url: /archive/legacy-website/1997_Intls.pdf
 - year: 1996
   result_id: international-1996
   series: International
@@ -239,7 +239,7 @@
   crew: Sue Dailey
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1996_Intls.pdf
+  results_url: /archive/legacy-website/1996_Intls.pdf
 - year: 1995
   result_id: international-1995
   series: International
@@ -247,7 +247,7 @@
   crew: Kathy Litman
   club: Centerport Yacht Club
   location: Centerport, NY, U.S.A.
-  results_url: archive/legacy-website/1995_Intls.pdf
+  results_url: /archive/legacy-website/1995_Intls.pdf
 - year: 1994
   result_id: international-1994
   series: International
@@ -255,7 +255,7 @@
   crew: Luciano Pedro Correa
   club: ''
   location: Florianopolis, Brazil
-  results_url: archive/legacy-website/1994_Intls.pdf
+  results_url: /archive/legacy-website/1994_Intls.pdf
 - year: 1994
   result_id: north-american-1994
   series: North-American
@@ -263,7 +263,7 @@
   crew: ''
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/1994_Intls.pdf
+  results_url: /archive/legacy-website/1994_Intls.pdf
 - year: 1993
   result_id: international-1993
   series: International
@@ -271,7 +271,7 @@
   crew: Marilyn Rapp
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1993_Intls.pdf
+  results_url: /archive/legacy-website/1993_Intls.pdf
 - year: 1992
   result_id: international-1992
   series: International
@@ -279,7 +279,7 @@
   crew: Feline Manderbach
   club: Cambridge Yacht Club
   location: Cambridge, MD, U.S.A.
-  results_url: archive/legacy-website/1992_Intls.pdf
+  results_url: /archive/legacy-website/1992_Intls.pdf
 - year: 1991
   result_id: international-1991
   series: International
@@ -287,7 +287,7 @@
   crew: Laerte Sobelewski De Jesus
   club: Rio de Janeiro Yacht Club
   location: Rio de Janeiro, Brazil
-  results_url: archive/legacy-website/1991.pdf
+  results_url: /archive/legacy-website/1991.pdf
 - year: 1991
   result_id: north-american-1991
   skipper: Neal Litman
@@ -303,7 +303,7 @@
   crew: Audrey Kaiser
   club: Centerport Yacht Club
   location: Northport Bay, NY, U.S.A.
-  results_url: archive/legacy-website/1990_Intls.pdf
+  results_url: /archive/legacy-website/1990_Intls.pdf
 - year: 1989
   result_id: international-1989
   series: International
@@ -311,7 +311,7 @@
   crew: Kathy Litman
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1983_intls.pdf
+  results_url: /archive/legacy-website/1983_intls.pdf
 - year: 1988
   result_id: international-1988
   series: International
@@ -319,7 +319,7 @@
   crew: Marcello Conto
   club: ''
   location: Niteroi, Brazil
-  results_url: archive/legacy-website/1988_Intls.pdf
+  results_url: /archive/legacy-website/1988_Intls.pdf
 - year: 1988
   result_id: north-american-1988
   series: North-American
@@ -327,7 +327,7 @@
   crew: Mary Ellen Sheelen
   club: Cambridge Yacht Club
   location: Cambridge, MD, U.S.A.
-  results_url: archive/legacy-website/1988_Intls.pdf
+  results_url: /archive/legacy-website/1988_Intls.pdf
 - year: 1987
   result_id: international-1987
   series: International
@@ -335,7 +335,7 @@
   crew: Mauricio Milano
   club: Toms River Yacht Club
   location: Toms River, NJ, U.S.A.
-  results_url: archive/legacy-website/1987_Intls.pdf
+  results_url: /archive/legacy-website/1987_Intls.pdf
 - year: 1986
   result_id: international-1986
   series: International
@@ -343,7 +343,7 @@
   crew: Kris Meyer
   club: Sayville Yacht Club
   location: Blue Point, NY, U.S.A.
-  results_url: archive/legacy-website/1986_Intls.pdf
+  results_url: /archive/legacy-website/1986_Intls.pdf
 - year: 1985
   result_id: international-1985
   series: International
@@ -351,7 +351,7 @@
   crew: Claudio Oliveira
   club: ''
   location: Porto Allegre, Brazil
-  results_url: archive/legacy-website/1985_Intls.pdf
+  results_url: /archive/legacy-website/1985_Intls.pdf
 - year: 1985
   result_id: north-american-1985
   series: North-American
@@ -359,7 +359,7 @@
   crew: Kris Meyer
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/1985_Intls.pdf
+  results_url: /archive/legacy-website/1985_Intls.pdf
 - year: 1984
   result_id: international-1984
   series: International
@@ -367,7 +367,7 @@
   crew: Kris Meyer
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1984_intls.pdf
+  results_url: /archive/legacy-website/1984_intls.pdf
 - year: 1983
   result_id: international-1983
   series: International
@@ -375,7 +375,7 @@
   crew: Amy Wefer
   club: Seaside Park Yacht Club
   location: Seaside Park, NJ, U.S.A.
-  results_url: archive/legacy-website/1983_intls.pdf
+  results_url: /archive/legacy-website/1983_intls.pdf
 - year: 1982
   result_id: international-1982
   series: International
@@ -383,7 +383,7 @@
   crew: Thomas Scheidt
   club: Yacht Club Paulista
   location: Sao Paulo, Brazil
-  results_url: archive/legacy-website/1982_intls.pdf
+  results_url: /archive/legacy-website/1982_intls.pdf
 - year: 1982
   result_id: north-american-1982
   series: North-American
@@ -391,7 +391,7 @@
   crew: Ellen Wefer
   club: Centerport Yacht Club
   location: Centerport, NY, U.S.A.
-  results_url: archive/legacy-website/1982_intls.pdf
+  results_url: /archive/legacy-website/1982_intls.pdf
 - year: 1981
   result_id: international-1981
   series: International
@@ -399,7 +399,7 @@
   crew: Ellen Wefer
   club: Shelter Island Yacht Club
   location: Shelter Island, NY, U.S.A.
-  results_url: archive/legacy-website/1981_intls.pdf
+  results_url: /archive/legacy-website/1981_intls.pdf
 - year: 1980
   result_id: international-1980
   series: International
@@ -407,7 +407,7 @@
   crew: Ellen Wefer
   club: Chicago Yacht Club
   location: Belmont Harbor, U.S.A.
-  results_url: archive/legacy-website/1980_intls.pdf
+  results_url: /archive/legacy-website/1980_intls.pdf
 - year: 1979
   result_id: international-1979
   series: International
@@ -415,7 +415,7 @@
   crew: Lucio Macado
   club: ''
   location: Brazil
-  results_url: archive/legacy-website/1979_Intls.pdf
+  results_url: /archive/legacy-website/1979_Intls.pdf
 - year: 1979
   result_id: north-american-1979
   series: North-American
@@ -423,7 +423,7 @@
   crew: Ellen Wefer
   club: Bay Head Yacht Club
   location: Bay Head, NJ, U.S.A.
-  results_url: archive/legacy-website/1979_Intls.pdf
+  results_url: /archive/legacy-website/1979_Intls.pdf
 - year: 1978
   result_id: international-1978
   series: International
@@ -431,7 +431,7 @@
   crew: Tom Danilek
   club: Sayville Yacht Club
   location: Blue Point, NY, U.S.A.
-  results_url: archive/legacy-website/1978_Intls.pdf
+  results_url: /archive/legacy-website/1978_Intls.pdf
 - year: 1977
   result_id: international-1977
   series: International
@@ -439,7 +439,7 @@
   crew: Nick Risom
   club: Richmond County Yacht Club
   location: Staten Island, NY, U.S.A.
-  results_url: archive/legacy-website/1977_Intls.pdf
+  results_url: /archive/legacy-website/1977_Intls.pdf
 - year: 1976
   result_id: international-1976
   series: International
@@ -447,7 +447,7 @@
   crew: Jose L. D. Ribeiro
   club: Yacht Club Olivos
   location: Buenos Aires, Argentina
-  results_url: archive/legacy-website/1976_Intl.pdf
+  results_url: /archive/legacy-website/1976_Intl.pdf
 - year: 1976
   result_id: north-american-1976
   series: North-American
@@ -455,7 +455,7 @@
   crew: Dianne Harms
   club: Toms River Yacht Club
   location: Toms River, NJ, U.S.A.
-  results_url: archive/legacy-website/1976_Intl.pdf
+  results_url: /archive/legacy-website/1976_Intl.pdf
 - year: 1975
   result_id: international-1975
   series: International
@@ -463,7 +463,7 @@
   crew: Bernardo Jefferson de Oliviero
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1975_Intl.pdf
+  results_url: /archive/legacy-website/1975_Intl.pdf
 - year: 1974
   result_id: international-1974
   series: International
@@ -471,7 +471,7 @@
   crew: Jorge Barcellos
   club: Mattituck Yacht Club
   location: Mattituck, NY, U.S.A.
-  results_url: archive/legacy-website/1974_Intl.pdf
+  results_url: /archive/legacy-website/1974_Intl.pdf
 - year: 1973
   result_id: international-1973
   series: International
@@ -479,7 +479,7 @@
   crew: Jorge Barcellos
   club: ''
   location: Niteroi, Brazil
-  results_url: archive/legacy-website/1973_Intl.pdf
+  results_url: /archive/legacy-website/1973_Intl.pdf
 - year: 1973
   result_id: north-american-1973
   series: North-American
@@ -487,7 +487,7 @@
   crew: Blair Barton
   club: Richmond County Yacht Club
   location: Staten Island, NY, U.S.A.
-  results_url: archive/legacy-website/1973_Intl.pdf
+  results_url: /archive/legacy-website/1973_Intl.pdf
 - year: 1972
   result_id: international-1972
   series: International
@@ -495,7 +495,7 @@
   crew: Javier Ferrario
   club: Dillon Yacht Club
   location: Dillon Lake, CO, U.S.A.
-  results_url: archive/legacy-website/1972_Intl.pdf
+  results_url: /archive/legacy-website/1972_Intl.pdf
 - year: 1971
   result_id: international-1971
   series: International
@@ -503,7 +503,7 @@
   crew: ''
   club: Babylon Yacht Club
   location: Babylon, NY, U.S.A.
-  results_url: archive/legacy-website/1971_Intl.pdf
+  results_url: /archive/legacy-website/1971_Intl.pdf
 - year: 1970
   result_id: international-1970
   series: International
@@ -511,7 +511,7 @@
   crew: J.Ehrensper Biekarck
   club: Yacht Club Olivos
   location: Buenos Aires, Argentina
-  results_url: archive/legacy-website/1970_Intl.pdf
+  results_url: /archive/legacy-website/1970_Intl.pdf
 - year: 1970
   result_id: north-american-1970
   series: North-American
@@ -519,7 +519,7 @@
   crew: ''
   club: Cambridge Yacht Club
   location: Cambridge, MD, U.S.A.
-  results_url: archive/legacy-website/1970_Intl.pdf
+  results_url: /archive/legacy-website/1970_Intl.pdf
 - year: 1969
   result_id: international-1969
   series: International
@@ -527,7 +527,7 @@
   crew: Stuart Johnstone
   club: Sheridan Shores Yacht Club
   location: Wilmette, IL, U.S.A.
-  results_url: archive/legacy-website/1969_Intl.pdf
+  results_url: /archive/legacy-website/1969_Intl.pdf
 - year: 1968
   result_id: international-1968
   series: International
@@ -535,7 +535,7 @@
   crew: Mary Covell
   club: ''
   location: Montreal, Canada
-  results_url: archive/legacy-website/1968.pdf
+  results_url: /archive/legacy-website/1968.pdf
 - year: 1967
   result_id: international-1967
   series: International
@@ -543,7 +543,7 @@
   crew: Beverly Smith
   club: Alamitos Bay Yacht Club
   location: Long Beach, CA, U.S.A.
-  results_url: archive/legacy-website/1967.pdf
+  results_url: /archive/legacy-website/1967.pdf
 - year: 1966
   result_id: international-1966
   series: International
@@ -551,7 +551,7 @@
   crew: Ann Campbell
   club: Little Egg Harbor Yacht Club
   location: Beach Haven, N. J., U.S.A.
-  results_url: archive/legacy-website/1966.pdf
+  results_url: /archive/legacy-website/1966.pdf
 - year: 1965
   result_id: international-1965
   series: International
@@ -559,7 +559,7 @@
   crew: ''
   club: Rio de Janeiro Yacht Club
   location: Rio de Janeiro, Brazil
-  results_url: archive/legacy-website/1965.pdf
+  results_url: /archive/legacy-website/1965.pdf
 - year: 1965
   result_id: north-american-1965
   series: North-American
@@ -567,7 +567,7 @@
   crew: ''
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1965.pdf
+  results_url: /archive/legacy-website/1965.pdf
 - year: 1964
   result_id: international-1964
   series: International
@@ -575,7 +575,7 @@
   crew: Barbara Cox
   club: Southern Yacht Club
   location: New Orleans, LA, U.S.A.
-  results_url: archive/legacy-website/1964.pdf
+  results_url: /archive/legacy-website/1964.pdf
 - year: 1963
   result_id: international-1963
   series: International
@@ -583,7 +583,7 @@
   crew: Susan Callihan
   club: Mission Bay Yacht Club
   location: San Diego, CA, U.S.A.
-  results_url: archive/legacy-website/1963.pdf
+  results_url: /archive/legacy-website/1963.pdf
 - year: 1962
   result_id: international-1962
   series: International
@@ -591,7 +591,7 @@
   crew: Betsy Colie
   club: Sayville Yacht Club
   location: Blue Point, NY, U.S.A.
-  results_url: archive/legacy-website/1962.pdf
+  results_url: /archive/legacy-website/1962.pdf
 - year: 1961
   result_id: international-1961
   series: International
@@ -599,7 +599,7 @@
   crew: Carol Kibiger
   club: Crescent Sail Yacht Club
   location: Grosse Pointe, Michigan, U.S.A.
-  results_url: archive/legacy-website/1961.pdf
+  results_url: /archive/legacy-website/1961.pdf
 - year: 1960
   result_id: international-1960
   series: International
@@ -607,7 +607,7 @@
   crew: Barbara Cox
   club: Southern Yacht Club
   location: New Orleans, LA, U.S.A.
-  results_url: archive/legacy-website/1960.pdf
+  results_url: /archive/legacy-website/1960.pdf
 - year: 1959
   result_id: international-1959
   series: International
@@ -615,7 +615,7 @@
   crew: Marilyn Markham
   club: Alamitos Bay Yacht Club
   location: Long Beach, CA, U.S.A.
-  results_url: archive/legacy-website/1959.pdf
+  results_url: /archive/legacy-website/1959.pdf
 - year: 1958
   result_id: international-1958
   series: International
@@ -623,7 +623,7 @@
   crew: Barbara Cox
   club: Mantoloking Yacht Club
   location: Mantoloking, NJ, U.S.A.
-  results_url: archive/legacy-website/1958.pdf
+  results_url: /archive/legacy-website/1958.pdf
 - year: 1957
   result_id: international-1957
   series: International
@@ -631,7 +631,7 @@
   crew: ''
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1957.pdf
+  results_url: /archive/legacy-website/1957.pdf
 - year: 1956
   result_id: international-1956
   series: International
@@ -639,7 +639,7 @@
   crew: Bob Blatt
   club: Biloxi Yacht Club
   location: Biloxi, MS, U.S.A.
-  results_url: archive/legacy-website/1956.pdf
+  results_url: /archive/legacy-website/1956.pdf
 - year: 1955
   result_id: international-1955
   series: International
@@ -647,7 +647,7 @@
   crew: James Pinac Jr.
   club: Alamitos Bay Yacht Club
   location: Long Beach, CA, U.S.A.
-  results_url: archive/legacy-website/1955.pdf
+  results_url: /archive/legacy-website/1955.pdf
 - year: 1954
   result_id: international-1954
   series: International
@@ -655,7 +655,7 @@
   crew: Mrs. Lois Colie
   club: Baltimore Yacht Club
   location: Baltimore, MD, U.S.A.
-  results_url: archive/legacy-website/1954.pdf
+  results_url: /archive/legacy-website/1954.pdf
 - year: 1953
   result_id: international-1953
   series: International
@@ -663,7 +663,7 @@
   crew: Peg Bradley
   club: Columbia Yacht Club
   location: Chicago, IL, U.S.A.
-  results_url: archive/legacy-website/1953.pdf
+  results_url: /archive/legacy-website/1953.pdf
 - year: 1952
   result_id: international-1952
   series: International
@@ -679,7 +679,7 @@
   crew: Leah Ruby
   club: San Diego Yacht Club
   location: San Diego, CA, U.S.A.
-  results_url: archive/legacy-website/1951.pdf
+  results_url: /archive/legacy-website/1951.pdf
 - year: 1950
   result_id: international-1950
   series: International
@@ -687,7 +687,7 @@
   crew: Betsy Colie
   club: Mantoloking Yacht Club
   location: Mantoloking, NJ, U.S.A.
-  results_url: archive/legacy-website/1950.pdf
+  results_url: /archive/legacy-website/1950.pdf
 - year: 1949
   result_id: international-1949
   series: International
@@ -711,7 +711,7 @@
   crew: Janet Reckord
   club: Hampton Yacht Club
   location: Hampton Roads, VA, U.S.A.
-  results_url: archive/legacy-website/1947.pdf
+  results_url: /archive/legacy-website/1947.pdf
 - year: 1946
   result_id: international-1946
   series: International
@@ -719,7 +719,7 @@
   crew: Dorothy Lawson
   club: Port Washington Yacht Club
   location: Port Washington, NY, U.S.A.
-  results_url: archive/legacy-website/1946.pdf
+  results_url: /archive/legacy-website/1946.pdf
 - year: 1945
   result_id: international-1945
   series: International
@@ -727,7 +727,7 @@
   crew: Dorothy Lawson
   club: Old Dominion Boat Club
   location: Alexandria, VA, U.S.A.
-  results_url: archive/legacy-website/1945.pdf
+  results_url: /archive/legacy-website/1945.pdf
 - year: 1944
   result_id: international-1944
   series: International
@@ -736,7 +736,7 @@
   club: ''
   location: ''
   boat: ''
-  results_url: archive/legacy-website/1942.pdf
+  results_url: /archive/legacy-website/1942.pdf
 - year: 1943
   result_id: international-1943
   series: International
@@ -745,7 +745,7 @@
   club: ''
   location: ''
   boat: ''
-  results_url: archive/legacy-website/1942.pdf
+  results_url: /archive/legacy-website/1942.pdf
 - year: 1942
   result_id: international-1942
   series: International
@@ -754,7 +754,7 @@
   club: ''
   location: ''
   boat: ''
-  results_url: archive/legacy-website/1942.pdf
+  results_url: /archive/legacy-website/1942.pdf
 - year: 1941
   result_id: international-1941
   series: International
@@ -762,4 +762,4 @@
   crew: ''
   club: Annapolis Yacht Club
   location: Annapolis, MD, U.S.A.
-  results_url: archive/legacy-website/1941.pdf
+  results_url: /archive/legacy-website/1941.pdf

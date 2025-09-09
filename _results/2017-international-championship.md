@@ -19,7 +19,7 @@ location: "Annapolis, MD, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/2017 Internationals results.htm)
+[View Results](/archive/legacy-website/2017 Internationals results.htm)
 
 ## Navigation
 

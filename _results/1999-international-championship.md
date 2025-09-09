@@ -19,7 +19,7 @@ location: "Centerport, NY, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1999_Intls.pdf)
+[View Results](/archive/legacy-website/1999_Intls.pdf)
 
 ## Navigation
 

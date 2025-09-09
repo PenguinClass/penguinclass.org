@@ -4,7 +4,7 @@ title: "2020 Annual Regatta"
 series: "Annual Regatta"
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
-results_url: "archive/legacy-website/2020_Oxford Annual Regatta.htm"
+results_url: "/archive/legacy-website/2020_Oxford Annual Regatta.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2020_Oxford Annual Regatta.htm"
 **Club:** Tred Avon Yacht Club  
 **Location:** Oxford, MD, U.S.A.  
 
-[View Results](archive/legacy-website/2020_Oxford Annual Regatta.htm)
+[View Results](/archive/legacy-website/2020_Oxford Annual Regatta.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2020 at Oxford, MD, U.S.A..
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2020_Oxford Annual Regatta.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2020_Oxford Annual Regatta.htm)

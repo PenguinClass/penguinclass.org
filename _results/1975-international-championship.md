@@ -19,7 +19,7 @@ location: "Chicago, IL, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1975_Intl.pdf)
+[View Results](/archive/legacy-website/1975_Intl.pdf)
 
 ## Navigation
 

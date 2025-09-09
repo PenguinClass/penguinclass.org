@@ -5,7 +5,7 @@ and Penguin Invitational"
 series: "Comet & Penguin Invitational"
 club: 
 location: 
-results_url: "archive/legacy-website/2022 Comet and Penguin Invitational (1).htm"
+results_url: "/archive/legacy-website/2022 Comet and Penguin Invitational (1).htm"
 
 ---
 
@@ -17,7 +17,7 @@ and Penguin Invitational
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2022 Comet and Penguin Invitational (1).htm)
+[View Results](/archive/legacy-website/2022 Comet and Penguin Invitational (1).htm)
 
 ## Event Details
 
@@ -25,4 +25,4 @@ This event was held in 2022 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2022 Comet and Penguin Invitational (1).htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2022 Comet and Penguin Invitational (1).htm)

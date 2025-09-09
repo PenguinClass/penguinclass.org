@@ -4,7 +4,7 @@ title: "2007 West River Annual"
 series: "Annual Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/2007_west_river_annual.htm"
+results_url: "/archive/legacy-website/2007_west_river_annual.htm"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/2007_west_river_annual.htm"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/2007_west_river_annual.htm)
+[View Results](/archive/legacy-website/2007_west_river_annual.htm)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2007 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/2007_west_river_annual.htm)
+Results are available in the original format: [View Results](/archive/legacy-website/2007_west_river_annual.htm)

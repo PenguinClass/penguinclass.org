@@ -19,7 +19,7 @@ location: "Rio de Janeiro, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1991.pdf)
+[View Results](/archive/legacy-website/1991.pdf)
 
 ## Navigation
 

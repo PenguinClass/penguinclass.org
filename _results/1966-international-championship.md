@@ -19,7 +19,7 @@ location: "Beach Haven, N. J., U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1966.pdf)
+[View Results](/archive/legacy-website/1966.pdf)
 
 ## Navigation
 

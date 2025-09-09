@@ -19,7 +19,7 @@ location: "Chicago, IL, U.S.A."
 
 ## Results
 
-[View Results](archive/legacy-website/1984_intls.pdf)
+[View Results](/archive/legacy-website/1984_intls.pdf)
 
 ## Navigation
 

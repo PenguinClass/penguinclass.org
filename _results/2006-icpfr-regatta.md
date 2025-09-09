@@ -4,7 +4,7 @@ title: "2006 Penguin Internationals/Series Standing - 8 races scored"
 series: "ICPFR Regatta"
 club: 
 location: 
-results_url: "archive/legacy-website/ICPFR_11_11_2006.html"
+results_url: "/archive/legacy-website/ICPFR_11_11_2006.html"
 
 ---
 
@@ -15,7 +15,7 @@ results_url: "archive/legacy-website/ICPFR_11_11_2006.html"
 **Club:**   
 **Location:**   
 
-[View Results](archive/legacy-website/ICPFR_11_11_2006.html)
+[View Results](/archive/legacy-website/ICPFR_11_11_2006.html)
 
 ## Event Details
 
@@ -23,4 +23,4 @@ This event was held in 2006 at .
 
 ## Results
 
-Results are available in the original format: [View Results](archive/legacy-website/ICPFR_11_11_2006.html)
+Results are available in the original format: [View Results](/archive/legacy-website/ICPFR_11_11_2006.html)

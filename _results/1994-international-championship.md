@@ -17,7 +17,7 @@ location: "Florianopolis, Brazil"
 
 ## Results
 
-[View Results](archive/legacy-website/1994_Intls.pdf)
+[View Results](/archive/legacy-website/1994_Intls.pdf)
 
 ## Navigation
 
