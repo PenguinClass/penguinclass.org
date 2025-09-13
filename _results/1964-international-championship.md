@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1964 International Championship"
+title: 1964 International Championship
 year: 1964
 result_id: international-1964
-series: International
-club: "Southern Yacht Club"
-location: "New Orleans, LA, U.S.A."
+series: International-Championship
+club: Southern Yacht Club
+location: New Orleans, LA, U.S.A.
+results_url: /archive/legacy-website/1964.pdf
 ---
 
 # 1964 International Championship

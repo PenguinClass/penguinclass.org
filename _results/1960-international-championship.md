@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1960 International Championship"
+title: 1960 International Championship
 year: 1960
 result_id: international-1960
-series: International
-club: "Southern Yacht Club"
-location: "New Orleans, LA, U.S.A."
+series: International-Championship
+club: Southern Yacht Club
+location: New Orleans, LA, U.S.A.
+results_url: /archive/legacy-website/1960.pdf
 ---
 
 # 1960 International Championship

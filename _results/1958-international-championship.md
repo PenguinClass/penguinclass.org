@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1958 International Championship"
+title: 1958 International Championship
 year: 1958
 result_id: international-1958
-series: International
-club: "Mantoloking Yacht Club"
-location: "Mantoloking, NJ, U.S.A."
+series: International-Championship
+club: Mantoloking Yacht Club
+location: Mantoloking, NJ, U.S.A.
+results_url: /archive/legacy-website/1958.pdf
 ---
 
 # 1958 International Championship

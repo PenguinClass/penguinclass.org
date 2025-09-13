@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1957 International Championship"
+title: 1957 International Championship
 year: 1957
 result_id: international-1957
-series: International
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: International-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1957.pdf
 ---
 
 # 1957 International Championship

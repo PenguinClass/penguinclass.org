@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1953 International Championship"
+title: 1953 International Championship
 year: 1953
 result_id: international-1953
-series: International
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: International-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1953.pdf
 ---
 
 # 1953 International Championship
