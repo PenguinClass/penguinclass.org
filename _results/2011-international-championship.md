@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2011 International Championship"
+title: 2011 International Championship
 year: 2011
 result_id: international-2011
-series: International
-club: "Severn Sailing Association"
-location: "Annapolis, MD, U.S.A."
+series: International-Championship
+club: Severn Sailing Association
+location: Annapolis, MD, U.S.A.
+results_url: /archive/legacy-website/2011 Internationals_results.htm
 ---
 
 # 2011 International Championship

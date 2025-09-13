@@ -1,12 +1,12 @@
 ---
 layout: result
-title: "1972 International Championship"
+title: 1972 International Championship
 year: 1972
 result_id: international-1972
-series: International
-club: "Dillon Yacht Club"
-location: "Dillon Lake, CO, U.S.A."
-
+series: International-Championship
+club: Dillon Yacht Club
+location: Dillon Lake, CO, U.S.A.
+results_url: /archive/legacy-website/1972_Intl.pdf
 ---
 
 # 1972 International Championship

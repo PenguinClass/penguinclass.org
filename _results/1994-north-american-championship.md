@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1994 North-American Championship"
+title: 1994 North-American Championship
 year: 1994
 result_id: north-american-1994
-series: North-American
-club: "Annapolis Yacht Club"
-location: "Annapolis, MD, U.S.A."
+series: North-American-Championship
+club: Annapolis Yacht Club
+location: Annapolis, MD, U.S.A.
+results_url: /archive/legacy-website/1994_NA.pdf
 ---
 
 # 1994 North-American Championship
@@ -18,7 +19,7 @@ location: "Annapolis, MD, U.S.A."
 
 ## Results
 
-[View Results](/archive/legacy-website/1994_Intls.pdf)
+[View Results](/archive/legacy-website/1994_NA.pdf)
 
 ## Navigation
 

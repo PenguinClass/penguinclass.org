@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1984 International Championship"
+title: 1984 International Championship
 year: 1984
 result_id: international-1984
-series: International
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: International-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1984_intls.pdf
 ---
 
 # 1984 International Championship

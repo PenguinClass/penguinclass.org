@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2009 International Championship"
+title: 2009 International Championship
 year: 2009
 result_id: international-2009
-series: International
-club: "West River Sailing Club"
-location: "Galesville, MD, U.S.A."
+series: International-Championship
+club: West River Sailing Club
+location: Galesville, MD, U.S.A.
+results_url: /archive/legacy-website/2009 Penguin International Championship-Series Standing - 6 races scored.htm
 ---
 
 # 2009 International Championship

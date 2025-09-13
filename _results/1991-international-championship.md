@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1991 International Championship"
+title: 1991 International Championship
 year: 1991
 result_id: international-1991
-series: International
-club: "Rio de Janeiro Yacht Club"
-location: "Rio de Janeiro, Brazil"
+series: International-Championship
+club: Rio de Janeiro Yacht Club
+location: Rio de Janeiro, Brazil
+results_url: /archive/legacy-website/1991.pdf
 ---
 
 # 1991 International Championship

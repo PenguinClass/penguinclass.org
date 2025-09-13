@@ -1,12 +1,12 @@
 ---
 layout: result
-title: "1981 International Championship"
+title: 1981 International Championship
 year: 1981
 result_id: international-1981
-series: International
-club: "Shelter Island Yacht Club"
-location: "Shelter Island, NY, U.S.A."
-
+series: International-Championship
+club: Shelter Island Yacht Club
+location: Shelter Island, NY, U.S.A.
+results_url: /archive/legacy-website/1981_intls.pdf
 ---
 
 # 1981 International Championship

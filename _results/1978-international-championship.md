@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1978 International Championship"
+title: 1978 International Championship
 year: 1978
 result_id: international-1978
-series: International
-club: "Sayville Yacht Club"
-location: "Blue Point, NY, U.S.A."
+series: International-Championship
+club: Sayville Yacht Club
+location: Blue Point, NY, U.S.A.
+results_url: /archive/legacy-website/1978_Intls.pdf
 ---
 
 # 1978 International Championship

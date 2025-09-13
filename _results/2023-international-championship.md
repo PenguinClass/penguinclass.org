@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2023 International Championship"
+title: 2023 International Championship
 year: 2023
 result_id: international-2023
-series: International
-club: "Tred Avon Yacht Club"
-location: "Oxford, MD, U.S.A."
+series: International-Championship
+club: Tred Avon Yacht Club
+location: Oxford, MD, U.S.A.
+results_url: /archive/legacy-website/2023 Penguin Internationals.htm
 ---
 
 # 2023 International Championship

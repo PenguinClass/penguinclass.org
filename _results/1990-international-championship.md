@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1990 International Championship"
+title: 1990 International Championship
 year: 1990
 result_id: international-1990
-series: International
-club: "Centerport Yacht Club"
-location: "Northport Bay, NY, U.S.A."
+series: International-Championship
+club: Centerport Yacht Club
+location: Northport Bay, NY, U.S.A.
+results_url: /archive/legacy-website/1990_Intls.pdf
 ---
 
 # 1990 International Championship

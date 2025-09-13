@@ -1,12 +1,12 @@
 ---
 layout: result
-title: "1983 International Championship"
+title: 1983 International Championship
 year: 1983
 result_id: international-1983
-series: International
-club: "Seaside Park Yacht Club"
-location: "Seaside Park, NJ, U.S.A."
-
+series: International-Championship
+club: Seaside Park Yacht Club
+location: Seaside Park, NJ, U.S.A.
+results_url: /archive/legacy-website/1983_intls.pdf
 ---
 
 # 1983 International Championship

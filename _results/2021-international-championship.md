@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2021 International Championship"
+title: 2021 International Championship
 year: 2021
 result_id: international-2021
-series: International
-club: "Corsica River Yacht Club"
-location: "Centreville, MD, U.S.A."
+series: International-Championship
+club: Corsica River Yacht Club
+location: Centreville, MD, U.S.A.
+results_url: /archive/legacy-website/2021 Internationals.htm
 ---
 
 # 2021 International Championship

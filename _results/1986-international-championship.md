@@ -1,12 +1,12 @@
 ---
 layout: result
-title: "1986 International Championship"
+title: 1986 International Championship
 year: 1986
 result_id: international-1986
-series: International
-club: "Sayville Yacht Club"
-location: "Blue Point, NY, U.S.A."
-
+series: International-Championship
+club: Sayville Yacht Club
+location: Blue Point, NY, U.S.A.
+results_url: /archive/legacy-website/1986_Intls.pdf
 ---
 
 # 1986 International Championship
