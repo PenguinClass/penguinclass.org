@@ -4,52 +4,52 @@
   url: /events/
 - title: Class
   children:
-    - title: News
-      url: /news/
     - title: About
       url: /class/about/
     - title: Bylaws
       url: /class/bylaws/
-    - title: Officers
-      url: /class/officers/
+    - title: Champions
+      url: /champions/
     - title: Join
       url: /class/join/
+    - title: News
+      url: /news/
+    - title: Officers
+      url: /class/officers/
 - title: Penguin
   children:
-    - title: Specs & Rules
-      url: /penguin/specs/
-    - title: Plans
-      url: /penguin/plans/
-    - title: Tuning & Rigging
-      url: /penguin/tuning/
     - title: Modern v Classic
       url: /penguin/modern-v-classic/
+    - title: Plans
+      url: /penguin/plans/
+    - title: Specs & Rules
+      url: /penguin/specs/
     - title: Suppliers
       url: /penguin/suppliers/
+    - title: Tuning & Rigging
+      url: /penguin/tuning/
 - title: Fleets
   children:
-    - title: U.S. East Coast
-      url: /fleets/east-coast/
-    - title: U.S. Midwest
-      url: /fleets/midwest/
     - title: Argentina
       url: /fleets/argentina/
     - title: Brazil
       url: /fleets/brazil/
+    - title: U.S. East Coast
+      url: /fleets/east-coast/
+    - title: U.S. Midwest
+      url: /fleets/midwest/
 - title: Archive
   children:
-    - title: Champions
-      url: /champions/
-    - title: Results
-      url: /results/
-    - title: Gallery
-      url: /gallery/
-    - title: Minutes
-      url: /docs/minutes/
     - title: Documents
       url: /docs/
-    - title: Yearbooks
-      url: /class/yearbooks/
+    - title: Gallery
+      url: /gallery/
     - title: Legacy Website
       url: /archive/legacy-website/
+    - title: Minutes
+      url: /docs/minutes/
+    - title: Results
+      url: /results/
+    - title: Yearbooks
+      url: /class/yearbooks/
 
