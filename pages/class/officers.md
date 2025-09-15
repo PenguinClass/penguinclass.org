@@ -6,22 +6,23 @@ permalink: /class/officers/
 
 ## Class Officers
 
-### 2018-2019
+### 2025
 
 | **Position** | **Name** | **Location** | **Contact** |
 |-------------|----------|--------------|-------------|
 | **President** | Charles Krafft | Owings, MD | [chaskrafft@comcast.net](mailto:chaskrafft@comcast.net) |
 | **Executive Vice President** | Bill Lawson | Edgewater, MD | [noswalb1@yahoo.com](mailto:noswalb1@yahoo.com) |
-| **Secretary/Treasurer** | Chris Conway | Annapolis, MD | [cconway@idsinc.com](mailto:cconway@idsinc.com) |
-| **Chief Measurer** | Jack Rickard | Wilmette, IL | [jrickard@rickardbindery.com](mailto:jrickard@rickardbindery.com) |
-| **Technical Committee** | John Mac Causland | Medford, NJ | [marinespa@aol.com](mailto:marinespa@aol.com) |
+| **Secretary/Treasurer** | Chris Conway | Annapolis, MD | [cconway@idiscoverysolutions.com](mailto:cconway@idiscoverysolutions.com) |
+| **Chief Measurer** |  |  |  |
+| **Technical Committee** |  |  |  |
 | **Member at Large** | Jonathan Bartlett | Annapolis, MD | [Jonathan.Bartlett@northsails.com](mailto:Jonathan.Bartlett@northsails.com) |
-| **Member at Large** | Paul Hull | Salisbury, MD | [pt9696@verizon.net](mailto:pt9696@verizon.net) |
+| **Member at Large** |  |  |  |
 
 ### Regional Representatives
 
 | **Region** | **Representative** | **Location** | **Contact** |
 |------------|-------------------|--------------|-------------|
+| **Region 1&2** | | | |
 | **Region 3** | Sandy McAllister | Easton, MD | [wmcallister@mdswlaw.com](mailto:wmcallister@mdswlaw.com) |
 | **Region 6** | Patrick Hilliard | | [SLPenguinFleet@comcast.net](mailto:SLPenguinFleet@comcast.net) |
 | **South America** | | | |

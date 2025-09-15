@@ -2,7 +2,7 @@
 year: 2022
 title: "Comet
 and Penguin Invitational"
-series: "Comet & Penguin Invitational"
+series: Comet-Penguin-Invitational
 club: 
 location: 
 results_url: "/archive/legacy-website/2022 Comet and Penguin Invitational (1).htm"

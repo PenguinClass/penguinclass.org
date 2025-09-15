@@ -1,7 +1,7 @@
 ---
 year: 2023
 title: "2023 Beachwood Revival"
-series: "Beachwood Revival"
+series: Beachwood-Revival-Regatta
 club: "Beachwood Yacht Club"
 location: "Toms River, NJ, U.S.A."
 results_url: "/archive/legacy-website/2023_Beachwood.htm"
@@ -11,7 +11,7 @@ results_url: "/archive/legacy-website/2023_Beachwood.htm"
 # 2023 Beachwood Revival
 
 **Year:** 2023  
-**Series:** Beachwood Revival  
+**Series:** Beachwood Revival Regatta
 **Club:** Beachwood Yacht Club  
 **Location:** Toms River, NJ, U.S.A.  
 

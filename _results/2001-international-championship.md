@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2001 International Championship"
+title: 2001 International Championship
 year: 2001
 result_id: international-2001
-series: International
-club: "Tred Avon Yacht Club"
-location: "Oxford, MD, U.S.A."
+series: International-Championship
+club: Tred Avon Yacht Club
+location: Oxford, MD, U.S.A.
+results_url: /archive/legacy-website/2001_Intls_SS.pdf
 ---
 
 # 2001 International Championship

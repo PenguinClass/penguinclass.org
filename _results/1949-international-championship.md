@@ -3,7 +3,7 @@ layout: result
 title: "1949 International Championship"
 year: 1949
 result_id: international-1949
-series: International
+series: International-Championship
 club: "Annapolis Yacht Club"
 location: "Annapolis, MD, U.S.A."
 ---

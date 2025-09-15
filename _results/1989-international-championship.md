@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1989 International Championship"
+title: 1989 International Championship
 year: 1989
 result_id: international-1989
-series: International
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: International-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1983_intls.pdf
 ---
 
 # 1989 International Championship

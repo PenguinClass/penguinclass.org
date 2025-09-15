@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Gibson Island"
-series: "GIYS Regatta"
+series: GIYS-Regatta
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_Gibson Island.htm"

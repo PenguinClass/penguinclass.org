@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2003 International Championship"
+title: 2003 International Championship
 year: 2003
 result_id: international-2003
-series: International
-club: "Sheridan Shores Yacht Club"
-location: "Wilmette, IL, U.S.A."
+series: International-Championship
+club: Sheridan Shores Yacht Club
+location: Wilmette, IL, U.S.A.
+results_url: /archive/legacy-website/Internationals03.html
 ---
 
 # 2003 International Championship

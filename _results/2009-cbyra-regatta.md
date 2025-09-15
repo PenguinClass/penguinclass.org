@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "TAYC Spring"
-series: "CBYRA Regatta"
+series: CBYRA-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/cbyra_2009.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2015
 title: "2015 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Trippe Creek Penguin Frostbite Regatta"
 location: "Trippe Creek, MD, U.S.A."
 results_url: "/archive/legacy-website/2015_Trippe Creek Frostbite.htm"

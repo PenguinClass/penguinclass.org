@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "Penguin Sailors"
-series: "GIYS Regatta"
+series: GIYS-Regatta
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "/archive/legacy-website/giys_2009_nor.htm"

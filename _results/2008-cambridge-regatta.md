@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Cambridge 2008"
-series: "Cambridge Regatta"
+series: Cambridge-Regatta
 club: "Cambridge Yacht Club"
 location: "Cambridge, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_cambridge.htm"

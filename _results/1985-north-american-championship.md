@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1985 North-American Championship"
+title: 1985 North-American Championship
 year: 1985
 result_id: north-american-1985
-series: North-American
-club: "Annapolis Yacht Club"
-location: "Annapolis, MD, U.S.A."
+series: North-American-Championship
+club: Annapolis Yacht Club
+location: Annapolis, MD, U.S.A.
+results_url: /archive/legacy-website/1985_NA.pdf
 ---
 
 # 1985 North-American Championship
@@ -19,7 +20,7 @@ location: "Annapolis, MD, U.S.A."
 
 ## Results
 
-[View Results](/archive/legacy-website/1985_Intls.pdf)
+[View Results](/archive/legacy-website/1985_NA.pdf)
 
 ## Navigation
 

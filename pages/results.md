@@ -70,18 +70,17 @@ Search and browse regatta results and race outcomes from the Penguin Class archi
         
         const resultsLink = item.results_url ? 
           `<a href="${item.results_url}" class="results-link" target="_blank">View Results</a>` : 
-          '<span class="no-results-link">No results available</span>';
+          '';
         
         return `
           <div class="result-item">
             <div class="result-header">
-              <h3>${item.year} ${item.series}</h3>
-              ${resultsLink}
+              <h3><a href="/results/${item.filename.replace('.md', '')}">${item.year} ${item.series}</a></h3>
             </div>
             <div class="result-details">
               ${item.club ? `<p><strong>Club:</strong> ${item.club}</p>` : ''}
               ${item.location ? `<p><strong>Location:</strong> ${item.location}</p>` : ''}
-              <p><strong>File:</strong> ${item.filename}</p>
+              ${resultsLink ? `<p>${resultsLink}</p>` : ''}
             </div>
           </div>
         `;

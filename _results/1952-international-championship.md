@@ -3,7 +3,7 @@ layout: result
 title: "1952 International Championship"
 year: 1952
 result_id: international-1952
-series: International
+series: International-Championship
 club: "Biloxi Yacht Club"
 location: "Biloxi, MS, U.S.A."
 ---

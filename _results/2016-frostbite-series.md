@@ -1,7 +1,7 @@
 ---
 year: 2016
 title: "2016 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Trippe Creek Penguin Frostbite Regatta"
 location: "Trippe Creek, MD, U.S.A."
 results_url: "/archive/legacy-website/2016_TCPFR Trippes Creek Penguin Frostbite Regatta.htm"

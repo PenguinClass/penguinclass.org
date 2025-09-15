@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1993 International Championship"
+title: 1993 International Championship
 year: 1993
 result_id: international-1993
-series: International
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: International-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1993_Intls.pdf
 ---
 
 # 1993 International Championship

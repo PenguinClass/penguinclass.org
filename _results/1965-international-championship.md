@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1965 International Championship"
+title: 1965 International Championship
 year: 1965
 result_id: international-1965
-series: International
-club: "Rio de Janeiro Yacht Club"
-location: "Rio de Janeiro, Brazil"
+series: International-Championship
+club: Rio de Janeiro Yacht Club
+location: Rio de Janeiro, Brazil
+results_url: /archive/legacy-website/1965.pdf
 ---
 
 # 1965 International Championship

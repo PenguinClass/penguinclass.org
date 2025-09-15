@@ -1,7 +1,7 @@
 ---
 year: 2014
 title: "2014 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2014-TAYC AnnualPenguin.htm"

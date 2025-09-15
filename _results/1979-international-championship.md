@@ -1,10 +1,11 @@
 ---
 layout: result
-title: "1979 International Championship"
+title: 1979 International Championship
 year: 1979
 result_id: international-1979
-series: International
+series: International-Championship
 location: Brazil
+results_url: /archive/legacy-website/1979_Intls.pdf
 ---
 
 # 1979 International Championship

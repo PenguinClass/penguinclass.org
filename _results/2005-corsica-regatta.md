@@ -1,7 +1,7 @@
 ---
 year: 2005
 title: PENGUIN
-series: "Corsica Regatta"
+series: Corsica-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/corsica_2005.htm"

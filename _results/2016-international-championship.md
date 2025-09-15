@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2016 International Championship"
+title: 2016 International Championship
 year: 2016
 result_id: international-2016
-series: International
-club: "Tred Avon Yacht Club"
-location: "Oxford, MD, U.S.A."
+series: International-Championship
+club: Tred Avon Yacht Club
+location: Oxford, MD, U.S.A.
+results_url: /archive/legacy-website/2016_Internationals_results.htm
 ---
 
 # 2016 International Championship

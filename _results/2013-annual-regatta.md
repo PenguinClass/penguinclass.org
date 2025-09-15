@@ -1,7 +1,7 @@
 ---
 year: 2013
 title: "2013 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Miles River Yacht Club"
 location: "St. Michaels, MD, U.S.A."
 results_url: "/archive/legacy-website/2013_MRYC_Annual_summary.htm"

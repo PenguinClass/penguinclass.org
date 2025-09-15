@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Len Penso Regatta April 26"
-series: Regatta
+series: Len-Penso-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2008_len_penso_regatta_april_26.htm"
@@ -11,7 +11,7 @@ results_url: "/archive/legacy-website/2008_len_penso_regatta_april_26.htm"
 # Len Penso Regatta April 26
 
 **Year:** 2008  
-**Series:** Regatta  
+**Series:** Len Penso Regatta  
 **Club:**   
 **Location:**   
 

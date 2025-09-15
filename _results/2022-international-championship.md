@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2022 International Championship"
+title: 2022 International Championship
 year: 2022
 result_id: international-2022
-series: International
-club: "West River Sailing Club"
-location: "Galesville, MD, U.S.A."
+series: International-Championship
+club: West River Sailing Club
+location: Galesville, MD, U.S.A.
+results_url: /archive/legacy-website/2022 Penguin Internationals.htm
 ---
 
 # 2022 International Championship

@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: Presidents
-series: "President's Cup"
+series: President-s-Cup
 club: 
 location: 
 results_url: "/archive/legacy-website/2008_presidents.htm"

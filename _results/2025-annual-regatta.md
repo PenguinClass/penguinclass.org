@@ -1,7 +1,7 @@
 ---
 year: 2025
 title: "Microsoft Word - corsica one design NOR-final"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/2025_Corsica Annual NOR.htm"

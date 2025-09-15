@@ -1,7 +1,7 @@
 ---
 year: 2021
 title: "2021 Heritage Regatta"
-series: "Heritage Regatta"
+series: Heritage-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2021_Heritage.htm"

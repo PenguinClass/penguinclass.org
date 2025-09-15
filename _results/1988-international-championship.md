@@ -1,10 +1,11 @@
 ---
 layout: result
-title: "1988 International Championship"
+title: 1988 International Championship
 year: 1988
 result_id: international-1988
-series: International
-location: "Niteroi, Brazil"
+series: International-Championship
+location: Niteroi, Brazil
+results_url: /archive/legacy-website/1988_Intls.pdf
 ---
 
 # 1988 International Championship

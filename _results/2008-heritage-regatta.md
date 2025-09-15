@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "TAYC Heritage 2008"
-series: "Heritage Regatta"
+series: Heritage-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_tayc_heritage.htm"

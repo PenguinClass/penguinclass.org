@@ -1,7 +1,7 @@
 ---
 year: 2018
 title: "2018 Trippe Creek Regatta"
-series: "Trippe Creek Regatta"
+series: Trippe-Creek-Regatta
 club: "Trippe Creek Penguin Frostbite Regatta"
 location: "Trippe Creek, MD, U.S.A."
 results_url: "/archive/legacy-website/2018_tcpfr_results_web.htm"

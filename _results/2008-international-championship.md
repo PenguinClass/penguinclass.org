@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2008 International Championship"
+title: 2008 International Championship
 year: 2008
 result_id: international-2008
-series: International
-club: "Severn Sailing Association"
-location: "Annapolis, MD, U.S.A."
+series: International-Championship
+club: Severn Sailing Association
+location: Annapolis, MD, U.S.A.
+results_url: /archive/legacy-website/2008_intls.htm
 ---
 
 # 2008 International Championship

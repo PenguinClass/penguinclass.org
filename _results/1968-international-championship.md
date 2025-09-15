@@ -1,10 +1,11 @@
 ---
 layout: result
-title: "1968 International Championship"
+title: 1968 International Championship
 year: 1968
 result_id: international-1968
-series: International
-location: "Montreal, Canada"
+series: International-Championship
+location: Montreal, Canada
+results_url: /archive/legacy-website/1968.pdf
 ---
 
 # 1968 International Championship

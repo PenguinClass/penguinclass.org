@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "SLPF Spring Series 2009"
-series: "Spring Series"
+series: Spring-Series
 club: 
 location: 
 results_url: "/archive/legacy-website/slpf_spring_series_2009.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "2009 Island Creek Penguin Frostbite Regatta"
-series: "ICPFR Regatta"
+series: ICPFR-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2009_icpfr.htm"

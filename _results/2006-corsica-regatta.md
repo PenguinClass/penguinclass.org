@@ -1,7 +1,7 @@
 ---
 year: 2006
 title: "2006 Penguin Internationals/Series Standing - 8 races scored"
-series: "Corsica Regatta"
+series: Corsica-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/corsica_07_29_2006.html"

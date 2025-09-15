@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1965 North-American Championship"
+title: 1965 North-American Championship
 year: 1965
 result_id: north-american-1965
-series: North-American
-club: "Columbia Yacht Club"
-location: "Chicago, IL, U.S.A."
+series: North-American-Championship
+club: Columbia Yacht Club
+location: Chicago, IL, U.S.A.
+results_url: /archive/legacy-website/1965NA.pdf
 ---
 
 # 1965 North-American Championship
@@ -18,7 +19,7 @@ location: "Chicago, IL, U.S.A."
 
 ## Results
 
-[View Results](/archive/legacy-website/1965.pdf)
+[View Results](/archive/legacy-website/1965NA.pdf)
 
 ## Navigation
 

@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1945 International Championship"
+title: 1945 International Championship
 year: 1945
 result_id: international-1945
-series: International
-club: "Old Dominion Boat Club"
-location: "Alexandria, VA, U.S.A."
+series: International-Championship
+club: Old Dominion Boat Club
+location: Alexandria, VA, U.S.A.
+results_url: /archive/legacy-website/1945.pdf
 ---
 
 # 1945 International Championship

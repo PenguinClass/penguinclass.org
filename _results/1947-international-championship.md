@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1947 International Championship"
+title: 1947 International Championship
 year: 1947
 result_id: international-1947
-series: International
-club: "Hampton Yacht Club"
-location: "Hampton Roads, VA, U.S.A."
+series: International-Championship
+club: Hampton Yacht Club
+location: Hampton Roads, VA, U.S.A.
+results_url: /archive/legacy-website/1947.pdf
 ---
 
 # 1947 International Championship

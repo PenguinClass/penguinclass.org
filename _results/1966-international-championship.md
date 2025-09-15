@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1966 International Championship"
+title: 1966 International Championship
 year: 1966
 result_id: international-1966
-series: International
-club: "Little Egg Harbor Yacht Club"
-location: "Beach Haven, N. J., U.S.A."
+series: International-Championship
+club: Little Egg Harbor Yacht Club
+location: Beach Haven, N. J., U.S.A.
+results_url: /archive/legacy-website/1966.pdf
 ---
 
 # 1966 International Championship

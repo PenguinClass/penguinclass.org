@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1998 International Championship"
+title: 1998 International Championship
 year: 1998
 result_id: international-1998
-series: International
-club: "Miles River Yacht Club"
-location: "St. Michaels, MD, U.S.A."
+series: International-Championship
+club: Miles River Yacht Club
+location: St. Michaels, MD, U.S.A.
+results_url: /archive/legacy-website/1998.pdf
 ---
 
 # 1998 International Championship

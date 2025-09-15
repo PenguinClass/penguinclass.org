@@ -1,7 +1,7 @@
 ---
 year: 2018
 title: "2018 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2018_TAYC Annual Penguin.htm"

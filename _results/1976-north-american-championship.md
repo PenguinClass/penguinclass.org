@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1976 North-American Championship"
+title: 1976 North-American Championship
 year: 1976
 result_id: north-american-1976
-series: North-American
-club: "Toms River Yacht Club"
-location: "Toms River, NJ, U.S.A."
+series: North-American-Championship
+club: Toms River Yacht Club
+location: Toms River, NJ, U.S.A.
+results_url: /archive/legacy-website/1976_NA.pdf
 ---
 
 # 1976 North-American Championship
@@ -19,7 +20,7 @@ location: "Toms River, NJ, U.S.A."
 
 ## Results
 
-[View Results](/archive/legacy-website/1976_Intl.pdf)
+[View Results](/archive/legacy-website/1976_NA.pdf)
 
 ## Navigation
 

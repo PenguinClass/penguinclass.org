@@ -17,7 +17,7 @@ collections:
     permalink: /classifieds/:year/:month/:day/:name/
   results:
     output: true
-    permalink: /results/:year-:title/
+    permalink: /results/:year-:series/
 defaults:
   - scope: { path: "", type: posts }
     values: 

@@ -3,7 +3,7 @@ layout: result
 title: "1948 International Championship"
 year: 1948
 result_id: international-1948
-series: International
+series: International-Championship
 club: "Mantoloking Yacht Club"
 location: "Mantoloking, NJ, U.S.A."
 ---

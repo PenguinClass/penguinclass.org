@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Miles River Yacht Club"
-series: "Miles River Regatta"
+series: Miles-River-Regatta
 club: "Miles River Yacht Club"
 location: "St. Michaels, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_miles_river_yacht_club.htm"

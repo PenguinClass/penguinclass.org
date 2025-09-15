@@ -1,7 +1,7 @@
 ---
 year: 2010
 title: "Penguin Class Series Summary"
-series: "Memorial Regatta"
+series: Memorial-Regatta
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "/archive/legacy-website/2010_prsa_memorial_day.htm"

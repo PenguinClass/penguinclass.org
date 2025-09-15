@@ -1,7 +1,7 @@
 ---
 year: 2012
 title: "2012 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2012_TAYCannualPenguin.htm"

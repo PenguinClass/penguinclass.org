@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1992 International Championship"
+title: 1992 International Championship
 year: 1992
 result_id: international-1992
-series: International
-club: "Cambridge Yacht Club"
-location: "Cambridge, MD, U.S.A."
+series: International-Championship
+club: Cambridge Yacht Club
+location: Cambridge, MD, U.S.A.
+results_url: /archive/legacy-website/1992_Intls.pdf
 ---
 
 # 1992 International Championship

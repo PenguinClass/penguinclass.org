@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1982 International Championship"
+title: 1982 International Championship
 year: 1982
 result_id: international-1982
-series: International
-club: "Yacht Club Paulista"
-location: "Sao Paulo, Brazil"
+series: International-Championship
+club: Yacht Club Paulista
+location: Sao Paulo, Brazil
+results_url: /archive/legacy-website/1982_intls.pdf
 ---
 
 # 1982 International Championship

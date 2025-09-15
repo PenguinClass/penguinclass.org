@@ -10,5 +10,12 @@ club_aliases:
   "Sea Side NJ": "Seaside Park Yacht Club, Seaside Park, NJ"
   "Mattituck YC, NY": "Mattituck Yacht Club, Mattituck, NY"
 
+regatta_aliases:
+  "CBYRA Regatta": "Chesapeake Bay Yacht Racing Association Regatta"
+  "ICPFR": "Island Creek Penguin Frostbite Regatta"
+  "GIYS Regatta": "Gibson Island Yacht Squadron Regatta"
+  "SLPF Regatta": "Skokie Lagoon Penguin Fleet Regatta"
+
 split_hints: []
+
 

@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Gibson Island Frostbite 2008"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Gibson Island Yacht Squadron"
 location: "Gibson Island, MD, U.S.A."
 results_url: "/archive/legacy-website/gibson_island_frostbite_2008.htm"

@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1959 International Championship"
+title: 1959 International Championship
 year: 1959
 result_id: international-1959
-series: International
-club: "Alamitos Bay Yacht Club"
-location: "Long Beach, CA, U.S.A."
+series: International-Championship
+club: Alamitos Bay Yacht Club
+location: Long Beach, CA, U.S.A.
+results_url: /archive/legacy-website/1959.pdf
 ---
 
 # 1959 International Championship

@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "2019 International Championship"
+title: 2019 International Championship
 year: 2019
 result_id: international-2019
-series: International
-club: "Tred Avon Yacht Club"
-location: "Oxford, MD, U.S.A."
+series: International-Championship
+club: Tred Avon Yacht Club
+location: Oxford, MD, U.S.A.
+results_url: /archive/legacy-website/2019_Internationals.htm
 ---
 
 # 2019 International Championship

@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Penguin Fleet"
-series: "Corsica Regatta"
+series: Corsica-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_corsica.htm"

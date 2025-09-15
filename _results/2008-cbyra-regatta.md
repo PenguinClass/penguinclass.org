@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "PENGUIN HIGH POINTS SCORING 2008"
-series: "CBYRA Regatta"
+series: CBYRA-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2008_cbyra_highpoint.htm"

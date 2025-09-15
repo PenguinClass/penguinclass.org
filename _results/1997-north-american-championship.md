@@ -1,11 +1,12 @@
 ---
 layout: result
-title: "1997 North-American Championship"
+title: 1997 North-American Championship
 year: 1997
 result_id: north-american-1997
-series: North-American
-club: "Corsica River Yacht Club"
-location: "Centreville, MD, U.S.A."
+series: North-American-Championship
+club: Corsica River Yacht Club
+location: Centreville, MD, U.S.A.
+results_url: /archive/legacy-website/1997_NA.pdf
 ---
 
 # 1997 North-American Championship
@@ -19,7 +20,7 @@ location: "Centreville, MD, U.S.A."
 
 ## Results
 
-[View Results](/archive/legacy-website/1997_Intls.pdf)
+[View Results](/archive/legacy-website/1997_NA.pdf)
 
 ## Navigation
 
