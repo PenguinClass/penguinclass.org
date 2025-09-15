@@ -1,7 +1,7 @@
 ---
 year: 2005
 title: "PENGUIN FROSTBITE HIGH POINTS SCORING 2005-2006"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: 
 location: 
 results_url: "/archive/legacy-website/PENGUIN FROSTBITE HIGH POINTS SCORING 2005.htm"

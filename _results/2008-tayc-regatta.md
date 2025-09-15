@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "TAYC  Penguin Frostbite and Atlantic Coast Championship  2008"
-series: "TAYC Regatta"
+series: TAYC-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_TAYC_frost.htm"

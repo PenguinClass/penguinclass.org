@@ -1,7 +1,7 @@
 ---
 year: 2022
 title: "2022 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2022_TAYC Annual Regatta (1).htm"

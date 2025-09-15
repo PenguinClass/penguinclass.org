@@ -1,7 +1,7 @@
 ---
 year: 2007
 title: "ICPFR Regatta 2007 - Information is provisional and subject to modification Regatta results"
-series: "ICPFR Regatta"
+series: ICPFR-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/icpfr_2007.htm"

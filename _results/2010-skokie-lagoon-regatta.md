@@ -1,7 +1,7 @@
 ---
 year: 2010
 title: "Skokie Lagoon Penguin Fleet Fall Series 2010"
-series: Regatta
+series: Skokie-Lagoon-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2010_SLPF Fall Series.htm"
@@ -11,7 +11,7 @@ results_url: "/archive/legacy-website/2010_SLPF Fall Series.htm"
 # Skokie Lagoon Penguin Fleet Fall Series 2010
 
 **Year:** 2010  
-**Series:** Regatta  
+**Series:** Skokie-Lagoon-Regatta  
 **Club:**   
 **Location:**   
 

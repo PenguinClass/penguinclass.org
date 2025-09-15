@@ -1,7 +1,7 @@
 ---
 year: 2010
 title: "2010 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "/archive/legacy-website/2010_Potomac Penguin Frostbite.htm"

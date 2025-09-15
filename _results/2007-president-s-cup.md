@@ -1,7 +1,7 @@
 ---
 year: 2007
 title: "President's/Leukemia Cup"
-series: "President's Cup"
+series: President-s-Cup
 club: 
 location: 
 results_url: "/archive/legacy-website/2007PresidentsLeukemiaCup-Penguin.htm"

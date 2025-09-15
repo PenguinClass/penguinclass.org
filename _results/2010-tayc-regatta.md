@@ -1,7 +1,7 @@
 ---
 year: 2010
 title: "TAYC Summer Invitational  June 2"
-series: "TAYC Regatta"
+series: TAYC-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2010_tayc_summer_invitational.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2018
 title: "2018 President's Cup"
-series: "President's Cup"
+series: President-s-Cup
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "/archive/legacy-website/2018_PRSA_presidents_cup.htm"

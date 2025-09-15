@@ -1,7 +1,7 @@
 ---
 year: 2017
 title: "2017 Regatta"
-series: Regatta
+series: Comet-Penguin-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2017_TCPRF_results.htm"
@@ -11,7 +11,7 @@ results_url: "/archive/legacy-website/2017_TCPRF_results.htm"
 # 2017 Regatta
 
 **Year:** 2017  
-**Series:** Regatta  
+**Series:** Comet & Penguin Regatta  
 **Club:**   
 **Location:**   
 

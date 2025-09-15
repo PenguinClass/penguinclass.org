@@ -1,7 +1,7 @@
 ---
 year: 2021
 title: "2021 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/2021_Corsica River_Annual.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2023
 title: "2023 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2023 TAYC Frostbite and Region III Championship.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2015
 title: "2015 International Championship"
-series: "International Championship"
+series: International-Championship
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2015 INTL Penguin NOTICE OF RACEv1.htm"

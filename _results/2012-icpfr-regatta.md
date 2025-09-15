@@ -1,7 +1,7 @@
 ---
 year: 2012
 title: "2012 ICPFR Regatta"
-series: "ICPFR Regatta"
+series: ICPFR-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2012_ICPFR NOR.htm"

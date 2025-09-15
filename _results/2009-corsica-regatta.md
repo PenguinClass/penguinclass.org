@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "Corsica River 2009"
-series: "Corsica Regatta"
+series: Corsica-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/corsica_river_2009.htm"

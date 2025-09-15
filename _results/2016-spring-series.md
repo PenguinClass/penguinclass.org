@@ -1,7 +1,7 @@
 ---
 year: 2016
 title: "2016 Spring Series"
-series: "Spring Series"
+series: Spring-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2016_TAYC Spring Invitational.htm"

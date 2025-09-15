@@ -1,7 +1,7 @@
 ---
 year: 2020
 title: "2020 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2020_TAYC frostbite.htm"

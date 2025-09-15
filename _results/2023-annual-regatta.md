@@ -1,7 +1,7 @@
 ---
 year: 2023
 title: "2023 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2023_TAYC_Annual_photo.htm"

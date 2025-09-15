@@ -1,7 +1,7 @@
 ---
 year: 2010
 title: "Penguin Invitational Tred Avon Y"
-series: "Spring Series"
+series: Spring-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2010_TAYC_spring.htm"

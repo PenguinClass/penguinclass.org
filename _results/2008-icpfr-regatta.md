@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "Attachment 1"
-series: "ICPFR Regatta"
+series: ICPFR-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2008_icpfr.htm"

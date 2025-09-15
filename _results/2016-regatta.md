@@ -1,7 +1,7 @@
 ---
 year: 2016
 title: "2016 Regatta"
-series: Regatta
+series: TAYC-Comet-Penguin-Frostbite-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/TCPRF 2016_results.htm"
@@ -11,7 +11,7 @@ results_url: "/archive/legacy-website/TCPRF 2016_results.htm"
 # 2016 Regatta
 
 **Year:** 2016  
-**Series:** Regatta  
+**Series:** TAYC Comet & Penguin Frostbite Regatta  
 **Club:**   
 **Location:**   
 

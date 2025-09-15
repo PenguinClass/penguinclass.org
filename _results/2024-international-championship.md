@@ -1,7 +1,7 @@
 ---
 year: 2024
 title: "2024 International Championship"
-series: "International Championship"
+series: International-Championship
 club: "Beachwood Yacht Club"
 location: "Toms River, NJ, U.S.A."
 results_url: "/archive/legacy-website/2024 Penguin Internationals.htm"

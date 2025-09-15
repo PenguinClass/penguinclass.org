@@ -1,7 +1,7 @@
 ---
 year: 2014
 title: "2014 Frostbite Series"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "/archive/legacy-website/2014Potomac Penguin Fleet Frostbite.htm"

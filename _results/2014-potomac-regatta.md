@@ -1,7 +1,7 @@
 ---
 year: 2014
 title: "2014 Potomac Regatta"
-series: "Potomac Regatta"
+series: Potomac-Regatta
 club: "Potomac River Sailing Association"
 location: "Washington, DC, U.S.A."
 results_url: "/archive/legacy-website/2014_PotomacPresCup.htm"

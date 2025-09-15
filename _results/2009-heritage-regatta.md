@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: Division
-series: "Heritage Regatta"
+series: Heritage-Regatta
 club: 
 location: 
 results_url: "/archive/legacy-website/2009_heritage.htm"

@@ -1,7 +1,7 @@
 ---
 year: 2017
 title: "2017 Annual Regatta"
-series: "Annual Regatta"
+series: Annual-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2017_TAYC_Annual_results.htm"

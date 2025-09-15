@@ -1,7 +1,7 @@
 ---
 year: 2019
 title: "2019 TAYC Regatta"
-series: "TAYC Regatta"
+series: TAYC-Regatta
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2019_TAYC Atlantic Coast.htm"

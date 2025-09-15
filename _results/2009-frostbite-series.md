@@ -1,7 +1,7 @@
 ---
 year: 2009
 title: "PENGUIN FROSTBITE"
-series: "Frostbite Series"
+series: Frostbite-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2009_TAYC_penguin_frostbite.htm"

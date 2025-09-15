@@ -1,7 +1,7 @@
 ---
 year: 2008
 title: "TAYC Penguin Spring Invitational"
-series: "Spring Series"
+series: Spring-Series
 club: "Tred Avon Yacht Club"
 location: "Oxford, MD, U.S.A."
 results_url: "/archive/legacy-website/2008_tayc_springl.htm"

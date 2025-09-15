@@ -1,7 +1,7 @@
 ---
 year: 2021
 title: "2021 Corsica Regatta"
-series: "Corsica Regatta"
+series: Corsica-Regatta
 club: "Corsica River Yacht Club"
 location: "Centreville, MD, U.S.A."
 results_url: "/archive/legacy-website/2021 Corsica River Yacht Club Turkey Trot Regatta.htm"
