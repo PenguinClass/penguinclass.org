@@ -1,6 +1,6 @@
 ---
 year: 2021
-title: "2021 Comet & Penguin Invitational"
+title: "2021 Comet and Penguin Invitational"
 series: Comet-Penguin-Invitational
 club: 
 location: 
@@ -8,10 +8,10 @@ results_url: "/archive/legacy-website/2021_Comet and Penguin Invitational.htm"
 
 ---
 
-# 2021 Comet & Penguin Invitational
+# 2021 Comet and Penguin Invitational
 
 **Year:** 2021  
-**Series:** Comet & Penguin Invitational  
+**Series:** Comet and Penguin Invitational  
 **Club:**   
 **Location:**   
 
