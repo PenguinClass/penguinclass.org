@@ -46,13 +46,11 @@
 - title: Archive
   children:
     - title: Documents
-      url: /docs/
+      url: /documents/
     - title: Gallery
       url: /gallery/
     - title: Legacy Website
       url: /archive/legacy-website/
-    - title: Minutes
-      url: /docs/minutes/
     - title: Results
       url: /results/
     - title: Yearbooks
