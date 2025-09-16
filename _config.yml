@@ -8,8 +8,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
-exclude:
-  - "archive/legacy-website/**"
 collections:
   events:
     output: true
@@ -19,7 +17,7 @@ collections:
     permalink: /classifieds/:year/:month/:day/:name/
   results:
     output: true
-    permalink: /results/:year-:series/
+    permalink: /results/:name/
 defaults:
   - scope: { path: "", type: posts }
     values: 
