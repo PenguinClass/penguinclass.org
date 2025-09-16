@@ -16,8 +16,6 @@ This page provides access to historical documents from the Penguin Class archive
 - [JuniorWaiver_2015.doc](/archive/legacy-website/JuniorWaiver_2015.doc) - 26 KB
 - [JuniorWaiver_2016.doc](/archive/legacy-website/JuniorWaiver_2016.doc) - 22 KB
 - [2021 Jr Waiver.doc](/archive/legacy-website/2021 Jr Waiver.doc) - 27 KB
-- [Penguin web page information.doc](/archive/legacy-website/Penguin/Penguin web page information.doc) - 28 KB
-
 
 Official forms, waivers, applications, and permission documents.
 

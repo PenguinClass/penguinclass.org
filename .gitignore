@@ -31,6 +31,9 @@ Thumbs.db
 version.txt
 web.config
 
+# avoid disclosing accounts, users, passwords, tokens, secrets
+/archive/legacy-website/Penguin/Penguin\ web\ page\ information.doc
+
 # avoid disclosing Personally Identifiable Information (PII)
 /archive/legacy-website/2008_roster.xls
 /archive/legacy-website/SLPF_-__2009_Paid_Membership_List_To_IPCDA_5-27-09.xls
