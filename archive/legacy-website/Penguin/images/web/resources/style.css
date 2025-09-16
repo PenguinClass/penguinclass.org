@@ -1,0 +1,94 @@
+* {
+font-family: Verdana, Arial, sans-serif;
+font-size: small;
+}
+a {
+text-decoration: none;
+}
+a:hover {
+text-decoration: underline;
+}
+.title {
+border: 1px solid #009090;
+margin: 2px;
+padding: 10px 2% 10px 2%;
+width: 95%;
+background-color: #204070;
+text-align: center; }
+.subtitle {
+border: 1px solid #009090;
+margin: 0% 0% 0% 16%;
+width: 65%;
+background-color: #105060;
+text-align: center;
+}
+.curdirname {
+text-align: center;
+font-size: x-large;
+}
+.navigation {
+text-align: left;
+}
+.img {
+border: 1px dashed #008080;
+margin: 3px; padding: 10px;
+text-align: center;
+background-color: #204050;
+}
+.img td {
+text-align: left;
+}
+.larger {
+text-align: center;
+font-size: x-large;
+}
+.imgfloat {
+border: 1px dashed #008080;
+margin: 3px;
+width: 206px;
+Height: 190px;
+Max-Height: 190px;
+padding: 10px 10px 2px 10px;
+float: left;
+text-align: center;
+background-color: #204050;
+}
+.mvifloat {
+border: 1px dashed #008080;
+margin: 3px;
+width: 206px;
+Height: 190px;
+Max-Height: 190px;
+padding: 10px 10px 2px 10px;
+float: left;
+text-align: center;
+background-color: #204050;
+background-image: url('movie.gif');
+background-repeat: no-repeat;
+background-position: center;
+}
+.dirfloat {
+border: 1px dashed #008080;
+margin: 3px;
+width: 206px;
+Height: 188px;
+Max-Height: 188px;
+padding: 10px 10px 2px 10px;
+float: left;
+text-align: center;
+background-color: #204050;
+}
+a:link {
+color: #ffffff;
+}
+a:visited {
+color: #ffffff;
+}
+a.imgfloat:hover, a.dirfloat:hover, a.mvifloat:hover {
+text-decoration: none;
+border: 1px solid #008080;
+background-color: #105060;
+}
+.spacer {
+clear: both;
+}

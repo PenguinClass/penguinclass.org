@@ -40,6 +40,7 @@ web.config
 *.csv
 
 # ignore redundant files/internal backups (also contain PII)
-/archive/legacy-website/Penguin/
+#including 2025-09-16, too much valid content not available elsewhere:
+#/archive/legacy-website/Penguin/
 /archive/legacy-website/Penguin_web_dec2010/
 /archive/legacy-website/~$ll_2007.doc
