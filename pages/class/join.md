@@ -125,7 +125,7 @@ Become a member of the International Penguin Class Dinghy Association and connec
 
 For questions about membership or the application process:
 
-- **Email:** [Info@PenguinClass.com](mailto:Info@PenguinClass.com)
+- **Email:** [info@penguinclass.org](mailto:info@penguinclass.org)
 - **President:** Charles Krafft - [chaskrafft@comcast.net](mailto:chaskrafft@comcast.net)
 - **Vice-President:** Bill Lawson - [Noswalb1@yahoo.com](mailto:Noswalb1@yahoo.com)
 - **Secretary/Treasurer:** Chris Conway - [cconway@idsinc.com](mailto:cconway@idsinc.com)

@@ -29,7 +29,7 @@ permalink: /class/officers/
 
 ### Contact Information
 
-For general inquiries about the International Penguin Class Dinghy Association, please see our [contact page](/contact) or email [Info@PenguinClass.com](mailto:Info@PenguinClass.com).
+For general inquiries about the International Penguin Class Dinghy Association, please see our [contact page](/contact) or email [info@penguinclass.org](mailto:info@penguinclass.org).
 
 ### Officer Responsibilities
 
