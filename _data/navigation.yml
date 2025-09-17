@@ -1,7 +1,14 @@
-- title: Classifieds
-  url: /classifieds/
-- title: Events
-  url: /events/
+- title: Community
+  children:
+    - title: Classifieds
+      url: /classifieds/
+    - title: Events
+      url: /events/
+    - title: Group
+      url: https://www.facebook.com/groups/335010659935494/
+      external: true
+    - title: News
+      url: /news/
 - title: Class
   children:
     - title: About
@@ -12,8 +19,6 @@
       url: /champions/
     - title: Join
       url: /class/join/
-    - title: News
-      url: /news/
     - title: Officers
       url: /class/officers/
 - title: Penguin
@@ -41,13 +46,11 @@
 - title: Archive
   children:
     - title: Documents
-      url: /docs/
+      url: /documents/
     - title: Gallery
       url: /gallery/
     - title: Legacy Website
       url: /archive/legacy-website/
-    - title: Minutes
-      url: /docs/minutes/
     - title: Results
       url: /results/
     - title: Yearbooks

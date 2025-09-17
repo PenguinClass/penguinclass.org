@@ -104,6 +104,6 @@ historical_archive:
   description: "Historical documents and legacy resources"
   links:
     - name: "Legacy Penguin Class Website"
-      url: "http://penguinclass.com/"
+      url: "https://penguinclass.org/archive/legacy-website/"
       description: "Original class website (archived)"
       category: "legacy"

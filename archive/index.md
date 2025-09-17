@@ -10,20 +10,17 @@ Welcome to the Penguin Class Archive. This section contains historical content a
 
 ## Archive Contents
 
+### [Documents](/documents/)
+Official class documents, forms, meeting minutes, and reference materials.
+
+### [Gallery](/gallery/)
+Historical photos and event galleries organized by year and event.
+
 ### [Legacy Website](/archive/legacy-website/)
 The complete legacy website from penguinclass.com, including all historical pages, results, and documents.
 
 ### [Results](/results/)
 Historical race results and championship records from 2007 to present.
-
-### [Gallery](/gallery/)
-Historical photos and event galleries organized by year and event.
-
-### [Minutes](/docs/minutes/)
-Class meeting minutes and official records.
-
-### [Documents](/docs/)
-Official class documents, forms, and reference materials.
 
 ### [Yearbooks](/class/yearbooks/)
 Historical yearbooks and annual publications.

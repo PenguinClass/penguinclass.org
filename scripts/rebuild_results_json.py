@@ -37,9 +37,15 @@ def rebuild_results_json():
                             filename = os.path.basename(file_path)
                             name = os.path.splitext(filename)[0]
                             
+                            # Generate ID from filename or other fields
+                            result_id = data.get('result_id', '')
+                            if not result_id:
+                                # Generate ID from filename (remove .md extension)
+                                result_id = name
+                            
                             # Create result entry
                             result = {
-                                "id": data.get('result_id', ''),
+                                "id": result_id,
                                 "year": data.get('year', ''),
                                 "title": data.get('title', ''),
                                 "series": data.get('series', ''),

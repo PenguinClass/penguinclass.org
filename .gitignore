@@ -11,6 +11,9 @@ _site/
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
 
+# Ignore temporary directory
+/tmp
+
 # Specific ignore for GitHub Pages
 # GitHub Pages will always use its own deployed version of pages-gem 
 # This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
@@ -21,5 +24,23 @@ Gemfile.lock
 # Ignore working directory for penguinclass.com legacy site mirroring
 /legacy_mirror
 
-# Ignore temporary directory
-/tmp
+# ignore files from local OS or legacy website use
+.user.ini
+desktop.ini
+Thumbs.db
+version.txt
+web.config
+
+# avoid disclosing accounts, users, passwords, tokens, secrets
+/archive/legacy-website/Penguin/Penguin\ web\ page\ information.doc
+
+# avoid disclosing Personally Identifiable Information (PII)
+/archive/legacy-website/2008_roster.xls
+/archive/legacy-website/SLPF_-__2009_Paid_Membership_List_To_IPCDA_5-27-09.xls
+*.csv
+
+# ignore redundant files/internal backups (also contain PII)
+#including 2025-09-16, too much valid content not available elsewhere:
+#/archive/legacy-website/Penguin/
+/archive/legacy-website/Penguin_web_dec2010/
+/archive/legacy-website/~$ll_2007.doc

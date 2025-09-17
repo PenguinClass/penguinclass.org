@@ -1,5 +1,6 @@
 [
   {
+    "id": "2025-annual-regatta",
     "year": 2025,
     "title": "Microsoft Word - corsica one design NOR-final",
     "series": "Annual-Regatta",
@@ -10,16 +11,7 @@
     "source": "collection"
   },
   {
-    "year": 2025,
-    "title": "2025 Revival Regatta",
-    "series": "Beachwood-Revival-Regatta",
-    "club": "Beachwood Yacht Club",
-    "location": "Toms River, NJ, U.S.A.",
-    "results_url": "/archive/legacy-website/2025_Beachwood Revival;.htm",
-    "filename": "2025-beachwood-revival-regatta.md",
-    "source": "collection"
-  },
-  {
+    "id": "2025-cambridge-regatta",
     "year": 2025,
     "title": "2025 Cambridge Regatta",
     "series": "Cambridge-Regatta",
@@ -30,6 +22,18 @@
     "source": "collection"
   },
   {
+    "id": "2025-beachwood-revival-regatta",
+    "year": 2025,
+    "title": "2025 Beachwood Revival Regatta",
+    "series": "Beachwood-Revival-Regatta",
+    "club": "Beachwood Yacht Club",
+    "location": "Toms River, NJ, U.S.A.",
+    "results_url": "/archive/legacy-website/2025_Beachwood Revival;.htm",
+    "filename": "2025-beachwood-revival-regatta.md",
+    "source": "collection"
+  },
+  {
+    "id": "2024-international-championship",
     "year": 2024,
     "title": "2024 International Championship",
     "series": "International-Championship",
@@ -40,6 +44,7 @@
     "source": "collection"
   },
   {
+    "id": "2024-heritage-regatta",
     "year": 2024,
     "title": "2024 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -50,6 +55,7 @@
     "source": "collection"
   },
   {
+    "id": "2024-annual-regatta",
     "year": 2024,
     "title": "2024 Annual Regatta",
     "series": "Annual-Regatta",
@@ -60,6 +66,7 @@
     "source": "collection"
   },
   {
+    "id": "2023-turkey-trot-regatta",
     "year": 2023,
     "title": "2023 Turkey Trot Regatta",
     "series": "Turkey-Trot-Regatta",
@@ -79,6 +86,7 @@
     "source": "collection"
   },
   {
+    "id": "2023-frostbite-series",
     "year": 2023,
     "title": "2023 Frostbite Series",
     "series": "Frostbite-Series",
@@ -89,6 +97,7 @@
     "source": "collection"
   },
   {
+    "id": "2023-beachwood-revival",
     "year": 2023,
     "title": "2023 Beachwood Revival",
     "series": "Beachwood-Revival-Regatta",
@@ -99,6 +108,7 @@
     "source": "collection"
   },
   {
+    "id": "2023-annual-regatta",
     "year": 2023,
     "title": "2023 Annual Regatta",
     "series": "Annual-Regatta",
@@ -109,6 +119,7 @@
     "source": "collection"
   },
   {
+    "id": "2022-comet-penguin-invitational",
     "year": 2022,
     "title": "Comet and Penguin Invitational",
     "series": "Comet-Penguin-Invitational",
@@ -128,6 +139,7 @@
     "source": "collection"
   },
   {
+    "id": "2022-heritage-regatta",
     "year": 2022,
     "title": "2022 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -138,6 +150,7 @@
     "source": "collection"
   },
   {
+    "id": "2022-frostbite-series",
     "year": 2022,
     "title": "2022 Frostbite Series",
     "series": "Frostbite-Series",
@@ -148,6 +161,7 @@
     "source": "collection"
   },
   {
+    "id": "2022-annual-regatta",
     "year": 2022,
     "title": "2022 Annual Regatta",
     "series": "Annual-Regatta",
@@ -158,6 +172,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-turkey-trot-regatta",
     "year": 2021,
     "title": "2021 Turkey Trot Regatta",
     "series": "Turkey-Trot-Regatta",
@@ -168,6 +183,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-rum-bucket-regatta",
     "year": 2021,
     "title": "2021 Rum Bucket Regatta",
     "series": "Rum-Bucket-Regatta",
@@ -189,6 +205,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-heritage-regatta",
     "year": 2021,
     "title": "2021 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -197,6 +214,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-giys-regatta",
     "year": 2021,
     "title": "2021 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -207,6 +225,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-frostbite-series",
     "year": 2021,
     "title": "2021 Frostbite Series",
     "series": "Frostbite-Series",
@@ -217,6 +236,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-corsica-regatta",
     "year": 2021,
     "title": "2021 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -227,14 +247,16 @@
     "source": "collection"
   },
   {
+    "id": "2021-comet-penguin-invitational",
     "year": 2021,
-    "title": "2021 Comet & Penguin Invitational",
+    "title": "2021 Comet and Penguin Invitational",
     "series": "Comet-Penguin-Invitational",
     "results_url": "/archive/legacy-website/2021_Comet and Penguin Invitational.htm",
     "filename": "2021-comet-penguin-invitational.md",
     "source": "collection"
   },
   {
+    "id": "2021-bay-ridge-regatta",
     "year": 2021,
     "title": "2021 Bay Ridge Regatta",
     "series": "Bay-Ridge Regatta",
@@ -245,6 +267,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-annual-regatta",
     "year": 2021,
     "title": "2021 Annual Regatta",
     "series": "Annual-Regatta",
@@ -255,6 +278,7 @@
     "source": "collection"
   },
   {
+    "id": "2021-admiral-byrd-regatta",
     "year": 2021,
     "title": "2021 Admiral Byrd Regatta",
     "series": "Admiral-Byrd-Regatta",
@@ -265,6 +289,7 @@
     "source": "collection"
   },
   {
+    "id": "2020-frostbite-series",
     "year": 2020,
     "title": "2020 Frostbite Series",
     "series": "Frostbite-Series",
@@ -275,6 +300,7 @@
     "source": "collection"
   },
   {
+    "id": "2020-annual-regatta",
     "year": 2020,
     "title": "2020 Annual Regatta",
     "series": "Annual-Regatta",
@@ -285,6 +311,7 @@
     "source": "collection"
   },
   {
+    "id": "2019-tayc-regatta",
     "year": 2019,
     "title": "2019 TAYC Regatta",
     "series": "TAYC-Regatta",
@@ -295,6 +322,7 @@
     "source": "collection"
   },
   {
+    "id": "2019-spring-series",
     "year": 2019,
     "title": "2019 Spring Series",
     "series": "Spring-Series",
@@ -316,6 +344,7 @@
     "source": "collection"
   },
   {
+    "id": "2019-frostbite-series",
     "year": 2019,
     "title": "2019 Frostbite Series",
     "series": "Frostbite-Series",
@@ -326,6 +355,7 @@
     "source": "collection"
   },
   {
+    "id": "2019-annual-regatta",
     "year": 2019,
     "title": "2019 Annual Regatta",
     "series": "Annual-Regatta",
@@ -336,6 +366,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-trippe-creek-regatta",
     "year": 2018,
     "title": "2018 Trippe Creek Regatta",
     "series": "Trippe-Creek-Regatta",
@@ -346,6 +377,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-spring-series",
     "year": 2018,
     "title": "2018 Spring Series",
     "series": "Spring-Series",
@@ -356,6 +388,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-president-s-cup",
     "year": 2018,
     "title": "2018 President's Cup",
     "series": "President-s-Cup",
@@ -377,6 +410,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-heritage-regatta",
     "year": 2018,
     "title": "2018 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -385,6 +419,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-frostbite-series",
     "year": 2018,
     "title": "2018 Frostbite Series",
     "series": "Frostbite-Series",
@@ -395,6 +430,7 @@
     "source": "collection"
   },
   {
+    "id": "2018-annual-regatta",
     "year": 2018,
     "title": "2018 Annual Regatta",
     "series": "Annual-Regatta",
@@ -405,6 +441,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-spring-series",
     "year": 2017,
     "title": "2017 Spring Series",
     "series": "Spring-Series",
@@ -415,6 +452,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-regatta",
     "year": 2017,
     "title": "2017 Regatta",
     "series": "Comet-Penguin-Regatta",
@@ -434,6 +472,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-heritage-regatta",
     "year": 2017,
     "title": "2017 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -444,6 +483,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-giys-regatta",
     "year": 2017,
     "title": "2017 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -454,6 +494,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-frostbite-series",
     "year": 2017,
     "title": "2017 Frostbite Series",
     "series": "Frostbite-Series",
@@ -464,6 +505,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-corsica-regatta",
     "year": 2017,
     "title": "2017 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -474,6 +516,7 @@
     "source": "collection"
   },
   {
+    "id": "2017-annual-regatta",
     "year": 2017,
     "title": "2017 Annual Regatta",
     "series": "Annual-Regatta",
@@ -484,6 +527,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-trippe-creek-regatta",
     "year": 2016,
     "title": "2016 Trippe Creek Regatta",
     "series": "Trippe-Creek-Regatta",
@@ -494,6 +538,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-spring-series",
     "year": 2016,
     "title": "2016 Spring Series",
     "series": "Spring-Series",
@@ -504,6 +549,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-rum-bucket-regatta",
     "year": 2016,
     "title": "2016 Rum Bucket Regatta",
     "series": "Rum-Bucket-Regatta",
@@ -514,6 +560,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-regatta",
     "year": 2016,
     "title": "2016 Regatta",
     "series": "TAYC-Comet-Penguin-Frostbite-Regatta",
@@ -533,6 +580,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-giys-regatta",
     "year": 2016,
     "title": "2016 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -543,6 +591,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-frostbite-series",
     "year": 2016,
     "title": "2016 Frostbite Series",
     "series": "Frostbite-Series",
@@ -553,6 +602,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-corsica-regatta",
     "year": 2016,
     "title": "2016 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -563,6 +613,7 @@
     "source": "collection"
   },
   {
+    "id": "2016-annual-regatta",
     "year": 2016,
     "title": "2016 Annual Regatta",
     "series": "Annual-Regatta",
@@ -573,6 +624,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-spring-series",
     "year": 2015,
     "title": "2015 Spring Series",
     "series": "Spring-Series",
@@ -583,6 +635,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-president-s-cup",
     "year": 2015,
     "title": "2015 President's Cup",
     "series": "President-s-Cup",
@@ -591,6 +644,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-international-championship",
     "year": 2015,
     "title": "2015 International Championship",
     "series": "International-Championship",
@@ -601,6 +655,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-giys-regatta",
     "year": 2015,
     "title": "2015 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -611,6 +666,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-frostbite-series",
     "year": 2015,
     "title": "2015 Frostbite Series",
     "series": "Frostbite-Series",
@@ -621,6 +677,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-corsica-regatta",
     "year": 2015,
     "title": "2015 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -631,6 +688,7 @@
     "source": "collection"
   },
   {
+    "id": "2015-annual-regatta",
     "year": 2015,
     "title": "2015 Annual Regatta",
     "series": "Annual-Regatta",
@@ -641,6 +699,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-trippe-creek-regatta",
     "year": 2014,
     "title": "2014 Trippe Creek Regatta",
     "series": "Trippe-Creek-Regatta",
@@ -651,6 +710,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-tayc-regatta",
     "year": 2014,
     "title": "2014 TAYC Regatta",
     "series": "TAYC-Regatta",
@@ -661,6 +721,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-potomac-regatta",
     "year": 2014,
     "title": "2014 Potomac Regatta",
     "series": "Potomac-Regatta",
@@ -682,6 +743,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-giys-regatta",
     "year": 2014,
     "title": "2014 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -692,6 +754,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-frostbite-series",
     "year": 2014,
     "title": "2014 Frostbite Series",
     "series": "Frostbite-Series",
@@ -702,6 +765,7 @@
     "source": "collection"
   },
   {
+    "id": "2014-annual-regatta",
     "year": 2014,
     "title": "2014 Annual Regatta",
     "series": "Annual-Regatta",
@@ -712,6 +776,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-spring-series",
     "year": 2013,
     "title": "2013 Spring Series",
     "series": "Spring-Series",
@@ -722,6 +787,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-potomac-regatta",
     "year": 2013,
     "title": "2013 Potomac Regatta",
     "series": "Potomac-Regatta",
@@ -732,6 +798,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-oxford-regatta",
     "year": 2013,
     "title": "2013 Oxford Regatta",
     "series": "Oxford-Regatta",
@@ -753,6 +820,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-icpfr-regatta",
     "year": 2013,
     "title": "2013 ICPFR Regatta",
     "series": "ICPFR-Regatta",
@@ -761,6 +829,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-heritage-regatta",
     "year": 2013,
     "title": "2013 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -769,6 +838,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-giys-regatta",
     "year": 2013,
     "title": "2013 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -779,6 +849,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-frostbite-series",
     "year": 2013,
     "title": "2013 Frostbite Series",
     "series": "Frostbite-Series",
@@ -789,6 +860,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-corsica-regatta",
     "year": 2013,
     "title": "2013 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -799,6 +871,7 @@
     "source": "collection"
   },
   {
+    "id": "2013-annual-regatta",
     "year": 2013,
     "title": "2013 Annual Regatta",
     "series": "Annual-Regatta",
@@ -809,6 +882,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-tayc-regatta",
     "year": 2012,
     "title": "2012 TAYC Regatta",
     "series": "TAYC-Regatta",
@@ -819,6 +893,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-spring-series",
     "year": 2012,
     "title": "2012 Spring Series",
     "series": "Spring-Series",
@@ -829,6 +904,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-rum-bucket-regatta",
     "year": 2012,
     "title": "2012 Rum Bucket Regatta",
     "series": "Rum-Bucket-Regatta",
@@ -837,6 +913,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-potomac-regatta",
     "year": 2012,
     "title": "2012 Potomac Regatta",
     "series": "Potomac-Regatta",
@@ -858,6 +935,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-icpfr-regatta",
     "year": 2012,
     "title": "2012 ICPFR Regatta",
     "series": "ICPFR-Regatta",
@@ -866,6 +944,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-heritage-regatta",
     "year": 2012,
     "title": "2012 Heritage Regatta",
     "series": "Heritage-Regatta",
@@ -874,6 +953,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-giys-regatta",
     "year": 2012,
     "title": "2012 GIYS Regatta",
     "series": "GIYS-Regatta",
@@ -884,6 +964,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-corsica-regatta",
     "year": 2012,
     "title": "2012 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -894,6 +975,7 @@
     "source": "collection"
   },
   {
+    "id": "2012-annual-regatta",
     "year": 2012,
     "title": "2012 Annual Regatta",
     "series": "Annual-Regatta",
@@ -904,6 +986,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-rum-bucket-regatta",
     "year": 2011,
     "title": "Penguin Rum Bucket/Series Standing - 3 races scored",
     "series": "Rum-Bucket-Regatta",
@@ -912,6 +995,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-tayc-regatta",
     "year": 2011,
     "title": "2011 TAYC Regatta",
     "series": "TAYC-Regatta",
@@ -922,6 +1006,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-spring-series",
     "year": 2011,
     "title": "2011 Spring Series",
     "series": "Spring-Series",
@@ -930,6 +1015,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-president-s-cup",
     "year": 2011,
     "title": "2011 President's Cup",
     "series": "President-s-Cup",
@@ -949,6 +1035,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-icpfr-regatta",
     "year": 2011,
     "title": "2011 ICPFR Regatta",
     "series": "ICPFR-Regatta",
@@ -957,6 +1044,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-frostbite-series",
     "year": 2011,
     "title": "2011 Frostbite Series",
     "series": "Frostbite-Series",
@@ -967,6 +1055,7 @@
     "source": "collection"
   },
   {
+    "id": "2011-annual-regatta",
     "year": 2011,
     "title": "2011 Annual Regatta",
     "series": "Annual-Regatta",
@@ -977,6 +1066,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-tayc-regatta",
     "year": 2010,
     "title": "TAYC Summer Invitational  June 2",
     "series": "TAYC-Regatta",
@@ -987,6 +1077,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-skokie-lagoon-regatta",
     "year": 2010,
     "title": "Skokie Lagoon Penguin Fleet Fall Series 2010",
     "series": "Skokie-Lagoon-Regatta",
@@ -995,6 +1086,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-spring-series",
     "year": 2010,
     "title": "Penguin Invitational Tred Avon Y",
     "series": "Spring-Series",
@@ -1005,6 +1097,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-memorial-regatta",
     "year": 2010,
     "title": "Penguin Class Series Summary",
     "series": "Memorial-Regatta",
@@ -1015,6 +1108,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-president-s-cup",
     "year": 2010,
     "title": "2010 President's Cup",
     "series": "President-s-Cup",
@@ -1034,6 +1128,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-icpfr-regatta",
     "year": 2010,
     "title": "2010 ICPFR Regatta",
     "series": "ICPFR-Regatta",
@@ -1042,6 +1137,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-frostbite-series",
     "year": 2010,
     "title": "2010 Frostbite Series",
     "series": "Frostbite-Series",
@@ -1052,6 +1148,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-corsica-regatta",
     "year": 2010,
     "title": "2010 Corsica Regatta",
     "series": "Corsica-Regatta",
@@ -1062,6 +1159,7 @@
     "source": "collection"
   },
   {
+    "id": "2010-annual-regatta",
     "year": 2010,
     "title": "2010 Annual Regatta",
     "series": "Annual-Regatta",
@@ -1072,6 +1170,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-annual-regatta",
     "year": 2009,
     "title": "West River Annual",
     "series": "Annual-Regatta",
@@ -1080,6 +1179,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-cbyra-regatta",
     "year": 2009,
     "title": "TAYC Spring",
     "series": "CBYRA-Regatta",
@@ -1088,6 +1188,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-spring-series",
     "year": 2009,
     "title": "SLPF Spring Series 2009",
     "series": "Spring-Series",
@@ -1096,6 +1197,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-giys-regatta",
     "year": 2009,
     "title": "Penguin Sailors",
     "series": "GIYS-Regatta",
@@ -1106,6 +1208,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-frostbite-series",
     "year": 2009,
     "title": "PENGUIN FROSTBITE",
     "series": "Frostbite-Series",
@@ -1116,6 +1219,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-heritage-regatta",
     "year": 2009,
     "title": "Division",
     "series": "Heritage-Regatta",
@@ -1124,6 +1228,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-corsica-regatta",
     "year": 2009,
     "title": "Corsica River 2009",
     "series": "Corsica-Regatta",
@@ -1134,6 +1239,7 @@
     "source": "collection"
   },
   {
+    "id": "2009-icpfr-regatta",
     "year": 2009,
     "title": "2009 Island Creek Penguin Frostbite Regatta",
     "series": "ICPFR-Regatta",
@@ -1153,6 +1259,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-tayc-regatta",
     "year": 2008,
     "title": "TAYC  Penguin Frostbite and Atlantic Coast Championship  2008",
     "series": "TAYC-Regatta",
@@ -1163,6 +1270,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-spring-series",
     "year": 2008,
     "title": "TAYC Penguin Spring Invitational",
     "series": "Spring-Series",
@@ -1173,6 +1281,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-heritage-regatta",
     "year": 2008,
     "title": "TAYC Heritage 2008",
     "series": "Heritage-Regatta",
@@ -1183,6 +1292,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-president-s-cup",
     "year": 2008,
     "title": "Presidents",
     "series": "President-s-Cup",
@@ -1191,6 +1301,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-corsica-regatta",
     "year": 2008,
     "title": "Penguin Fleet",
     "series": "Corsica-Regatta",
@@ -1201,6 +1312,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-cbyra-regatta",
     "year": 2008,
     "title": "PENGUIN HIGH POINTS SCORING 2008",
     "series": "CBYRA-Regatta",
@@ -1209,6 +1321,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-annual-regatta",
     "year": 2008,
     "title": "NOTICE OF RACE   (DRAFT 1- 6/9/05)",
     "series": "Annual-Regatta",
@@ -1219,6 +1332,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-miles-river-regatta",
     "year": 2008,
     "title": "Miles River Yacht Club",
     "series": "Miles-River-Regatta",
@@ -1229,6 +1343,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-len-penso-regatta",
     "year": 2008,
     "title": "Len Penso Regatta April 26",
     "series": "Len-Penso-Regatta",
@@ -1237,6 +1352,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-frostbite-series",
     "year": 2008,
     "title": "Gibson Island Frostbite 2008",
     "series": "Frostbite-Series",
@@ -1247,6 +1363,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-giys-regatta",
     "year": 2008,
     "title": "Gibson Island",
     "series": "GIYS-Regatta",
@@ -1257,6 +1374,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-cambridge-regatta",
     "year": 2008,
     "title": "Cambridge 2008",
     "series": "Cambridge-Regatta",
@@ -1267,6 +1385,7 @@
     "source": "collection"
   },
   {
+    "id": "2008-icpfr-regatta",
     "year": 2008,
     "title": "Attachment 1",
     "series": "ICPFR-Regatta",
@@ -1286,6 +1405,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-president-s-cup",
     "year": 2007,
     "title": "President's/Leukemia Cup",
     "series": "President-s-Cup",
@@ -1294,6 +1414,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-corsica-regatta",
     "year": 2007,
     "title": "Penguin Fleet",
     "series": "Corsica-Regatta",
@@ -1304,6 +1425,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-oxford-regatta",
     "year": 2007,
     "title": "Oxford Regatta 2007 - Information is provisional and subject to modification Regatta results",
     "series": "Oxford-Regatta",
@@ -1314,6 +1436,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-tayc-regatta",
     "year": 2007,
     "title": "New Page 1",
     "series": "TAYC-Regatta",
@@ -1324,6 +1447,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-icpfr-regatta",
     "year": 2007,
     "title": "ICPFR Regatta 2007 - Information is provisional and subject to modification Regatta results",
     "series": "ICPFR-Regatta",
@@ -1332,6 +1456,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-annual-regatta",
     "year": 2007,
     "title": "2007 West River Annual",
     "series": "Annual-Regatta",
@@ -1340,6 +1465,7 @@
     "source": "collection"
   },
   {
+    "id": "2007-len-penso-regatta",
     "year": 2007,
     "title": "2007 Len Penso Regatta",
     "series": "Len-Penso-Regatta",
@@ -1359,6 +1485,7 @@
     "source": "collection"
   },
   {
+    "id": "2006-rum-bucket-regatta",
     "year": 2006,
     "title": "2006 Rum Bucket",
     "series": "Rum-Bucket-Regatta",
@@ -1367,6 +1494,7 @@
     "source": "collection"
   },
   {
+    "id": "2006-corsica-regatta",
     "year": 2006,
     "title": "2006 Penguin Internationals/Series Standing - 8 races scored",
     "series": "Corsica-Regatta",
@@ -1377,6 +1505,7 @@
     "source": "collection"
   },
   {
+    "id": "2006-icpfr-regatta",
     "year": 2006,
     "title": "2006 Penguin Internationals/Series Standing - 8 races scored",
     "series": "ICPFR-Regatta",
@@ -1396,6 +1525,7 @@
     "source": "collection"
   },
   {
+    "id": "2006-frostbite-series",
     "year": 2006,
     "title": "2006 ISLAND CREEK PENGUIN FROSTBITE REGATTA    - Series Standing - 5 races scored",
     "series": "Frostbite-Series",
@@ -1404,6 +1534,7 @@
     "source": "collection"
   },
   {
+    "id": "2005-frostbite-series",
     "year": 2005,
     "title": "PENGUIN FROSTBITE HIGH POINTS SCORING 2005-2006",
     "series": "Frostbite-Series",
@@ -1412,6 +1543,7 @@
     "source": "collection"
   },
   {
+    "id": "2005-corsica-regatta",
     "year": 2005,
     "title": "PENGUIN",
     "series": "Corsica-Regatta",

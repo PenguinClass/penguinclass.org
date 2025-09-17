@@ -7,3 +7,5 @@ python3 scripts/import_champions_pipeline.py \
   "$@"
 
 
+
+

@@ -1,0 +1,791 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Registration for Tred Avon Yacht Club : Penguin Invitational </title>
+</head>
+<link href="mgmt_style.css" rel="stylesheet" type="text/css" /><script language = "Javascript">
+/**
+ * DHTML date validation script. Courtesy of SmartWebby.com (http://www.smartwebby.com/dhtml/)
+ */
+// Declaring valid date character, minimum year and maximum year
+var dtCh= "/";
+var minYear=1900;
+var maxYear=2100;
+
+function isInteger(s){
+        var i;
+    for (i = 0; i < s.length; i++){
+        // Check that current character is number.
+        var c = s.charAt(i);
+        if (((c < "0") || (c > "9"))) return false;
+    }
+    // All characters are numbers.
+    return true;
+}
+
+function stripCharsInBag(s, bag){
+        var i;
+    var returnString = "";
+    // Search through string's characters one by one.
+    // If character is not in bag, append to returnString.
+    for (i = 0; i < s.length; i++){
+        var c = s.charAt(i);
+        if (bag.indexOf(c) == -1) returnString += c;
+    }
+    return returnString;
+}
+
+function daysInFebruary (year){
+        // February has 29 days in any year evenly divisible by four,
+    // EXCEPT for centurial years which are not also divisible by 400.
+    return (((year % 4 == 0) && ( (!(year % 100 == 0)) || (year % 400 == 0))) ? 29 : 28 );
+}
+function DaysArray(n) {
+        for (var i = 1; i <= n; i++) {
+                this[i] = 31
+                if (i==4 || i==6 || i==9 || i==11) {this[i] = 30}
+                if (i==2) {this[i] = 29}
+   }
+   return this
+}
+
+function isDate(dtStr){
+        var daysInMonth = DaysArray(12)
+        var pos1=dtStr.indexOf(dtCh)
+        var pos2=dtStr.indexOf(dtCh,pos1+1)
+        var strMonth=dtStr.substring(0,pos1)
+        var strDay=dtStr.substring(pos1+1,pos2)
+        var strYear=dtStr.substring(pos2+1)
+        strYr=strYear
+        if (strDay.charAt(0)=="0" && strDay.length>1) strDay=strDay.substring(1)
+        if (strMonth.charAt(0)=="0" && strMonth.length>1) strMonth=strMonth.substring(1)
+        for (var i = 1; i <= 3; i++) {
+                if (strYr.charAt(0)=="0" && strYr.length>1) strYr=strYr.substring(1)
+        }
+        month=parseInt(strMonth)
+        day=parseInt(strDay)
+        year=parseInt(strYr)
+        if (pos1==-1 || pos2==-1){
+                alert("Invalid Birthday: The date format should be : mm/dd/yyyy")
+                return false
+        }
+        if (strMonth.length<1 || month<1 || month>12){
+                alert("Invalid Birthday: Please enter a valid month")
+                return false
+        }
+        if (strDay.length<1 || day<1 || day>31 || (month==2 && day>daysInFebruary(year)) || day > daysInMonth[month]){
+                alert("Invalid Birthday: Please enter a valid day")
+                return false
+        }
+        if (strYear.length != 4 || year==0 || year<minYear || year>maxYear){
+                alert("Invalid Birthday: Please enter a valid 4 digit year between "+minYear+" and "+maxYear)
+                return false
+        }
+        if (dtStr.indexOf(dtCh,pos2+1)!=-1 || isInteger(stripCharsInBag(dtStr, dtCh))==false){
+                alert("Invalid Birthday: Please enter a valid date")
+                return false
+        }
+return true
+}
+function echeck(str) {
+    var at="@"
+    var dot="."
+    var lat=str.indexOf(at)
+    var lstr=str.length
+    var ldot=str.indexOf(dot)
+    if (str.indexOf(at)==-1){
+       alert("Invalid E-mail Address")
+       return false
+    }
+    if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+       alert("Invalid E-mail Address")
+       return false
+    }
+    if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+        alert("Invalid E-mail Address")
+        return false
+    }
+     if (str.indexOf(at,(lat+1))!=-1){
+        alert("Invalid E-mail Address")
+        return false
+     }
+     if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+        alert("Invalid E-mail Address")
+        return false
+     }
+     if (str.indexOf(dot,(lat+2))==-1){
+        alert("Invalid E-mail Address")
+        return false
+     }
+     if (str.indexOf(" ")!=-1){
+        alert("Invalid E-mail Address")
+        return false
+     }
+      return true
+}
+
+function ValidateForm(){
+        var dt=document.frmSample.txtDate
+        if (isDate(dt.value)==false){
+                dt.focus()
+                return false
+        }
+    return true
+ }
+
+</script>
+
+<script type="text/JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<script language="Javascript">
+document.cookie = "CookieTest=Enabled";
+
+var allcookies = document.cookie;
+var pos = allcookies.indexOf("CookieTest=");
+if (pos != -1) {
+        var start = pos + 11;
+        var end = allcookies.indexOf(";", start);
+        if (end == -1) end = allcookies.length;
+        var value = allcookies.substring(start,end);
+        value = unescape(value);
+
+        if (value == "Enabled") {
+
+        }
+        else {
+          alert("Your Internet Browser has cookies disabled!  You must enable cookies before you register.");
+          window.location = "registration_cookie_info.php";
+        }
+}
+else {
+  alert("Your Internet Browser has cookies disabled!  You must enable cookies before you register.");
+  window.location = "registration_cookie_info.php";
+}
+</script>
+
+
+
+<script language="javascript">
+Array.prototype.inArray = function (value)
+{
+    var i;
+    for (i=0; i < this.length; i++) {
+        // Matches identical (===), not just similar (==).
+        if (this[i] === value) {
+            return true;
+        }
+    }
+    return false;
+};
+
+function checkBow(bow2check) {
+  reservedArray = new Array();
+    if (reservedArray[bow2check]) {
+     alert("Notice: The bow number you have entered is reserved for " + reservedArray[bow2check] + ".  If you are not this person, your bow number registration will be subject to modification.");
+  }
+}
+
+
+
+function MembershipCheck(type) {
+  if (type ==1) {
+    ussa_id = document.myform.ussa.value.toUpperCase();
+    first_name = document.myform.first_name.value;
+    last_name = document.myform.last_name.value;
+    valid_date = 1272776399;
+    constituant =0;
+    if (document.myform.ussa.value != '') {
+      checkUSSA(ussa_id,first_name,last_name,valid_date,constituant, 2637);
+    }
+  }
+  if (type==2) {
+    ussa_id = document.myform.ussa.value.toUpperCase();
+    first_name = document.myform.first_name.value;
+    last_name = document.myform.last_name.value;
+    valid_date = 1272776399;
+    constituant =0;
+    if (document.myform.ussa.value != '') {
+      checkUSSA(ussa_id,first_name,last_name,valid_date,constituant, 2637);
+    }
+
+  }
+}
+
+
+function queryRegistrant(method) {
+  if (document.myform.first_name.value=="" || document.myform.last_name.value==""){
+    alert("Please enter your first and last name to look up your information.")
+    return false
+  }
+  if (document.myform.ussa) {
+    if (document.myform.ussa.value=="" && method == "USSA"){
+      alert("Please enter your US SAILING number to look up your information.")
+      return false
+    }
+  }
+  else if (document.myform.mna_id) {
+    if (document.myform.mna_id.value=="" && method == "CYA"){
+      alert("Please enter your Canadian Yachting Association number to look up your information.")
+      return false
+    }
+  }
+
+    document.myform.info_query.value=method;
+    document.myform.submit();
+
+}
+  // Original JavaScript code by Chirp Internet: www.chirp.com.au
+  // Please acknowledge use of this code by including this header.
+
+  function checkArray(form, arrayName)
+  {
+    var retval = new Array();
+    for(var i=0; i < form.elements.length; i++) {
+      var el = form.elements[i];
+      if(el.type == "checkbox" && el.name == arrayName && el.checked) {
+        retval.push(el.value);
+      }
+    }
+    return retval;
+  }
+
+
+function validate(){
+  var old_value = document.myform.Submit.value;
+  document.myform.Submit.value = 'RECORDING DATA, DO NOT CLICK TWICE!';
+  document.myform.Submit.disabled = true;
+
+  fleet_check();
+
+
+    if (document.myform.waiver.value=="NO"){
+    alert("You must agree to the release waiver to register.");
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+        
+  
+  if (document.myform.first_name.value=="" || document.myform.last_name.value==""){
+    alert("Please enter your first and last name before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    if (document.myform.club_name.value=="" ){
+    alert("Please enter your club affiliation before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    
+  if (document.myform.address.value=="" ){
+    alert("Please enter your address before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    if (document.myform.fleet.value=="0" ){
+    alert("Please select your desired Class before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+      if (document.myform.base_fee_id.value=="0" ){
+    alert("Please select your registration type at the top of the form.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    if (document.myform.city.value=="" ){
+    alert("Please enter your city before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+  if (document.myform.country.value=="" ){
+    alert("Please select your country before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+  
+  
+  if (document.myform.state.value=="" ){
+    alert("Please enter your state/province before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+  if (document.myform.phone.value=="" ){
+    alert("Please enter your phone number before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+
+  
+    if (document.myform.zip.value=="" ){
+    alert("Please enter your zip/postal code before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+
+    if (document.myform.emergency_name.value=="" || document.myform.emergency_relationship.value==""  || document.myform.emergency_phone.value=="" ){
+    alert("Please enter all emergency contact information before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    if (! echeck(document.myform.email.value) ){
+     document.myform.Submit.disabled = false;
+     document.myform.Submit.value = old_value;
+    return false
+  }
+
+  if (document.myform.email.value != document.myform.email_check.value){
+    alert("Your email addresses do not match")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+
+  
+    if (document.myform.sail_number.value=="" ){
+    alert("Please enter your sail number before submitting.")
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = old_value;
+    return false
+  }
+    
+    if (! isDate(document.myform.birth_date.value)) {
+      document.myform.Submit.disabled = false;
+      document.myform.Submit.value = old_value;
+      return false
+    }
+
+
+    sailArray = new Array("BLANK");
+  if (sailArray.inArray(document.myform.sail_number.value)) {
+    var test = confirm("Warning, someone has already registered with this sail number.");
+    if (test){
+      document.myform.Submit.disabled = false;
+      document.myform.Submit.value = old_value;
+      return;
+    }
+    else {
+      document.myform.Submit.disabled = false;
+      document.myform.Submit.value = old_value;
+      return false;
+    }
+  }
+
+  
+  document.myform.fleet.disabled = false;
+  return true
+}
+
+function fleet_check() {
+  return true;
+}
+
+</script>
+
+<script type="text/javascript" src="rn_ajax.js?X=0"></script>
+<body   onLoad="" >
+<form action="/clubmgmt/applet_registration_form.php?regatta_id=2637" method="post" name="myform" id="myform" onSubmit="return validate()">
+  <table width="650" border="0" align="left">
+    <tbody>
+          <tr>
+        <td valign="top">
+<img src="https://www.regattanetwork.com/clubmgmt/regatta_uploads/2611/image001.gif" align="left">
+</td>
+      </tr>
+    <tr>
+                <td  align="center">
+                    <font face="Arial, Helvetica, sans-serif" size="6"><b><font size="5">
+             Register For</font><br>
+            Penguin Invitational            <br>
+            Tred Avon Yacht Club </b></font>
+            <br>
+                    <b><font face="Arial, Helvetica, sans-serif" size="5">
+                    May 01, 2010 
+          </font></b>        </td>
+               </tr>
+      <tr>
+        <td bgcolor="#003366" id="login_table_header"><div align="center">&nbsp;</div></td>
+      </tr>
+      <tr>
+        <td height="26"><span class="form_label">View this form in:
+          </span>
+          <input type=hidden name="change_language" value=0>
+          <select name="language" id="form_input" onChange='document.myform.change_language.value=1;document.myform.submit()'>
+            <option value="en" selected>English</option>
+            <option value="de" >German</option>
+            <option value="es" >Spanish</option>
+            <option value="fr" >French</option>
+            <option value="it" >Italian</option>
+            <option value="pt" >Portugese</option>
+          </select>
+          </td>
+      </tr>
+      <tr>
+        <td height="26">
+        <table width="91%" border="0" align="center" cellpadding="1" cellspacing="0">
+                
+          <tr bordercolor="#ffffff">
+            <td colspan="2" bgcolor="#FFFFFF" >
+            <div id="standard_link_color">
+            <blockquote><font size="2" face="Verdana, Arial, Helvetica, sans-serif"><br>
+            <p><span style="font-size: small; font-family: arial,helvetica,sans-serif;">Welcome to Penguin Invitational. Please fill out the registration form. You may pay the registration fee by credit card, club account (if you are a TAYC member) or by printing out the registration form and mailing it with a check to TAYC.</span></p>
+<p><span style="font-size: small; font-family: Arial;">For Notice of Race: <a href="regatta_uploads/2637/Penguin%20Invitational" target="_blank" title="Penguin NOR">click here</a></span></p>                        </font><br>
+              <br>
+            </blockquote>
+            </div>
+            </td>
+          </tr>
+
+          
+                    <tr bordercolor="#ffffff">
+            <td colspan="2" bgcolor="#FFFFFF" id="login_table_header">Event Fees </td>
+          </tr>
+
+          <tr>
+            <td height="26" colspan="2" align="center"><br />
+              <table width="95%" border="0" cellspacing="0" cellpadding="0">
+
+                              <tr>
+                  <td width="52%" height="19" class="form_label"><div align="right" class="form_label">Registration:</div></td>
+                  <td width="2%" class="form_label">&nbsp;</td>
+                  <td width="33%" class="form_label"><div align="right">$25.00                  <input type=hidden name='base_fee_id' value='4921'>
+                  </div></td>
+                  <td width="13%" class="form_label">&nbsp;</td>
+                </tr>
+                  
+
+                                                        </table>
+              <br />            </td>
+          </tr>
+                <tr bordercolor="#ffffff">
+            <td colspan="2" bgcolor="#FFFFFF" id="login_table_header"><a name="skipper_info">Skipper  Information </td>
+          </tr>
+          <tr>
+            <td height="26" colspan="2" align="center"><BR><div class="disclaimer_box" align="center">
+              <div align="left">Items marked with a * are required unless stated otherwise.                                        <BR><BR>
+                Have you registered with US SAILING Regatta Network before? Enter your name and US SAILING Number, then click the 'Look Up My Information' button below to retrieve your information tied to your US SAILING number.                        </div>
+            </div></td>
+          </tr>
+          <tr>
+            <td width="50%" height="26"><div align="right" class="form_label" >Skipper First Name*:</div></td>
+            <td width="50%"><input name="first_name" id="form_input" size="35" maxlength="60" value="" /></td>
+          </tr>
+          <tr>
+            <td height="26"><div align="right" class="form_label" >Skipper Last Name*:</div></td>
+            <td><input name="last_name" id="form_input" size="35" maxlength="60" value="" /></td>
+          </tr>
+                    <tr>
+            <td valign="top"><div align="right" class="form_label"><strong>MNA#/US SAILING #:</strong></div></td>
+            <td valign="top"><input name="ussa" type="text" id="form_input" value="" size="9" maxlength="10"  onBlur='MembershipCheck(1)'/>       &nbsp;
+                            <a href="#skipper_info" class="button" onClick="queryRegistrant('USSA');" >Look Up My Information</a><br>
+              &nbsp;
+                                        </td>
+          </tr>
+                    
+          <tr>
+            <td><div align="right" class="form_label"><strong>Address*:</strong></div></td>
+            <td><input name="address" id="form_input" size="35" maxlength="60" value=""/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>City*:</strong></div></td>
+            <td><input name="city" type="text" id="form_input" value="" size="35" maxlength="35"/></td>
+          </tr>
+          <tr>
+            <td height="26"><div align="right" class="form_label" ><strong>State/Province*:</strong></div></td>
+            <td>
+                    <input name="state" type="text" id="form_input" value="" size="35" maxlength="35"/>            </td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>ZIP/Postal Code*:</strong></div></td>
+            <td><input name="zip" type="text" id="form_input" value="" size="35" maxlength="10"/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Country*:</strong></div></td>
+            <td>
+              <SELECT NAME='country' SIZE=1 id="form_input">
+              <option value="" >Please Select</option>
+                            <OPTION VALUE="USA"  >United States of America</OPTION>
+                            <OPTION VALUE="CAN"  >Canada</OPTION>
+                            <OPTION VALUE="ALG"  >Algeria</OPTION>
+                            <OPTION VALUE="ASA"  >American Samoa</OPTION>
+                            <OPTION VALUE="AND"  >Andorra</OPTION>
+                            <OPTION VALUE="ANG"  >Angola</OPTION>
+                            <OPTION VALUE="ANT"  >Antigua</OPTION>
+                            <OPTION VALUE="ARG"  >Argentina</OPTION>
+                            <OPTION VALUE="AUS"  >Australia</OPTION>
+                            <OPTION VALUE="ARM"  >Armenia</OPTION>
+                            <OPTION VALUE="AUT"  >Austria</OPTION>
+                            <OPTION VALUE="AZE"  >Azerbaijan</OPTION>
+                            <OPTION VALUE="BAH"  >Bahamas</OPTION>
+                            <OPTION VALUE="BRN"  >Bahrain</OPTION>
+                            <OPTION VALUE="BAR"  >Barbados</OPTION>
+                            <OPTION VALUE="BLR"  >Belarus</OPTION>
+                            <OPTION VALUE="BEL"  >Belgium</OPTION>
+                            <OPTION VALUE="BER"  >Bermuda</OPTION>
+                            <OPTION VALUE="BRA"  >Brazil</OPTION>
+                            <OPTION VALUE="IVB"  >British Virgin Islands</OPTION>
+                            <OPTION VALUE="BUL"  >Bulgaria</OPTION>
+                            <OPTION VALUE="CAY"  >Cayman Islands</OPTION>
+                            <OPTION VALUE="CHI"  >Chile</OPTION>
+                            <OPTION VALUE="CHN"  >China, PR</OPTION>
+                            <OPTION VALUE="TPE"  >Chinese Taipei</OPTION>
+                            <OPTION VALUE="COL"  >Columbia</OPTION>
+                            <OPTION VALUE="COK"  >Cook Islands</OPTION>
+                            <OPTION VALUE="CRO"  >Croatia</OPTION>
+                            <OPTION VALUE="CUB"  >Cuba</OPTION>
+                            <OPTION VALUE="CYP"  >Cyprus</OPTION>
+                            <OPTION VALUE="CZE"  >Czech Republic</OPTION>
+                            <OPTION VALUE="DEN"  >Denmark</OPTION>
+                            <OPTION VALUE="DOM"  >Dominican Republic</OPTION>
+                            <OPTION VALUE="ECU"  >Ecuador</OPTION>
+                            <OPTION VALUE="EGY"  >Egypt</OPTION>
+                            <OPTION VALUE="ESA"  >El Salvador</OPTION>
+                            <OPTION VALUE="EST"  >Estonia</OPTION>
+                            <OPTION VALUE="FIJ"  >Fiji</OPTION>
+                            <OPTION VALUE="FIN"  >Finland</OPTION>
+                            <OPTION VALUE="FRA"  >France</OPTION>
+                            <OPTION VALUE="MKD"  >FYRO Macedonia</OPTION>
+                            <OPTION VALUE="GEO"  >Georgia</OPTION>
+                            <OPTION VALUE="GER"  >Germany</OPTION>
+                            <OPTION VALUE="GBR"  >Great Britain</OPTION>
+                            <OPTION VALUE="GRE"  >Greece</OPTION>
+                            <OPTION VALUE="GRN"  >Grenada</OPTION>
+                            <OPTION VALUE="GUM"  >Guam</OPTION>
+                            <OPTION VALUE="GUA"  >Guatemala</OPTION>
+                            <OPTION VALUE="HKG"  >Hong Kong</OPTION>
+                            <OPTION VALUE="HUN"  >Hungary</OPTION>
+                            <OPTION VALUE="ISL"  >Iceland</OPTION>
+                            <OPTION VALUE="IND"  >India</OPTION>
+                            <OPTION VALUE="INA"  >Indonesia</OPTION>
+                            <OPTION VALUE="IRL"  >Ireland</OPTION>
+                            <OPTION VALUE="ISR"  >Israel</OPTION>
+                            <OPTION VALUE="ITA"  >Italy</OPTION>
+                            <OPTION VALUE="JAM"  >Jamaica</OPTION>
+                            <OPTION VALUE="JPN"  >Japan</OPTION>
+                            <OPTION VALUE="KAZ"  >Kazakhstan</OPTION>
+                            <OPTION VALUE="KEN"  >Kenya</OPTION>
+                            <OPTION VALUE="KOR"  >Korea</OPTION>
+                            <OPTION VALUE="KUW"  >Kuwait</OPTION>
+                            <OPTION VALUE="LAT"  >Latvia</OPTION>
+                            <OPTION VALUE="LIB"  >Lebanon</OPTION>
+                            <OPTION VALUE="LBA"  >Libya</OPTION>
+                            <OPTION VALUE="LIE"  >Liechtenstein</OPTION>
+                            <OPTION VALUE="LTU"  >Lithuania</OPTION>
+                            <OPTION VALUE="LUX"  >Luxembourg</OPTION>
+                            <OPTION VALUE="MAS"  >Malaysia</OPTION>
+                            <OPTION VALUE="MLT"  >Malta</OPTION>
+                            <OPTION VALUE="MRI"  >Mauritius</OPTION>
+                            <OPTION VALUE="MEX"  >Mexico</OPTION>
+                            <OPTION VALUE="FSM"  >Micronesia, FSo</OPTION>
+                            <OPTION VALUE="MDA"  >Moldova</OPTION>
+                            <OPTION VALUE="MON"  >Monaco</OPTION>
+                            <OPTION VALUE="MAR"  >Morocco</OPTION>
+                            <OPTION VALUE="MYA"  >Myanmar</OPTION>
+                            <OPTION VALUE="NAM"  >Namibia</OPTION>
+                            <OPTION VALUE="NED"  >Netherlands</OPTION>
+                            <OPTION VALUE="AHO"  >Netherlands Antilles</OPTION>
+                            <OPTION VALUE="NZL"  >New Zealand</OPTION>
+                            <OPTION VALUE="NOR"  >Norway</OPTION>
+                            <OPTION VALUE="OMA"  >Oman</OPTION>
+                            <OPTION VALUE="PAK"  >Pakistan</OPTION>
+                            <OPTION VALUE="PNG"  >Papua New Guinea</OPTION>
+                            <OPTION VALUE="PAR"  >Paraguay</OPTION>
+                            <OPTION VALUE="PER"  >Peru</OPTION>
+                            <OPTION VALUE="PHI"  >Philippines</OPTION>
+                            <OPTION VALUE="POL"  >Poland</OPTION>
+                            <OPTION VALUE="POR"  >Portugal</OPTION>
+                            <OPTION VALUE="PUR"  >Puerto Rico</OPTION>
+                            <OPTION VALUE="QAT"  >Qatar</OPTION>
+                            <OPTION VALUE="ROM"  >Romania</OPTION>
+                            <OPTION VALUE="RUS"  >Russia</OPTION>
+                            <OPTION VALUE="SAM"  >Samoa</OPTION>
+                            <OPTION VALUE="SMR"  >San Marino</OPTION>
+                            <OPTION VALUE="SEN"  >Senegal</OPTION>
+                            <OPTION VALUE="SCG"  >Serbia and Montenegro</OPTION>
+                            <OPTION VALUE="SEY"  >Seychelles</OPTION>
+                            <OPTION VALUE="SIN"  >Singapore</OPTION>
+                            <OPTION VALUE="SVK"  >Slovak Republic</OPTION>
+                            <OPTION VALUE="SLO"  >Slovenia</OPTION>
+                            <OPTION VALUE="SOL"  >Solomon Islands</OPTION>
+                            <OPTION VALUE="RSA"  >South Africa</OPTION>
+                            <OPTION VALUE="ESP"  >Spain</OPTION>
+                            <OPTION VALUE="SRI"  >Sri Lanka</OPTION>
+                            <OPTION VALUE="LCA"  >St Lucia</OPTION>
+                            <OPTION VALUE="SWE"  >Sweden</OPTION>
+                            <OPTION VALUE="SUI"  >Switzerland</OPTION>
+                            <OPTION VALUE="TAH"  >Tahiti</OPTION>
+                            <OPTION VALUE="THA"  >Thailand</OPTION>
+                            <OPTION VALUE="TRI"  >Trinidad , Tobago</OPTION>
+                            <OPTION VALUE="TUN"  >Tunisia</OPTION>
+                            <OPTION VALUE="TUR"  >Turkey</OPTION>
+                            <OPTION VALUE="UKR"  >Ukraine</OPTION>
+                            <OPTION VALUE="UAE"  >United Arab Emirates</OPTION>
+                            <OPTION VALUE="URU"  >Uruguay</OPTION>
+                            <OPTION VALUE="ISV"  >US Virgin Islands</OPTION>
+                            <OPTION VALUE="VAN"  >Vanuatu</OPTION>
+                            <OPTION VALUE="VEN"  >Venezuela</OPTION>
+                            <OPTION VALUE="ZIM"  >Zimbabwe</OPTION>
+                            </SELECT>            </td>
+          </tr>
+                    <tr>
+            <td><div align="right" class="form_label"><strong>Phone Number*:</strong></div></td>
+            <td><input name="phone" type="text" id="form_input" value="" size="35" maxlength="15"/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Cell Phone Number*:</strong></div></td>
+            <td><input name="alt_phone" type="text" id="form_input" value="" size="35" maxlength="15"/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Email Address*:</strong></div></td>
+            <td><input name="email" type="text" id="form_input" value="" size="35" maxlength="50"/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Email Address Confirm*:</strong></div></td>
+            <td><input name="email_check" type="text" id="form_input" value="" size="35" maxlength="50"/></td>
+          </tr>
+          
+            <td height="26" valign="top"><div align="right" class="form_label" >Yacht Club Affiliation*:</div></td>
+            <td valign="top"><input name="club_name" id="form_input" size="35" maxlength="60" value="" /></td>
+          </tr>
+                    <tr>
+            <td><div align="right" class="form_label"><strong>Birthdate*:</strong></div></td>
+            <td class="small_text">
+              <input name="birth_date" type="text" id="form_input" value="" size="12" maxlength="10" />
+              (mm/dd/yyyy)</td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Sex:</strong></div></td>
+            <td><select name="sex" id="form_input">
+                  <option value="M" >Male</option>
+                  <option value="F" >Female</option>
+                </select>            </td>
+          </tr>
+                              
+                                                      
+                                                                                <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Emergency Contact Name*:</strong></div></td>
+            <td><input name="emergency_name" id="form_input" size="35" maxlength="60" value=""/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Emergency Contact Relationship*:</strong></div></td>
+            <td><input name="emergency_relationship" id="form_input" size="35" maxlength="60" value=""/></td>
+          </tr>
+          <tr>
+            <td><div align="right" class="form_label"><strong>Emergency Contact Phone*:</strong></div></td>
+            <td><input name="emergency_phone" id="form_input" size="35" maxlength="60" value=""/></td>
+          </tr>
+                                                
+                           
+                                                       <tr bordercolor="#ffffff">
+            <td colspan="2" bgcolor="#FFFFFF" id="login_table_header">Boat Information </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+                    <tr>
+            <td><div align="right" class="form_label"><strong>Boat Name  :</strong></div></td>
+            <td><input name="boatname" type="text" id="form_input" size="35" maxlength="50" value=""/></td>
+          </tr>
+                                                                                <tr>
+            <td><div align="right"><strong><span class="form_label">Sail Number*   :</span></strong></div></td>
+            <td><input name="sail_number" type="text" id="form_input" size="6" value=""/></td>
+          </tr>
+                                                                      <tr>
+            <td><div align="right" class="form_label"><strong>Desired Class :</strong></div></td>
+            <td>
+            <select name="fleet" id="form_input"  onChange='fleet_check()'  >
+              <option value="0" >Please Select</option>
+                        
+              <option value="Penguin" >Penguin</option>
+                           </select>          </td>
+          </tr>
+                                                                                                        <tr>
+            <td height="26">&nbsp;</td>
+            <td>&nbsp;</td>
+          </tr>
+                    <tr>
+            <td colspan="2"><table width="415" border="0" align="center" cellpadding="1" cellspacing="1">
+              <tr>
+                <td width="411" class="small_text"><BR><p><strong>DISCLAIMER OF LIABILITY:</strong></p><BR><p>Competitors participate in the regatta entirely at their own risk.&nbsp; See rule 4, Decision to Race.&nbsp; The organizing authority will not accept any liability for material damage or personal injury or death sustained in conjunction with or prior to, during, or after the regatta.</p><BR>
+                  <br>
+                  I agree to the above:
+                  <select name="waiver" id="form_input">
+                    <option value="NO" selected>NO</option>
+                    <option value="YES">YES</option>
+                  </select>                  </td>
+              </tr>
+            </table></td>
+            </tr>
+                                       <tr bordercolor="#ffffff">
+            <td bgcolor="#FFFFFF" colspan="2">&nbsp;</td>
+          </tr>
+          <tr bordercolor="#ffffff">
+            <td bgcolor="#FFFFFF" colspan="2"><div align="center">
+                <input type="hidden" name="regatta_id" value="2637"  />
+                <input type="hidden" name="info_query" value="0"  />
+                <input name="Submit" type="submit" id="form_button" value="Enter My Registration  &gt;&gt;"  />
+            </div></td>
+          </tr>
+              </table>
+        <br /></td>
+      </tr>
+      <tr>
+        <td bgcolor="#003366" id="login_table_header"><div align="center">&nbsp;</div></td>
+      </tr>
+      <tr>
+        <td bgcolor="#FFFFFF" class="disclaimer_box">                
+<div align="center">Registration Problems or Questions? <a href="http://www.regattanetwork.com/faq/">View our Knowledgebase</a> or <a href="http://www.regattanetwork.com/faq/?View=contact">Contact Us</a> | <a href="http://www.regattanetwork.com/w3c/privacy.html" target=_new">View Our Privacy Policy</a><br />
+
+  <a href="http://www.regattanetwork.com/" target="_blank">Powered by US SAILING Regatta Network&#174</a> |
+  Online Sailing Event Registration and Management Services.<br />
+&copy; 2009 <a href="http://www.regattanetwork.com/" target="_blank">Regatta Network</a>, Inc. All Rights Reserved. Regatta Network is a registered Trademark of Regatta Network Inc.<BR>
+
+</div>
+<div align="center">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+      <td bgcolor="#FFFFFF"><div align="center"><img src="https://www.regattanetwork.com/assets/active-partner140-b5.gif" alt="Powered by Regatta Network"  /></div></td>
+    </tr>
+                  </table>
+
+</div></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-10AfxbRJF1aes"
+};
+
+    document.myform.Submit.disabled = false;
+    document.myform.Submit.value = "Enter My Registration  >>";
+
+</script>
+<script type="text/javascript" src="//secure.quantserve.com/quant.js"></script>
+<noscript>
+<img src="//secure.quantserve.com/pixel/p-10AfxbRJF1aes.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
