@@ -1,0 +1,82 @@
+{
+  "description": "Gallery exclusion rules for filtering out unwanted images",
+  "exclude_paths": [
+    "archive/legacy-website/image009.png",
+    "archive/legacy-website/newball3.gif",
+    "archive/legacy-website/74.gif",
+    "archive/legacy-website/14.gif",
+    "archive/legacy-website/17.gif",
+    "archive/legacy-website/47.gif",
+    "archive/legacy-website/41.gif",
+    "archive/legacy-website/77.gif",
+    "archive/legacy-website/spacer.gif",
+    "archive/legacy-website/71.gif",
+    "archive/legacy-website/1.gif",
+    "archive/legacy-website/facebook_follow_us.png",
+    "archive/legacy-website/image005.gif",
+    "archive/legacy-website/DV_top_data_edge_bin1.png",
+    "archive/legacy-website/image008.gif",
+    "archive/legacy-website/sold.gif",
+    "archive/legacy-website/barnes_cb_2021.jpeg",
+    "archive/legacy-website/11.gif",
+    "archive/legacy-website/slpf_nov1_2008_files/image001.gif",
+    "archive/legacy-website/images/new.gif",
+    "archive/legacy-website/images/web/resources/movie.gif",
+    "archive/legacy-website/images/images/pensmall2.gif",
+    "archive/legacy-website/images/images/philsfoils.jpg",
+    "archive/legacy-website/NOR%202012%20Internationals_files/image003.gif",
+    "archive/legacy-website/NOR%202012%20Internationals_files/image002.gif",
+    "archive/legacy-website/2018_tcpfr_results_web_files/image002.png",
+    "archive/legacy-website/2018_tcpfr_results_web_files/image003.png",
+    "archive/legacy-website/2018_tcpfr_results_web_files/image001.png",
+    "archive/legacy-website/2011%20Island%20Creek%20Penguin%20Frostbite%20Regatta_csk_files/image002.gif",
+    "archive/legacy-website/JuniorWaiver_2017_files/image001.gif",
+    "archive/legacy-website/Penguin/07schedule_files/image002.gif",
+    "archive/legacy-website/Penguin/2012_NSHOF_files/image005.jpg",
+    "archive/legacy-website/Penguin/2012_NSHOF_files/image004.png",
+    "archive/legacy-website/Penguin/JuniorWaiver_2014_files/image001.gif",
+    "archive/legacy-website/2018_Intls_results_files/image005.gif",
+    "archive/legacy-website/2018_Intls_results_files/image001.gif",
+    "archive/legacy-website/2018_Intls_results_files/image003.gif",
+    "archive/legacy-website/index_files/image007.gif",
+    "archive/legacy-website/index_files/image005.png",
+    "archive/legacy-website/index_files/image012.gif",
+    "archive/legacy-website/index_files/image017.gif",
+    "archive/legacy-website/index_files/image016.gif",
+    "archive/legacy-website/index_files/image014.gif",
+    "archive/legacy-website/index_files/image019.gif",
+    "archive/legacy-website/index_files/image015.gif",
+    "archive/legacy-website/index_files/image010.png",
+    "archive/legacy-website/10schedule_files/index_files/image009.gif",
+    "archive/legacy-website/JuniorWaiver_2018_files/image001.gif",
+    "archive/legacy-website/JuniorWaiver_2018_files/image002.gif"
+  ],
+  "exclude_regex_patterns": [
+    {
+      "pattern": "archive/legacy-website/stats/.*",
+      "description": "All images in the stats directory"
+    },
+    {
+      "pattern": ".*thumb_.*",
+      "description": "Images starting with thumb_"
+    },
+    {
+      "pattern": ".*thm_.*",
+      "description": "Images starting with thm_"
+    },
+    {
+      "pattern": ".*_thumb.*",
+      "description": "Images ending with _thumb"
+    },
+    {
+      "pattern": ".*-thumb-.*",
+      "description": "Images with -thumb- anywhere in the name"
+    }
+  ],
+  "exclude_urls": [],
+  "size_limits": {
+    "min_size_kb": 1,
+    "max_size_kb": null,
+    "description": "Exclude images smaller than 1KB (empty or very small files)"
+  }
+}
