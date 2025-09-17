@@ -41,15 +41,71 @@ class MediaAnalyzer:
         self.categories = defaultdict(list)
         self.events = defaultdict(list)
         self.years = defaultdict(list)
+        self.exclusion_rules = self.load_exclusion_rules()
+    
+    def load_exclusion_rules(self) -> Dict:
+        """Load exclusion rules from the JSON file."""
+        exclusion_file = Path("assets/data/gallery-exclude.json")
+        if not exclusion_file.exists():
+            print("Warning: No exclusion rules file found at assets/data/gallery-exclude.json")
+            return {
+                'exclude_paths': [],
+                'exclude_regex_patterns': [],
+                'exclude_urls': [],
+                'size_limits': {'min_size_kb': 0, 'max_size_kb': None}
+            }
         
+        try:
+            with open(exclusion_file, 'r') as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"Error loading exclusion rules: {e}")
+            return {
+                'exclude_paths': [],
+                'exclude_regex_patterns': [],
+                'exclude_urls': [],
+                'size_limits': {'min_size_kb': 0, 'max_size_kb': None}
+            }
+    
     def is_excluded_path(self, path: Path) -> bool:
-        """Check if path should be excluded."""
+        """Check if path should be excluded based on exclusion rules."""
         path_str = str(path)
         
-        # Check for excluded directories
+        # Check for excluded directories (legacy hardcoded exclusions)
         for excluded_dir in EXCLUDED_DIRECTORIES:
             if f'/{excluded_dir}/' in path_str or path_str.endswith(f'/{excluded_dir}'):
                 return True
+        
+        # Check explicit path exclusions
+        for exclude_path in self.exclusion_rules.get('exclude_paths', []):
+            if path_str == exclude_path or path_str.endswith(exclude_path):
+                return True
+        
+        # Check regex pattern exclusions
+        for pattern_info in self.exclusion_rules.get('exclude_regex_patterns', []):
+            pattern = pattern_info.get('pattern', '')
+            try:
+                if re.search(pattern, path_str):
+                    return True
+            except re.error as e:
+                print(f"Warning: Invalid regex pattern '{pattern}': {e}")
+        
+        return False
+    
+    def is_excluded_by_size(self, file_size: int) -> bool:
+        """Check if file should be excluded based on size limits."""
+        size_limits = self.exclusion_rules.get('size_limits', {})
+        min_size_kb = size_limits.get('min_size_kb', 0)
+        max_size_kb = size_limits.get('max_size_kb')
+        
+        # Convert bytes to KB
+        size_kb = file_size / 1024
+        
+        if min_size_kb and size_kb < min_size_kb:
+            return True
+        
+        if max_size_kb and size_kb > max_size_kb:
+            return True
         
         return False
     
@@ -204,19 +260,40 @@ class MediaAnalyzer:
             return json.load(f)
     
     def filter_excluded_media(self, media_list: List[Dict]) -> List[Dict]:
-        """Filter out media from excluded directories."""
+        """Filter out media based on exclusion rules."""
         filtered = []
         excluded_count = 0
+        excluded_by_path = 0
+        excluded_by_size = 0
         
         for media in media_list:
+            excluded = False
+            reason = ""
+            
+            # Check path exclusions
             if self.is_excluded_path(Path(media['path'])):
+                excluded = True
+                excluded_by_path += 1
+                reason = "path exclusion"
+            
+            # Check size exclusions
+            elif self.is_excluded_by_size(media.get('size', 0)):
+                excluded = True
+                excluded_by_size += 1
+                reason = "size exclusion"
+            
+            if excluded:
                 excluded_count += 1
-                print(f"Excluding: {media['path']}")
+                print(f"Excluding ({reason}): {media['path']}")
             else:
                 filtered.append(media)
         
         if excluded_count > 0:
-            print(f"Excluded {excluded_count} media items from excluded directories")
+            print(f"Excluded {excluded_count} media items:")
+            if excluded_by_path > 0:
+                print(f"  - {excluded_by_path} by path exclusion")
+            if excluded_by_size > 0:
+                print(f"  - {excluded_by_size} by size exclusion")
         
         return filtered
     
