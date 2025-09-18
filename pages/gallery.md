@@ -132,6 +132,7 @@ div class="gallery-search">
   <div class="photo-info">
     <p id="photo-filename"></p>
     <p id="photo-details"></p>
+    <p id="photo-credit"></p>
   </div>
   <div class="photo-thumbnails" id="photo-thumbnails"></div>
 </div>
@@ -651,6 +652,7 @@ function updatePhotoDisplay() {
   const img = document.getElementById('current-photo');
   const filename = document.getElementById('photo-filename');
   const details = document.getElementById('photo-details');
+  const credit = document.getElementById('photo-credit');
   const counter = document.getElementById('photo-counter');
   const container = document.querySelector('.photo-container');
   
@@ -665,8 +667,8 @@ function updatePhotoDisplay() {
     container.style.border = 'none';
   }
   
-  // Ensure absolute URLs for photos
-  const photoUrl = photo.path.startsWith('/') ? photo.path : '/' + photo.path;
+  // Ensure absolute URLs for photos using encoded path
+  const photoUrl = photo.encoded_path.startsWith('/') ? photo.encoded_path : '/' + photo.encoded_path;
   
   img.src = photoUrl;
   img.alt = photo.filename;
@@ -683,6 +685,7 @@ function updatePhotoDisplay() {
   
   filename.textContent = photo.filename;
   details.textContent = `Size: ${Math.round(photo.size / 1024)} KB | Year: ${photo.year || 'Unknown'} | Source: ${photo.source}`;
+  credit.textContent = `Credit: ${photo.credit || 'Unknown photographer'}`;
   counter.textContent = `${currentPhotoIndex + 1} of ${currentPhotos.length}`;
   
   // Update thumbnail selection
@@ -699,8 +702,8 @@ function updateThumbnails() {
   
   currentPhotos.forEach((photo, index) => {
     const img = document.createElement('img');
-    // Ensure absolute URLs for thumbnails
-    const photoUrl = photo.path.startsWith('/') ? photo.path : '/' + photo.path;
+    // Ensure absolute URLs for thumbnails using encoded path
+    const photoUrl = photo.encoded_path.startsWith('/') ? photo.encoded_path : '/' + photo.encoded_path;
     img.src = photoUrl;
     img.alt = photo.filename;
     img.onclick = () => {
