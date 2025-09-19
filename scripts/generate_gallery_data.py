@@ -8,10 +8,15 @@ organized for easy browsing and searching.
 
 import json
 import re
+import subprocess
+import yaml
 from pathlib import Path
 from typing import Dict, List, Set, Optional
 from collections import defaultdict
-from urllib.parse import urlparse
+from urllib.parse import urlparse, quote
+import sys
+sys.path.append(str(Path(__file__).parent))
+from lib.gallery_utils import GalleryUtils
 
 # Photo extensions to look for
 PHOTO_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif', '.webp'}
@@ -42,6 +47,9 @@ class MediaAnalyzer:
         self.events = defaultdict(list)
         self.years = defaultdict(list)
         self.exclusion_rules = self.load_exclusion_rules()
+        self.credit_overrides = self.load_credit_overrides()
+        self.utils = GalleryUtils()
+    
     
     def load_exclusion_rules(self) -> Dict:
         """Load exclusion rules from the JSON file."""
@@ -66,6 +74,74 @@ class MediaAnalyzer:
                 'exclude_urls': [],
                 'size_limits': {'min_size_kb': 0, 'max_size_kb': None}
             }
+    
+    def load_credit_overrides(self) -> Dict:
+        """Load manual credit overrides from JSON file."""
+        credit_file = Path("assets/data/gallery-credits.json")
+        if not credit_file.exists():
+            print("Info: No credit overrides file found at assets/data/gallery-credits.json")
+            return {}
+        
+        try:
+            with open(credit_file, 'r') as f:
+                data = json.load(f)
+                return data.get('overrides', {})
+        except Exception as e:
+            print(f"Error loading credit overrides: {e}")
+            return {}
+    
+    def extract_exif_metadata(self, file_path: str) -> Dict:
+        """Extract only useful EXIF metadata from image file using exiftool."""
+        exif_data = {}
+        
+        # Define the useful EXIF fields we want to keep
+        useful_fields = [
+            'DateTime', 'DateTimeOriginal', 'CreateDate', 'ModifyDate',
+            'GPSLatitude', 'GPSLongitude', 'GPSAltitude', 'GPSLocation',
+            'Artist', 'Copyright', 'ImageDescription', 'UserComment',
+            'ImageWidth', 'ImageHeight', 'ExifImageWidth', 'ExifImageHeight',
+            'Make', 'Model', 'Software', 'LensModel'
+        ]
+        
+        try:
+            # Try exiftool with specific field selection
+            field_args = []
+            for field in useful_fields:
+                field_args.extend(['-{}'.format(field)])
+            
+            result = subprocess.run(['exiftool', '-json', '-q'] + field_args + [file_path], 
+                                  capture_output=True, text=True, timeout=10)
+            if result.returncode == 0:
+                exif_json = json.loads(result.stdout)
+                if exif_json and len(exif_json) > 0:
+                    raw_exif = exif_json[0]
+                    # Filter to only include useful fields
+                    exif_data = {k: v for k, v in raw_exif.items() if k in useful_fields}
+        except (subprocess.TimeoutExpired, subprocess.CalledProcessError, FileNotFoundError, json.JSONDecodeError):
+            # Fallback to file command for basic info
+            try:
+                result = subprocess.run(['file', file_path], capture_output=True, text=True, timeout=5)
+                if result.returncode == 0:
+                    file_output = result.stdout
+                    # Extract basic info from file output
+                    if 'Exif Standard' in file_output:
+                        # Parse manufacturer, model, datetime from file output
+                        if 'manufacturer=' in file_output:
+                            manufacturer = re.search(r'manufacturer=([^,]+)', file_output)
+                            if manufacturer:
+                                exif_data['Make'] = manufacturer.group(1).strip()
+                        if 'model=' in file_output:
+                            model = re.search(r'model=([^,]+)', file_output)
+                            if model:
+                                exif_data['Model'] = model.group(1).strip()
+                        if 'datetime=' in file_output:
+                            datetime_match = re.search(r'datetime=([^,]+)', file_output)
+                            if datetime_match:
+                                exif_data['DateTime'] = datetime_match.group(1).strip()
+            except (subprocess.TimeoutExpired, subprocess.CalledProcessError):
+                pass
+        
+        return exif_data
     
     def is_excluded_path(self, path: Path) -> bool:
         """Check if path should be excluded based on exclusion rules."""
@@ -109,6 +185,99 @@ class MediaAnalyzer:
         
         return False
     
+    def url_encode_path(self, path: str) -> str:
+        """URL encode special characters in file paths."""
+        # Split the path into directory and filename parts
+        path_obj = Path(path)
+        encoded_parts = []
+        
+        # Encode each part of the path
+        for part in path_obj.parts:
+            # Only encode special characters that cause issues in URLs
+            encoded_part = quote(part, safe='')
+            encoded_parts.append(encoded_part)
+        
+        return '/'.join(encoded_parts)
+    
+    def normalize_photographer_name(self, name: str) -> str:
+        """Normalize photographer name by handling underscores and capitalization."""
+        if not name or name.lower() in ['unknown photographer', 'unknown', '']:
+            return 'Unknown photographer'
+        
+        # Replace underscores with spaces
+        normalized = name.replace('_', ' ')
+        
+        # Handle common variations
+        normalized = re.sub(r'\s+', ' ', normalized)  # Multiple spaces to single space
+        normalized = normalized.strip()
+        
+        # Title case but preserve some exceptions
+        words = normalized.split()
+        result = []
+        for word in words:
+            if word.upper() in ['MD', 'NJ', 'NY', 'CA', 'USA', 'U.S.A.']:
+                result.append(word.upper())
+            elif word.lower() in ['of', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'with', 'by']:
+                result.append(word.lower())
+            else:
+                result.append(word.title())
+        
+        return ' '.join(result)
+
+    def extract_credit_from_metadata(self, filename: str, path: str, exif_data: Dict = None) -> str:
+        """Extract photographer/videographer credit using multiple methods."""
+        filename_lower = filename.lower()
+        path_lower = path.lower()
+        
+        # 1. Check for manual overrides first
+        if path in self.credit_overrides:
+            return self.utils.normalize_photographer_name(self.credit_overrides[path])
+        
+        # 2. Check for explicit photographer patterns in filename (conservative approach)
+        photographer_patterns = [
+            r'_by_([a-zA-Z_]+)',  # _by_John or _by_John_Smith
+            r'photoby([a-zA-Z_]+)',  # photobyJohn or photobyJohn_Smith
+            r'photo_by_([a-zA-Z_]+)',  # photo_by_John or photo_by_John_Smith
+            r'credit_([a-zA-Z_]+)',  # credit_John or credit_John_Smith
+        ]
+        
+        for pattern in photographer_patterns:
+            match = re.search(pattern, filename_lower)
+            if match:
+                name = match.group(1)
+                normalized_name = self.utils.normalize_photographer_name(name)
+                return f"Photo by {normalized_name}"
+        
+        # 3. Check for copyright notices in filename
+        if 'copyright' in filename_lower or '©' in filename:
+            return "Copyright protected"
+        
+        # 4. Check for watermarks or credits in filename
+        if 'watermark' in filename_lower or 'credit' in filename_lower:
+            return "Credited photographer"
+        
+        # 5. Use EXIF data if available
+        if exif_data:
+            # Check for photographer in EXIF
+            if 'Artist' in exif_data and exif_data['Artist'].strip():
+                return f"Photo by {self.utils.normalize_photographer_name(exif_data['Artist'].strip())}"
+            if 'Copyright' in exif_data and exif_data['Copyright'].strip():
+                return self.utils.normalize_photographer_name(exif_data['Copyright'].strip())
+            if 'Creator' in exif_data and exif_data['Creator'].strip():
+                return f"Photo by {self.utils.normalize_photographer_name(exif_data['Creator'].strip())}"
+        
+        # 6. Check for known photographer directories (conservative)
+        known_photographer_dirs = {
+            'will', 'keyworth', 'frank', 'parisi'
+        }
+        
+        for photographer in known_photographer_dirs:
+            if f'/{photographer}/' in path_lower or path_lower.endswith(f'/{photographer}'):
+                return f"Photo by {self.utils.normalize_photographer_name(photographer)}"
+        
+        # Default for unknown
+        return "Unknown photographer"
+    
     def is_external_url(self, url: str) -> bool:
         """Check if URL is external."""
         try:
@@ -140,15 +309,24 @@ class MediaAnalyzer:
     def extract_metadata(self, file_path: str, file_size: int = 0, modified_time: str = '') -> Dict:
         """Extract metadata from media file."""
         media_type = self.get_media_type(file_path)
+        filename = Path(file_path).name
+        
+        # Extract EXIF data for images
+        exif_data = {}
+        if media_type == 'photo' and Path(file_path).suffix.lower() in {'.jpg', '.jpeg', '.tiff', '.tif'}:
+            exif_data = self.utils.extract_exif_metadata(file_path)
         
         metadata = {
-            'filename': Path(file_path).name,
+            'filename': filename,
             'path': file_path,
+            'encoded_path': self.utils.url_encode_path(file_path),
             'size': file_size,
             'modified': modified_time,
             'extension': Path(file_path).suffix.lower(),
             'media_type': media_type,
-            'source': 'archive' if 'archive' in file_path else 'jekyll'
+            'source': 'archive' if 'archive' in file_path else 'jekyll',
+            'credit': self.extract_credit_from_metadata(filename, file_path, exif_data),
+            'exif': exif_data
         }
         
         # Handle external URLs
@@ -225,15 +403,15 @@ class MediaAnalyzer:
         elif any(word in filename or word in path for word in ['heritage']):
             categories.append('Heritage')
         
-        # Location-based categories
+        # Location-based categories (normalized)
         if any(word in filename or word in path for word in ['tayc', 'tred avon']):
-            categories.append('TAYC')
+            categories.append(self.utils.normalize_category_name('TAYC'))
         elif any(word in filename or word in path for word in ['cryc', 'corsica']):
-            categories.append('CRYC')
+            categories.append(self.utils.normalize_category_name('CRYC'))
         elif any(word in filename or word in path for word in ['giys', 'greenwich']):
-            categories.append('GIYS')
-        elif any(word in filename or word in path for word in ['beachwood']):
-            categories.append('Beachwood')
+            categories.append(self.utils.normalize_category_name('GIYS'))
+        elif any(word in filename or word in path for word in ['beachwood', 'byc', 'baltimore']):
+            categories.append(self.utils.normalize_category_name('BYC'))
         
         # Type-based categories
         if any(word in filename or word in path for word in ['boat', 'sail', 'rigging']):
@@ -297,6 +475,32 @@ class MediaAnalyzer:
         
         return filtered
     
+    def generate_credit_stats(self, media_items: List[Dict]) -> Dict:
+        """Generate statistics about photo/video credits."""
+        credit_counts = defaultdict(int)
+        total_credited = 0
+        total_unknown = 0
+        
+        for media in media_items:
+            credit = media.get('credit', 'Unknown photographer')
+            credit_counts[credit] += 1
+            
+            if credit == 'Unknown photographer':
+                total_unknown += 1
+            else:
+                total_credited += 1
+        
+        # Get top 10 most common credits
+        top_credits = sorted(credit_counts.items(), key=lambda x: x[1], reverse=True)[:10]
+        
+        return {
+            'total_credited': total_credited,
+            'total_unknown': total_unknown,
+            'unique_credits': len(credit_counts),
+            'top_credits': top_credits,
+            'credit_breakdown': dict(credit_counts)
+        }
+    
     def organize_media(self, media_list: List[Dict]):
         """Organize media by categories, events, and years."""
         for media in media_list:
@@ -346,7 +550,8 @@ class MediaAnalyzer:
             'date_range': {
                 'earliest': min(self.years.keys()) if self.years else 'unknown',
                 'latest': max(self.years.keys()) if self.years else 'unknown'
-            }
+            },
+            'credits': self.generate_credit_stats(media_items)
         }
         
         # Create gallery collections
@@ -455,6 +660,16 @@ def main():
     print(f"Years: {stats['years_count']}")
     print(f"Events: {stats['events_count']}")
     print(f"Date range: {stats['date_range']['earliest']} - {stats['date_range']['latest']}")
+    
+    # Print credit statistics
+    credits = stats['credits']
+    print(f"\n📸 Credit Statistics:")
+    print(f"Credited media: {credits['total_credited']}")
+    print(f"Unknown credits: {credits['total_unknown']}")
+    print(f"Unique credits: {credits['unique_credits']}")
+    print(f"Top credits:")
+    for credit, count in credits['top_credits'][:5]:
+        print(f"  - {credit}: {count} items")
     
     # Print collection summaries
     print(f"\n📁 Collections:")

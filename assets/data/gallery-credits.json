@@ -1,0 +1,12 @@
+{
+  "description": "Manual credit overrides for gallery images",
+  "overrides": {
+    "archive/legacy-website/example_photo.jpg": "Photo by John Smith",
+    "archive/legacy-website/another_photo.png": "Copyright Penguin Class Association"
+  },
+  "notes": [
+    "Add specific file paths as keys with credit information as values",
+    "This file allows manual override of automatic credit detection",
+    "Use full relative paths from the repository root"
+  ]
+}
