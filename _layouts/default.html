@@ -32,6 +32,10 @@
     
     <nav class="main-nav">
       <ul class="nav-list">
+        <!-- Home link for mobile only -->
+        <li class="nav-item mobile-only">
+          <a href="{{ '/' | relative_url }}">Home</a>
+        </li>
       {%- assign items = site.data.navigation -%}
       {%- for item in items -%}
         <li class="nav-item">
