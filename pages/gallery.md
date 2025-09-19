@@ -4,7 +4,7 @@ title: Gallery
 permalink: /gallery/
 ---
 
-Welcome to the Penguin Class Gallery! This collection contains **<span id="total-photos">Loading...</span> unique photos and videos** from events, regattas, and activities spanning decades of Penguin Class history.  There are also links and information at the bottom of this page if you are looking for or able to provide additional photos.
+Welcome to the Penguin Class Gallery! This collection contains **<span id="total-photos-welcome">Loading...</span> unique photos and videos** from events, regattas, and activities spanning decades of Penguin Class history.  There are also links and information at the bottom of this page if you are looking for or able to provide additional photos.
 
 ## Search
 
@@ -21,61 +21,51 @@ Welcome to the Penguin Class Gallery! This collection contains **<span id="total
     <p id="photos-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('photos')">View Photos</button>
   </div>
-  
   <div class="category-card" data-category="championships">
     <h3>🏆 Championships</h3>
     <p id="championships-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('championships')">View Photos</button>
   </div>
-  
   <div class="category-card" data-category="regattas">
     <h3>⛵ Regattas</h3>
     <p id="regattas-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('regattas')">View Photos</button>
   </div>
-  
+  <div class="category-card" data-category="tred_avon_yacht_club">
+    <h3>📁 Tred Avon Yacht Club</h3>
+    <p id="tred_avon_yacht_club-count">Loading...</p>
+    <button class="view-photos-btn" onclick="viewCategory('tred_avon_yacht_club')">View Photos</button>
+  </div>
   <div class="category-card" data-category="frostbite">
     <h3>❄️ Frostbite</h3>
     <p id="frostbite-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('frostbite')">View Photos</button>
   </div>
-  
-  <div class="category-card" data-category="tayc">
-    <h3>🏛️ TAYC</h3>
-    <p id="tayc-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('tayc')">View Photos</button>
+  <div class="category-card" data-category="gibson_island_yacht_squadron">
+    <h3>📁 Gibson Island Yacht Squadron</h3>
+    <p id="gibson_island_yacht_squadron-count">Loading...</p>
+    <button class="view-photos-btn" onclick="viewCategory('gibson_island_yacht_squadron')">View Photos</button>
   </div>
-  
-  <div class="category-card" data-category="cryc">
-    <h3>🌊 CRYC</h3>
-    <p id="cryc-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('cryc')">View Photos</button>
+  <div class="category-card" data-category="corsica_river_yacht_club">
+    <h3>📁 Corsica River Yacht Club</h3>
+    <p id="corsica_river_yacht_club-count">Loading...</p>
+    <button class="view-photos-btn" onclick="viewCategory('corsica_river_yacht_club')">View Photos</button>
   </div>
-  
-  <div class="category-card" data-category="giys">
-    <h3>⚓ GIYS</h3>
-    <p id="giys-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('giys')">View Photos</button>
+  <div class="category-card" data-category="beachwood_yacht_club">
+    <h3>📁 Beachwood Yacht Club</h3>
+    <p id="beachwood_yacht_club-count">Loading...</p>
+    <button class="view-photos-btn" onclick="viewCategory('beachwood_yacht_club')">View Photos</button>
   </div>
-  
-  <div class="category-card" data-category="beachwood">
-    <h3>🏖️ Beachwood</h3>
-    <p id="beachwood-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('beachwood')">View Photos</button>
-  </div>
-  
   <div class="category-card" data-category="awards">
     <h3>🏅 Awards</h3>
     <p id="awards-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('awards')">View Photos</button>
   </div>
-  
   <div class="category-card" data-category="heritage">
     <h3>📜 Heritage</h3>
     <p id="heritage-count">Loading...</p>
     <button class="view-photos-btn" onclick="viewCategory('heritage')">View Photos</button>
   </div>
-  
   <div class="category-card" data-category="boats">
     <h3>⛵ Boats</h3>
     <p id="boats-count">Loading...</p>
@@ -87,27 +77,72 @@ Welcome to the Penguin Class Gallery! This collection contains **<span id="total
 
 <div class="gallery-years">
   <div class="year-section">
-    <h3>Recent Years</h3>
+    <h3>2020-2029</h3>
     <div class="year-grid">
+      <button class="year-link" onclick="viewYear('2025')">2025 (72 photos)</button>
       <button class="year-link" onclick="viewYear('2024')">2024 (30 photos)</button>
       <button class="year-link" onclick="viewYear('2023')">2023 (44 photos)</button>
       <button class="year-link" onclick="viewYear('2022')">2022 (22 photos)</button>
       <button class="year-link" onclick="viewYear('2021')">2021 (46 photos)</button>
     </div>
   </div>
-  
   <div class="year-section">
-    <h3>Historical Years</h3>
+    <h3>2010-2019</h3>
     <div class="year-grid">
       <button class="year-link" onclick="viewYear('2016')">2016 (10 photos)</button>
       <button class="year-link" onclick="viewYear('2014')">2014 (4 photos)</button>
-      <button class="year-link" onclick="viewYear('2012')">2012 (3 photos)</button>
+      <button class="year-link" onclick="viewYear('2012')">2012 (2 photos)</button>
       <button class="year-link" onclick="viewYear('2011')">2011 (2 photos)</button>
       <button class="year-link" onclick="viewYear('2010')">2010 (66 photos)</button>
-      <button class="year-link" onclick="viewYear('2008')">2008 (20 photos)</button>
-      <button class="year-link" onclick="viewYear('2006')">2006 (69 photos)</button>
-      <button class="year-link" onclick="viewYear('1955')">1955 (1 photo)</button>
     </div>
+  </div>
+  <div class="year-section">
+    <h3>2000-2009</h3>
+    <div class="year-grid">
+      <button class="year-link" onclick="viewYear('2008')">2008 (3 photos)</button>
+      <button class="year-link" onclick="viewYear('2006')">2006 (21 photos)</button>
+    </div>
+  </div>
+  <div class="year-section">
+    <h3>1950s</h3>
+    <div class="year-grid">
+      <button class="year-link" onclick="viewYear('1955')">1955 (1 photos)</button>
+    </div>
+  </div>
+</div>
+
+## Browse by Creator
+
+<div class="gallery-creators">
+  <div class="creator-card" data-creator="unknown_photographer">
+    <h3>❓ Unknown photographer</h3>
+    <p id="unknown_photographer-count">1079 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('unknown_photographer')">View Photos</button>
+  </div>
+  <div class="creator-card" data-creator="photo_by_paul_rohrkemper">
+    <h3>📸 Photo by Paul Rohrkemper</h3>
+    <p id="photo_by_paul_rohrkemper-count">74 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('photo_by_paul_rohrkemper')">View Photos</button>
+  </div>
+  <div class="creator-card" data-creator="frank_parisi">
+    <h3>📷 Frank Parisi</h3>
+    <p id="frank_parisi-count">72 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('frank_parisi')">View Photos</button>
+  </div>
+  <div class="creator-card" data-creator="photo_by_will_keyworth">
+    <h3>🎯 Photo by Will Keyworth</h3>
+    <p id="photo_by_will_keyworth-count">54 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('photo_by_will_keyworth')">View Photos</button>
+  </div>
+  <div class="creator-card" data-creator="photo_by_al_schreitmueller">
+    <h3>📷 Photo by Al Schreitmueller</h3>
+    <p id="photo_by_al_schreitmueller-count">46 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('photo_by_al_schreitmueller')">View Photos</button>
+  </div>
+  <div class="creator-card" data-creator="photo_by_penoso">
+    <h3>📸 Photo by Penoso</h3>
+    <p id="photo_by_penoso-count">3 photos</p>
+    <button class="view-photos-btn" onclick="viewCreator('photo_by_penoso')">View Photos</button>
   </div>
 </div>
 
@@ -143,8 +178,8 @@ All historical photos are preserved in the [Legacy Website Archive](/archive/leg
 
 ## Photo Information
 
-- **Total Photos**: <span id="total-photos">Loading...</span> unique images
-- **Date Range**: 1941 - 2025
+- **Total Photos**: <span id="total-photos-info">Loading...</span> unique images
+- **Date Range**: 1955 - 2025
 - **Sources**: Publicly available photos (see credits and watermarks) and legacy website archive
 - **Formats**: JPG, PNG, GIF, and other standard web formats
 - **Note**: Some photos may be copyrighted. Please respect photographer credits and watermarks.
@@ -483,7 +518,8 @@ let currentPhotoIndex = 0;
 async function loadGalleryData() {
   try {
     // Show loading state
-    document.getElementById('total-photos').textContent = 'Loading...';
+    document.getElementById('total-photos-welcome').textContent = 'Loading...';
+    document.getElementById('total-photos-info').textContent = 'Loading...';    
     
     const response = await fetch('/assets/data/gallery.json');
     galleryData = await response.json();
@@ -494,7 +530,8 @@ async function loadGalleryData() {
     updateTotalCount();
   } catch (error) {
     console.error('Error loading gallery data:', error);
-    document.getElementById('total-photos').textContent = 'Error loading';
+    document.getElementById('total-photos-welcome').textContent = 'Error loading';
+    document.getElementById('total-photos-info').textContent = 'Error loading';    
   }
 }
 
@@ -504,16 +541,16 @@ function updateCategoryCounts() {
   
   const categoryCounts = {
     'photos': galleryData.categories['Photos']?.length || 0,
-    'championships': galleryData.categories['Championships']?.length || 0,
-    'regattas': galleryData.categories['Regattas']?.length || 0,
-    'frostbite': galleryData.categories['Frostbite']?.length || 0,
-    'tayc': galleryData.categories['TAYC']?.length || 0,
-    'cryc': galleryData.categories['CRYC']?.length || 0,
-    'giys': galleryData.categories['GIYS']?.length || 0,
-    'beachwood': galleryData.categories['Beachwood']?.length || 0,
     'awards': galleryData.categories['Awards']?.length || 0,
+    'beachwood_yacht_club': galleryData.categories['Beachwood Yacht Club']?.length || 0,
+    'boats': galleryData.categories['Boats']?.length || 0,
+    'championships': galleryData.categories['Championships']?.length || 0,
+    'corsica_river_yacht_club': galleryData.categories['Corsica River Yacht Club']?.length || 0,
+    'frostbite': galleryData.categories['Frostbite']?.length || 0,
+    'gibson_island_yacht_squadron': galleryData.categories['Gibson Island Yacht Squadron']?.length || 0,
     'heritage': galleryData.categories['Heritage']?.length || 0,
-    'boats': galleryData.categories['Boats']?.length || 0
+    'regattas': galleryData.categories['Regattas']?.length || 0,
+    'tred_avon_yacht_club': galleryData.categories['Tred Avon Yacht Club']?.length || 0,
   };
   
   // Update each category count
@@ -547,9 +584,13 @@ function updateYearCounts() {
 function updateTotalCount() {
   if (!galleryData) return;
   
-  const totalElement = document.getElementById('total-photos');
-  if (totalElement) {
-    totalElement.textContent = galleryData.stats.total_media;
+  const totalElementWelcome = document.getElementById('total-photos-welcome');
+  if (totalElementWelcome) {
+    totalElementWelcome.textContent = galleryData.stats.total_media;
+  }
+  const totalElementInfo = document.getElementById('total-photos-info');
+  if (totalElementInfo) {
+    totalElementInfo.textContent = galleryData.stats.total_media;
   }
 }
 
@@ -561,21 +602,19 @@ function viewCategory(category) {
   }
   
   // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
   const categoryMap = {
+    'photos': 'Photos',
+    'gibson_island_yacht_squadron': 'Gibson Island Yacht Squadron',
+    'corsica_river_yacht_club': 'Corsica River Yacht Club',
+    'boats': 'Boats',
+    'beachwood_yacht_club': 'Beachwood Yacht Club',
     'championships': 'Championships',
-    'regattas': 'Regattas', 
+    'regattas': 'Regattas',
     'frostbite': 'Frostbite',
-    'tayc': 'TAYC',
-    'cryc': 'CRYC',
-    'giys': 'GIYS',
-    'beachwood': 'Beachwood',
+    'tred_avon_yacht_club': 'Tred Avon Yacht Club',
     'awards': 'Awards',
     'heritage': 'Heritage',
-    'boats': 'Boats',
-    'general': 'General',
-    'photos': 'Photos',
-    'videos': 'Videos',
-    'external_videos': 'External Videos'
   };
   
   const actualCategory = categoryMap[category] || category;
@@ -607,6 +646,33 @@ function viewYear(year) {
   currentPhotos = yearData;
   currentPhotoIndex = 0;
   showPhotoViewer(`Photos from ${year}`);
+}
+
+// View photos by creator
+function viewCreator(creator) {
+  if (!galleryData) {
+    alert('Gallery data not loaded yet. Please try again.');
+    return;
+  }
+  
+  // Find photos by this creator
+  const creatorPhotos = [];
+  for (const item of galleryData.media_index) {
+    const credit = item.credit || 'Unknown photographer';
+    const creatorId = credit.toLowerCase().replace(' ', '_').replace(',', '').replace('.', '').replace('(', '').replace(')', '');
+    if (creatorId === creator) {
+      creatorPhotos.push(item);
+    }
+  }
+  
+  if (creatorPhotos.length === 0) {
+    alert('No photos found for this creator.');
+    return;
+  }
+  
+  currentPhotos = creatorPhotos;
+  currentPhotoIndex = 0;
+  showPhotoViewer(`Photos by ${creatorPhotos[0].credit}`);
 }
 
 // Show photo viewer
@@ -709,7 +775,7 @@ function updateThumbnails() {
     img.onclick = () => {
       currentPhotoIndex = index;
       updatePhotoDisplay();
-    };
+    }
     container.appendChild(img);
   });
 }

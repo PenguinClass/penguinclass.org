@@ -9,10 +9,14 @@ organized for easy browsing and searching.
 import json
 import re
 import subprocess
+import yaml
 from pathlib import Path
 from typing import Dict, List, Set, Optional
 from collections import defaultdict
 from urllib.parse import urlparse, quote
+import sys
+sys.path.append(str(Path(__file__).parent))
+from lib.gallery_utils import GalleryUtils
 
 # Photo extensions to look for
 PHOTO_EXTENSIONS = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.tiff', '.tif', '.webp'}
@@ -44,6 +48,8 @@ class MediaAnalyzer:
         self.years = defaultdict(list)
         self.exclusion_rules = self.load_exclusion_rules()
         self.credit_overrides = self.load_credit_overrides()
+        self.utils = GalleryUtils()
+    
     
     def load_exclusion_rules(self) -> Dict:
         """Load exclusion rules from the JSON file."""
@@ -85,17 +91,32 @@ class MediaAnalyzer:
             return {}
     
     def extract_exif_metadata(self, file_path: str) -> Dict:
-        """Extract EXIF metadata from image file using exiftool or file command."""
+        """Extract only useful EXIF metadata from image file using exiftool."""
         exif_data = {}
         
+        # Define the useful EXIF fields we want to keep
+        useful_fields = [
+            'DateTime', 'DateTimeOriginal', 'CreateDate', 'ModifyDate',
+            'GPSLatitude', 'GPSLongitude', 'GPSAltitude', 'GPSLocation',
+            'Artist', 'Copyright', 'ImageDescription', 'UserComment',
+            'ImageWidth', 'ImageHeight', 'ExifImageWidth', 'ExifImageHeight',
+            'Make', 'Model', 'Software', 'LensModel'
+        ]
+        
         try:
-            # Try exiftool first (more comprehensive)
-            result = subprocess.run(['exiftool', '-json', '-q', file_path], 
+            # Try exiftool with specific field selection
+            field_args = []
+            for field in useful_fields:
+                field_args.extend(['-{}'.format(field)])
+            
+            result = subprocess.run(['exiftool', '-json', '-q'] + field_args + [file_path], 
                                   capture_output=True, text=True, timeout=10)
             if result.returncode == 0:
                 exif_json = json.loads(result.stdout)
                 if exif_json and len(exif_json) > 0:
-                    exif_data = exif_json[0]
+                    raw_exif = exif_json[0]
+                    # Filter to only include useful fields
+                    exif_data = {k: v for k, v in raw_exif.items() if k in useful_fields}
         except (subprocess.TimeoutExpired, subprocess.CalledProcessError, FileNotFoundError, json.JSONDecodeError):
             # Fallback to file command for basic info
             try:
@@ -178,6 +199,31 @@ class MediaAnalyzer:
         
         return '/'.join(encoded_parts)
     
+    def normalize_photographer_name(self, name: str) -> str:
+        """Normalize photographer name by handling underscores and capitalization."""
+        if not name or name.lower() in ['unknown photographer', 'unknown', '']:
+            return 'Unknown photographer'
+        
+        # Replace underscores with spaces
+        normalized = name.replace('_', ' ')
+        
+        # Handle common variations
+        normalized = re.sub(r'\s+', ' ', normalized)  # Multiple spaces to single space
+        normalized = normalized.strip()
+        
+        # Title case but preserve some exceptions
+        words = normalized.split()
+        result = []
+        for word in words:
+            if word.upper() in ['MD', 'NJ', 'NY', 'CA', 'USA', 'U.S.A.']:
+                result.append(word.upper())
+            elif word.lower() in ['of', 'the', 'and', 'or', 'in', 'on', 'at', 'to', 'for', 'with', 'by']:
+                result.append(word.lower())
+            else:
+                result.append(word.title())
+        
+        return ' '.join(result)
+
     def extract_credit_from_metadata(self, filename: str, path: str, exif_data: Dict = None) -> str:
         """Extract photographer/videographer credit using multiple methods."""
         filename_lower = filename.lower()
@@ -185,21 +231,22 @@ class MediaAnalyzer:
         
         # 1. Check for manual overrides first
         if path in self.credit_overrides:
-            return self.credit_overrides[path]
+            return self.utils.normalize_photographer_name(self.credit_overrides[path])
         
         # 2. Check for explicit photographer patterns in filename (conservative approach)
         photographer_patterns = [
-            r'_by_([a-zA-Z]+)',  # _by_John
-            r'photoby([a-zA-Z]+)',  # photobyJohn
-            r'photo_by_([a-zA-Z]+)',  # photo_by_John
-            r'credit_([a-zA-Z]+)',  # credit_John
+            r'_by_([a-zA-Z_]+)',  # _by_John or _by_John_Smith
+            r'photoby([a-zA-Z_]+)',  # photobyJohn or photobyJohn_Smith
+            r'photo_by_([a-zA-Z_]+)',  # photo_by_John or photo_by_John_Smith
+            r'credit_([a-zA-Z_]+)',  # credit_John or credit_John_Smith
         ]
         
         for pattern in photographer_patterns:
             match = re.search(pattern, filename_lower)
             if match:
-                name = match.group(1).title()
-                return f"Photo by {name}"
+                name = match.group(1)
+                normalized_name = self.utils.normalize_photographer_name(name)
+                return f"Photo by {normalized_name}"
         
         # 3. Check for copyright notices in filename
         if 'copyright' in filename_lower or '©' in filename:
@@ -213,11 +260,11 @@ class MediaAnalyzer:
         if exif_data:
             # Check for photographer in EXIF
             if 'Artist' in exif_data and exif_data['Artist'].strip():
-                return f"Photo by {exif_data['Artist'].strip()}"
+                return f"Photo by {self.utils.normalize_photographer_name(exif_data['Artist'].strip())}"
             if 'Copyright' in exif_data and exif_data['Copyright'].strip():
-                return exif_data['Copyright'].strip()
+                return self.utils.normalize_photographer_name(exif_data['Copyright'].strip())
             if 'Creator' in exif_data and exif_data['Creator'].strip():
-                return f"Photo by {exif_data['Creator'].strip()}"
+                return f"Photo by {self.utils.normalize_photographer_name(exif_data['Creator'].strip())}"
         
         # 6. Check for known photographer directories (conservative)
         known_photographer_dirs = {
@@ -226,7 +273,7 @@ class MediaAnalyzer:
         
         for photographer in known_photographer_dirs:
             if f'/{photographer}/' in path_lower or path_lower.endswith(f'/{photographer}'):
-                return f"Photo by {photographer.title()}"
+                return f"Photo by {self.utils.normalize_photographer_name(photographer)}"
         
         # Default for unknown
         return "Unknown photographer"
@@ -267,12 +314,12 @@ class MediaAnalyzer:
         # Extract EXIF data for images
         exif_data = {}
         if media_type == 'photo' and Path(file_path).suffix.lower() in {'.jpg', '.jpeg', '.tiff', '.tif'}:
-            exif_data = self.extract_exif_metadata(file_path)
+            exif_data = self.utils.extract_exif_metadata(file_path)
         
         metadata = {
             'filename': filename,
             'path': file_path,
-            'encoded_path': self.url_encode_path(file_path),
+            'encoded_path': self.utils.url_encode_path(file_path),
             'size': file_size,
             'modified': modified_time,
             'extension': Path(file_path).suffix.lower(),
@@ -356,15 +403,15 @@ class MediaAnalyzer:
         elif any(word in filename or word in path for word in ['heritage']):
             categories.append('Heritage')
         
-        # Location-based categories
+        # Location-based categories (normalized)
         if any(word in filename or word in path for word in ['tayc', 'tred avon']):
-            categories.append('TAYC')
+            categories.append(self.utils.normalize_category_name('TAYC'))
         elif any(word in filename or word in path for word in ['cryc', 'corsica']):
-            categories.append('CRYC')
+            categories.append(self.utils.normalize_category_name('CRYC'))
         elif any(word in filename or word in path for word in ['giys', 'greenwich']):
-            categories.append('GIYS')
-        elif any(word in filename or word in path for word in ['beachwood']):
-            categories.append('Beachwood')
+            categories.append(self.utils.normalize_category_name('GIYS'))
+        elif any(word in filename or word in path for word in ['beachwood', 'byc', 'baltimore']):
+            categories.append(self.utils.normalize_category_name('BYC'))
         
         # Type-based categories
         if any(word in filename or word in path for word in ['boat', 'sail', 'rigging']):
