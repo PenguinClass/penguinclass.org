@@ -8,6 +8,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+seo:
+  title_separator: " | "
 collections:
   events:
     output: true
