@@ -1,4 +1,6 @@
 beautifulsoup4
 lxml
 pyyaml
+PyMuPDF
+python-docx
 requests

@@ -3,12 +3,11 @@
 Generate the gallery.md page dynamically based on gallery.json data.
 
 This script reads the gallery.json file and generates a gallery.md page
-with dynamic categories and years based on the actual data, using
-normalization data to avoid duplicate categories.
+with dynamic categories, years, and creators based on the actual data,
+using common lib utilities for consistency.
 """
 
 import json
-import yaml
 import argparse
 from pathlib import Path
 from typing import Dict, List, Set
@@ -16,15 +15,18 @@ from collections import defaultdict
 import sys
 sys.path.append(str(Path(__file__).parent))
 from lib.gallery_utils import GalleryUtils
+from lib.gallery_importer import GalleryImporter
 
 class GalleryPageGenerator:
     def __init__(self, gallery_data_path: str = "assets/data/gallery.json"):
         self.gallery_data_path = Path(gallery_data_path)
         self.gallery_data = {}
         self.utils = GalleryUtils()
+        self.importer = GalleryImporter()
         
-        # Category icons mapping
-        self.category_icons = {
+        # Unified icons for all browse sections
+        self.browse_icons = {
+            # Category icons
             'Photos': '📸',
             'Championships': '🏆',
             'Regattas': '⛵',
@@ -39,7 +41,11 @@ class GalleryPageGenerator:
             'BYC': '🏛️',
             'Videos': '🎥',
             'External Videos': '📺',
-            'General': '📁'
+            'General': '📁',
+            # Creator icons (will be generated dynamically)
+            'Unknown photographer': '❓',
+            'Copyright protected': '©️',
+            'Credited photographer': '📷'
         }
     
     
@@ -58,12 +64,35 @@ class GalleryPageGenerator:
             print(f"Error loading gallery data: {e}")
             return False
     
-    def get_category_icon(self, category: str) -> str:
-        """Get the appropriate icon for a category."""
-        return self.category_icons.get(category, '📁')
+    def get_browse_icon(self, name: str, browse_type: str = 'category') -> str:
+        """Get the appropriate icon for browse sections."""
+        if browse_type == 'category':
+            return self.browse_icons.get(name, '📁')
+        elif browse_type == 'creator':
+            return self.browse_icons.get(name, '👤')
+        return '📁'
+    
+    def generate_creator_avatar(self, creator_name: str) -> str:
+        """Generate avatar for creator (initials or icon)."""
+        if 'unknown' in creator_name.lower():
+            return '❓'
+        elif 'copyright' in creator_name.lower():
+            return '©️'
+        elif 'credited' in creator_name.lower():
+            return '📷'
+        
+        # Extract initials from name
+        words = creator_name.split()
+        if len(words) >= 2:
+            initials = ''.join([word[0].upper() for word in words[:2]])
+            return f'<span class="creator-avatar">{initials}</span>'
+        elif len(words) == 1:
+            return f'<span class="creator-avatar">{words[0][0].upper()}</span>'
+        else:
+            return '👤'
     
     def generate_category_section(self) -> str:
-        """Generate the Browse by Category section."""
+        """Generate the unified Browse by Category section."""
         categories = self.gallery_data.get('categories', {})
         
         # Normalize category names and group by normalized name
@@ -81,39 +110,30 @@ class GalleryPageGenerator:
         )
         
         category_html = []
-        category_html.append('<div class="gallery-categories">')
+        category_html.append('<div class="gallery-browse-section">')
         
         # Always include "All Photos" first
         total_photos = len(categories.get('Photos', []))
-        category_html.append(f'''  <div class="category-card" data-category="photos">
-    <h3>📸 All Photos</h3>
-    <p id="photos-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('photos')">View Photos</button>
-  </div>''')
+        category_html.append(f'  <button class="browse-btn" onclick="viewCategory(\'photos\')" id="photos-btn">All Photos ({total_photos})</button>')
         
-        # Add other categories (excluding Photos since it's already added)
+        # Add other categories as buttons only
         for category_name, category_items in sorted_categories:
             if category_name == 'Photos':
                 continue
             
-            icon = self.get_category_icon(category_name)
             category_id = category_name.lower().replace(' ', '_').replace(',', '').replace('.', '')
-            
-            category_html.append(f'''  <div class="category-card" data-category="{category_id}">
-    <h3>{icon} {category_name}</h3>
-    <p id="{category_id}-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('{category_id}')">View Photos</button>
-  </div>''')
+            count = len(category_items)
+            category_html.append(f'  <button class="browse-btn" onclick="viewCategory(\'{category_id}\')" id="{category_id}-btn">{category_name} ({count})</button>')
         
         category_html.append('</div>')
         return '\n'.join(category_html)
     
     def generate_year_section(self) -> str:
-        """Generate the Browse by Year section with decade grouping for better UX."""
+        """Generate the unified Browse by Year section."""
         years = self.gallery_data.get('years', {})
         
         if not years:
-            return '''<div class="gallery-years">
+            return '''<div class="gallery-browse-section">
   <p>No year data available.</p>
 </div>'''
         
@@ -127,22 +147,23 @@ class GalleryPageGenerator:
             decades[decade].append(year)
         
         year_html = []
-        year_html.append('<div class="gallery-years">')
+        year_html.append('<div class="gallery-browse-section">')
         
         # Sort decades in descending order
         sorted_decades = sorted(decades.keys(), reverse=True)
         
         for decade in sorted_decades:
-            decade_years = sorted(decades[decade], key=int, reverse=True)
+            # Sort years from low to high within each decade
+            decade_years = sorted(decades[decade], key=int)
             decade_name = f"{decade}s" if decade < 2000 else f"{decade}-{decade+9}"
             
-            year_html.append(f'  <div class="year-section">')
-            year_html.append(f'    <h3>{decade_name}</h3>')
+            year_html.append(f'  <div class="decade-section" data-decade="{decade}">')
+            year_html.append(f'    <h3 class="decade-title">📅 {decade_name}</h3>')
             year_html.append(f'    <div class="year-grid">')
             
             for year in decade_years:
                 count = len(years[year])
-                year_html.append(f'      <button class="year-link" onclick="viewYear(\'{year}\')">{year} ({count} photos)</button>')
+                year_html.append(f'      <button class="browse-btn year-btn" onclick="viewYear(\'{year}\')">{year} ({count})</button>')
             
             year_html.append(f'    </div>')
             year_html.append(f'  </div>')
@@ -151,7 +172,7 @@ class GalleryPageGenerator:
         return '\n'.join(year_html)
     
     def generate_creator_section(self) -> str:
-        """Generate the Browse by Creator section."""
+        """Generate the unified Browse by Creator section with buttons only."""
         media_index = self.gallery_data.get('media_index', [])
         
         # Group media by creator/credit
@@ -161,7 +182,7 @@ class GalleryPageGenerator:
             creators[credit].append(item)
         
         if not creators:
-            return '''<div class="gallery-creators">
+            return '''<div class="gallery-browse-section">
   <p>No creator data available.</p>
 </div>'''
         
@@ -172,31 +193,14 @@ class GalleryPageGenerator:
         )
         
         creator_html = []
-        creator_html.append('<div class="gallery-creators">')
+        creator_html.append('<div class="gallery-browse-section">')
         
         for creator_name, creator_items in sorted_creators:
             # Create a safe ID for the creator
             creator_id = creator_name.lower().replace(' ', '_').replace(',', '').replace('.', '').replace('(', '').replace(')', '')
             count = len(creator_items)
             
-            # Get a representative icon based on creator name
-            icon = '📸'  # Default
-            if 'unknown' in creator_name.lower():
-                icon = '❓'
-            elif 'frank' in creator_name.lower() or 'parisi' in creator_name.lower():
-                icon = '📷'
-            elif 'will' in creator_name.lower() or 'keyworth' in creator_name.lower():
-                icon = '🎯'
-            elif 'paul' in creator_name.lower() or 'rohrkemper' in creator_name.lower():
-                icon = '📸'
-            elif 'al' in creator_name.lower() or 'schreitmueller' in creator_name.lower():
-                icon = '📷'
-            
-            creator_html.append(f'''  <div class="creator-card" data-creator="{creator_id}">
-    <h3>{icon} {creator_name}</h3>
-    <p id="{creator_id}-count">{count} photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('{creator_id}')">View Photos</button>
-  </div>''')
+            creator_html.append(f'  <button class="browse-btn" onclick="viewCreator(\'{creator_id}\')" id="{creator_id}-btn">{creator_name} ({count})</button>')
         
         creator_html.append('</div>')
         return '\n'.join(creator_html)
@@ -236,7 +240,7 @@ class GalleryPageGenerator:
         return '\n'.join(mapping_lines)
     
     def update_category_counts_function(self) -> str:
-        """Generate the updated category counts function."""
+        """Generate the updated category counts function for simplified button design."""
         categories = self.gallery_data.get('categories', {})
         
         # Normalize category names
@@ -262,20 +266,148 @@ class GalleryPageGenerator:
         
         function_lines.append('  };')
         function_lines.append('  ')
-        function_lines.append('  // Update each category count')
+        function_lines.append('  // Update button text with counts')
         function_lines.append('  for (const [category, count] of Object.entries(categoryCounts)) {')
-        function_lines.append('    const element = document.getElementById(`${category}-count`);')
-        function_lines.append('    if (element) {')
+        function_lines.append('    const button = document.getElementById(`${category}-btn`);')
+        function_lines.append('    if (button) {')
         function_lines.append('      if (category === \'photos\') {')
-        function_lines.append('        element.textContent = `${count} photos from all events and activities`;')
+        function_lines.append('        button.textContent = `All Photos (${count})`;')
         function_lines.append('      } else {')
-        function_lines.append('        element.textContent = `${count} photos from ${category} events`;')
+        function_lines.append('        const categoryName = button.textContent.split(\' (\')[0];')
+        function_lines.append('        button.textContent = `${categoryName} (${count})`;')
         function_lines.append('      }')
+        function_lines.append('    }')
+        function_lines.append('  }')
+        function_lines.append('}')
+        function_lines.append('')
+        function_lines.append('function updateCreatorCounts() {')
+        function_lines.append('  if (!galleryData) return;')
+        function_lines.append('  ')
+        function_lines.append('  // Group media by creator/credit')
+        function_lines.append('  const creators = {};')
+        function_lines.append('  galleryData.media_index.forEach(item => {')
+        function_lines.append('    const credit = item.credit || \'Unknown photographer\';')
+        function_lines.append('    if (!creators[credit]) creators[credit] = [];')
+        function_lines.append('    creators[credit].push(item);')
+        function_lines.append('  });')
+        function_lines.append('  ')
+        function_lines.append('  // Update creator button text with counts')
+        function_lines.append('  for (const [creator, items] of Object.entries(creators)) {')
+        function_lines.append('    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, \'_\');')
+        function_lines.append('    const button = document.getElementById(`${creatorId}-btn`);')
+        function_lines.append('    if (button) {')
+        function_lines.append('      button.textContent = `${creator} (${items.length})`;')
         function_lines.append('    }')
         function_lines.append('  }')
         function_lines.append('}')
         
         return '\n'.join(function_lines)
+    
+    def generate_unified_css(self) -> str:
+        """Generate CSS for unified browse sections with improved button styling."""
+        css_lines = []
+        css_lines.append('<style>')
+        css_lines.append('.gallery-browse-section {')
+        css_lines.append('  display: grid;')
+        css_lines.append('  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));')
+        css_lines.append('  gap: 1rem;')
+        css_lines.append('  margin: 2rem 0;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.browse-btn {')
+        css_lines.append('  background: #007bff;')
+        css_lines.append('  color: white;')
+        css_lines.append('  border: none;')
+        css_lines.append('  padding: 0.75rem 1rem;')
+        css_lines.append('  border-radius: 6px;')
+        css_lines.append('  cursor: pointer;')
+        css_lines.append('  transition: all 0.2s ease;')
+        css_lines.append('  font-size: 0.9rem;')
+        css_lines.append('  font-weight: 500;')
+        css_lines.append('  text-align: center;')
+        css_lines.append('  min-height: 2.5rem;')
+        css_lines.append('  display: flex;')
+        css_lines.append('  align-items: center;')
+        css_lines.append('  justify-content: center;')
+        css_lines.append('  white-space: nowrap;')
+        css_lines.append('  overflow: hidden;')
+        css_lines.append('  text-overflow: ellipsis;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.browse-btn:hover {')
+        css_lines.append('  background: #0056b3;')
+        css_lines.append('  transform: translateY(-1px);')
+        css_lines.append('  box-shadow: 0 2px 8px rgba(0,123,255,0.3);')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.browse-btn:active {')
+        css_lines.append('  transform: translateY(0);')
+        css_lines.append('  box-shadow: 0 1px 4px rgba(0,123,255,0.3);')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.decade-section {')
+        css_lines.append('  margin-bottom: 2rem;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.decade-title {')
+        css_lines.append('  font-size: 1.2rem;')
+        css_lines.append('  font-weight: 600;')
+        css_lines.append('  margin-bottom: 1rem;')
+        css_lines.append('  color: #333;')
+        css_lines.append('  display: flex;')
+        css_lines.append('  align-items: center;')
+        css_lines.append('  gap: 0.5rem;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.year-grid {')
+        css_lines.append('  display: flex;')
+        css_lines.append('  flex-wrap: wrap;')
+        css_lines.append('  gap: 0.75rem;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('.year-btn {')
+        css_lines.append('  font-size: 0.85rem;')
+        css_lines.append('  padding: 0.5rem 0.75rem;')
+        css_lines.append('  min-height: 2.25rem;')
+        css_lines.append('  width: 140px;')
+        css_lines.append('  max-width: 140px;')
+        css_lines.append('  min-width: 140px;')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('/* Responsive adjustments */')
+        css_lines.append('@media (max-width: 768px) {')
+        css_lines.append('  .gallery-browse-section {')
+        css_lines.append('    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));')
+        css_lines.append('    gap: 0.75rem;')
+        css_lines.append('  }')
+        css_lines.append('  ')
+        css_lines.append('  .browse-btn {')
+        css_lines.append('    font-size: 0.8rem;')
+        css_lines.append('    padding: 0.6rem 0.8rem;')
+        css_lines.append('    min-height: 2.25rem;')
+        css_lines.append('  }')
+        css_lines.append('  ')
+        css_lines.append('  .year-grid {')
+        css_lines.append('    display: flex;')
+        css_lines.append('    flex-wrap: wrap;')
+        css_lines.append('    gap: 0.75rem;')
+        css_lines.append('  }')
+        css_lines.append('}')
+        css_lines.append('')
+        css_lines.append('@media (max-width: 480px) {')
+        css_lines.append('  .gallery-browse-section {')
+        css_lines.append('    grid-template-columns: 1fr;')
+        css_lines.append('  }')
+        css_lines.append('  ')
+        css_lines.append('  .year-grid {')
+        css_lines.append('    display: flex;')
+        css_lines.append('    flex-wrap: wrap;')
+        css_lines.append('    gap: 0.75rem;')
+        css_lines.append('  }')
+        css_lines.append('}')
+        css_lines.append('</style>')
+        
+        return '\n'.join(css_lines)
     
     def add_caption_field_to_gallery_data(self):
         """Add caption field to all media items in gallery data."""
@@ -334,12 +466,13 @@ class GalleryPageGenerator:
         with open(template_path, 'r') as f:
             template_content = f.read()
         
-        # Generate dynamic sections
+        # Generate dynamic sections with unified styling
         category_section = self.generate_category_section()
         year_section = self.generate_year_section()
         creator_section = self.generate_creator_section()
         category_mapping = self.update_category_mapping()
         category_counts_function = self.update_category_counts_function()
+        unified_css = self.generate_unified_css()
         
         # Get current stats
         stats = self.gallery_data.get('stats', {})
@@ -356,6 +489,7 @@ class GalleryPageGenerator:
             creator_section,
             category_mapping,
             category_counts_function,
+            unified_css,
             f"{earliest} - {latest}"
         )
         
@@ -375,17 +509,17 @@ class GalleryPageGenerator:
     
     def update_gallery_content(self, content: str, category_section: str, year_section: str, 
                              creator_section: str, category_mapping: str, category_counts_function: str, 
-                             date_range: str) -> str:
+                             unified_css: str, date_range: str) -> str:
         """Update the gallery content with new sections."""
         import re
         
-        # Replace category section
+        # Replace category section with unified styling and icon
         category_pattern = r'## Browse by Category.*?(?=## Browse by Year|$)'
-        content = re.sub(category_pattern, f'## Browse by Category\n\n{category_section}\n\n', content, flags=re.DOTALL)
+        content = re.sub(category_pattern, f'## 📁 Browse by Category\n\n{category_section}\n\n', content, flags=re.DOTALL)
         
-        # Replace year section
+        # Replace year section with unified styling and icon
         year_pattern = r'## Browse by Year.*?(?=## Browse by Creator|<!-- disabled|$)'
-        content = re.sub(year_pattern, f'## Browse by Year\n\n{year_section}\n\n', content, flags=re.DOTALL)
+        content = re.sub(year_pattern, f'## 📅 Browse by Year\n\n{year_section}\n\n', content, flags=re.DOTALL)
         
         # Add creator section if it doesn't exist
         if '## Browse by Creator' not in content:
@@ -393,11 +527,11 @@ class GalleryPageGenerator:
             insert_point = content.find('<!-- disabled')
             if insert_point == -1:
                 insert_point = len(content)
-            content = content[:insert_point] + f'## Browse by Creator\n\n{creator_section}\n\n' + content[insert_point:]
+            content = content[:insert_point] + f'## 👤 Browse by Creator\n\n{creator_section}\n\n' + content[insert_point:]
         else:
-            # Replace existing creator section
+            # Replace existing creator section with unified styling and icon
             creator_pattern = r'## Browse by Creator.*?(?=<!-- disabled|$)'
-            content = re.sub(creator_pattern, f'## Browse by Creator\n\n{creator_section}\n\n', content, flags=re.DOTALL)
+            content = re.sub(creator_pattern, f'## 👤 Browse by Creator\n\n{creator_section}\n\n', content, flags=re.DOTALL)
         
         # Update JavaScript sections - be more precise to avoid duplicates
         # Replace category mapping - find the first occurrence only
@@ -424,6 +558,16 @@ class GalleryPageGenerator:
         
         # Update date range
         content = re.sub(r'Date Range.*?(\d{4} - \d{4})', f'Date Range**: {date_range}', content)
+        
+        # Insert unified CSS if not already present
+        if '<style>' not in content or 'gallery-browse-section' not in content:
+            # Find the head section or insert before the first section
+            head_end = content.find('</head>')
+            if head_end != -1:
+                content = content[:head_end] + f'\n{unified_css}\n' + content[head_end:]
+            else:
+                # Insert at the beginning if no head section
+                content = f'{unified_css}\n\n{content}'
         
         return content
 
