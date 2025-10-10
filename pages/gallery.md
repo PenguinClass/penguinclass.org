@@ -13,137 +13,70 @@ Welcome to the Penguin Class Gallery! This collection contains **<span id="total
 </div>
 <div id="search-results" class="search-results"></div>
 
-## Browse by Category
+## 📁 Browse by Category
 
-<div class="gallery-categories">
-  <div class="category-card" data-category="photos">
-    <h3>📸 All Photos</h3>
-    <p id="photos-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('photos')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="championships">
-    <h3>🏆 Championships</h3>
-    <p id="championships-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('championships')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="regattas">
-    <h3>⛵ Regattas</h3>
-    <p id="regattas-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('regattas')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="tred_avon_yacht_club">
-    <h3>📁 Tred Avon Yacht Club</h3>
-    <p id="tred_avon_yacht_club-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('tred_avon_yacht_club')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="frostbite">
-    <h3>❄️ Frostbite</h3>
-    <p id="frostbite-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('frostbite')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="gibson_island_yacht_squadron">
-    <h3>📁 Gibson Island Yacht Squadron</h3>
-    <p id="gibson_island_yacht_squadron-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('gibson_island_yacht_squadron')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="corsica_river_yacht_club">
-    <h3>📁 Corsica River Yacht Club</h3>
-    <p id="corsica_river_yacht_club-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('corsica_river_yacht_club')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="beachwood_yacht_club">
-    <h3>📁 Beachwood Yacht Club</h3>
-    <p id="beachwood_yacht_club-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('beachwood_yacht_club')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="awards">
-    <h3>🏅 Awards</h3>
-    <p id="awards-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('awards')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="heritage">
-    <h3>📜 Heritage</h3>
-    <p id="heritage-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('heritage')">View Photos</button>
-  </div>
-  <div class="category-card" data-category="boats">
-    <h3>⛵ Boats</h3>
-    <p id="boats-count">Loading...</p>
-    <button class="view-photos-btn" onclick="viewCategory('boats')">View Photos</button>
-  </div>
+<div class="gallery-browse-section">
+  <button class="browse-btn" onclick="viewCategory('photos')" id="photos-btn">All Photos (1145)</button>
+  <button class="browse-btn" onclick="viewCategory('championships')" id="championships-btn">Championships (307)</button>
+  <button class="browse-btn" onclick="viewCategory('regattas')" id="regattas-btn">Regattas (173)</button>
+  <button class="browse-btn" onclick="viewCategory('tred_avon_yacht_club')" id="tred_avon_yacht_club-btn">Tred Avon Yacht Club (104)</button>
+  <button class="browse-btn" onclick="viewCategory('beachwood_yacht_club')" id="beachwood_yacht_club-btn">Beachwood Yacht Club (88)</button>
+  <button class="browse-btn" onclick="viewCategory('frostbite')" id="frostbite-btn">Frostbite (64)</button>
+  <button class="browse-btn" onclick="viewCategory('gibson_island_yacht_squadron')" id="gibson_island_yacht_squadron-btn">Gibson Island Yacht Squadron (28)</button>
+  <button class="browse-btn" onclick="viewCategory('awards')" id="awards-btn">Awards (21)</button>
+  <button class="browse-btn" onclick="viewCategory('corsica_river_yacht_club')" id="corsica_river_yacht_club-btn">Corsica River Yacht Club (20)</button>
+  <button class="browse-btn" onclick="viewCategory('heritage')" id="heritage-btn">Heritage (3)</button>
+  <button class="browse-btn" onclick="viewCategory('boats')" id="boats-btn">Boats (2)</button>
 </div>
 
-## Browse by Year
+## 📅 Browse by Year
 
-<div class="gallery-years">
-  <div class="year-section">
-    <h3>2020-2029</h3>
+<div class="gallery-browse-section">
+  <div class="decade-section" data-decade="2020">
+    <h3 class="decade-title">📅 2020-2029</h3>
     <div class="year-grid">
-      <button class="year-link" onclick="viewYear('2025')">2025 (72 photos)</button>
-      <button class="year-link" onclick="viewYear('2024')">2024 (30 photos)</button>
-      <button class="year-link" onclick="viewYear('2023')">2023 (44 photos)</button>
-      <button class="year-link" onclick="viewYear('2022')">2022 (22 photos)</button>
-      <button class="year-link" onclick="viewYear('2021')">2021 (46 photos)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2021')">2021 (38)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2022')">2022 (11)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2023')">2023 (34)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2024')">2024 (28)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2025')">2025 (72)</button>
     </div>
   </div>
-  <div class="year-section">
-    <h3>2010-2019</h3>
+  <div class="decade-section" data-decade="2010">
+    <h3 class="decade-title">📅 2010-2019</h3>
     <div class="year-grid">
-      <button class="year-link" onclick="viewYear('2016')">2016 (10 photos)</button>
-      <button class="year-link" onclick="viewYear('2014')">2014 (4 photos)</button>
-      <button class="year-link" onclick="viewYear('2012')">2012 (2 photos)</button>
-      <button class="year-link" onclick="viewYear('2011')">2011 (2 photos)</button>
-      <button class="year-link" onclick="viewYear('2010')">2010 (66 photos)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2010')">2010 (33)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2011')">2011 (2)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2012')">2012 (2)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2014')">2014 (3)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2016')">2016 (10)</button>
     </div>
   </div>
-  <div class="year-section">
-    <h3>2000-2009</h3>
+  <div class="decade-section" data-decade="2000">
+    <h3 class="decade-title">📅 2000-2009</h3>
     <div class="year-grid">
-      <button class="year-link" onclick="viewYear('2008')">2008 (3 photos)</button>
-      <button class="year-link" onclick="viewYear('2006')">2006 (21 photos)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2006')">2006 (21)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('2008')">2008 (3)</button>
     </div>
   </div>
-  <div class="year-section">
-    <h3>1950s</h3>
+  <div class="decade-section" data-decade="1950">
+    <h3 class="decade-title">📅 1950s</h3>
     <div class="year-grid">
-      <button class="year-link" onclick="viewYear('1955')">1955 (1 photos)</button>
+      <button class="browse-btn year-btn" onclick="viewYear('1955')">1955 (1)</button>
     </div>
   </div>
 </div>
 
-## Browse by Creator
+## 👤 Browse by Creator
 
-<div class="gallery-creators">
-  <div class="creator-card" data-creator="unknown_photographer">
-    <h3>❓ Unknown photographer</h3>
-    <p id="unknown_photographer-count">1079 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('unknown_photographer')">View Photos</button>
-  </div>
-  <div class="creator-card" data-creator="photo_by_paul_rohrkemper">
-    <h3>📸 Photo by Paul Rohrkemper</h3>
-    <p id="photo_by_paul_rohrkemper-count">74 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('photo_by_paul_rohrkemper')">View Photos</button>
-  </div>
-  <div class="creator-card" data-creator="frank_parisi">
-    <h3>📷 Frank Parisi</h3>
-    <p id="frank_parisi-count">72 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('frank_parisi')">View Photos</button>
-  </div>
-  <div class="creator-card" data-creator="photo_by_will_keyworth">
-    <h3>🎯 Photo by Will Keyworth</h3>
-    <p id="photo_by_will_keyworth-count">54 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('photo_by_will_keyworth')">View Photos</button>
-  </div>
-  <div class="creator-card" data-creator="photo_by_al_schreitmueller">
-    <h3>📷 Photo by Al Schreitmueller</h3>
-    <p id="photo_by_al_schreitmueller-count">46 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('photo_by_al_schreitmueller')">View Photos</button>
-  </div>
-  <div class="creator-card" data-creator="photo_by_penoso">
-    <h3>📸 Photo by Penoso</h3>
-    <p id="photo_by_penoso-count">3 photos</p>
-    <button class="view-photos-btn" onclick="viewCreator('photo_by_penoso')">View Photos</button>
-  </div>
+<div class="gallery-browse-section">
+  <button class="browse-btn" onclick="viewCreator('unknown_photographer')" id="unknown_photographer-btn">Unknown photographer (965)</button>
+  <button class="browse-btn" onclick="viewCreator('will_keyworth')" id="will_keyworth-btn">Will Keyworth (53)</button>
+  <button class="browse-btn" onclick="viewCreator('frank_parisi')" id="frank_parisi-btn">Frank Parisi (49)</button>
+  <button class="browse-btn" onclick="viewCreator('paul_rohrkemper')" id="paul_rohrkemper-btn">Paul Rohrkemper (40)</button>
+  <button class="browse-btn" onclick="viewCreator('al_schreitmueller')" id="al_schreitmueller-btn">Al Schreitmueller (37)</button>
+  <button class="browse-btn" onclick="viewCreator('joe_della_barba')" id="joe_della_barba-btn">Joe Della Barba (10)</button>
+  <button class="browse-btn" onclick="viewCreator('penoso')" id="penoso-btn">Penoso (1)</button>
 </div>
 
 <!-- disabled 2025-09-16 lacking solution to display of results
@@ -553,15 +486,100 @@ function updateCategoryCounts() {
     'tred_avon_yacht_club': galleryData.categories['Tred Avon Yacht Club']?.length || 0,
   };
   
-  // Update each category count
+  // Update button text with counts
   for (const [category, count] of Object.entries(categoryCounts)) {
-    const element = document.getElementById(`${category}-count`);
-    if (element) {
+    const button = document.getElementById(`${category}-btn`);
+    if (button) {
       if (category === 'photos') {
-        element.textContent = `${count} photos from all events and activities`;
+        button.textContent = `All Photos (${count})`;
       } else {
-        element.textContent = `${count} photos from ${category} events`;
+        const categoryName = button.textContent.split(' (')[0];
+        button.textContent = `${categoryName} (${count})`;
       }
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
+  // Update creator button text with counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const button = document.getElementById(`${creatorId}-btn`);
+    if (button) {
+      button.textContent = `${creator} (${items.length})`;
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
+  // Update creator button text with counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const button = document.getElementById(`${creatorId}-btn`);
+    if (button) {
+      button.textContent = `${creator} (${items.length})`;
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
+  // Update creator button text with counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const button = document.getElementById(`${creatorId}-btn`);
+    if (button) {
+      button.textContent = `${creator} (${items.length})`;
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
+  // Update creator counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const element = document.getElementById(`${creatorId}-count`);
+    if (element) {
+      element.textContent = `${items.length} photos`;
     }
   }
 }
@@ -602,6 +620,13 @@ function viewCategory(category) {
   }
   
   // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
     // Map lowercase category names to actual category names in the data
   const categoryMap = {
     'photos': 'Photos',

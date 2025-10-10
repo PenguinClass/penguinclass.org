@@ -606,9 +606,19 @@ table { border-collapse: collapse; width: 100%; }
 th, td { border: 1px solid var(--header-border); padding: 8px; }
 th { background: var(--footer-bg); text-align:left; }
 /* Mobile Styles */
+/* Hide mobile-only elements on desktop */
+.mobile-only {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .mobile-menu-toggle {
     display: flex;
+  }
+  
+  /* Show mobile-only elements on mobile */
+  .mobile-only {
+    display: block;
   }
   
   .main-nav {
