@@ -57,7 +57,9 @@ dist/
 downloads/
 eggs/
 .eggs/
+# Ignore Python lib directories except scripts/lib/
 lib/
+!scripts/lib/
 lib64/
 parts/
 sdist/
