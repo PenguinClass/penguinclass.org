@@ -14,7 +14,7 @@ results_url: /archive/legacy-website/2014_CRYC Penguin Internationals.pdf
 ## Champion
 
 **Skipper:** Jonathan Bartlett
-**Crew:** Ann Bartlett
+**Crew:** Annie Bartlett
 **Club:** Corsica River Yacht Club
 **Location:** Centreville, MD, U.S.A.
 

@@ -1,5 +1,15 @@
 [
   {
+    "year": 2025,
+    "result_id": "international-2025",
+    "series": "International-Championship",
+    "skipper": "Jonathan Bartlett",
+    "crew": "Annie Bartlett",
+    "club": "Corsica River Yacht Club",
+    "location": "Centreville, MD, U.S.A.",
+    "results_url": "/results/2025-international-championship"
+  },
+  {
     "year": 2024,
     "result_id": "international-2024",
     "series": "International-Championship",
@@ -105,7 +115,7 @@
     "result_id": "international-2014",
     "series": "International-Championship",
     "skipper": "Jonathan Bartlett",
-    "crew": "Ann Bartlett",
+    "crew": "Annie Bartlett",
     "club": "Corsica River Yacht Club",
     "location": "Centreville, MD, U.S.A.",
     "results_url": "/archive/legacy-website/2014_CRYC Penguin Internationals.pdf"
