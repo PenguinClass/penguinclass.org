@@ -10,10 +10,10 @@ results_url: "https://www.regattanetwork.com/event/30156#_newsroom"
 
 # 2025 International Championship
 
-**Year:** 2025
+**Year:** 2025  
 **Series:** International Championship  
-**Club:** Corsica River Yacht Club
-**Location:** Centreville, MD, U.S.A.
+**Club:** Corsica River Yacht Club  
+**Location:** Centreville, MD, U.S.A.  
 
 [View Results](https://www.regattanetwork.com/event/30156#_newsroom)
 
@@ -220,45 +220,45 @@ CDT**
 
 <img src="/assets/images/2025/2025-international-championship-image1.jpg" style="width:7.13472in;height:5.70486in" alt="A group of sailboats on a lake AI-generated content may be incorrect." />
 
-The start of an early race. Photo by Joe Dellabarba.
+The start of an early race. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image2.jpg" style="width:7.19861in;height:5.40069in" alt="Several sailboats on a lake AI-generated content may be incorrect." />
 
-Tight action off the wind. Photo by Joe Dellabarba.
+Tight action off the wind. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image3.jpg" style="width:7.06389in;height:5.30139in" alt="A group of people sailing on a lake AI-generated content may be incorrect." />
 
-Lawson and Kirby teams sailing upwind. Photo by Joe Dellabarba.
+Lawson and Kirby teams sailing upwind. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image4.jpg" style="width:7.15069in;height:5.59583in" alt="Two men on a boat" />
 
 Scott and Elliott Leppert sailing one of the two classic Penguins at the
-Internationals. Photo by Joe Dellabarba.
+Internationals. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image5.jpg" style="width:7.09931in;height:5.32361in" alt="A person in a sailboat on a lake AI-generated content may be incorrect." />
 
 Jonathan and Annie Bartlett, sailing to another Internationals victory.
-Photo by Joe Dellabarba.
+Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image6.jpg" style="width:7.19861in;height:5.40069in" alt="A boat on the water" />
 
 John Foster and crew catching some of the action at the windward mark.
-Joe Dellabarba photo.
+Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image7.jpg" style="width:7.07431in;height:5.30556in" />  
 The RC boat with Roy and Marcie Sherman, under the watchful eye of Skip
-Moorhouse.
+Moorhouse.  Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image8.jpg" style="width:7.19861in;height:5.40069in" alt="A couple of people sailing on a lake AI-generated content may be incorrect." />
 
-Bob and Nora Tan rounding the leeward mark. Photo by Joe Dellabarba.
+Bob and Nora Tan rounding the leeward mark. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image9.jpg" style="width:7.19861in;height:5.40069in" alt="A person in a boat on the water AI-generated content may be incorrect." />
 
 Charlie Krafft with Finn Besack in Wooden Bucket. Finn’s first time in a
-Penguin. Photo by Joe Dellabarba.
+Penguin. Photo by Joe Della Barba.
 
 <img src="/assets/images/2025/2025-international-championship-image10.jpg" style="width:7.13472in;height:5.6375in" alt="Several sailboats on a lake AI-generated content may be incorrect." />
 
 Bartletts and Lepperts headed of the right (right) side of the course
-after an early start for 9660 in race 3. Photo by Joe Dellabarba.
+after an early start for 9660 in race 3. Photo by Joe Della Barba.

@@ -1,21 +1,21 @@
 {
   "stats": {
-    "total_media": 1145,
+    "total_media": 1155,
     "total_duplicates_removed": 183,
-    "photos": 1145,
+    "photos": 1155,
     "videos": 0,
     "external_videos": 0,
     "categories_count": 11,
     "years_count": 13,
-    "events_count": 1,
+    "events_count": 2,
     "date_range": {
       "earliest": 1955,
       "latest": 2025
     },
     "credits": {
-      "total_credited": 5,
+      "total_credited": 6,
       "total_unknown": 965,
-      "unique_credits": 6,
+      "unique_credits": 7,
       "top_credits": [
         [
           "Unknown photographer",
@@ -38,6 +38,10 @@
           37
         ],
         [
+          "Joe Della Barba",
+          10
+        ],
+        [
           "Penoso",
           1
         ]
@@ -48,7 +52,8 @@
         "Penoso": 1,
         "Will Keyworth": 53,
         "Al Schreitmueller": 37,
-        "Frank Parisi": 49
+        "Frank Parisi": 49,
+        "Joe Della Barba": 10
       }
     }
   },
@@ -31166,6 +31171,266 @@
         "date": "2025-05-31",
         "event": "BYC Penguin Revival Regatta",
         "location": "Beachwood Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image2.jpg",
+        "path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "size": 648525,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image1.jpg",
+        "path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "size": 109521,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1052,
+          "ImageHeight": 841
+        },
+        "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image9.jpg",
+        "path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "size": 710156,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image8.jpg",
+        "path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "size": 578469,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "0a7eed868701909693c804739ab55dda7166677a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image7.jpg",
+        "path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "size": 945409,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1559,
+          "ImageHeight": 1169
+        },
+        "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image4.jpg",
+        "path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "size": 709330,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1575,
+          "ImageHeight": 1228
+        },
+        "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image10.jpg",
+        "path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "size": 108206,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 974,
+          "ImageHeight": 770
+        },
+        "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image6.jpg",
+        "path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "size": 769837,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image5.jpg",
+        "path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "size": 738885,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1564,
+          "ImageHeight": 1173
+        },
+        "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image3.jpg",
+        "path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "size": 654263,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1554,
+          "ImageHeight": 1165
+        },
+        "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
       }
     ],
     "Gibson Island Yacht Squadron": [
@@ -44025,6 +44290,266 @@
         ],
         "caption": "",
         "description": ""
+      },
+      {
+        "filename": "2025-international-championship-image2.jpg",
+        "path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "size": 648525,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image1.jpg",
+        "path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "size": 109521,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1052,
+          "ImageHeight": 841
+        },
+        "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image9.jpg",
+        "path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "size": 710156,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image8.jpg",
+        "path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "size": 578469,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "0a7eed868701909693c804739ab55dda7166677a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image7.jpg",
+        "path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "size": 945409,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1559,
+          "ImageHeight": 1169
+        },
+        "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image4.jpg",
+        "path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "size": 709330,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1575,
+          "ImageHeight": 1228
+        },
+        "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image10.jpg",
+        "path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "size": 108206,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 974,
+          "ImageHeight": 770
+        },
+        "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image6.jpg",
+        "path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "size": 769837,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image5.jpg",
+        "path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "size": 738885,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1564,
+          "ImageHeight": 1173
+        },
+        "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image3.jpg",
+        "path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "size": 654263,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1554,
+          "ImageHeight": 1165
+        },
+        "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
       }
     ],
     "Regattas": [
@@ -63369,6 +63894,268 @@
         "event": "BYC Penguin Revival Regatta",
         "location": "Beachwood Yacht Club"
       }
+    ],
+    "2025": [
+      {
+        "filename": "2025-international-championship-image2.jpg",
+        "path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "size": 648525,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image1.jpg",
+        "path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "size": 109521,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1052,
+          "ImageHeight": 841
+        },
+        "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image9.jpg",
+        "path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "size": 710156,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image8.jpg",
+        "path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "size": 578469,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "0a7eed868701909693c804739ab55dda7166677a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image7.jpg",
+        "path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "size": 945409,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1559,
+          "ImageHeight": 1169
+        },
+        "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image4.jpg",
+        "path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "size": 709330,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1575,
+          "ImageHeight": 1228
+        },
+        "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image10.jpg",
+        "path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "size": 108206,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 974,
+          "ImageHeight": 770
+        },
+        "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image6.jpg",
+        "path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "size": 769837,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image5.jpg",
+        "path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "size": 738885,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1564,
+          "ImageHeight": 1173
+        },
+        "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image3.jpg",
+        "path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "size": 654263,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1554,
+          "ImageHeight": 1165
+        },
+        "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      }
     ]
   },
   "events": {
@@ -73182,6 +73969,266 @@
         ],
         "caption": "",
         "description": ""
+      },
+      {
+        "filename": "2025-international-championship-image2.jpg",
+        "path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+        "size": 648525,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image1.jpg",
+        "path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+        "size": 109521,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1052,
+          "ImageHeight": 841
+        },
+        "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image9.jpg",
+        "path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+        "size": 710156,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image8.jpg",
+        "path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+        "size": 578469,
+        "modified": "2025-10-10T06:48:14.714339",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "0a7eed868701909693c804739ab55dda7166677a",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image7.jpg",
+        "path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+        "size": 945409,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1559,
+          "ImageHeight": 1169
+        },
+        "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image4.jpg",
+        "path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+        "size": 709330,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1575,
+          "ImageHeight": 1228
+        },
+        "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image10.jpg",
+        "path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+        "size": 108206,
+        "modified": "2025-10-10T06:48:14.702340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 974,
+          "ImageHeight": 770
+        },
+        "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image6.jpg",
+        "path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+        "size": 769837,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1586,
+          "ImageHeight": 1190
+        },
+        "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image5.jpg",
+        "path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+        "size": 738885,
+        "modified": "2025-10-10T06:48:14.710340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1564,
+          "ImageHeight": 1173
+        },
+        "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
+      },
+      {
+        "filename": "2025-international-championship-image3.jpg",
+        "path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+        "size": 654263,
+        "modified": "2025-10-10T06:48:14.706340",
+        "extension": ".jpg",
+        "media_type": "photo",
+        "source": "Joe Della Barba",
+        "credit": "Joe Della Barba",
+        "exif": {
+          "ImageWidth": 1554,
+          "ImageHeight": 1165
+        },
+        "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+        "is_external": false,
+        "year": 2025,
+        "event_keyword": "international",
+        "categories": [
+          "Photos",
+          "Championships"
+        ],
+        "date": "2025-09-13",
+        "event": "Penguin International Championship",
+        "location": "Corsica River Yacht Club"
       }
     ],
     "annual": [
@@ -93253,6 +94300,266 @@
           "date": "2025-05-31",
           "event": "BYC Penguin Revival Regatta",
           "location": "Beachwood Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image2.jpg",
+          "path": "assets/images/2025/2025-international-championship-image2.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+          "size": 648525,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image1.jpg",
+          "path": "assets/images/2025/2025-international-championship-image1.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+          "size": 109521,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1052,
+            "ImageHeight": 841
+          },
+          "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image9.jpg",
+          "path": "assets/images/2025/2025-international-championship-image9.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+          "size": 710156,
+          "modified": "2025-10-10T06:48:14.714339",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image8.jpg",
+          "path": "assets/images/2025/2025-international-championship-image8.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+          "size": 578469,
+          "modified": "2025-10-10T06:48:14.714339",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "0a7eed868701909693c804739ab55dda7166677a",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image7.jpg",
+          "path": "assets/images/2025/2025-international-championship-image7.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+          "size": 945409,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1559,
+            "ImageHeight": 1169
+          },
+          "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image4.jpg",
+          "path": "assets/images/2025/2025-international-championship-image4.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+          "size": 709330,
+          "modified": "2025-10-10T06:48:14.706340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1575,
+            "ImageHeight": 1228
+          },
+          "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image10.jpg",
+          "path": "assets/images/2025/2025-international-championship-image10.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+          "size": 108206,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 974,
+            "ImageHeight": 770
+          },
+          "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image6.jpg",
+          "path": "assets/images/2025/2025-international-championship-image6.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+          "size": 769837,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image5.jpg",
+          "path": "assets/images/2025/2025-international-championship-image5.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+          "size": 738885,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1564,
+            "ImageHeight": 1173
+          },
+          "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image3.jpg",
+          "path": "assets/images/2025/2025-international-championship-image3.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+          "size": 654263,
+          "modified": "2025-10-10T06:48:14.706340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1554,
+            "ImageHeight": 1165
+          },
+          "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
         }
       ]
     },
@@ -96096,6 +97403,266 @@
           "date": "2025-05-31",
           "event": "BYC Penguin Revival Regatta",
           "location": "Beachwood Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image2.jpg",
+          "path": "assets/images/2025/2025-international-championship-image2.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+          "size": 648525,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image1.jpg",
+          "path": "assets/images/2025/2025-international-championship-image1.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+          "size": 109521,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1052,
+            "ImageHeight": 841
+          },
+          "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image9.jpg",
+          "path": "assets/images/2025/2025-international-championship-image9.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+          "size": 710156,
+          "modified": "2025-10-10T06:48:14.714339",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image8.jpg",
+          "path": "assets/images/2025/2025-international-championship-image8.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+          "size": 578469,
+          "modified": "2025-10-10T06:48:14.714339",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "0a7eed868701909693c804739ab55dda7166677a",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image7.jpg",
+          "path": "assets/images/2025/2025-international-championship-image7.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+          "size": 945409,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1559,
+            "ImageHeight": 1169
+          },
+          "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image4.jpg",
+          "path": "assets/images/2025/2025-international-championship-image4.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+          "size": 709330,
+          "modified": "2025-10-10T06:48:14.706340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1575,
+            "ImageHeight": 1228
+          },
+          "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image10.jpg",
+          "path": "assets/images/2025/2025-international-championship-image10.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+          "size": 108206,
+          "modified": "2025-10-10T06:48:14.702340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 974,
+            "ImageHeight": 770
+          },
+          "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image6.jpg",
+          "path": "assets/images/2025/2025-international-championship-image6.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+          "size": 769837,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1586,
+            "ImageHeight": 1190
+          },
+          "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image5.jpg",
+          "path": "assets/images/2025/2025-international-championship-image5.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+          "size": 738885,
+          "modified": "2025-10-10T06:48:14.710340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1564,
+            "ImageHeight": 1173
+          },
+          "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
+        },
+        {
+          "filename": "2025-international-championship-image3.jpg",
+          "path": "assets/images/2025/2025-international-championship-image3.jpg",
+          "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+          "size": 654263,
+          "modified": "2025-10-10T06:48:14.706340",
+          "extension": ".jpg",
+          "media_type": "photo",
+          "source": "Joe Della Barba",
+          "credit": "Joe Della Barba",
+          "exif": {
+            "ImageWidth": 1554,
+            "ImageHeight": 1165
+          },
+          "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+          "is_external": false,
+          "year": 2025,
+          "event_keyword": "international",
+          "categories": [
+            "Photos",
+            "Championships"
+          ],
+          "date": "2025-09-13",
+          "event": "Penguin International Championship",
+          "location": "Corsica River Yacht Club"
         }
       ]
     }
@@ -127213,6 +128780,266 @@
       "date": "2025-05-31",
       "event": "BYC Penguin Revival Regatta",
       "location": "Beachwood Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image2.jpg",
+      "path": "assets/images/2025/2025-international-championship-image2.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image2.jpg",
+      "size": 648525,
+      "modified": "2025-10-10T06:48:14.702340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1586,
+        "ImageHeight": 1190
+      },
+      "hash": "3bfdbaaeeda100e3a882f040257534e03dba8fbe",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image1.jpg",
+      "path": "assets/images/2025/2025-international-championship-image1.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image1.jpg",
+      "size": 109521,
+      "modified": "2025-10-10T06:48:14.702340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1052,
+        "ImageHeight": 841
+      },
+      "hash": "a97fba569345d9480f1b8912b63c94222b4e133c",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image9.jpg",
+      "path": "assets/images/2025/2025-international-championship-image9.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image9.jpg",
+      "size": 710156,
+      "modified": "2025-10-10T06:48:14.714339",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1586,
+        "ImageHeight": 1190
+      },
+      "hash": "79906d4c46b23534d00b7e25c790cdf1533bf62a",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image8.jpg",
+      "path": "assets/images/2025/2025-international-championship-image8.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image8.jpg",
+      "size": 578469,
+      "modified": "2025-10-10T06:48:14.714339",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1586,
+        "ImageHeight": 1190
+      },
+      "hash": "0a7eed868701909693c804739ab55dda7166677a",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image7.jpg",
+      "path": "assets/images/2025/2025-international-championship-image7.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image7.jpg",
+      "size": 945409,
+      "modified": "2025-10-10T06:48:14.710340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1559,
+        "ImageHeight": 1169
+      },
+      "hash": "cdb262d68bbcbf9ae30325c234fa44247e6e3179",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image4.jpg",
+      "path": "assets/images/2025/2025-international-championship-image4.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image4.jpg",
+      "size": 709330,
+      "modified": "2025-10-10T06:48:14.706340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1575,
+        "ImageHeight": 1228
+      },
+      "hash": "b21869e211ebdf85505087bcdf47b0bed44c1955",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image10.jpg",
+      "path": "assets/images/2025/2025-international-championship-image10.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image10.jpg",
+      "size": 108206,
+      "modified": "2025-10-10T06:48:14.702340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 974,
+        "ImageHeight": 770
+      },
+      "hash": "e9b087fa90db3ec2efa31b41f6f4de6ec1f44ad1",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image6.jpg",
+      "path": "assets/images/2025/2025-international-championship-image6.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image6.jpg",
+      "size": 769837,
+      "modified": "2025-10-10T06:48:14.710340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1586,
+        "ImageHeight": 1190
+      },
+      "hash": "9f2afebc012c52c3a1f26788249be3b8704e2f62",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image5.jpg",
+      "path": "assets/images/2025/2025-international-championship-image5.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image5.jpg",
+      "size": 738885,
+      "modified": "2025-10-10T06:48:14.710340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1564,
+        "ImageHeight": 1173
+      },
+      "hash": "4c1334387fc07a14e437b91e76bada3215cbd790",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
+    },
+    {
+      "filename": "2025-international-championship-image3.jpg",
+      "path": "assets/images/2025/2025-international-championship-image3.jpg",
+      "encoded_path": "assets/images/2025/2025-international-championship-image3.jpg",
+      "size": 654263,
+      "modified": "2025-10-10T06:48:14.706340",
+      "extension": ".jpg",
+      "media_type": "photo",
+      "source": "Joe Della Barba",
+      "credit": "Joe Della Barba",
+      "exif": {
+        "ImageWidth": 1554,
+        "ImageHeight": 1165
+      },
+      "hash": "76e937da8578940654174a23a7c4e894daa0a742",
+      "is_external": false,
+      "year": 2025,
+      "event_keyword": "international",
+      "categories": [
+        "Photos",
+        "Championships"
+      ],
+      "date": "2025-09-13",
+      "event": "Penguin International Championship",
+      "location": "Corsica River Yacht Club"
     }
   ],
   "search_terms": {

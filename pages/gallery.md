@@ -75,6 +75,7 @@ Welcome to the Penguin Class Gallery! This collection contains **<span id="total
   <button class="browse-btn" onclick="viewCreator('frank_parisi')" id="frank_parisi-btn">Frank Parisi (49)</button>
   <button class="browse-btn" onclick="viewCreator('paul_rohrkemper')" id="paul_rohrkemper-btn">Paul Rohrkemper (40)</button>
   <button class="browse-btn" onclick="viewCreator('al_schreitmueller')" id="al_schreitmueller-btn">Al Schreitmueller (37)</button>
+  <button class="browse-btn" onclick="viewCreator('joe_della_barba')" id="joe_della_barba-btn">Joe Della Barba (10)</button>
   <button class="browse-btn" onclick="viewCreator('penoso')" id="penoso-btn">Penoso (1)</button>
 </div>
 
@@ -531,6 +532,48 @@ function updateCreatorCounts() {
     creators[credit].push(item);
   });
   
+  // Update creator button text with counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const button = document.getElementById(`${creatorId}-btn`);
+    if (button) {
+      button.textContent = `${creator} (${items.length})`;
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
+  // Update creator button text with counts
+  for (const [creator, items] of Object.entries(creators)) {
+    const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
+    const button = document.getElementById(`${creatorId}-btn`);
+    if (button) {
+      button.textContent = `${creator} (${items.length})`;
+    }
+  }
+}
+
+function updateCreatorCounts() {
+  if (!galleryData) return;
+  
+  // Group media by creator/credit
+  const creators = {};
+  galleryData.media_index.forEach(item => {
+    const credit = item.credit || 'Unknown photographer';
+    if (!creators[credit]) creators[credit] = [];
+    creators[credit].push(item);
+  });
+  
   // Update creator counts
   for (const [creator, items] of Object.entries(creators)) {
     const creatorId = creator.toLowerCase().replace(/[^a-z0-9]/g, '_');
@@ -577,6 +620,8 @@ function viewCategory(category) {
   }
   
   // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
+    // Map lowercase category names to actual category names in the data
     // Map lowercase category names to actual category names in the data
     // Map lowercase category names to actual category names in the data
     // Map lowercase category names to actual category names in the data
