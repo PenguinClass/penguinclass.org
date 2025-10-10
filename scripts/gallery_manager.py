@@ -95,7 +95,7 @@ class GalleryManager:
     
     def import_mode(self, import_path: str, date: str = None, source: str = None, 
                    credit: str = None, event: str = None, location: str = None,
-                   output_file: str = None, merge_to_main: bool = False):
+                   pattern: str = None, output_file: str = None, merge_to_main: bool = False):
         """Run in import mode - import media from a specific directory."""
         print("🔄 Running in IMPORT mode...")
         
@@ -106,7 +106,8 @@ class GalleryManager:
             source=source,
             credit=credit,
             event=event,
-            location=location
+            location=location,
+            pattern=pattern
         )
         
         gallery_data = importer.generate_gallery_data()
@@ -188,6 +189,7 @@ Examples:
     import_parser.add_argument('--credit', help='Photographer/videographer credit')
     import_parser.add_argument('--event', help='Event name')
     import_parser.add_argument('--location', help='Event location')
+    import_parser.add_argument('--pattern', help='Filename pattern to filter files (supports wildcards like *.jpg, *championship*, etc.)')
     import_parser.add_argument('--output', help='Output JSON file path')
     import_parser.add_argument('--merge', action='store_true', 
                              help='Merge directly into main gallery.json instead of creating separate import file')
@@ -207,6 +209,7 @@ Examples:
             credit=args.credit,
             event=args.event,
             location=args.location,
+            pattern=args.pattern,
             output_file=args.output,
             merge_to_main=args.merge
         )

@@ -17,14 +17,16 @@ class ImportGalleryImporter:
     """Wrapper class for import functionality using the common GalleryImporter."""
     
     def __init__(self, import_path: str, date: str = None, source: str = None, 
-                 credit: str = None, event: str = None, location: str = None):
+                 credit: str = None, event: str = None, location: str = None, 
+                 pattern: str = None):
         self.importer = GalleryImporter(
             import_path=import_path,
             date=date,
             source=source,
             credit=credit,
             event=event,
-            location=location
+            location=location,
+            pattern=pattern
         )
     
     def save_gallery_data(self, output_file: str = None, merge_to_main: bool = False):
@@ -84,6 +86,7 @@ def main():
     parser.add_argument('--credit', help='Photographer/videographer credit')
     parser.add_argument('--event', help='Event name')
     parser.add_argument('--location', help='Event location')
+    parser.add_argument('--pattern', help='Filename pattern to filter files (supports wildcards like *.jpg, *championship*, etc.)')
     parser.add_argument('--output', help='Output JSON file path')
     parser.add_argument('--merge', action='store_true', 
                        help='Merge directly into main gallery.json instead of creating separate import file')
@@ -97,7 +100,8 @@ def main():
         source=args.source,
         credit=args.credit,
         event=args.event,
-        location=args.location
+        location=args.location,
+        pattern=args.pattern
     )
     
     # Save gallery data
