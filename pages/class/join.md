@@ -8,6 +8,14 @@ permalink: /class/join/
 
 Become a member of the International Penguin Class Dinghy Association and connect with fellow Penguin sailors around the world.
 
+### What's Included with Membership
+
+- Access to class events and regattas
+- Class newsletter and communications
+- Voting rights in class decisions
+- Technical support and resources
+- Connection to the global Penguin community 
+
 ### Membership Types
 
 - **Regular Member (Boat Owner)** - $25
@@ -123,17 +131,4 @@ Become a member of the International Penguin Class Dinghy Association and connec
 
 ### Contact Information
 
-For questions about membership or the application process:
-
-- **Email:** [info@penguinclass.org](mailto:info@penguinclass.org)
-- **President:** Charles Krafft - [chaskrafft@comcast.net](mailto:chaskrafft@comcast.net)
-- **Vice-President:** Bill Lawson - [Noswalb1@yahoo.com](mailto:Noswalb1@yahoo.com)
-- **Secretary/Treasurer:** Chris Conway - [cconway@idsinc.com](mailto:cconway@idsinc.com)
-
-### What's Included with Membership
-
-- Access to class events and regattas
-- Class newsletter and communications
-- Voting rights in class decisions
-- Technical support and resources
-- Connection to the global Penguin community 
+For questions about membership or the application process please e-mail [info@penguinclass.org](mailto:info@penguinclass.org?subject=IPCDA%20membership)
