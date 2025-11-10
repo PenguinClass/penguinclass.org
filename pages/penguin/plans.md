@@ -12,17 +12,19 @@ Plan files are provided (linked below thumbnail images) on this page, please sen
 
 ### 1933
 
-Designed by Philip L. Rhodes in 1933.
+Designed by Philip L. Rhodes in 1933.  Original plans to be posted if/when digitized.
 
 
-### 1938
+### 1938-1939?
 
 Potomac group builds first six boats.
 
 
 ### 1940
 
-Original plans by Philip Rhodes, as published in the May 1940 Yachting magazine, to be posted if/when digitized.
+<img src="/assets/images/1940/Yachting - May 1940 - The Penguin - A Smart Sailing Dinghy - Rufus G. Smith - Pg 62.png" alt="Penguin Dinghy plans from May 1940 Yachting" /><br/>
+As published in the article "A Smart Sailing Dinghy" by Rufus G. Smith in the May 1940 Yachting magazine.
+
 
 
 ### 1952 (R1)
