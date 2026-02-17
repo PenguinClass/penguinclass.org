@@ -9,6 +9,6 @@ permalink: /
 
 {% include latest-events.html %}
 
-{% include latest-news.html %}
+{% include latest-news-classifieds.html %}
 
 Explore the full legacy site in our [Archive](/archive/legacy-website/).
