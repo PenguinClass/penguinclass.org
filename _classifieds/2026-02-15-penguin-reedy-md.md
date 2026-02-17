@@ -5,9 +5,10 @@ name: penguin-reedy-md
 date: 2026-02-15
 contact: "Doug Reedy"
 email: "info@penguinclass.org"
+excerpt: "Doug Reedy's Beaton Penguin is also available."
 ---
 
-## Penguin Doug Reedy
+# Penguin Doug Reedy
 
 **Location:** Easton, MD
 **Price:** Unknown

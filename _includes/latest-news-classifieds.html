@@ -8,7 +8,13 @@
   {% for item in combined %}
   <article class="news-preview">
     <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
-    <p class="meta">{{ item.date | date_to_long_string }}</p>
+    <p class="meta">
+      {{ item.date | date_to_long_string }}
+      <span class="item-type {% if item.collection == 'classifieds' %}classified{% else %}news{% endif %}">
+        {% if item.collection == 'classifieds' %}Classified{% else %}News{% endif %}
+      </span>
+      
+    </p>
     {{ item.excerpt }}
     <p><a href="{{ item.url | relative_url }}">Read more →</a></p>
   </article>

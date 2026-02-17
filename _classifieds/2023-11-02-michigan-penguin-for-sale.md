@@ -6,9 +6,10 @@ date: 2023-11-02
 contact: "Doug Roberts"
 email: "mindemova@gmail.com"
 phone: "231-620-3920"
+excerpt: "Customflex fiberglass Penguin in very good condition for sale."
 ---
 
-## Customflex Fiberglass Penguin for Sale
+# Customflex Fiberglass Penguin for Sale
 
 **Location:** Traverse City, Michigan  
 **Condition:** Very good  
@@ -16,7 +17,7 @@ phone: "231-620-3920"
 
 Customflex fiberglass Penguin in very good condition, located at the Maritime Heritage Alliance in Traverse City, Michigan.
 
-### Contact Information
+## Contact Information
 - **Name:** Doug Roberts
 - **Email:** [mindemova@gmail.com](mailto:mindemova@gmail.com)
 - **Phone:** [231-620-3920](tel:231-620-3920)
