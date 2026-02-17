@@ -3,10 +3,10 @@ layout: post
 title: "Penguin Patter - Winter 2025-2026"
 name: penguin-patter-2025-2026-winter
 date: 2026-02-15
-excerpt: "2025-2026 Penguin Patter newsletter published"
+excerpt: "2025-2026 Winter edition Penguin Patter newsletter published"
 ---
 
-#  2025-2026 Penguin Patter newsletter published
+# 2025-2026 Winter edition Penguin Patter newsletter published
  
 Class members should have received (via email) the latest edition of the IPCDA's newsletter, Penguin Patter, including:
 - **Greeting from the Class President**
