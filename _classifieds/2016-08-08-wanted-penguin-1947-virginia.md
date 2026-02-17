@@ -1,17 +1,16 @@
 ---
 layout: classified
 title: "Wanted: Penguin 1947"
-name: seeking-penguin-1947
-date: 2023-11-02
+name: wanted-penguin-1947-virginia
+date: 2016-08-08
 contact: "Thomas W Anderson, Jr."
 phone: "540-888-3173"
 ---
 
 ## Wanted: Penguin 1947
 
-**Type:** Wanted to Buy  
-**Location:** Winchester, VA  
-**Contact:** Thomas W Anderson, Jr.
+**Location:** Winchester, Virginia  
+**Price:** Wanted to Buy  
 
 I am seeking the whereabouts of Penguin 1947. This boat was built by my father and mother (Thomas and Mary Anderson) in their basement/garage in Richmond, Virginia and sailed predominantly from the Fishing Bay Yacht club, near Deltaville.
 
@@ -28,6 +27,6 @@ My mother gave it away after my dad died and I would like to find it and see if 
 - **Address:** 770 Glengary Rd., Winchester, VA 22603
 - **Phone:** [540-888-3173](tel:540-888-3173)
 
-*Posted: November 2, 2023*
+*Posted: August 08, 2016*
 
-*Source: [Penguin Class Wanted Ads](/archive/legacy-website/wanted.html)* 
+*Source: [Penguin Class Wanted Ads - Archive.org](https://web.archive.org/web/*/penguinclass.com/wanted.html)*

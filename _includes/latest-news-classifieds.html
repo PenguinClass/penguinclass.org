@@ -1,0 +1,19 @@
+{% assign recent_posts = site.posts %}
+{% assign recent_classifieds = site.classifieds %}
+{% assign combined = recent_posts | concat: recent_classifieds | sort: 'date' | reverse | limit: 5 %}
+
+{% if combined.size > 0 %}
+<section class="latest-news">
+  <h2>Latest News and Classifieds</h2>
+  {% for item in combined %}
+  <article class="news-preview">
+    <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+    <p class="meta">{{ item.date | date_to_long_string }}</p>
+    {{ item.excerpt }}
+    <p><a href="{{ item.url | relative_url }}">Read more →</a></p>
+  </article>
+  {% endfor %}
+  <p class="more-link"><a href="/news/">More news →</a></p>
+</section>
+{% endif %}
+
