@@ -11,7 +11,7 @@ excerpt: "2025-2026 Winter edition Penguin Patter newsletter published"
 Class members should have received (via email) the latest edition of the IPCDA's newsletter, Penguin Patter, including:
 - **Greeting from the Class President**
 - **Call to action from David Cox**
-- **[2026 Regatta Schedule]({{ site.baseurl }}/news/2026/02/03/2026-schedule)**
+- **[2026 Regatta Schedule]({{ site.baseurl }}/news/2026/02/03/2026-02-03-2026-schedule/)**
 - **[Membership Renewal Reminder]({{ site.baseurl }}/class/join/)**
 - **[Classified Ads]({{ site.baseurl }}/classifieds/)**
 - **Call to all fleets for results, news, and updates**
