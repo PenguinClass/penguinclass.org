@@ -6,6 +6,7 @@ date: 2015-06-08
 contact: "Greg Cantwell"
 email: "cantwellgreg@yahoo.com"
 phone: "860-965-0456"
+classified_state: Archived
 ---
 
 ## Penguin Parts - Barkhamsted, CT

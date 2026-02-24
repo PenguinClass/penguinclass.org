@@ -5,6 +5,7 @@ name: penguin-8239-racing-condition
 date: 2015-09-21
 contact: "Ralph & Sandy Sponar"
 email: "Rsponarwindmills@gmail.com"
+classified_state: Archived
 ---
 
 ## Penguin 8239 - Racing Condition

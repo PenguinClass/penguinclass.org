@@ -3,6 +3,7 @@ layout: classified
 title: "Wanted: Information on Penguin 7151"
 name: wanted-penguin-7151
 date: 2017-09-15
+classified_state: Wanted
 ---
 
 ## Wanted: Information on Penguin 7151

@@ -3,6 +3,7 @@ layout: classified
 title: "Penguin 9675 - New Jersey"
 name: penguin-9675-new-jersey
 date: 2016-03-08
+classified_state: Archived
 ---
 
 ## Penguin 9675 - New Jersey

@@ -3,6 +3,7 @@ layout: classified
 title: "Penguin 8240 - Maryland"
 name: penguin-8240-maryland
 date: 2015-03-17
+classified_state: Archived
 ---
 
 ## Penguin 8240 - Maryland

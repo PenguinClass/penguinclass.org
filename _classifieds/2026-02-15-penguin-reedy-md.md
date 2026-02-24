@@ -6,6 +6,7 @@ date: 2026-02-15
 contact: "Doug Reedy"
 email: "info@penguinclass.org"
 excerpt: "Doug Reedy's Beaton Penguin is also available."
+classified_state: Donated
 ---
 
 # Penguin Doug Reedy

@@ -5,6 +5,7 @@ name: penguin-centerboard-md
 date: 2021-04-07
 contact: "Barnes Johnson"
 email: "barnesjoh@comcast.net"
+classified_state: For Sale
 ---
 
 ## Penguin centerboard - Davidsonville, MD

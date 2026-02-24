@@ -4,6 +4,7 @@ title: "1975 Penguin - Morgan Yachts - Knoxville, TN"
 name: penguin-morgan-tennessee
 date: 2013-11-26
 email: "schonagen@mac.com"
+classified_state: Archived
 ---
 
 ## 1975 Penguin - Morgan Yachts - Knoxville, TN

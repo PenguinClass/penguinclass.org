@@ -6,6 +6,7 @@ date: 2013-11-26
 contact: "Jonathan Bartlett"
 email: "Jonathan.Bartlett@northsails.com"
 phone: "410-353-6418"
+classified_state: Archived
 ---
 
 ## Penguin 9576 - Burtis Self-Bailing

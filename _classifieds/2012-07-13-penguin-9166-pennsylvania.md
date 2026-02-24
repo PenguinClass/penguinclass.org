@@ -6,6 +6,7 @@ date: 2012-07-13
 contact: "Kent Knisley"
 email: "kentk32@gmail.com"
 phone: "570-439-0798"
+classified_state: Archived
 ---
 
 ## Penguin 9166 for Sale

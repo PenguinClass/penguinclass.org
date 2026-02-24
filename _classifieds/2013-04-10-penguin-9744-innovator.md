@@ -5,6 +5,7 @@ name: penguin-9744-innovator
 date: 2013-04-10
 contact: "Gary Foster"
 email: "garyf49@gmail.com"
+classified_state: Archived
 ---
 
 ## Penguin 9744 - Innovator Fiberglass

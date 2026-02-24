@@ -5,6 +5,7 @@ name: penguin-santa-ynez-california
 date: 2013-07-01
 contact: "Sam Burke"
 email: "samburke@verizon.net"
+classified_state: Archived
 ---
 
 ## Penguin (circa 1968) - Santa Ynez, CA

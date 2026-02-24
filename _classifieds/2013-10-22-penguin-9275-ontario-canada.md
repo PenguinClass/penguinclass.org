@@ -4,6 +4,7 @@ title: "Penguin 9275 - Self-Rescue Design - Oakville, ON"
 name: penguin-9275-ontario-canada
 date: 2013-10-22
 email: "ikpaisley@gmail.com"
+classified_state: Archived
 ---
 
 ## Penguin 9275 - Self-Rescue Design - Oakville, ON

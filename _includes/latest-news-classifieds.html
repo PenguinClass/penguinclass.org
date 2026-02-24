@@ -1,25 +1,39 @@
 {% assign recent_posts = site.posts %}
 {% assign recent_classifieds = site.classifieds %}
-{% assign combined = recent_posts | concat: recent_classifieds | sort: 'date' | reverse | limit: 5 %}
+{% assign all_combined = recent_posts | concat: recent_classifieds | sort: 'date' | reverse %}
+
+{% assign cutoff_date = site.time | date: "%s" | minus: 31536000 | plus: 0 %}
+{% assign combined = "" | split: "" %}
+{% for item in all_combined %}
+  {% assign item_date = item.date | date: "%s" | plus: 0 %}
+  {% if item_date >= cutoff_date and combined.size < 20 %}
+    {% assign combined = combined | push: item %}
+  {% endif %}
+{% endfor %}
 
 {% if combined.size > 0 %}
 <section class="latest-news">
   <h2>Latest News and Classifieds</h2>
   {% for item in combined %}
   <article class="news-preview">
-    <h3><a href="{{ item.url | relative_url }}">{{ item.title }}</a></h3>
+    <h3>
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% if item.collection == 'classifieds' and item.classified_state %}
+      <span class="classified-badge {{ item.classified_state | downcase | replace: ' ', '-' }}">{{ item.classified_state }}</span>
+      {% endif %}
+    </h3>
     <p class="meta">
-      {{ item.date | date_to_long_string }}
       <span class="item-type {% if item.collection == 'classifieds' %}classified{% else %}news{% endif %}">
         {% if item.collection == 'classifieds' %}Classified{% else %}News{% endif %}
       </span>
-      
+      {{ item.date | date_to_long_string }}
     </p>
     {{ item.excerpt }}
     <p><a href="{{ item.url | relative_url }}">Read more →</a></p>
   </article>
   {% endfor %}
   <p class="more-link"><a href="/news/">More news →</a></p>
+  <p class="more-link"><a href="/classifieds/">More classifieds →</a></p>
 </section>
 {% endif %}
 

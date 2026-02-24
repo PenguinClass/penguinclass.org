@@ -5,6 +5,7 @@ name: penguin-7949-kauffman
 date: 2012-10-05
 contact: "Amy Krafft"
 email: "amykrafft@comcast.net"
+classified_state: Archived
 ---
 
 ## Penguin 7949 for Sale
