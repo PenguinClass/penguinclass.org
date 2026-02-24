@@ -6,6 +6,7 @@ date: 2012-09-14
 contact: "David Stix"
 email: "dwstix@att.net"
 phone: "773-871-2085"
+classified_state: Archived
 ---
 
 ## Penguin 9677 for Sale

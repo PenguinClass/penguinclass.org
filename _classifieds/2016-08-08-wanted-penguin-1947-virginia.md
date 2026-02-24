@@ -5,6 +5,7 @@ name: wanted-penguin-1947-virginia
 date: 2016-08-08
 contact: "Thomas W Anderson, Jr."
 phone: "540-888-3173"
+classified_state: Wanted
 ---
 
 ## Wanted: Penguin 1947

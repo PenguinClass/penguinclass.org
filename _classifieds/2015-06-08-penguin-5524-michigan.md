@@ -5,6 +5,7 @@ name: penguin-5524-michigan
 date: 2015-06-08
 contact: "Scott"
 email: "frood13@yahoo.com"
+classified_state: Archived
 ---
 
 ## Penguin 5524 - Marquette, MI

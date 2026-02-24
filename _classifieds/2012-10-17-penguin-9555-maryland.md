@@ -5,6 +5,7 @@ name: penguin-9555-maryland
 date: 2012-10-17
 contact: "Bob"
 email: "bobnmel@netzero.net"
+classified_state: Archived
 ---
 
 ## Penguin 9555 for Sale

@@ -3,6 +3,7 @@ layout: classified
 title: "Penguin 7031 - Maryland"
 name: penguin-7031-maryland
 date: 2018-05-29
+classified_state: Archived
 ---
 
 ## Penguin 7031 - Maryland

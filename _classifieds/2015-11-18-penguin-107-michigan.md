@@ -5,6 +5,7 @@ name: penguin-107-michigan
 date: 2015-11-18
 contact: "Geoffrey Reynolds"
 email: "geoffreydreynolds@gmail.com"
+classified_state: Archived
 ---
 
 ## Penguin 107 - Free to Good Home - Michigan

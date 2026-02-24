@@ -6,6 +6,7 @@ date: 2013-03-07
 contact: "Gary D. Curl"
 email: "gcurl@spcresearch.com"
 phone: "973-493-9375"
+classified_state: Archived
 ---
 
 ## Penguin 9749 for Sale - Tuxedo Junction

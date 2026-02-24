@@ -6,6 +6,7 @@ date: 2013-10-09
 contact: "Scott Summerill"
 email: "scott.summerill@gmail.com"
 phone: "609-742-5093"
+classified_state: Archived
 ---
 
 ## Penguin 4380 - Beaton Brothers - South Jersey

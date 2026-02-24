@@ -3,6 +3,7 @@ layout: classified
 title: "Penguin 6854 - Wisconsin"
 name: penguin-6854-wisconsin
 date: 2014-12-02
+classified_state: Archived
 ---
 
 ## Penguin 6854 - Wisconsin

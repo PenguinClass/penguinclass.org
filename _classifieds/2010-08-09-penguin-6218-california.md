@@ -5,6 +5,7 @@ name: penguin-6218-california
 date: 2010-08-09
 contact: "Jim Thomas"
 email: "mypa12@yahoo.com"
+classified_state: Archived
 ---
 
 ## Penguin 6218 for Sale - Plans Built

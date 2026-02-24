@@ -5,6 +5,7 @@ name: penguin-7612-maryland
 date: 2013-01-23
 contact: "Charles Krafft"
 email: "chaskrafft@comcast.net"
+classified_state: Archived
 ---
 
 ## Penguin 7612 for Sale

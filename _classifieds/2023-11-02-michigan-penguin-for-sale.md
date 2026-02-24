@@ -7,6 +7,7 @@ contact: "Doug Roberts"
 email: "mindemova@gmail.com"
 phone: "231-620-3920"
 excerpt: "Customflex fiberglass Penguin in very good condition for sale."
+classified_state: For Sale
 ---
 
 # Customflex Fiberglass Penguin for Sale

@@ -5,6 +5,7 @@ name: penguin-7409-maryland
 date: 2013-11-26
 contact: "John Bittner"
 phone: "4006863978"
+classified_state: Archived
 ---
 
 ## Penguin 7409 - Roberts Industries - Olney, MD

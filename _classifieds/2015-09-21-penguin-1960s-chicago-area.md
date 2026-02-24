@@ -4,6 +4,7 @@ title: "Early 1960s Penguin - Skokie Lagoon Area"
 name: penguin-1960s-chicago-area
 date: 2015-09-21
 email: "r.j.holpuch@att.net"
+classified_state: Archived
 ---
 
 ## Early 1960s Penguin - Skokie Lagoon Area

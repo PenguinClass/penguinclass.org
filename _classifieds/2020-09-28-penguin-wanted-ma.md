@@ -5,6 +5,7 @@ name: penguin-wanted-ma
 date: 2020-09-28
 contact: "Bernie Wideman"
 email: "bernard.19@comcast.net"
+classified_state: Wanted
 ---
 
 ## Penguin wanted - MA

@@ -4,6 +4,7 @@ title: "Penguin 8839 - Near St. Michael's, MD"
 name: penguin-8839-maryland
 date: 2015-09-21
 email: "bjcraig@fuse.net"
+classified_state: Archived
 ---
 
 ## Penguin 8839 - Near St. Michael's, MD
