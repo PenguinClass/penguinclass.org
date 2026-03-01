@@ -16,7 +16,7 @@ collections:
     permalink: /events/:year/:month/:day/:title/
   classifieds:
     output: true
-    permalink: /classifieds/:year/:month/:day/:name/
+    permalink: /classifieds/:year/:month/:day/:title/
   results:
     output: true
     permalink: /results/:name/
@@ -24,7 +24,7 @@ defaults:
   - scope: { path: "", type: posts }
     values: 
       layout: post
-      permalink: /news/:year/:month/:day/:name/
+      permalink: /news/:year/:month/:day/:title/
       future: false
   - scope: { path: "", type: events }
     values: { layout: event }
