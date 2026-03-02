@@ -100,47 +100,60 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   
-  // Image Slideshow functionality
-  const slideshowContainer = document.querySelector('.slideshow-container');
-  if (slideshowContainer) {
+  // Image Slideshow functionality (supports multiple slideshows)
+  const slideshowContainers = document.querySelectorAll('.slideshow-container');
+  slideshowContainers.forEach((slideshowContainer) => {
     const slides = slideshowContainer.querySelectorAll('.slide');
     const dots = slideshowContainer.querySelectorAll('.dot');
     const prevBtn = slideshowContainer.querySelector('.prev');
     const nextBtn = slideshowContainer.querySelector('.next');
+
+    if (!slides.length) {
+      return;
+    }
+
     let currentSlide = 0;
     let slideInterval;
-    
+
     function showSlide(index) {
-      // Hide all slides
+      if (!slides.length) {
+        return;
+      }
+      if (index < 0 || index >= slides.length) {
+        return;
+      }
+
       slides.forEach(slide => slide.classList.remove('active'));
       dots.forEach(dot => dot.classList.remove('active'));
-      
-      // Show current slide
+
       slides[index].classList.add('active');
-      dots[index].classList.add('active');
-      
+      if (dots[index]) {
+        dots[index].classList.add('active');
+      }
+
       currentSlide = index;
     }
-    
+
     function nextSlide() {
       const next = (currentSlide + 1) % slides.length;
       showSlide(next);
     }
-    
+
     function prevSlide() {
       const prev = (currentSlide - 1 + slides.length) % slides.length;
       showSlide(prev);
     }
-    
+
     function startAutoPlay() {
       slideInterval = setInterval(nextSlide, 5000); // Change slide every 5 seconds
     }
-    
+
     function stopAutoPlay() {
-      clearInterval(slideInterval);
+      if (slideInterval) {
+        clearInterval(slideInterval);
+      }
     }
-    
-    // Event listeners
+
     if (prevBtn) {
       prevBtn.addEventListener('click', () => {
         prevSlide();
@@ -148,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
         startAutoPlay();
       });
     }
-    
+
     if (nextBtn) {
       nextBtn.addEventListener('click', () => {
         nextSlide();
@@ -156,8 +169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         startAutoPlay();
       });
     }
-    
-    // Dot navigation
+
     dots.forEach((dot, index) => {
       dot.addEventListener('click', () => {
         showSlide(index);
@@ -165,8 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
         startAutoPlay();
       });
     });
-    
-    // Keyboard navigation
+
     slideshowContainer.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowLeft') {
         prevSlide();
@@ -178,45 +189,39 @@ document.addEventListener('DOMContentLoaded', function() {
         startAutoPlay();
       }
     });
-    
-    // Pause on hover
+
     slideshowContainer.addEventListener('mouseenter', stopAutoPlay);
     slideshowContainer.addEventListener('mouseleave', startAutoPlay);
-    
-    // Touch/swipe support for mobile
+
     let touchStartX = 0;
     let touchEndX = 0;
-    
+
     slideshowContainer.addEventListener('touchstart', (e) => {
       touchStartX = e.changedTouches[0].screenX;
     });
-    
+
     slideshowContainer.addEventListener('touchend', (e) => {
       touchEndX = e.changedTouches[0].screenX;
       handleSwipe();
     });
-    
+
     function handleSwipe() {
       const swipeThreshold = 50;
       const diff = touchStartX - touchEndX;
-      
+
       if (Math.abs(diff) > swipeThreshold) {
         if (diff > 0) {
-          // Swipe left - next slide
           nextSlide();
         } else {
-          // Swipe right - previous slide
           prevSlide();
         }
         stopAutoPlay();
         startAutoPlay();
       }
     }
-    
-    // Start autoplay
+
+    showSlide(0);
     startAutoPlay();
-    
-    // Make slideshow focusable for keyboard navigation
     slideshowContainer.setAttribute('tabindex', '0');
-  }
+  });
 });

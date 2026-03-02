@@ -1,0 +1,45 @@
+{
+  "id": "home-hero",
+  "slides": [
+    {
+      "type": "image",
+      "image_url": "/assets/images/slideshow/tayc-2023-brooks.jpg",
+      "alt": "Joe and granddaughter Olivia Brooks enjoying time together sailing a Penguin.",
+      "caption": "Joe and granddaughter Olivia Brooks enjoying time together sailing a Penguin.",
+      "credit": "Will Keyworth"
+    },
+    {
+      "type": "collection",
+      "kind": "News",
+      "item_url": "/news/2026/02/03/2026-schedule/",
+      "cta_label": "View schedule"
+    },
+    {
+      "type": "image",
+      "image_url": "/assets/images/slideshow/tayc-2023-cox.jpg",
+      "alt": "Jeff and Ellie Cox.  Ellie did a great job as crew in the lumpy conditions Saturday.",
+      "caption": "Jeff and Ellie Cox.  Ellie did a great job as crew in the lumpy conditions Saturday.",
+      "credit": "Will Keyworth"
+    },
+    {
+      "type": "collection",
+      "kind": "News",
+      "item_url": "/news/2026/02/15/2025-2026-winter-penguin-patter-published/",
+      "cta_label": "View Patter highlights"
+    },
+    {
+      "type": "image",
+      "image_url": "/assets/images/slideshow/tayc-2023-sheils.jpg",
+      "alt": "Will and Dixon Sheils in their first Penguin regatta.",
+      "caption": "Will and Dixon Sheils in their first Penguin regatta.",
+      "credit": "Will Keyworth"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "item_url": "/events/2026/04/25/2026-tayc-spring-invitational/",
+      "cta_label": "Event details"
+    }
+  ]
+}
+
