@@ -5,7 +5,7 @@ permalink: /
 ---
 # Welcome to the<br />International Penguin Class Dinghy Association
 
-{% include image-slideshow.html %}
+{% include highlight-slideshow.html config="/assets/data/highlight-home.json" %}
 
 {% include latest-events.html %}
 

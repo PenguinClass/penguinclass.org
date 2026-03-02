@@ -1,0 +1,560 @@
+{% comment %}
+  Highlight Slideshow
+  Usage:
+    {% include highlight-slideshow.html
+         config="/assets/data/highlight-home.json" %}
+{% endcomment %}
+
+<div class="highlight-slideshow" data-config="{{ include.config | default: '/assets/data/highlight-home.json' }}">
+  <div class="slideshow-container">
+    <div class="slideshow-wrapper">
+      <div class="slideshow-track">
+        <!-- Slides will be injected here by JavaScript -->
+      </div>
+
+      <button class="slideshow-nav prev" aria-label="Previous slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+        </svg>
+      </button>
+
+      <button class="slideshow-nav next" aria-label="Next slide">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/>
+        </svg>
+      </button>
+
+      <div class="slideshow-dots" aria-label="Slide navigation">
+        <!-- Dots will be injected here by JavaScript -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.highlight-slideshow .slide {
+  display: none;
+}
+
+.highlight-slideshow .slide.active {
+  display: flex;
+}
+
+/* Collection slide card fills same space as an image slide */
+.highlight-slideshow .slide .highlight-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  box-sizing: border-box;
+  padding: 1.5rem 2rem;
+  background: var(--bg);
+  color: var(--text-color);
+  border: 1px solid var(--header-border);
+  text-align: center;
+}
+
+.highlight-slideshow .highlight-eyebrow {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-color);
+  opacity: 0.75;
+  margin-bottom: 0.25rem;
+}
+
+.highlight-slideshow .highlight-title {
+  font-size: 1.4rem;
+  margin: 0 0 0.5rem 0;
+  color: var(--text-color);
+}
+
+.highlight-slideshow .highlight-meta {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  opacity: 0.8;
+  margin-bottom: 0.75rem;
+}
+
+.highlight-slideshow .highlight-meta-parts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.highlight-slideshow .highlight-meta-parts span {
+  display: block;
+}
+
+.highlight-slideshow .highlight-body {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+  max-width: 42em;
+}
+
+.highlight-slideshow .highlight-cta {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border-radius: 999px;
+  background: var(--link);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: opacity 0.2s;
+}
+
+.highlight-slideshow .highlight-cta:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .highlight-slideshow .slide .highlight-card {
+    padding: 1.25rem 1.5rem;
+  }
+  .highlight-slideshow .highlight-title {
+    font-size: 1.2rem;
+  }
+  .highlight-slideshow .highlight-body {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .highlight-slideshow .slide .highlight-card {
+    padding: 1rem 1.25rem;
+  }
+  .highlight-slideshow .highlight-title {
+    font-size: 1.1rem;
+  }
+  .highlight-slideshow .highlight-body {
+    font-size: 0.875rem;
+  }
+}
+</style>
+
+<script>
+(function() {
+  async function loadConfig(path) {
+    const response = await fetch(path);
+    if (!response.ok) {
+      throw new Error('Failed to load highlight config: ' + response.status);
+    }
+    return await response.json();
+  }
+
+  // Cache gallery data across slideshows
+  function getGalleryData() {
+    if (!window.penguinGalleryDataPromise) {
+      window.penguinGalleryDataPromise = fetch('/assets/data/gallery.json')
+        .then(function(r) {
+          if (!r.ok) throw new Error('Failed to load gallery.json');
+          return r.json();
+        })
+        .then(function(data) {
+          const index = {};
+          if (data.categories && data.categories.Photos) {
+            data.categories.Photos.forEach(function(item) {
+              if (item.hash) index[item.hash] = item;
+            });
+          }
+          data._byHash = index;
+          return data;
+        })
+        .catch(function(err) {
+          console.error(err);
+          return null;
+        });
+    }
+    return window.penguinGalleryDataPromise;
+  }
+
+  function createImageSlide(slide) {
+    const slideEl = document.createElement('div');
+    slideEl.className = 'slide';
+
+    const img = document.createElement('img');
+    img.src = slide.image_url;
+    img.alt = slide.alt || '';
+    img.loading = 'lazy';
+
+    let imgWrapper = img;
+    if (slide.link_url) {
+      const link = document.createElement('a');
+      link.href = slide.link_url;
+      if (slide.link_target) {
+        link.target = slide.link_target;
+      }
+      link.appendChild(img);
+      imgWrapper = link;
+    }
+
+    const captionDiv = document.createElement('div');
+    captionDiv.className = 'slide-caption';
+
+    const p = document.createElement('p');
+    p.textContent = slide.caption || '';
+
+    if (slide.credit) {
+      const creditSpan = document.createElement('span');
+      creditSpan.className = 'photo-credit';
+      creditSpan.textContent = 'Photo: ' + slide.credit;
+      p.appendChild(document.createTextNode(' '));
+      p.appendChild(creditSpan);
+    }
+
+    captionDiv.appendChild(p);
+
+    slideEl.appendChild(imgWrapper);
+    slideEl.appendChild(captionDiv);
+
+    return slideEl;
+  }
+
+  function createCollectionSlide(slide) {
+    const slideEl = document.createElement('div');
+    slideEl.className = 'slide';
+
+    const card = document.createElement('div');
+    card.className = 'highlight-card';
+
+    var isNews = slide.kind === 'News';
+    var isEvent = slide.kind === 'Event';
+    if (slide.kind) {
+      const eyebrow = document.createElement('div');
+      eyebrow.className = 'highlight-eyebrow';
+      var eyebrowText = slide.kind;
+      if (isNews && slide.meta) {
+        eyebrowText = slide.kind + ' · ' + slide.meta;
+      } else if (isEvent && slide.meta) {
+        var parts = slide.meta.split(/\s*[·|]\s*|\s{2,}/).map(function(s) { return s.trim(); }).filter(Boolean);
+        var dateOnly = parts.length ? parts[parts.length - 1] : slide.meta;
+        eyebrowText = slide.kind + ' · ' + dateOnly;
+      }
+      eyebrow.textContent = eyebrowText;
+      card.appendChild(eyebrow);
+    }
+
+    if (slide.title) {
+      const titleEl = document.createElement('h3');
+      titleEl.className = 'highlight-title';
+      titleEl.textContent = slide.title;
+      card.appendChild(titleEl);
+    }
+
+    if (!isNews && !isEvent && slide.meta) {
+      var metaParts = slide.meta.split(/\s*[·|]\s*|\s{2,}/).map(function(s) { return s.trim(); }).filter(Boolean);
+      const metaWrap = document.createElement('div');
+      metaWrap.className = 'highlight-meta highlight-meta-parts';
+      metaParts.forEach(function(part) {
+        var span = document.createElement('span');
+        span.textContent = part;
+        metaWrap.appendChild(span);
+      });
+      card.appendChild(metaWrap);
+    }
+
+    if (slide.body && !isEvent) {
+      const bodyEl = document.createElement('div');
+      bodyEl.className = 'highlight-body';
+      bodyEl.textContent = slide.body;
+      card.appendChild(bodyEl);
+    }
+
+    if (slide.cta_url && slide.cta_label) {
+      const cta = document.createElement('a');
+      cta.className = 'highlight-cta';
+      cta.href = slide.cta_url;
+      cta.textContent = slide.cta_label;
+      card.appendChild(cta);
+    }
+
+    slideEl.appendChild(card);
+    return slideEl;
+  }
+
+  function initSlideshow(rootEl) {
+    const track = rootEl.querySelector('.slideshow-track');
+    const dotsContainer = rootEl.querySelector('.slideshow-dots');
+
+    function activateSlide(slides, dots, index) {
+      slides.forEach(function(s, i) {
+        if (i === index) {
+          s.classList.add('active');
+        } else {
+          s.classList.remove('active');
+        }
+      });
+      dots.forEach(function(d, i) {
+        if (i === index) {
+          d.classList.add('active');
+        } else {
+          d.classList.remove('active');
+        }
+      });
+    }
+
+    return function(slides) {
+      track.innerHTML = '';
+      dotsContainer.innerHTML = '';
+
+      slides.forEach(function(slideEl, index) {
+        if (index === 0) {
+          slideEl.classList.add('active');
+        }
+        track.appendChild(slideEl);
+
+        const dot = document.createElement('button');
+        dot.className = 'dot' + (index === 0 ? ' active' : '');
+        dot.setAttribute('aria-label', 'Go to slide ' + (index + 1));
+        dot.addEventListener('click', function() {
+          activateSlide(slides, Array.from(dotsContainer.children), index);
+        });
+        dotsContainer.appendChild(dot);
+      });
+    };
+  }
+
+  function resolveCollectionSlide(slide) {
+    if (!slide.item_url) {
+      return Promise.resolve(slide);
+    }
+
+    return fetch(slide.item_url)
+      .then(function(response) {
+        if (!response.ok) {
+          throw new Error('Failed to load collection item: ' + slide.item_url);
+        }
+        return response.text();
+      })
+      .then(function(html) {
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(html, 'text/html');
+
+        var base = {};
+
+        var titleEl = doc.querySelector('main h1, article h1, h1');
+        if (titleEl) {
+          base.title = titleEl.textContent.trim();
+        }
+
+        var metaEl = doc.querySelector('.meta, .event-meta, .post-meta, .classified-meta');
+        if (metaEl) {
+          base.meta = metaEl.textContent.trim();
+        }
+
+        var bodyEl = doc.querySelector('main p, article p, .post-content p, .event-content p');
+        if (bodyEl) {
+          base.body = bodyEl.textContent.trim();
+        }
+
+        // JSON values override extracted defaults
+        var resolved = Object.assign(base, slide);
+        if (!resolved.cta_url && resolved.item_url) {
+          resolved.cta_url = resolved.item_url;
+        }
+        // News: avoid duplicating date in body (first paragraph is often date/meta)
+        if (resolved.kind === 'News' && resolved.body) {
+          var b = resolved.body.trim();
+          var m = (resolved.meta || '').trim();
+          var dateLike = /^(\d{1,2}[\s\/\-]\d{1,2}[\s\/\-]\d{2,4}|\d{1,2}\s+(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{4})$/i;
+          if (b === m || dateLike.test(b) || (b.length < 30 && /\d{4}/.test(b))) {
+            resolved.body = '';
+          }
+        }
+        return resolved;
+      })
+      .catch(function() {
+        return slide;
+      });
+  }
+
+  function initHighlightSlideshow(container) {
+    const configPath = container.getAttribute('data-config');
+    if (!configPath) return;
+
+    Promise.all([loadConfig(configPath), getGalleryData()])
+      .then(function(results) {
+        const config = results[0];
+        const galleryData = results[1];
+
+        const slideElementPromises = (config.slides || []).map(function(slide) {
+          if (slide.type === 'image') {
+            return Promise.resolve(createImageSlide(slide));
+          }
+
+          if (slide.type === 'gallery_image' && galleryData && galleryData._byHash && slide.hash) {
+            const item = galleryData._byHash[slide.hash];
+            if (!item) return Promise.resolve(null);
+            const gallerySlide = {
+              image_url: (item.encoded_path && item.encoded_path.charAt(0) === '/')
+                ? item.encoded_path
+                : '/' + item.encoded_path,
+              alt: item.caption || item.filename || '',
+              caption: item.caption || item.description || '',
+              credit: item.credit || '',
+              link_url: (item.encoded_path && item.encoded_path.charAt(0) === '/')
+                ? item.encoded_path
+                : '/' + item.encoded_path,
+              link_target: '_blank',
+              type: 'image'
+            };
+            return Promise.resolve(createImageSlide(gallerySlide));
+          }
+
+          if (slide.type === 'collection') {
+            return resolveCollectionSlide(slide).then(function(resolved) {
+              return createCollectionSlide(resolved);
+            });
+          }
+
+          return Promise.resolve(null);
+        });
+
+        return Promise.all(slideElementPromises);
+      })
+      .then(function(slidesOutRaw) {
+        const slidesOut = slidesOutRaw.filter(function(el) { return !!el; });
+
+        if (!slidesOut.length) return;
+
+        const slideshowRoot = container.querySelector('.slideshow-container');
+        const build = initSlideshow(slideshowRoot);
+        build(slidesOut);
+
+        // Local slideshow behavior (independent of global site.js logic)
+        const slides = Array.from(slideshowRoot.querySelectorAll('.slide'));
+        const dots = Array.from(slideshowRoot.querySelectorAll('.dot'));
+        const prevBtn = slideshowRoot.querySelector('.prev');
+        const nextBtn = slideshowRoot.querySelector('.next');
+        let currentIndex = 0;
+        let intervalId = null;
+
+        function showLocalSlide(index) {
+          if (!slides.length) return;
+          if (index < 0 || index >= slides.length) return;
+
+          slides.forEach((s, i) => {
+            if (i === index) {
+              s.classList.add('active');
+            } else {
+              s.classList.remove('active');
+            }
+          });
+
+          dots.forEach((d, i) => {
+            if (i === index) {
+              d.classList.add('active');
+            } else {
+              d.classList.remove('active');
+            }
+          });
+
+          currentIndex = index;
+        }
+
+        function nextLocalSlide() {
+          const next = (currentIndex + 1) % slides.length;
+          showLocalSlide(next);
+        }
+
+        function prevLocalSlide() {
+          const prev = (currentIndex - 1 + slides.length) % slides.length;
+          showLocalSlide(prev);
+        }
+
+        function startAutoPlay() {
+          if (intervalId) {
+            clearInterval(intervalId);
+          }
+          intervalId = setInterval(nextLocalSlide, 5000);
+        }
+
+        function stopAutoPlay() {
+          if (intervalId) {
+            clearInterval(intervalId);
+            intervalId = null;
+          }
+        }
+
+        if (prevBtn) {
+          prevBtn.addEventListener('click', function() {
+            prevLocalSlide();
+            stopAutoPlay();
+            startAutoPlay();
+          });
+        }
+
+        if (nextBtn) {
+          nextBtn.addEventListener('click', function() {
+            nextLocalSlide();
+            stopAutoPlay();
+            startAutoPlay();
+          });
+        }
+
+        dots.forEach((dot, index) => {
+          dot.addEventListener('click', function() {
+            showLocalSlide(index);
+            stopAutoPlay();
+            startAutoPlay();
+          });
+        });
+
+        slideshowRoot.addEventListener('mouseenter', stopAutoPlay);
+        slideshowRoot.addEventListener('mouseleave', startAutoPlay);
+
+        // Basic keyboard support
+        slideshowRoot.addEventListener('keydown', function(e) {
+          if (e.key === 'ArrowLeft') {
+            prevLocalSlide();
+            stopAutoPlay();
+            startAutoPlay();
+          } else if (e.key === 'ArrowRight') {
+            nextLocalSlide();
+            stopAutoPlay();
+            startAutoPlay();
+          }
+        });
+
+        // Touch swipe support
+        let touchStartX = 0;
+        let touchEndX = 0;
+        slideshowRoot.addEventListener('touchstart', function(e) {
+          touchStartX = e.changedTouches[0].screenX;
+        });
+        slideshowRoot.addEventListener('touchend', function(e) {
+          touchEndX = e.changedTouches[0].screenX;
+          const diff = touchStartX - touchEndX;
+          const threshold = 50;
+          if (Math.abs(diff) > threshold) {
+            if (diff > 0) {
+              nextLocalSlide();
+            } else {
+              prevLocalSlide();
+            }
+            stopAutoPlay();
+            startAutoPlay();
+          }
+        });
+
+        // Initialize
+        showLocalSlide(0);
+        startAutoPlay();
+        slideshowRoot.setAttribute('tabindex', '0');
+      })
+      .catch(function(err) {
+        console.error(err);
+      });
+  }
+
+  // Initialize all highlight slideshows on the page
+  const highlightContainers = document.querySelectorAll('.highlight-slideshow');
+  highlightContainers.forEach(initHighlightSlideshow);
+})();
+</script>
+
