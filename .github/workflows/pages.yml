@@ -9,24 +9,38 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
     steps:
       - uses: actions/checkout@v4
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
           bundler-cache: true
+
       - run: |
           bundle install
           JEKYLL_ENV=production bundle exec jekyll build -d _site
+        env:
+          JEKYLL_ANALYTICS_GA4_ENABLED: ${{ vars.JEKYLL_ANALYTICS_GA4_ENABLED }}
+          JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID: ${{ vars.JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC }}
+
       - name: Ensure archive manifest
         run: |
           python3 scripts/build_archive_manifest.py archive || true
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
