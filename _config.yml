@@ -34,3 +34,14 @@ defaults:
     values: { layout: result }
 markdown: kramdown
 future: true
+# Analytics (GA4 + Plausible). All toggles default off. See README "Analytics".
+# Optional env overrides (e.g. GitHub Actions secrets) are applied in
+# _plugins/analytics_env_override.rb when local plugins are allowed (not in Jekyll safe mode).
+analytics:
+  ga4:
+    enabled: false
+    measurement_id: ""
+  plausible:
+    enabled: false
+    domain: ""
+    script_src: "https://plausible.io/js/script.js"

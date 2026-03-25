@@ -1,0 +1,28 @@
+{%- assign _root = site.analytics | default: false -%}
+{%- assign _ga4 = false -%}
+{%- assign _pl = false -%}
+{%- if _root -%}
+{%- assign _ga4 = _root.ga4 -%}
+{%- assign _pl = _root.plausible -%}
+{%- endif -%}
+{%- if _ga4 and _ga4.enabled and _ga4.measurement_id != blank -%}
+{%- assign _ga4_id = _ga4.measurement_id | strip -%}
+{%- if _ga4_id != "" -%}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ _ga4_id | uri_escape }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', {{ _ga4_id | jsonify }});
+</script>
+{%- endif -%}
+{%- endif -%}
+{%- if _pl and _pl.enabled and _pl.domain != blank -%}
+{%- assign _pl_domain = _pl.domain | strip -%}
+{%- if _pl_domain != "" -%}
+{%- assign _pl_src = _pl.script_src | default: "https://plausible.io/js/script.js" -%}
+{%- if _pl_src == blank -%}{%- assign _pl_src = "https://plausible.io/js/script.js" -%}{%- endif -%}
+<script defer data-domain="{{ _pl_domain | escape }}" src="{{ _pl_src | strip | escape }}"></script>
+{%- endif -%}
+{%- endif -%}
