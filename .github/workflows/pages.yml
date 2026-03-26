@@ -23,7 +23,22 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
-      - run: |
+      - name: Debug environment variables
+        run: |
+          echo "GA4 enabled: [$JEKYLL_ANALYTICS_GA4_ENABLED]"
+          echo "GA4 id present? [${JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID:+yes}]"
+          echo "Plausible enabled: [$JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED]"
+          echo "Plausible domain: [$JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN]"
+          echo "Plausible script: [$JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC]"
+        env:
+          JEKYLL_ANALYTICS_GA4_ENABLED: ${{ vars.JEKYLL_ANALYTICS_GA4_ENABLED }}
+          JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID: ${{ vars.JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN }}
+          JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC }}
+          
+      - name: Build site
+        run: |
           bundle install
           JEKYLL_ENV=production bundle exec jekyll build -d _site
         env:
@@ -33,6 +48,12 @@ jobs:
           JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN }}
           JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC: ${{ vars.JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC }}
 
+      - name: Inspect built HTML
+        run: |
+          grep -R "G-1CD6SM3L0R" _site || true
+          grep -R "plausible.io/js/script.js" _site || true
+          grep -R "penguinclass.org" _site || true
+          
       - name: Ensure archive manifest
         run: |
           python3 scripts/build_archive_manifest.py archive || true
