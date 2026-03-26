@@ -1,0 +1,83 @@
+name: Update Gallery Data
+
+on:
+  workflow_dispatch:
+    inputs:
+      import_path:
+        description: 'Path to import (directory or URL)'
+        required: false
+        default: ''
+      date:
+        description: 'Date for the import (YYYY-MM-DD)'
+        required: false
+        default: ''
+      source:
+        description: 'Source of the images'
+        required: false
+        default: 'manual-import'
+      credit:
+        description: 'Photographer credit'
+        required: false
+        default: 'Unknown photographer'
+      event:
+        description: 'Event name'
+        required: false
+        default: ''
+      location:
+        description: 'Location'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  update-gallery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+      
+      - name: Generate gallery data
+        run: |
+          python3 scripts/generate_gallery_data.py
+      
+      - name: Import new gallery data (if path provided)
+        if: ${{ inputs.import_path != '' }}
+        run: |
+          python3 scripts/import_gallery_data.py \
+            --path "${{ inputs.import_path }}" \
+            --date "${{ inputs.date }}" \
+            --source "${{ inputs.source }}" \
+            --credit "${{ inputs.credit }}" \
+            --event "${{ inputs.event }}" \
+            --location "${{ inputs.location }}" \
+            --merge
+      
+      - name: Generate gallery page
+        run: |
+          python3 scripts/generate_gallery_page.py
+      
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add assets/data/gallery.json pages/gallery.md
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update gallery data and page [skip ci]"
+            git push
+          fi

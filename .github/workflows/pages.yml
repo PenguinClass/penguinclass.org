@@ -16,7 +16,7 @@ jobs:
     environment:
       name: github-pages
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -40,7 +40,17 @@ jobs:
       - name: Build site
         run: |
           bundle install
-          JEKYLL_ENV=production bundle exec jekyll build -d _site
+          cat > _config_analytics.yml <<YAML
+          analytics:
+            ga4:
+              enabled: ${JEKYLL_ANALYTICS_GA4_ENABLED:-false}
+              measurement_id: "${JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID}"
+            plausible:
+              enabled: ${JEKYLL_ANALYTICS_PLAUSIBLE_ENABLED:-false}
+              domain: "${JEKYLL_ANALYTICS_PLAUSIBLE_DOMAIN}"
+              script_src: "${JEKYLL_ANALYTICS_PLAUSIBLE_SCRIPT_SRC:-https://plausible.io/js/script.js}"
+          YAML
+          JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_analytics.yml -d _site
         env:
           JEKYLL_ANALYTICS_GA4_ENABLED: ${{ vars.JEKYLL_ANALYTICS_GA4_ENABLED }}
           JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID: ${{ vars.JEKYLL_ANALYTICS_GA4_MEASUREMENT_ID }}
@@ -52,13 +62,12 @@ jobs:
         run: |
           grep -R "G-1CD6SM3L0R" _site || true
           grep -R "plausible.io/js/script.js" _site || true
-          grep -R "penguinclass.org" _site || true
           
       - name: Ensure archive manifest
         run: |
           python3 scripts/build_archive_manifest.py archive || true
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
@@ -70,4 +79,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
