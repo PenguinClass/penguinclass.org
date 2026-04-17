@@ -4,8 +4,13 @@
     {
       "type": "collection",
       "kind": "Event",
-      "item_url": "/events/2026/06/13/2026-corsica-wood-boat-heritage/",
-      "caption": "June 13, 2026: One day to show off and race your wood boat",      
+      "item_url": "/events/2026/04/25/2026-tayc-spring-invitational/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "item_url": "/events/2026/05/09/2026-miles-river-one-design/",
       "cta_label": "Event details"
     },
     {
@@ -17,9 +22,9 @@
     },
     {
       "type": "collection",
-      "kind": "News",
-      "item_url": "/news/2026/02/03/2026-schedule/",
-      "cta_label": "View schedule"
+      "kind": "Event",
+      "item_url": "/events/2026/06/13/2026-corsica-wood-boat-heritage/",
+      "cta_label": "Event details"
     },
     {
       "type": "image",
@@ -30,9 +35,9 @@
     },
     {
       "type": "collection",
-      "kind": "News",
-      "item_url": "/news/2026/02/15/2025-2026-winter-penguin-patter-published/",
-      "cta_label": "View Patter highlights"
+      "kind": "Event",
+      "item_url": "/events/2026/07/25/2026-corsica-annual/",
+      "cta_label": "Event details"
     },
     {
       "type": "image",
@@ -43,9 +48,9 @@
     },
     {
       "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/04/25/2026-tayc-spring-invitational/",
-      "cta_label": "Event details"
+      "kind": "News",
+      "item_url": "/news/2026/02/03/2026-schedule/",
+      "cta_label": "View schedule"
     }
   ]
 }
