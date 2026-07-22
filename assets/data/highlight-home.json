@@ -4,13 +4,7 @@
     {
       "type": "collection",
       "kind": "Event",
-      "item_url": "/events/2026/05/30/2026-beachwood-revival/",
-      "cta_label": "UPDATE: WEATHER DELAY: Penguin Revival postponed until Sunday, May 31"
-    },
-    {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/06/13/2026-corsica-wood-boat-heritage/",
+      "item_url": "/events/2026/07/25/2026-corsica-annual/",
       "cta_label": "Event details"
     },
     {
@@ -23,7 +17,7 @@
     {
       "type": "collection",
       "kind": "Event",
-      "item_url": "/events/2026/07/05/2026-tayc-sweaty-penguin-invitational/",
+      "item_url": "/events/2026/08/08/2026-tayc-annual-regatta/",
       "cta_label": "Event details"
     },
     {
@@ -36,7 +30,7 @@
     {
       "type": "collection",
       "kind": "Event",
-      "item_url": "/events/2026/07/18/2026-cambridge-admiral-byrd/",
+      "item_url": "/events/2026/08/22/2026-tayc-penguin-internationals/",
       "cta_label": "Event details"
     },
     {
@@ -45,24 +39,6 @@
       "alt": "Will and Dixon Sheils in their first Penguin regatta.",
       "caption": "Will and Dixon Sheils in their first Penguin regatta.",
       "credit": "Will Keyworth"
-    },
-    {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/07/25/2026-corsica-annual/",
-      "cta_label": "Event details"
-    },
-    {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/08/08/2026-tayc-annual-regatta/",
-      "cta_label": "Event details"
-    },
-    {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/08/22/2026-tayc-penguin-internationals/",
-      "cta_label": "Event details"
     },
     {
       "type": "collection",
