@@ -12,7 +12,7 @@ classified_state: For Sale
 # Penguin 9758
 
 **Location:** York, Pennsylvania  
-**Price:** Best offer
+**Price:** $1,500
 
 Beautiful wood Penguin #9758, built in 2010 from cypress, mahogany, and marine-grade plywood. The boat has been sailed only a couple of times and is in like-new condition.
 
@@ -38,7 +38,7 @@ Questions and requests for additional photos are welcome. Watch the [two-minute 
 
 ![Cockpit and centerboard](/assets/images/2026/2026-08-05-Penguin%20%239758%20-%20image5.png)
 
-![Penguin 9758 under sail](/assets/images/2026/2026-08-05-Penguin%20%239758%20-%20image10.png)
+![Penguin 9758 sail raised](/assets/images/2026/2026-08-05-Penguin%20%239758%20-%20image10.png)
 
 ![Cockpit hardware](/assets/images/2026/2026-08-05-Penguin%20%239758%20-%20image9.png)
 
