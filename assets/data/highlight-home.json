@@ -2,12 +2,6 @@
   "id": "home-hero",
   "slides": [
     {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/07/25/2026-corsica-annual/",
-      "cta_label": "Event details"
-    },
-    {
       "type": "image",
       "image_url": "/assets/images/slideshow/tayc-2023-brooks.jpg",
       "alt": "Joe and granddaughter Olivia Brooks enjoying time together sailing a Penguin.",
