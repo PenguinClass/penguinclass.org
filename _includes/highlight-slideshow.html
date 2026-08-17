@@ -112,6 +112,13 @@
   opacity: 0.9;
 }
 
+.highlight-slideshow .highlight-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
 @media (max-width: 768px) {
   .highlight-slideshow .slide .highlight-card {
     padding: 1.25rem 1.5rem;
@@ -271,6 +278,20 @@
       cta.href = slide.cta_url;
       cta.textContent = slide.cta_label;
       card.appendChild(cta);
+    }
+
+    if (Array.isArray(slide.links) && slide.links.length) {
+      const ctas = document.createElement('div');
+      ctas.className = 'highlight-ctas';
+      slide.links.forEach(function(l) {
+        if (!l || !l.url || !l.label) return;
+        const a = document.createElement('a');
+        a.className = 'highlight-cta';
+        a.href = l.url;
+        a.textContent = l.label;
+        ctas.appendChild(a);
+      });
+      card.appendChild(ctas);
     }
 
     slideEl.appendChild(card);

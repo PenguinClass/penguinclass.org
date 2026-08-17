@@ -22,22 +22,19 @@ layout: default
   </header>
 
   <div class="event-content">
-    {% if page.results_id %}
-      {% assign r = site.results | where: "result_id", page.results_id | first %}
-      {% if r and r.url %}
-      <div class="event-results-link">
-        <p><a href="{{ r.url }}">Results page →</a></p>
-      </div>
-      {% endif %}
-    {% endif %}
-    
     {{ content }}
   </div>
 
-  {% if page.links %}
+  {% if page.results_id %}
+    {% assign event_result = site.results | where: "result_id", page.results_id | first %}
+  {% endif %}
+  {% if page.links or event_result %}
   <div class="event-links">
     <h3>Event Links</h3>
     <ul>
+      {% if event_result and event_result.url %}
+      <li><a href="{{ event_result.url }}">Results page →</a></li>
+      {% endif %}
       {% for link in page.links %}
         {% if link[1] != blank %}
         <li><a href="{{ link[1] }}" target="_blank" rel="noopener">{{ link[0] }}</a></li>
