@@ -5,6 +5,7 @@ name: 2026-cambridge-admiral-byrd
 date: "2026-07-18"
 venue: "Cambridge Yacht Club"
 location: "Cambridge, Maryland, U.S.A."
+results_id: cambridge-regatta-2026
 links: 
   Event page: "https://cambridgeyachtclub.com/regatta/DrHkxSK7o1"
   Admiral Byrd Regatta: "https://cambridgeyachtclub.com/admiral-byrd-regatta"

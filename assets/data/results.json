@@ -1,5 +1,35 @@
 [
   {
+    "id": "tayc-regatta-2026",
+    "year": 2026,
+    "title": "2026 TAYC Annual Regatta",
+    "series": "TAYC-Regatta",
+    "club": "Tred Avon Yacht Club",
+    "location": "Oxford, MD, U.S.A.",
+    "filename": "2026-tayc-regatta.md",
+    "source": "collection"
+  },
+  {
+    "id": "sweaty-penguin-2026",
+    "year": 2026,
+    "title": "2026 Sweaty Penguin Regatta",
+    "series": "Sweaty-Penguin-Regatta",
+    "club": "Tred Avon Yacht Club",
+    "location": "Oxford, MD, U.S.A.",
+    "filename": "2026-sweaty-penguin.md",
+    "source": "collection"
+  },
+  {
+    "id": "cambridge-regatta-2026",
+    "year": 2026,
+    "title": "2026 Admiral Byrd Regatta",
+    "series": "Cambridge-Regatta",
+    "club": "Cambridge Yacht Club",
+    "location": "Cambridge, MD, U.S.A.",
+    "filename": "2026-cambridge-regatta.md",
+    "source": "collection"
+  },
+  {
     "id": "2025-annual-regatta",
     "year": 2025,
     "title": "Microsoft Word - corsica one design NOR-final",
@@ -8,6 +38,28 @@
     "location": "Centreville, MD, U.S.A.",
     "results_url": "/archive/legacy-website/2025_Corsica Annual NOR.htm",
     "filename": "2025-annual-regatta.md",
+    "source": "collection"
+  },
+  {
+    "id": "2025-international-championship",
+    "year": 2025,
+    "title": "2025 International Championship",
+    "series": "International-Championship",
+    "club": "Corsica River Yacht Club",
+    "location": "Centreville, MD, U.S.A.",
+    "results_url": "https://www.regattanetwork.com/event/30156#_newsroom",
+    "filename": "2025-international-championship.md",
+    "source": "collection"
+  },
+  {
+    "id": "2025-heritage-regatta",
+    "year": 2025,
+    "title": "2025 Heritage Regatta",
+    "series": "Heritage-Regatta",
+    "club": "Tred Avon Yacht Club",
+    "location": "Oxford, MD, U.S.A.",
+    "results_url": "https://tayc.com/regatta/IQ4FOyNDOb/results",
+    "filename": "2025-heritage-regatta.md",
     "source": "collection"
   },
   {

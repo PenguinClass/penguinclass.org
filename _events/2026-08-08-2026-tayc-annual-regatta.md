@@ -5,6 +5,7 @@ name: 2026-tayc-annual-regatta
 date: 2026-08-08
 venue: "Tred Avon Yacht Club"
 location: "Oxford, Maryland, U.S.A."
+results_id: tayc-regatta-2026
 links: 
   Event Page: "https://tayc.com/regatta/Ag3VUBb9LI"
 ---

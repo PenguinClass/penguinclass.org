@@ -2,6 +2,25 @@
   "id": "home-hero",
   "slides": [
     {
+      "type": "collection",
+      "kind": "Event",
+      "title": "COMING SOON: August 22, 2026 - Penguin Internationals at TAYC",
+      "item_url": "/events/2026/08/22/2026-tayc-penguin-internationals/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Results",
+      "title": "Recemt Results",
+      "body": "Race results from recent regattas or use All results for more!",
+      "links": [
+        { "label": "Sweaty Penguin · Jul 5", "url": "/results/2026-sweaty-penguin/" },
+        { "label": "Admiral Byrd · Jul 18", "url": "/results/2026-cambridge-regatta/" },
+        { "label": "TAYC Annual · Aug 8–9", "url": "/results/2026-tayc-regatta/" },
+        { "label": "All results", "url": "/results/" }
+      ]
+    },
+    {
       "type": "image",
       "image_url": "/assets/images/slideshow/tayc-2023-brooks.jpg",
       "alt": "Joe and granddaughter Olivia Brooks enjoying time together sailing a Penguin.",
@@ -9,23 +28,11 @@
       "credit": "Will Keyworth"
     },
     {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/08/08/2026-tayc-annual-regatta/",
-      "cta_label": "Event details"
-    },
-    {
       "type": "image",
       "image_url": "/assets/images/slideshow/tayc-2023-cox.jpg",
       "alt": "Jeff and Ellie Cox.  Ellie did a great job as crew in the lumpy conditions Saturday.",
       "caption": "Jeff and Ellie Cox.  Ellie did a great job as crew in the lumpy conditions Saturday.",
       "credit": "Will Keyworth"
-    },
-    {
-      "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/08/22/2026-tayc-penguin-internationals/",
-      "cta_label": "Event details"
     },
     {
       "type": "image",
