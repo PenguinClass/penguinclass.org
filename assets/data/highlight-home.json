@@ -4,14 +4,21 @@
     {
       "type": "collection",
       "kind": "Event",
-      "title": "COMING SOON: August 22, 2026 - Penguin Internationals at TAYC",
-      "item_url": "/events/2026/08/22/2026-tayc-penguin-internationals/",
+      "title": "COMING SOON: October 10, 2026 - Fall Invitational at Corsica River",
+      "item_url": "/events/2026/10/10/2026-corsica-fall-invitational/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "title": "COMING SOON: October 31, 2026 - Frostbite Regatta at TAYC",
+      "item_url": "/events/2026/10/31/2026-tayc-frostbite/",
       "cta_label": "Event details"
     },
     {
       "type": "collection",
       "kind": "Results",
-      "title": "Recemt Results",
+      "title": "Recent Results",
       "body": "Race results from recent regattas or use All results for more!",
       "links": [
         { "label": "Sweaty Penguin · Jul 5", "url": "/results/2026-sweaty-penguin/" },
@@ -43,16 +50,9 @@
     },
     {
       "type": "collection",
-      "kind": "Event",
-      "item_url": "/events/2026/10/10/2026-corsica-fall-invitational/",
-      "cta_label": "Event details"
-    },
-    {
-      "type": "collection",
       "kind": "News",
       "item_url": "/news/2026/02/03/2026-schedule/",
       "cta_label": "View schedule"
     }
   ]
 }
-
