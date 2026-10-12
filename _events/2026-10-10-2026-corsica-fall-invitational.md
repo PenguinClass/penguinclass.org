@@ -12,7 +12,7 @@ links:
   Campout at the Club (Friday): "https://cryc.org/event/campout-at-the-club/"
   Photos: "https://cryc.smugmug.com/Regatta/2026/Fall-One-Design-Regatta"
 ---
-The 2026 Corsica Fall One Design Regatta will be held at Corsica River Yacht Club on Saturday, October 10, 2026. The regatta is open to Comets, Penguins, and Portsmouth classes.
+The 2026 Corsica Fall One Design Regatta was held at Corsica River Yacht Club on Saturday, October 10, 2026. Penguins did not compete this year.
 
 - **Warning signal:** 10:00 Saturday, up to 5 races, windward/leeward on the Corsica River
 - **Entry:** $50, register on Regatta Network. Sailing Instructions are posted on the Regatta Network notice board.

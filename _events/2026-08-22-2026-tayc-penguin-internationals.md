@@ -5,6 +5,7 @@ name: 2026-tayc-penguin-internationals
 date: 2026-08-22
 venue: "Tred Avon Yacht Club"
 location: "Oxford, Maryland, U.S.A."
+results_id: international-2026
 links: 
   NOR Penguins: "https://d282wvk2qi4wzk.cloudfront.net/QYZeUKTHYWKQ_2026-Myers-Heritage-Regatta---NOR-Penguins.pdf"
   Sailing Instructions Penguins: "https://d282wvk2qi4wzk.cloudfront.net/ggFwFqIkQUcT_2026-Myers-Heritage-Regatta---SIs-Penguins-with-Ollie.pdf"

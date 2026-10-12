@@ -7,7 +7,7 @@ contact: "John Creigh"
 email: creighjohn@hotmail.com
 phone: 
 excerpt: "Penguin #7052, give away"
-classified_state: For Sale
+classified_state: Sold
 ---
 
 # Penguin 7052
