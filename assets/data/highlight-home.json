@@ -4,8 +4,29 @@
     {
       "type": "collection",
       "kind": "Event",
-      "title": "COMING SOON: October 31, 2026 - Frostbite Regatta at TAYC",
+      "title": "October 31, 2026 - Frostbite Regatta at TAYC",
       "item_url": "/events/2026/10/31/2026-tayc-frostbite/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "title": "November 7, 2026 - Lawson Rum Bucket Regatta at GIYS",
+      "item_url": "/events/2026/11/07/2026-giys-lawson-rum-bucket/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "title": "November 14, 2026 - David Cox Penguin Frostbite Regatta at TAYC",
+      "item_url": "/events/2026/11/14/2026-tayc-dcpfr/",
+      "cta_label": "Event details"
+    },
+    {
+      "type": "collection",
+      "kind": "Event",
+      "title": "December 18-20, 2026 - Campeonato Paulista at YCP",
+      "item_url": "/events/2026/12/18/2026-ycp-cp/",
       "cta_label": "Event details"
     },
     {
