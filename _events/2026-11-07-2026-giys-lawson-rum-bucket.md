@@ -12,4 +12,4 @@ Previous editions:
 - [2025 GIYS Comet and Penguin Invitational]({{ site.baseurl }}/events/2025/11/08/2025-giys-comet-penguin-invitational)
 - [2023 GIYS Comet and Penguin Invitational]({{ site.baseurl }}/events/2023/11/11/2023-giys-comet-penguin-invitational)
 
-The Notice of Race will be posted here when it is available.
+Gibson Island does not publish a public racing schedule for this event; entry has historically been arranged by email. For race information, contact the GIYS race committee at racecommittee@gibsonisland.com. The Notice of Race will be posted here when it is available.
