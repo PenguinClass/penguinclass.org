@@ -6,28 +6,34 @@ permalink: /penguin/suppliers/
 
 # Penguin Suppliers
 
-This page lists current and historical suppliers for Penguin Class dinghies, parts, and equipment.
+This page lists current and historical suppliers for Penguin Class dinghies, parts, equipment, and services.
 
 **Note:** Listings here are unpaid and not an endorsement of quality or suitability.
 
 ## Current Suppliers by Category
 
+### Building
+- **[boatbuildlog.com](https://boatbuildlog.com/designs/philip-rhodes-penguin-class-dinghy)** - boatbuildlog.com is a free site where someone building a boat keeps a dated log of it: photos, notes and hours, posted from a phone in the shop
+
+### Covers
+- **[Kinder Industries](https://www.kinderindustries.com)** - Penguin cover
+  - **[Penguin Hull Cover](https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/)**
+
 ### Foils
 - **[Competition Composites Inc. (CCI)](https://cci.one/marine/foils-a-z/penguin/)** — composite Penguin centerboard (and custom work)
+
+### Rigging
+- **[Racelite Hardware](https://www.racelitehardware.com/rigging-diagrams/)** - parts listed for Penguins
+
+### Photographers
+- **[Will Keyworth Photography](https://spinsheet.smugmug.com/SpinSheet)** — Professional sailing photography and regatta coverage
+- **[Frank Parisi Photography](https://www.frankparisiphotography.com/)** — Sailing event photography and regatta coverage
 
 ### Sails
 - **[North Sails](https://www.northsails.com/)** — Penguin mainsails  
   - **[JT Lite Mainsail](https://www.northsails.com/en-us/products/penguin-jt-lite-mainsail)** (flat water / light air)
   - **[AP Mainsail](https://www.northsails.com/en-nl/products/penguin-ap-mainsail)** (all-purpose)
   - **[Penguin Tuning Guide](https://www.northsails.com/en-us/blogs/north-sails-blog/penguin-tuning-guide)**
-
-### Covers
-- **[Kinder Industries](https://www.kinderindustries.com)** - Penguin cover
-  - **[Penguin Hull Cover](https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/)**
-
-### Photographers
-- **[Will Keyworth Photography](https://spinsheet.smugmug.com/SpinSheet)** — Professional sailing photography and regatta coverage
-- **[Frank Parisi Photography](https://www.frankparisiphotography.com/)** — Sailing event photography and regatta coverage
 
 ---
 
