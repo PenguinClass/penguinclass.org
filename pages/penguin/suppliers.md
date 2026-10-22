@@ -22,12 +22,12 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
 ### Foils
 - **[Competition Composites Inc. (CCI)](https://cci.one/marine/foils-a-z/penguin/)** — composite Penguin centerboard (and custom work)
 
-### Rigging
-- **[Racelite Hardware](https://www.racelitehardware.com/rigging-diagrams/)** - parts listed for Penguins
-
 ### Photographers
 - **[Will Keyworth Photography](https://spinsheet.smugmug.com/SpinSheet)** — Professional sailing photography and regatta coverage
 - **[Frank Parisi Photography](https://www.frankparisiphotography.com/)** — Sailing event photography and regatta coverage
+
+### Rigging
+- **[Racelite Hardware](https://www.racelitehardware.com/rigging-diagrams/)** - parts listed for Penguins
 
 ### Sails
 - **[North Sails](https://www.northsails.com/)** — Penguin mainsails  
