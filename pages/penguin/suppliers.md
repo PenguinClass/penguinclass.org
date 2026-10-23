@@ -13,7 +13,7 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
 ## Current Suppliers by Category
 
 ### Building
-- **[boatbuildlog.com](https://boatbuildlog.com/designs/philip-rhodes-penguin-class-dinghy)** - boatbuildlog.com is a free site where someone building a boat keeps a dated log of it: photos, notes and hours, posted from a phone in the shop
+- **[boatbuildlog.com](https://boatbuildlog.com/designs/philip-rhodes-penguin-class-dinghy)** - free site for logging boat build: photos, notes and hours, posted from a phone
 
 ### Covers
 - **[Kinder Industries](https://www.kinderindustries.com)** - Penguin cover
