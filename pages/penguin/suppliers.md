@@ -20,7 +20,7 @@ This page lists current and historical suppliers for Penguin Class dinghies, par
   - **[Penguin Hull Cover](https://www.kinderindustries.com/product-category/racing-one-design/racing-one-design-dinghies/penguin/)**
 
 ### Foils
-- **[Competition Composites Inc. (CCI)](https://cci.one/marine/foils-a-z/penguin/)** — composite Penguin centerboard (and custom work)
+- **[Competition Composites Inc. (CCI)](https://www.cci.one/shop-rudders/penguin)** — composite Penguin centerboard and rudder (and custom work)
 
 ### Photographers
 - **[Will Keyworth Photography](https://spinsheet.smugmug.com/SpinSheet)** — Professional sailing photography and regatta coverage
