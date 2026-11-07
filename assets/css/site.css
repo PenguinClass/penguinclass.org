@@ -1137,17 +1137,17 @@ h2:first-of-type {
   margin-bottom: 0.5rem;
 }
 
-/* ---------- Home page: jump buttons, sections, CTA grid ---------- */
+/* ---------- Jump buttons (home, plans), home sections, CTA grid ---------- */
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-.home-jump {
+.jump-nav {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 0.75rem;
   margin: 1.5rem 0 2.5rem;
 }
-.home-jump-btn {
+.jump-btn {
   display: block;
   text-align: center;
   padding: 0.75rem 1rem;
@@ -1158,14 +1158,15 @@ html { scroll-behavior: smooth; }
   text-decoration: none;
   transition: background 0.15s, color 0.15s;
 }
-.home-jump-btn:hover,
-.home-jump-btn:focus-visible {
+.jump-btn:hover,
+.jump-btn:focus-visible {
   background: var(--link);
   color: var(--bg);
 }
 
-/* Keep headings clear of the sticky header when jumped to */
-.home-section { margin-bottom: 3rem; scroll-margin-top: 110px; }
+.home-section { margin-bottom: 3rem; }
+/* Keep jump targets clear of the sticky header */
+.home-section, .content h2[id], .content h3[id] { scroll-margin-top: 110px; }
 .home-section > h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
@@ -1201,8 +1202,8 @@ html { scroll-behavior: smooth; }
 .home-cta-text { font-size: 0.95rem; opacity: 0.8; }
 
 @media (max-width: 600px) {
-  .home-jump { grid-template-columns: repeat(2, 1fr); }
-  .home-section { scroll-margin-top: 80px; }
+  .jump-nav { grid-template-columns: repeat(2, 1fr); }
+  .home-section, .content h2[id], .content h3[id] { scroll-margin-top: 80px; }
 }
 
 /* ---------- Section overview pages (Community, Class, Penguin, Fleets, Archive) ---------- */
@@ -1236,3 +1237,50 @@ html { scroll-behavior: smooth; }
 .section-overview-title { font-size: 1.15rem; font-weight: 700; color: var(--link); }
 .section-overview-text { font-size: 0.95rem; opacity: 0.8; }
 .external-mark { font-size: 0.85em; }
+
+/* ---------- Related pages in a section (e.g. other Penguin pages) ---------- */
+.related-pages {
+  margin: 1rem 0 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--header-border);
+  border-left: 4px solid var(--link);
+  border-radius: 8px;
+  background: var(--footer-bg);
+}
+.related-pages-label { margin: 0 0 0.6rem; font-weight: 600; }
+.related-pages-list { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.related-pages-list a {
+  padding: 0.35rem 0.85rem;
+  border: 1px solid var(--header-border);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--link);
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.related-pages-list a:hover,
+.related-pages-list a:focus-visible { border-color: var(--link); }
+
+/* ---------- Editor's notes and figures (bylaws, specs, history) ---------- */
+blockquote.editor-note {
+  margin: 1.25rem 0;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--link);
+  border-radius: 0 8px 8px 0;
+  background: var(--footer-bg);
+  font-size: 0.95rem;
+}
+blockquote.editor-note p:first-child { margin-top: 0; }
+blockquote.editor-note p:last-child,
+blockquote.editor-note ul:last-child { margin-bottom: 0; }
+
+.spec-figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 1.5rem;
+}
+.spec-figures figure { margin: 0; }
+.spec-figures img { width: 100%; height: auto; border-radius: 4px; }
+.spec-figures figcaption { font-size: 0.85rem; opacity: 0.8; margin-top: 0.35rem; }
+

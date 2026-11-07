@@ -7,11 +7,11 @@ permalink: /
 
 {% include highlight-slideshow.html config="/assets/data/highlight-home.json" %}
 
-<nav class="home-jump" aria-label="Jump to section">
-  <a class="home-jump-btn" href="#results">Results</a>
-  <a class="home-jump-btn" href="#events">Events</a>
-  <a class="home-jump-btn" href="#news">News</a>
-  <a class="home-jump-btn" href="#classifieds">Classifieds</a>
+<nav class="jump-nav" aria-label="Jump to section">
+  <a class="jump-btn" href="#results">Results</a>
+  <a class="jump-btn" href="#events">Events</a>
+  <a class="jump-btn" href="#news">News</a>
+  <a class="jump-btn" href="#classifieds">Classifieds</a>
 </nav>
 
 {% include home/results.html %}

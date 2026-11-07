@@ -27,10 +27,16 @@
       description: The history of the Penguin and the association that governs the class.
     - title: Bylaws
       url: /class/bylaws/
-      description: The official bylaws of the association.
+      description: The By-Laws, including the full class specifications.
     - title: Champions
       url: /champions/
       description: Championship records and honors across the class's series.
+    - title: Constitution
+      url: /class/constitution/
+      description: The association's name, purpose, membership, officers and meetings.
+    - title: History
+      url: /class/history/
+      description: How the class began and grew, from 1939 to 1963.
     - title: Join
       url: /class/join/
       description: Become a member and connect with Penguin sailors.
@@ -72,6 +78,9 @@
     - title: U.S. Midwest
       url: /fleets/midwest/
       description: Fleets in the U.S. Midwest.
+    - title: Fleet Charters
+      url: /fleets/charters/
+      description: How to start a fleet, including school and college fleets, and annual fleet reports.
 - title: Archive
   url: /archive/
   intro: Historical content and legacy materials, organized by category.

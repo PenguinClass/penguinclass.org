@@ -22,10 +22,10 @@ The U.S. Midwest region has a growing Penguin fleet presence with active sailors
 
 ### Fleet Contacts
 
-For information about joining a fleet or participating in events, please contact the [Class Officers](/class/officers/) or reach out to your local fleet representative.
+For information about joining a fleet or participating in events, please [contact the class](/contact/) or reach out to your local fleet representative.
 
 ### Getting Involved
 
-If you're interested in joining a fleet or starting one in your area, please contact the Class Secretary for assistance and resources.
+Interested in starting a fleet in your area? See [Fleet Charters](/fleets/charters/).
 
 *More detailed fleet information will be added as it becomes available.* 
