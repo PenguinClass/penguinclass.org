@@ -5,26 +5,74 @@ permalink: /penguin/plans/
 ---
 ## Plans
 
+{% include section-links.html section="Penguin" label="Building a Penguin? Also check:" %}
+
 <img src="/archive/documents/plans/Penguin Racing Dinghy - 1940 Penguin Particulars and Sail Plan and Profile and Body Plan.gif" alt="Penguin dimensions and overview line drawings" />
 
 Plan files are provided (linked below thumbnail images) on this page, please send any further requests or inquiries to [info@penguinclass.org](mailto:info@penguinclass.org?subject=Penguin%20plans)
 
+<nav class="jump-nav" aria-label="Jump to plans">
+  <a class="jump-btn" href="#1940-r0">1940 R0</a>
+  <a class="jump-btn" href="#1952-r1">1952 R1</a>
+  <a class="jump-btn" href="#1962-r2">1962 R2</a>
+  <a class="jump-btn" href="#2015-r3">2015 R3</a>
+</nav>
+
 
 ### 1933
 
-Designed by Philip L. Rhodes in 1933.  Original plans to be posted if/when digitized.
+[Reported](https://smallboatsmonthly.com/article/the-penguin-class/) to be based on a design by Philip L. Rhodes in 1933, the first published plans appear to be from [1940](#1940-r0).
+
+The Dyer Dink plans dated July 1933, and in the collection at [Daniel S. Gregory Ships Plans](https://research.mysticseaport.org/collections/ships-plans/) Library Repository of G. W. Blunt White Library at Mystic Seaport Museum, Inc. are similar to a Penguin.
+<img src="/assets/images/1933/1933 Philip Rhodes - Mystic - Dyer Dink Plans - sp80_72_4p r - SIGNATURE and BOW sample.png" alt="Dyer Dink (to be Penguin) Plan snippet of bow and Philip Rhodes signature dated July 1933">
 
 
-### 1938-1939?
+### 1938-1939
 
-Potomac group builds first six boats.
+From [Penguin Class Dinghy Association Yearbook for 1941](/archive/legacy-website/41_Penguin yrbook.pdf):
+> ...
+>
+> This is how it all began. At the once-thriving port of
+> colonial Alexandria, Va., was born the idea out of which grew
+> the Penguin. A small group of Potomac River and Chesapeake
+> Bay sailors, grown tired of caring for and racing larger boats,
+> wrote during the winter of 1938-39 to the country's leading
+> naval architects. From them, they wanted the plans of an able
+> sailing dinghy, something around 12 feet and comparatively
+> simple to build.
+>
+> Out of the plans submitted, the group selected a 12-foot
+> sliding gunther rig dinghy of batten seam construction. It was
+> from the designing board of Phil Rhodes, famed designer of
+> many a deep-water racing yacht. Keeping in mind simplicity
+> and economy of construction, the Potomac River sailors re-
+> quested and received from Designer Rhodes his redrafting of
+> the dinghy to 11½ feet without the gunther rig. A chine bottom
+> with only a slight arc answered the problems of building
+> Penguins of plywood.
+>
+> By the end of the 1939 season, twelve boats had cropped
+> up on the Potomac. That same fall the Penguin's smart lines
+> attracted the attention of Herbert L. Stone, editor of Yachting
+> Magazine, who saw in the Penguin an answer to the growing
+> demand for an able little racing dinghy.
+>
+> With the publication of the Penguin plans in the May,
+> 1940, issue of Yachting, the flood began. Requests for plans
+> and additional information so swamped the magazine's offices
+> the editors threw up their hands and issued a call for help
+> from the group who began it all. It was time, all agreed, that
+> a national class be organized. In the fall of last year the first
+> national meeting was held in Alexandria. Officers were elected
+> and a constitution and by-laws were adopted.
+>
+> ...
 
 
-### 1940
+### 1940 (R0)
 
 <img src="/assets/images/1940/Yachting - May 1940 - The Penguin - A Smart Sailing Dinghy - Rufus G. Smith - Pg 62.png" alt="Penguin Dinghy plans from May 1940 Yachting" /><br/>
 As published in the article "A Smart Sailing Dinghy" by Rufus G. Smith in the May 1940 Yachting magazine.
-
 
 
 ### 1952 (R1)

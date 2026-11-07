@@ -1,58 +1,102 @@
+# Top-level menus. `url` is the section's overview page; `intro` and each
+# child's `description` are shown on that overview page (see
+# _includes/section-overview.html). The menu itself only uses title/url.
 - title: Community
+  url: /community/
+  intro: News, events and classifieds from Penguin sailors around the world.
   children:
     - title: Classifieds
       url: /classifieds/
+      description: Penguins, sails and parts for sale or wanted.
     - title: Events
       url: /events/
+      description: Upcoming regattas and class events, plus past schedules.
     - title: Group
       url: https://www.facebook.com/groups/335010659935494/
       external: true
+      description: Join the conversation in the Penguin Class Facebook group.
     - title: News
       url: /news/
+      description: Class announcements, newsletters and regatta reports.
 - title: Class
+  url: /class/
+  intro: The International Penguin Class Dinghy Association — who we are and how the class is run.
   children:
     - title: About
       url: /class/about/
+      description: The history of the Penguin and the association that governs the class.
     - title: Bylaws
       url: /class/bylaws/
+      description: The By-Laws, including the full class specifications.
     - title: Champions
       url: /champions/
+      description: Championship records and honors across the class's series.
+    - title: Constitution
+      url: /class/constitution/
+      description: The association's name, purpose, membership, officers and meetings.
+    - title: History
+      url: /class/history/
+      description: How the class began and grew, from 1939 to 1963.
     - title: Join
       url: /class/join/
+      description: Become a member and connect with Penguin sailors.
     - title: Officers
       url: /class/officers/
+      description: Current class officers and how to contact them.
 - title: Penguin
+  url: /penguin/
+  intro: Everything about the boat — from building one to getting it up to speed.
   children:
     - title: Modern v Classic
       url: /penguin/modern-v-classic/
+      description: How modern Penguins differ from classic wooden boats, with some class history.
     - title: Plans
       url: /penguin/plans/
+      description: Building plans for the Penguin.
     - title: Specs & Rules
       url: /penguin/specs/
+      description: Class specifications and measurement rules.
     - title: Suppliers
       url: /penguin/suppliers/
+      description: Current and historical suppliers of boats, parts, equipment and services.
     - title: Tuning & Rigging
       url: /penguin/tuning/
+      description: Tips and resources for rigging and tuning your boat.
 - title: Fleets
+  url: /fleets/
+  intro: Penguin fleets sail in the United States and South America.
   children:
     - title: Argentina
       url: /fleets/argentina/
+      description: Penguin fleets and sailors in Argentina.
     - title: Brazil
       url: /fleets/brazil/
+      description: Penguin fleets and sailors in Brazil.
     - title: U.S. East Coast
       url: /fleets/east-coast/
+      description: Fleets on the Chesapeake Bay and along the East Coast.
     - title: U.S. Midwest
       url: /fleets/midwest/
+      description: Fleets in the U.S. Midwest.
+    - title: Fleet Charters
+      url: /fleets/charters/
+      description: How to start a fleet, including school and college fleets, and annual fleet reports.
 - title: Archive
+  url: /archive/
+  intro: Historical content and legacy materials, organized by category.
   children:
     - title: Documents
       url: /documents/
+      description: Official class documents, forms, meeting minutes and reference materials.
     - title: Gallery
       url: /gallery/
+      description: Historical photos and event galleries organized by year and event.
     - title: Legacy Website
       url: /archive/legacy-website/
+      description: The complete legacy penguinclass.com website, preserved as it was.
     - title: Results
       url: /results/
+      description: Race results and championship records from 2007 to the present.
     - title: Yearbooks
       url: /class/yearbooks/
-
+      description: Historical yearbooks and annual publications.

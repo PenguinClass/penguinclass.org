@@ -1,0 +1,19 @@
+{% comment %}
+  Section overview: lists a top-level menu's items as cards, using
+  _data/navigation.yml so the page always matches the menu.
+  Usage: {% include section-overview.html section="Class" %}
+{% endcomment %}
+{% assign nav_section = site.data.navigation | where: "title", include.section | first %}
+{% if nav_section %}
+{% if nav_section.intro and include.intro != false %}
+<p class="section-intro">{{ nav_section.intro }}</p>
+{% endif %}
+<div class="section-overview">
+  {% for c in nav_section.children %}
+  <a class="section-overview-card" href="{{ c.url | relative_url }}"{% if c.external %} target="_blank" rel="noopener"{% endif %}>
+    <span class="section-overview-title">{{ c.title }}{% if c.external %} <span class="external-mark" aria-label="(opens in a new tab)">↗</span>{% endif %}</span>
+    {% if c.description %}<span class="section-overview-text">{{ c.description }}</span>{% endif %}
+  </a>
+  {% endfor %}
+</div>
+{% endif %}

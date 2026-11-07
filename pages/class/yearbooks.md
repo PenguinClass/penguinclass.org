@@ -36,11 +36,11 @@ Historical yearbooks typically include:
 ### Accessing Yearbooks
 
 - **Digital Copies:** Available yearbooks are linked above as PDF files
-- **Physical Copies:** Some yearbooks may be available through the Class Secretary
+- **Physical Copies:** Some yearbooks may be available; please [contact the class](/contact/)
 - **Legacy Website:** Additional yearbook content may be found on the [legacy website](/archive/legacy-website/)
 
 ### Contributing to Yearbooks
 
-If you have historical yearbooks or yearbook content that should be included, please contact the [Class Secretary](/class/officers/) for assistance in digitizing and preserving these important class documents.
+If you have historical yearbooks or yearbook content that should be included, please [contact the class](/contact/) for assistance in digitizing and preserving these important class documents.
 
 *Yearbooks are valuable historical documents that preserve the rich history of the Penguin Class and its members.* 

@@ -1,0 +1,35 @@
+{% comment %}
+  Home: 3 most recent results. Most results only have `year`, so sort by
+  year (newest first), then by `date` within a year when present.
+  Results dated in the future are skipped.
+{% endcomment %}
+{% assign now_s = 'now' | date: '%s' | plus: 0 %}
+{% assign by_year = site.results | group_by: 'year' | sort: 'name' | reverse %}
+{% assign recent_results = '' | split: '' %}
+{% for group in by_year %}
+  {% assign in_year = group.items | sort: 'date', 'first' | reverse %}
+  {% for r in in_year %}
+    {% if recent_results.size >= 3 %}{% break %}{% endif %}
+    {% if r.date %}
+      {% assign r_s = r.date | date: '%s' | plus: 0 %}
+      {% if r_s > now_s %}{% continue %}{% endif %}
+    {% endif %}
+    {% assign recent_results = recent_results | push: r %}
+  {% endfor %}
+  {% if recent_results.size >= 3 %}{% break %}{% endif %}
+{% endfor %}
+
+<section id="results" class="home-section">
+  <h2>Recent Results</h2>
+  {% for r in recent_results %}
+  <article class="news-preview">
+    <h3><a href="{{ r.url | relative_url }}">{{ r.title }}</a></h3>
+    <p class="meta">
+      {% if r.date %}{{ r.date | date_to_long_string }}{% else %}{{ r.year }}{% endif %}
+      {% if r.club %} · {{ r.club }}{% endif %}
+      {% if r.location %} · {{ r.location }}{% endif %}
+    </p>
+  </article>
+  {% endfor %}
+  <p class="more-link"><a href="{{ '/results/' | relative_url }}">More Results →</a></p>
+</section>

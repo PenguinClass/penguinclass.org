@@ -120,7 +120,7 @@ All historical photos are preserved in the [Legacy Website Archive](/archive/leg
 ## Submit Photos
 
 To contribute photos to the gallery:
-- Email photos to the [Class Secretary](/class/officers/)
+- Email photos to [info@penguinclass.org](mailto:info@penguinclass.org?subject=Gallery%20photos)
 - Include event name, date, and photographer credit
 - High-resolution images preferred
 - Photos will be reviewed before posting
@@ -132,7 +132,7 @@ To contribute photos to the gallery:
 - Respect privacy of participants
 - Event organizers may submit official event photos
 
-*For questions about the gallery or to submit photos, please contact the [Class Secretary](/class/officers/).*
+*For questions about the gallery or to submit photos, please [contact the class](/contact/).*
 
 <style>
 .gallery-categories {

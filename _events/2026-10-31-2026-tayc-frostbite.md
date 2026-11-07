@@ -2,6 +2,7 @@
 layout: event
 title: "2026 TAYC Frostbite Regatta"
 name: 2026-tayc-frostbite
+results_id: frostbite-series-2026
 date: 2026-10-31
 venue: "Tred Avon Yacht Club"
 location: "Oxford, Maryland, U.S.A."

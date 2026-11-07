@@ -1,0 +1,17 @@
+{% comment %}
+  Compact "see also" row listing the other pages in a top-level menu
+  (from _data/navigation.yml), skipping the current page.
+  Usage: {% include section-links.html section="Penguin" label="Building a Penguin? Also see:" %}
+{% endcomment %}
+{% assign nav_section = site.data.navigation | where: "title", include.section | first %}
+{% if nav_section %}
+<aside class="related-pages" aria-label="Other {{ nav_section.title }} pages">
+  <p class="related-pages-label">{{ include.label | default: "More in this section:" }}</p>
+  <div class="related-pages-list">
+    {% for c in nav_section.children %}{% unless c.url == page.url %}
+    <a href="{{ c.url | relative_url }}"{% if c.external %} target="_blank" rel="noopener"{% endif %}>{{ c.title }}</a>
+    {% endunless %}{% endfor %}
+    {% if nav_section.url %}<a href="{{ nav_section.url | relative_url }}">{{ nav_section.title }} Overview</a>{% endif %}
+  </div>
+</aside>
+{% endif %}

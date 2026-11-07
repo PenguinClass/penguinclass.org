@@ -1,11 +1,13 @@
 ---
 layout: event
-title: "2026 GIYS Lawson Rum Bucket"
+title: "CANCELED: 2026 GIYS Lawson Rum Bucket"
 name: 2026-giys-lawson-rum-bucket
 date: 2026-11-07
 venue: "Gibson Island Yacht Squadron"
 location: "Gibson Island, Maryland, U.S.A."
 ---
+CANCELED
+
 The 2026 Lawson Rum Bucket will be held at Gibson Island Yacht Squadron on Saturday, November 7, 2026. The Penguin fleet races for the Lawson Rum Bucket trophy at the annual Gibson Island Comet and Penguin Invitational.
 
 Previous editions:
