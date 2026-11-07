@@ -7,7 +7,7 @@ contact:
 email: "info@penguinclass.org"
 phone: 
 excerpt: "Customflex fiberglass Penguin 84xx, free to good home"
-classified_state: For Sale
+classified_state: Sold
 ---
 
 # Penguin 84xx
