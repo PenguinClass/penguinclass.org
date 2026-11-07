@@ -54,6 +54,9 @@
                 </svg>
               </button>
               <ul class="dropdown-menu">
+                {%- if item.url -%}
+                <li class="dropdown-overview"><a href="{{ item.url | relative_url }}">{{ item.title }} Overview</a></li>
+                {%- endif -%}
                 {%- for c in item.children -%}
                 <li><a href="{{ c.url | relative_url }}">{{ c.title }}</a></li>
                 {%- endfor -%}

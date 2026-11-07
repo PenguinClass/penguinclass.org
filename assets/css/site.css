@@ -59,18 +59,11 @@ body { margin:0; font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, sans-
   flex-shrink: 0; 
 }
 
-/* 
-@media (prefers-color-scheme: dark) {
-  .site-header .brand .logo {
-    filter: invert(1);
-  }
-}
-*/
-
 .site-header .brand .brand-text { 
   font-size: 24px; 
   line-height: 1.2; 
   font-weight: 700;
+  text-decoration: none;
 }
 
 /* Mobile Menu Toggle */
@@ -1100,7 +1093,7 @@ th { background: var(--footer-bg); text-align:left; }
 }
 
 /* Year headings styling */
-h2:not(.latest-events h2):not(.latest-news h2) {
+h2:not(.latest-events h2):not(.latest-news h2):not(.home-section h2) {
   margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: 0.5rem;
@@ -1143,3 +1136,103 @@ h2:first-of-type {
 .news-year li {
   margin-bottom: 0.5rem;
 }
+
+/* ---------- Home page: jump buttons, sections, CTA grid ---------- */
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.home-jump {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.home-jump-btn {
+  display: block;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--link);
+  border-radius: 8px;
+  color: var(--link);
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.home-jump-btn:hover,
+.home-jump-btn:focus-visible {
+  background: var(--link);
+  color: var(--bg);
+}
+
+/* Keep headings clear of the sticky header when jumped to */
+.home-section { margin-bottom: 3rem; scroll-margin-top: 110px; }
+.home-section > h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--header-border);
+}
+
+.home-cta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 3rem 0 2rem;
+}
+.home-cta-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.5rem;
+  border: 1px solid var(--header-border);
+  border-radius: 8px;
+  background: var(--footer-bg);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.home-cta-card:hover,
+.home-cta-card:focus-visible {
+  border-color: var(--link);
+  transform: translateY(-2px);
+}
+.home-cta-title { font-size: 1.2rem; font-weight: 700; color: var(--link); }
+.home-cta-title::after { content: " →"; }
+.home-cta-text { font-size: 0.95rem; opacity: 0.8; }
+
+@media (max-width: 600px) {
+  .home-jump { grid-template-columns: repeat(2, 1fr); }
+  .home-section { scroll-margin-top: 80px; }
+}
+
+/* ---------- Section overview pages (Community, Class, Penguin, Fleets, Archive) ---------- */
+.dropdown-menu .dropdown-overview a { font-weight: 600; }
+.dropdown-menu .dropdown-overview { border-bottom: 1px solid var(--header-border); }
+
+.section-intro { font-size: 1.1rem; margin-bottom: 1.5rem; }
+.section-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.section-overview-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--header-border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--text-color);
+  text-decoration: none;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.section-overview-card:hover,
+.section-overview-card:focus-visible {
+  border-color: var(--link);
+  transform: translateY(-2px);
+}
+.section-overview-title { font-size: 1.15rem; font-weight: 700; color: var(--link); }
+.section-overview-text { font-size: 0.95rem; opacity: 0.8; }
+.external-mark { font-size: 0.85em; }

@@ -1,0 +1,13 @@
+{% comment %} Home: 3 latest news posts. {% endcomment %}
+<section id="news" class="home-section">
+  <h2>Latest News</h2>
+  {% for post in site.posts limit: 3 %}
+  <article class="news-preview">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p class="meta">{{ post.date | date_to_long_string }}</p>
+    <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+    <p><a href="{{ post.url | relative_url }}">Read more →</a></p>
+  </article>
+  {% endfor %}
+  <p class="more-link"><a href="{{ '/news/' | relative_url }}">More News →</a></p>
+</section>

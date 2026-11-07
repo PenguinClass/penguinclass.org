@@ -7,8 +7,28 @@ permalink: /
 
 {% include highlight-slideshow.html config="/assets/data/highlight-home.json" %}
 
-{% include latest-events.html %}
+<nav class="home-jump" aria-label="Jump to section">
+  <a class="home-jump-btn" href="#results">Results</a>
+  <a class="home-jump-btn" href="#events">Events</a>
+  <a class="home-jump-btn" href="#news">News</a>
+  <a class="home-jump-btn" href="#classifieds">Classifieds</a>
+</nav>
 
-{% include latest-news-classifieds.html %}
+{% include home/results.html %}
 
-Explore the full legacy site in our [Archive](/archive/legacy-website/).
+{% include home/events.html %}
+
+{% include home/news.html %}
+
+{% include home/classifieds.html %}
+
+<section class="home-cta" aria-label="Get involved">
+  <a class="home-cta-card" href="{{ '/penguin/plans/' | relative_url }}">
+    <span class="home-cta-title">Build a Penguin</span>
+    <span class="home-cta-text">Plans, specs and suppliers for building your own boat.</span>
+  </a>
+  <a class="home-cta-card" href="{{ '/archive/' | relative_url }}">
+    <span class="home-cta-title">Explore the Archives</span>
+    <span class="home-cta-text">Documents, photos, results, yearbooks and the legacy website.</span>
+  </a>
+</section>

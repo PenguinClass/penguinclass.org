@@ -1,0 +1,33 @@
+{% comment %}
+  Home: 3 latest active classifieds. Sold, Archived and Donated ads are
+  hidden here but still appear on the full /classifieds/ listing.
+{% endcomment %}
+{% assign hidden_states = 'sold,archived,donated' | split: ',' %}
+{% assign sorted_ads = site.classifieds | sort: 'date' | reverse %}
+{% assign active_ads = '' | split: '' %}
+{% for ad in sorted_ads %}
+  {% assign state = ad.classified_state | default: '' | downcase %}
+  {% unless hidden_states contains state %}
+    {% assign active_ads = active_ads | push: ad %}
+    {% if active_ads.size >= 3 %}{% break %}{% endif %}
+  {% endunless %}
+{% endfor %}
+
+<section id="classifieds" class="home-section">
+  <h2>Classifieds</h2>
+  {% for ad in active_ads %}
+  <article class="news-preview">
+    <h3>
+      <a href="{{ ad.url | relative_url }}">{{ ad.title }}</a>
+      {% if ad.classified_state %}
+      <span class="classified-badge {{ ad.classified_state | downcase | replace: ' ', '-' }}">{{ ad.classified_state }}</span>
+      {% endif %}
+    </h3>
+    <p class="meta">{{ ad.date | date_to_long_string }}</p>
+    <p>{{ ad.excerpt | strip_html | truncatewords: 30 }}</p>
+  </article>
+  {% else %}
+  <p>No active classifieds right now.</p>
+  {% endfor %}
+  <p class="more-link"><a href="{{ '/classifieds/' | relative_url }}">More Classifieds →</a></p>
+</section>
